@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>
+<title>Jewishtory</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Varela+Round&family=Rubik:wght@500&display=swap">
+<style>
+/* Layout: one narrow column like a night-light card — episode picker, illustration, player, cast, then the story text that follows the voice. */
+:root{
+  --bg:#f3f0fa; --surface:#ffffff; --ink:#26224a; --muted:#6c6890;
+  --accent:#e38b2c; --accent-ink:#ffffff; --line:#ddd8ee;
+  --hl:#fff1dc; --chip:#efeaff;
+  --v-N:#6b5fb5; --v-NOAH:#2f5d8a; --v-AVRAM:#8a4b2f; --v-SARAI:#2f7f8a; --v-EYDEL:#c2477a; --v-ARIE:#2f8a63; --v-HILLEL:#c27a12;
+  --f-display:"Fraunces", Georgia, serif; --f-body:"Varela Round","Rubik",system-ui,sans-serif; --f-he:"Rubik","Arial Hebrew",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141230; --surface:#1e1b42; --ink:#ece9ff; --muted:#a9a4d0; --accent:#f2a54a; --accent-ink:#1b1430;
+  --line:#332f63; --hl:#3a2f2a; --chip:#2a2660;
+  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141230; --surface:#1e1b42; --ink:#ece9ff; --muted:#a9a4d0; --accent:#f2a54a; --accent-ink:#1b1430;
+  --line:#332f63; --hl:#3a2f2a; --chip:#2a2660;
+  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+h1,h2{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(1.7rem,5vw,2.4rem)}
+h2{font-size:1.3rem}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+.he{font-family:var(--f-he);direction:rtl;unicode-bidi:isolate}
+.brand{font-family:var(--f-display);font-weight:700;font-size:1.1rem}
+.episodes{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.ep{font:inherit;text-align:start;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:12px 14px;border-radius:14px;cursor:pointer;display:flex;flex-direction:column;gap:2px;min-width:0}
+.ep small{color:var(--muted);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.ep b{font-family:var(--f-display);font-size:1.05rem}
+.ep[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.hero{display:flex;flex-direction:column;gap:6px}
+.hero p{margin:0;color:var(--muted)}
+canvas#scene{width:100%;max-width:100%;aspect-ratio:16/7;border-radius:18px;display:block;background:var(--surface)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 16px;border-radius:999px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.player{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:12px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.row{display:flex;align-items:center;gap:14px}
+.play{flex:none;width:58px;height:58px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer;display:grid;place-items:center}
+.play svg{width:24px;height:24px;fill:currentColor}
+.now{min-width:0;flex:1}
+.now .who{font-size:.8rem;color:var(--muted)}
+.now .line{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.85rem;flex:none}
+.bar{position:relative;height:10px;border-radius:6px;background:var(--chip);cursor:pointer}
+.bar .fill{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:6px;width:0}
+.bar .mark{position:absolute;top:-3px;width:2px;height:16px;background:var(--muted);opacity:.6}
+.ctrls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.small{font:inherit;font-size:.85rem;border:1px solid var(--line);background:transparent;color:var(--ink);padding:5px 12px;border-radius:999px;cursor:pointer}
+.small[aria-pressed="true"]{background:var(--chip)}
+.cast{display:flex;flex-wrap:wrap;gap:8px}
+.who-chip{display:flex;align-items:center;gap:6px;font-size:.85rem;padding:4px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+.dot{width:10px;height:10px;border-radius:50%}
+.story{display:flex;flex-direction:column;gap:4px}
+.scene{font-family:var(--f-display);font-size:1.05rem;color:var(--muted);margin:16px 0 4px}
+.cue{padding:8px 12px;border-radius:12px;cursor:pointer;border-left:4px solid transparent;transition:background .25s}
+.cue .sp{display:block;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;font-weight:600}
+.cue.active{background:var(--hl)}
+.w{background:var(--chip);border-radius:8px;padding:0 6px;white-space:nowrap;font-weight:600}
+.w .he{font-weight:500;font-size:.85em;opacity:.8;margin-left:6px}
+.sheet{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:14px}
+.sheet table{width:100%;border-collapse:collapse;font-size:.95rem}
+.sheet td,.sheet th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:start;vertical-align:top}
+.sheet th{font-size:.75rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.sheet td.he{font-size:1.2rem;text-align:right}
+.sheet ul{margin:0;padding-inline-start:20px}
+.sheet p{margin:0}
+.q{background:var(--hl);border-radius:12px;padding:12px 14px}
+.note{font-size:.85rem;color:var(--muted)}
+.tw{overflow-x:auto}
+@media (prefers-reduced-motion:reduce){.cue{transition:none}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">Jewishtory</div>
+  <nav class="episodes" id="episodes" aria-label="Épisodes"></nav>
+
+  <header class="hero">
+    <p class="eyebrow" id="eyebrow"></p>
+    <h1 id="title"></h1>
+    <p id="subtitle"></p>
+  </header>
+
+  <canvas id="scene" width="1120" height="490" aria-label="Illustration de l'histoire"></canvas>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t-story" aria-selected="true">L'histoire</button>
+    <button class="tab" role="tab" id="t-sheet" aria-selected="false">Fiche parent</button>
+  </div>
+
+  <section id="p-story" style="display:flex;flex-direction:column;gap:14px">
+    <div class="player">
+      <div class="row">
+        <button class="play" id="play" aria-label="Écouter l'histoire"><svg viewBox="0 0 24 24" id="ico"><path d="M7 4l14 8-14 8z"/></svg></button>
+        <div class="now"><div class="who" id="who">Appuie sur ▶ pour commencer</div><div class="line" id="line">Bonne écoute !</div></div>
+        <div class="time" id="time">0:00</div>
+      </div>
+      <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
+      <div class="ctrls">
+        <button class="small" id="back">−15 s</button>
+        <button class="small" id="fwd">+15 s</button>
+        <button class="small" id="slow" aria-pressed="false">Plus lent</button>
+        <button class="small" id="follow" aria-pressed="true">Suivre le texte</button>
+      </div>
+    </div>
+    <div class="cast" id="cast"></div>
+    <div class="story" id="story"><p class="note">Chargement de l'histoire…</p></div>
+  </section>
+
+  <section id="p-sheet" hidden>
+    <article class="sheet" id="sheet"></article>
+  </section>
+
+  <p class="note">Démo : voix de synthèse neuronales ouvertes (Piper), générées automatiquement. Dans la version finale, les mots hébreux seraient lus par une vraie voix hébraïque.</p>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script>
+const NAMES = {N:"Conteuse",NOAH:"Noa'h",AVRAM:"Avram",SARAI:"Saraï",EYDEL:"Eydel",ARIE:"Arié",HILLEL:"Hillel"};
+const GLOSS = {"tévah":"l'arche","mayim":"l'eau","yona":"la colombe","késhet":"l'arc-en-ciel","guéshem":"la pluie","shalom":"bonjour","layla tov":"bonne nuit","boker tov":"bonjour (le matin)","toda":"merci","toda rabbah":"merci beaucoup","yéladim":"les enfants","Noa'h":"Noé","ohel":"la tente","gamal":"le chameau","gmalim":"les chameaux","kokhavim":"les étoiles","dérekh":"le chemin","'hol":"le sable","Lekh lekha":"va, pars","Avram":"Abram","Saraï":"Saraï"};
+const EPISODES = [
+  { id:"noah", dir:"episodes/noah/", parasha:"Noa'h", title:"Eydel, Arié et Hillel sur la tévah de Noa'h",
+    subtitle:"Les enfants montent sur l'arche, aident Noa'h avec les animaux et voient la première késhet.",
+    art:"ark", scenes:["Le bateau devant la maison","Deux par deux","L'orage","La colombe","La késhet","Retour au lit"],
+    sheet:{ words:[["תֵּבָה","tévah","l'arche","le grand bateau de Noa'h"],["מַיִם","mayim","l'eau","le seau d'Eydel pour les animaux"],["גֶּשֶׁם","guéshem","la pluie","tic, tic, tic sur la fenêtre"],["יוֹנָה","yona","la colombe","elle rapporte la feuille d'olivier"],["קֶשֶׁת","késhet","l'arc-en-ciel","la promesse dans le ciel"]],
+      also:"<b>shalom</b> (bonjour), <b>boker tov</b> (bonjour le matin), <b>layla tov</b> (bonne nuit), <b>toda</b> (merci), <b>yéladim</b> (les enfants).",
+      summary:"Hachem demande à Noa'h, un homme gentil, de construire une tévah pour protéger sa famille et les animaux pendant le déluge. Après la pluie, la colombe rapporte une feuille d'olivier, et l'arc-en-ciel devient le signe d'une promesse.",
+      question:"« Si tu étais sur la tévah, de quel animal tu t'occuperais ? Et comment on dit \"l'eau\" pour lui donner à boire ? »", answer:"mayim",
+      ideas:["Au bain, montrer l'eau : « mayim ! »","Quand il pleut, écouter ensemble « guéshem, tic, tic, tic ».","Dessiner une késhet et nommer les couleurs dans les deux langues.","Ce Chabbat, raconter à la famille l'histoire de la yona."] } },
+  { id:"lekh-lekha", dir:"episodes/lekh-lekha/", parasha:"Lekh Lekha", title:"Eydel, Arié et Hillel sur la route d'Avram",
+    subtitle:"La yona emmène les enfants dans le désert. Ils voyagent à dos de chameau avec Avram et Saraï, et comptent les étoiles.",
+    art:"desert", scenes:["La yona revient","La caravane","Lekh lekha","L'ohel et le puits","Les kokhavim","Retour au lit"],
+    sheet:{ words:[["אֹהֶל","ohel","la tente","la tente d'Avram et Saraï, toujours ouverte"],["גָּמָל","gamal","le chameau","Hillel trouve qu'il a de longs cils"],["כּוֹכָבִים","kokhavim","les étoiles","aussi nombreuses que la famille d'Avram"],["דֶּרֶךְ","dérekh","le chemin","on le suit un pas après l'autre"],["חוֹל","'hol","le sable","le désert à perte de vue"]],
+      also:"Révisés de la semaine dernière : <b>mayim</b> (l'eau), <b>tévah</b>, <b>yona</b>, <b>toda</b>, <b>layla tov</b>. Nouvelle expression : <b>Lekh lekha</b> (va, pars).",
+      summary:"Hachem dit à Avram « Lekh lekha » : quitte ton pays et va vers celui que je te montrerai. Avram part avec Saraï, fait la paix avec son neveu Loth en le laissant choisir en premier, et Hachem lui promet une famille aussi nombreuse que les étoiles.",
+      question:"« Avram a laissé Loth choisir en premier pour ne pas se disputer. Toi, à qui tu pourrais laisser choisir en premier demain ? »", answer:"et compter ensemble les kokhavim par la fenêtre",
+      ideas:["Ce soir, regarder les kokhavim par la fenêtre et essayer de les compter.","Construire un ohel avec une couverture et deux chaises.","En promenade, dire « dérekh » à chaque nouveau chemin.","Au parc, toucher le 'hol du bac à sable."] } }
+];
+
+const $ = id => document.getElementById(id);
+const audio = $("audio");
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const render = t => esc(t).replace(/\[\[([^|\]]*)\|([^|\]]*)\|[^\]]*\]\]/g,(m,he,tr)=>{
+  if(!he) return tr;
+  const g = GLOSS[tr] ? ` title="${esc(GLOSS[tr])}"` : "";
+  return `<span class="w"${g}>${tr}<span class="he" lang="he">${he}</span></span>`;
+});
+const plain = t => t.replace(/\[\[[^|\]]*\|([^|\]]*)\|[^\]]*\]\]/g,"$1");
+const fmt = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,"0")}`;
+
+let EP=null, DATA=null, cues=[], dur=0, els=[], cur=-1, follow=true, phase=0;
+
+$("episodes").innerHTML = EPISODES.map((e,i)=>`<button class="ep" data-i="${i}" aria-pressed="false"><small>Épisode ${i+1} · Paracha ${e.parasha}</small><b>${e.title}</b></button>`).join("");
+document.querySelectorAll(".ep").forEach(b=>b.onclick=()=>load(+b.dataset.i, true));
+
+function renderSheet(e){
+  const s=e.sheet;
+  $("sheet").innerHTML = `
+    <div><p class="eyebrow">Fiche parent · Semaine de ${e.parasha}</p><h2>Les 5 mots de la semaine</h2></div>
+    <div class="tw"><table><thead><tr><th>Hébreu</th><th>Se dit</th><th>En français</th><th>Dans l'histoire</th></tr></thead>
+    <tbody>${s.words.map(w=>`<tr><td class="he">${w[0]}</td><td><b>${w[1]}</b></td><td>${w[2]}</td><td>${w[3]}</td></tr>`).join("")}</tbody></table></div>
+    <p class="note">${s.also}</p>
+    <div><h2>La paracha en une phrase</h2><p style="margin-top:.4em">${s.summary}</p></div>
+    <div class="q"><p class="eyebrow">La question du soir</p><p><b>${s.question}</b></p></div>
+    <div><h2>Pour aller plus loin, sans écran</h2><ul>${s.ideas.map(x=>`<li>${x}</li>`).join("")}</ul></div>`;
+}
+
+async function load(i, autoplay){
+  EP = EPISODES[i];
+  document.querySelectorAll(".ep").forEach(b=>b.setAttribute("aria-pressed", +b.dataset.i===i));
+  $("eyebrow").textContent = `Histoire du soir · Paracha ${EP.parasha}`;
+  $("title").textContent = EP.title; $("subtitle").textContent = EP.subtitle;
+  renderSheet(EP);
+  audio.pause(); audio.src = EP.dir + "story.mp3";
+  cur=-1; phase=0; $("fill").style.width="0";
+  $("who").textContent="Appuie sur ▶ pour commencer"; $("line").textContent="Bonne écoute !";
+  $("story").innerHTML='<p class="note">Chargement de l\'histoire…</p>';
+  try { DATA = await (await fetch(EP.dir + "cues.json")).json(); }
+  catch(err){ $("story").innerHTML='<p class="note">Impossible de charger le texte de l\'histoire. Recharge la page.</p>'; return; }
+  cues = DATA.cues; dur = DATA.duration;
+  $("time").textContent = `0:00 / ${fmt(dur)}`;
+  const sp = [...new Set(cues.map(c=>c.sp))];
+  $("cast").innerHTML = sp.map(k=>`<span class="who-chip"><span class="dot" style="background:var(--v-${k})"></span>${NAMES[k]}</span>`).join("");
+  const st=$("story"); st.innerHTML=""; els=[];
+  cues.forEach((c,j)=>{
+    const si = DATA.scenes.indexOf(j);
+    if(si>=0){ const h=document.createElement("div"); h.className="scene"; h.textContent=EP.scenes[si]||""; st.appendChild(h); }
+    const d=document.createElement("div"); d.className="cue"; d.style.borderLeftColor=`var(--v-${c.sp})`;
+    d.innerHTML=`<span class="sp" style="color:var(--v-${c.sp})">${NAMES[c.sp]}</span>${render(c.text)}`;
+    d.onclick=()=>{audio.currentTime=c.start+0.01; audio.play();};
+    st.appendChild(d); els.push(d);
+  });
+  $("bar").querySelectorAll(".mark").forEach(m=>m.remove());
+  DATA.scenes.slice(1).forEach(j=>{const m=document.createElement("div");m.className="mark";m.style.left=(cues[j].start/dur*100)+"%";$("bar").appendChild(m);});
+  if(autoplay) audio.play().catch(()=>{});
+}
+
+function tick(){
+  if(!dur) return;
+  const t=audio.currentTime;
+  $("fill").style.width=(t/dur*100)+"%";
+  $("time").textContent=`${fmt(t)} / ${fmt(dur)}`;
+  let k=-1; for(let i=0;i<cues.length;i++){ if(cues[i].start<=t+0.05) k=i; else break; }
+  if(k!==cur){
+    if(cur>=0 && els[cur]) els[cur].classList.remove("active");
+    cur=k;
+    if(k>=0){ els[k].classList.add("active"); $("who").textContent=NAMES[cues[k].sp]; $("line").textContent=plain(cues[k].text);
+      if(follow) els[k].scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"}); }
+  }
+  phase=t;
+}
+audio.addEventListener("timeupdate",tick);
+audio.addEventListener("play",()=>{$("ico").innerHTML='<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>';$("play").setAttribute("aria-label","Pause");});
+audio.addEventListener("pause",()=>{$("ico").innerHTML='<path d="M7 4l14 8-14 8z"/>';$("play").setAttribute("aria-label","Écouter l'histoire");});
+$("play").onclick=()=>audio.paused?audio.play():audio.pause();
+$("back").onclick=()=>audio.currentTime=Math.max(0,audio.currentTime-15);
+$("fwd").onclick=()=>audio.currentTime=Math.min(dur,audio.currentTime+15);
+$("slow").onclick=e=>{const on=e.currentTarget.getAttribute("aria-pressed")!=="true";e.currentTarget.setAttribute("aria-pressed",on);audio.playbackRate=on?0.85:1;};
+audio.addEventListener("loadedmetadata",()=>{audio.playbackRate=$("slow").getAttribute("aria-pressed")==="true"?0.85:1;});
+$("follow").onclick=e=>{follow=!follow;e.currentTarget.setAttribute("aria-pressed",follow);};
+$("bar").onclick=e=>{if(!dur)return;const r=e.currentTarget.getBoundingClientRect();audio.currentTime=(e.clientX-r.left)/r.width*dur;};
+function tab(which){
+  const s = which==="sheet";
+  $("t-story").setAttribute("aria-selected",!s); $("t-sheet").setAttribute("aria-selected",s);
+  $("p-story").style.display = s ? "none" : "flex"; $("p-sheet").hidden = !s;
+}
+$("t-story").onclick=()=>tab("story"); $("t-sheet").onclick=()=>tab("sheet");
+const startEp = Math.max(0, EPISODES.findIndex(e=>location.hash==="#"+e.id));
+load(startEp, false);
+
+// illustrations, drawn per scene
+const cv=$("scene"), cx=cv.getContext("2d"), W=cv.width, H=cv.height;
+const reduce = matchMedia("(prefers-reduced-motion:reduce)").matches;
+const drops=Array.from({length:110},()=>({x:Math.random()*W,y:Math.random()*H,v:6+Math.random()*6}));
+const stars=Array.from({length:140},()=>({x:Math.random()*W,y:Math.random()*H*0.6,r:Math.random()*2+0.5}));
+function sceneAt(t){ let s=0; if(DATA) DATA.scenes.forEach((ci,i)=>{ if(t>=cues[ci].start-0.5) s=i; }); return s; }
+function sky(top,bottom){ const g=cx.createLinearGradient(0,0,0,H); g.addColorStop(0,top); g.addColorStop(1,bottom); cx.fillStyle=g; cx.fillRect(0,0,W,H); }
+function starfield(ts,n){ cx.fillStyle="#fff7d6"; stars.slice(0,n).forEach(st=>{cx.globalAlpha=0.5+0.5*Math.sin(ts/700+st.x);cx.beginPath();cx.arc(st.x,st.y,st.r,0,7);cx.fill();}); cx.globalAlpha=1; }
+function dove(x,y,ts){ cx.fillStyle="#ffffff"; cx.beginPath(); cx.ellipse(x,y,16,9,0,0,7); cx.fill(); cx.beginPath(); cx.moveTo(x-10,y-2); cx.lineTo(x-24,y-22+Math.sin(ts/120)*8); cx.lineTo(x+6,y-4); cx.fill(); }
+function drawArk(ts){
+  const s=sceneAt(phase), storm=(s===2), rainbow=(s>=4), night=(s===5||s===0);
+  if(storm) sky("#3b4057","#5d6680"); else if(night) sky("#1c1a45","#3a3f7a"); else sky("#9fc6ee","#e8f1fb");
+  if(night){ starfield(ts,40); cx.fillStyle="#fff7d6"; cx.beginPath(); cx.arc(W*0.85,H*0.2,34,0,7); cx.fill(); }
+  if(rainbow){ ["#e8504a","#f29a38","#f2d23c","#5cbf6a","#4a8fe0","#8a5bd6"].forEach((c,i)=>{cx.strokeStyle=c;cx.globalAlpha=night?0.45:0.85;cx.lineWidth=14;cx.beginPath();cx.arc(W*0.5,H*1.02,H*0.82-i*14,Math.PI,2*Math.PI);cx.stroke();}); cx.globalAlpha=1; }
+  const t=reduce?0:ts/900;
+  for(let k=0;k<3;k++){
+    cx.fillStyle=["#2f5d8a","#3f78ad","#5795c9"][k]; cx.beginPath(); cx.moveTo(0,H);
+    const base=H*(0.66+k*0.1);
+    for(let x=0;x<=W;x+=20) cx.lineTo(x, base+Math.sin(x/70+t*(1+k*0.3)+k)*(storm?12:6));
+    cx.lineTo(W,H); cx.fill();
+    if(k===0){
+      const ay=base-6+Math.sin(t)*(storm?8:3), rock=Math.sin(t*0.9)*(storm?0.06:0.02);
+      cx.save(); cx.translate(W*0.5,ay); cx.rotate(rock);
+      cx.fillStyle="#8a5a33"; cx.beginPath(); cx.moveTo(-210,-40); cx.lineTo(210,-40); cx.quadraticCurveTo(190,40,0,46); cx.quadraticCurveTo(-190,40,-210,-40); cx.fill();
+      cx.fillStyle="#a8743f"; cx.fillRect(-120,-110,240,72);
+      cx.fillStyle="#6e4524"; cx.beginPath(); cx.moveTo(-140,-110); cx.lineTo(0,-160); cx.lineTo(140,-110); cx.fill();
+      cx.fillStyle="#ffe7a8"; for(let i=-2;i<=2;i++){ cx.beginPath(); cx.arc(i*44,-75,11,0,7); cx.fill(); }
+      cx.fillStyle="#cfa274"; cx.beginPath(); cx.moveTo(-50,-160); cx.quadraticCurveTo(-48,-200,-30,-206); cx.lineTo(-24,-150); cx.fill();
+      cx.beginPath(); cx.ellipse(-26,-208,12,8,0.3,0,7); cx.fill();
+      if(s>=3) dove(120+Math.sin(ts/600)*30,-200+Math.cos(ts/400)*6,ts);
+      cx.restore();
+    }
+  }
+  if(storm || s===0){ cx.strokeStyle="rgba(230,240,255,.55)"; cx.lineWidth=2;
+    drops.forEach(d=>{cx.beginPath();cx.moveTo(d.x,d.y);cx.lineTo(d.x-3,d.y+14);cx.stroke(); if(!reduce){d.y+=d.v*(storm?1.4:0.8); if(d.y>H){d.y=-20;d.x=Math.random()*W;}}}); }
+}
+function camel(x,y,sc,ts,bob){
+  cx.save(); cx.translate(x,y+(reduce?0:Math.sin(ts/300+bob)*2)); cx.scale(sc,sc);
+  cx.fillStyle="#b9844d";
+  cx.beginPath(); cx.ellipse(0,-60,60,28,0,0,7); cx.fill();                       // body
+  cx.beginPath(); cx.ellipse(-8,-88,24,20,0,Math.PI,2*Math.PI); cx.fill();         // hump
+  cx.fillRect(-45,-45,10,50); cx.fillRect(-25,-45,10,50); cx.fillRect(25,-45,10,50); cx.fillRect(40,-45,10,50); // legs
+  cx.beginPath(); cx.moveTo(50,-70); cx.quadraticCurveTo(80,-90,78,-125); cx.lineTo(92,-125); cx.quadraticCurveTo(96,-85,62,-55); cx.fill(); // neck
+  cx.beginPath(); cx.ellipse(94,-128,18,10,0.2,0,7); cx.fill();                    // head
+  cx.restore();
+}
+function drawDesert(ts){
+  const s=sceneAt(phase), night=(s>=4 || s===0 && phase<12), sunset=(s===3);
+  if(night) sky("#141238","#3b3470"); else if(sunset) sky("#f2994a","#f7d08a"); else sky("#8fc3ea","#f6e3b4");
+  if(night){ starfield(ts, s===4?140:70); }
+  else { cx.fillStyle=sunset?"#fff1c9":"#fff4c2"; cx.beginPath(); cx.arc(W*(sunset?0.78:0.82),H*(sunset?0.5:0.2),sunset?46:38,0,7); cx.fill(); }
+  // dunes
+  [["#d9a85f",0.62,0.7],["#e7bb72",0.72,1.1],["#f0cc88",0.84,1.5]].forEach(([c,b,f],k)=>{
+    cx.fillStyle=night?["#4b3f6b","#5a4c7a","#6a5a88"][k]:c; cx.beginPath(); cx.moveTo(0,H);
+    for(let x=0;x<=W;x+=16) cx.lineTo(x,H*b+Math.sin(x/(160*f)+k*2)*18*f);
+    cx.lineTo(W,H); cx.fill();
+  });
+  // tent from the evening on
+  if(s>=3){ cx.fillStyle=night?"#6b4a3a":"#7a4f35"; cx.beginPath(); cx.moveTo(W*0.62,H*0.84); cx.lineTo(W*0.72,H*0.58); cx.lineTo(W*0.84,H*0.84); cx.fill();
+    cx.fillStyle="#ffcf7a"; cx.globalAlpha=night?0.9:0.6; cx.beginPath(); cx.moveTo(W*0.70,H*0.84); cx.lineTo(W*0.72,H*0.68); cx.lineTo(W*0.75,H*0.84); cx.fill(); cx.globalAlpha=1; }
+  // caravan walks during the day scenes
+  if(s>=1 && s<=3){ const off=reduce?0:(ts/40)%W; for(let i=0;i<3;i++) camel(((W*0.15+i*170+(s===3?0:off))%(W+200))-100, H*0.86, 0.9-i*0.12, ts, i); }
+  if(s>=4){ camel(W*0.38,H*0.9,0.8,0,0); }
+  if(s===0 || s===5) dove(W*0.25+Math.sin(ts/600)*40,H*0.3+Math.cos(ts/400)*8,ts);
+}
+function draw(ts){ if(EP && EP.art==="desert") drawDesert(ts); else drawArk(ts); requestAnimationFrame(draw); }
+requestAnimationFrame(draw);
+</script>
+</body>
+</html>

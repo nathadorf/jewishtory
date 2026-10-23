@@ -1,0 +1,338 @@
+{
+ "title": "Eydel, Arié et Hillel sur la tévah de Noé",
+ "duration": 382.43,
+ "scenes": [
+  0,
+  11,
+  24,
+  32,
+  41,
+  48
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 15.67,
+   "text": "Il était une fois, dans une petite maison toute douce, trois enfants qui n'arrivaient pas à dormir : [[|Eydel|Èïdèl]], Arié… et le petit [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 16.22,
+   "end": 23.28,
+   "text": "Ce soir-là, il pleuvait. Tic, tic, tic, faisait la pluie sur la fenêtre. Et la pluie, en hébreu, ça se dit… [[גֶּשֶׁם|guéshem|guéchème]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 24.08,
+   "end": 27.27,
+   "text": "[[גֶּשֶׁם|guéshem|guéchème]]… J'aime bien ce mot. On dirait le bruit des gouttes !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 28.07,
+   "end": 31.0,
+   "text": "Chut, [[|Hillel|Ilèl]]. Écoute… On dirait qu'il y a des animaux dehors !"
+  },
+  {
+   "sp": "N",
+   "start": 31.8,
+   "end": 40.75,
+   "text": "Les trois enfants collèrent leur nez contre la vitre. Et là, devant la maison, au milieu de l'eau, il y avait un énorme bateau en bois. Un bateau grand comme une montagne !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 41.55,
+   "end": 43.67,
+   "text": "Waouh ! C'est quoi, ce bateau géant ?"
+  },
+  {
+   "sp": "N",
+   "start": 44.47,
+   "end": 49.51,
+   "text": "Une petite porte s'ouvrit, et un vieil homme avec une longue barbe blanche leur fit un grand sourire."
+  },
+  {
+   "sp": "NOAH",
+   "start": 50.31,
+   "end": 56.37,
+   "text": "[[שָׁלוֹם|shalom|chalom]], [[יְלָדִים|yéladim|yéladimme]] ! [[שָׁלוֹם|shalom|chalom]], les enfants ! Je m'appelle [[נֹחַ|Noa'h|No-ar]]. Vous voulez monter dans ma [[תֵּבָה|tévah|téva]] ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 57.17,
+   "end": 59.15,
+   "text": "Ta [[תֵּבָה|tévah|téva]] ? C'est quoi, une [[תֵּבָה|tévah|téva]] ?"
+  },
+  {
+   "sp": "NOAH",
+   "start": 59.95,
+   "end": 70.39,
+   "text": "Une [[תֵּבָה|tévah|téva]], c'est une arche. Un grand bateau tout rond, comme une maison qui flotte. [[|Hachem|Achème]] m'a demandé de la construire, planche après planche, pour protéger toutes les familles d'animaux."
+  },
+  {
+   "sp": "N",
+   "start": 71.19,
+   "end": 76.83,
+   "text": "Et hop ! [[|Eydel|Èïdèl]] prit la main d'Arié, Arié prit la main de [[|Hillel|Ilèl]], et les trois enfants montèrent sur la [[תֵּבָה|tévah|téva]]."
+  },
+  {
+   "sp": "N",
+   "start": 79.53,
+   "end": 91.09,
+   "text": "À l'intérieur, quel spectacle ! Il y avait des animaux partout. Deux lions qui bâillaient. Deux girafes qui baissaient la tête pour passer sous le plafond. Deux petits lapins, et même deux tortues, toutes lentes, toutes lentes."
+  },
+  {
+   "sp": "ARIE",
+   "start": 91.89,
+   "end": 97.13,
+   "text": "Je vais les compter ! Un, deux… deux éléphants. Un, deux… deux zèbres. Ils arrivent toujours deux par deux !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 97.93,
+   "end": 103.81,
+   "text": "Bravo, Arié ! Deux par deux, comme des amis qui se tiennent la main. Comme ça, personne n'est jamais tout seul."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 104.61,
+   "end": 106.6,
+   "text": "Moi, je veux donner à manger aux lapins !"
+  },
+  {
+   "sp": "N",
+   "start": 107.4,
+   "end": 114.27,
+   "text": "[[נֹחַ|Noa'h|No-ar]] donna à [[|Hillel|Ilèl]] un panier de carottes, et à [[|Eydel|Èïdèl]] un grand seau rempli de [[מַיִם|mayim|maillime]]… de l'eau toute fraîche, pour faire boire les animaux."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 115.07,
+   "end": 119.42,
+   "text": "[[מַיִם|mayim|maillime]] pour les chameaux, [[מַיִם|mayim|maillime]] pour les moutons, et un peu de [[מַיִם|mayim|maillime]] pour le petit chat !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 120.22,
+   "end": 124.97,
+   "text": "[[תּוֹדָה|toda|toda]], [[|Eydel|Èïdèl]]. [[תּוֹדָה רַבָּה|toda rabbah|toda raba]] ! Merci beaucoup. Tu as le cœur aussi grand que ma [[תֵּבָה|tévah|téva]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 125.77,
+   "end": 128.49,
+   "text": "Dis, [[נֹחַ|Noa'h|No-ar]]… pourquoi tu as construit une si grande [[תֵּבָה|tévah|téva]] ?"
+  },
+  {
+   "sp": "NOAH",
+   "start": 129.29,
+   "end": 142.33,
+   "text": "Parce qu'à cette époque, les gens avaient oublié d'être gentils. Ils se disputaient, ils prenaient les jouets des autres, ils ne disaient jamais merci. Alors [[|Hachem|Achème]] a voulu tout recommencer, avec une famille qui prend soin des autres… et avec tous les animaux."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 143.13,
+   "end": 146.02,
+   "text": "Moi, je dis toujours [[תּוֹדָה|toda|toda]] ! Enfin… presque toujours."
+  },
+  {
+   "sp": "N",
+   "start": 146.82,
+   "end": 154.8,
+   "text": "[[נֹחַ|Noa'h|No-ar]] éclata de rire, d'un grand rire tout doux qui faisait trembler sa barbe blanche. Même l'éléphant leva sa trompe, comme pour rire avec lui."
+  },
+  {
+   "sp": "N",
+   "start": 155.35,
+   "end": 166.53,
+   "text": "Le soir, les enfants aidèrent [[נֹחַ|Noa'h|No-ar]] à installer les animaux pour la nuit. Arié tapota la tête du gros éléphant, [[|Hillel|Ilèl]] borda les petits lapins dans la paille, et [[|Eydel|Èïdèl]] chanta une berceuse, tout bas, tout bas, pour les oiseaux."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 167.33,
+   "end": 171.46,
+   "text": "Dodo, petits oiseaux, la [[תֵּבָה|tévah|téva]] vous berce sur l'eau… [[לַיְלָה טוֹב|layla tov|laïla tov]], [[לַיְלָה טוֹב|layla tov|laïla tov]]…"
+  },
+  {
+   "sp": "N",
+   "start": 174.16,
+   "end": 183.25,
+   "text": "Soudain, le ciel devint tout gris. Boum ! fit le tonnerre. Et le [[גֶּשֶׁם|guéshem|guéchème]], la pluie, se mit à tomber, tomber, tomber… Beaucoup plus fort que tout à l'heure."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 184.05,
+   "end": 185.9,
+   "text": "J'ai un peu peur… Il y a trop de [[גֶּשֶׁם|guéshem|guéchème]] !"
+  },
+  {
+   "sp": "N",
+   "start": 186.7,
+   "end": 190.29,
+   "text": "Alors [[|Eydel|Èïdèl]] serra son petit frère dans ses bras, et Arié lui prit la main."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 191.09,
+   "end": 196.31,
+   "text": "Ne t'inquiète pas, [[|Hillel|Ilèl]]. Ici, dans la [[תֵּבָה|tévah|téva]], on est à l'abri. Écoute… la pluie fait une chanson."
+  },
+  {
+   "sp": "NOAH",
+   "start": 197.11,
+   "end": 205.16,
+   "text": "Elle a raison. Le [[גֶּשֶׁם|guéshem|guéchème]] tombe dehors, mais nous, nous sommes tous ensemble, bien au chaud. Et quand on est ensemble, on est plus fort que l'orage."
+  },
+  {
+   "sp": "N",
+   "start": 205.96,
+   "end": 216.81,
+   "text": "Il plut pendant quarante jours et quarante nuits. Il y avait du [[מַיִם|mayim|maillime]] partout, partout, partout. Plus de maisons, plus d'arbres, plus de montagnes… seulement la [[תֵּבָה|tévah|téva]], qui flottait doucement, comme un berceau sur la mer."
+  },
+  {
+   "sp": "N",
+   "start": 217.36,
+   "end": 222.83,
+   "text": "Le soir, les animaux s'endormaient. Les lions ronronnaient comme de gros chats, et [[נֹחַ|Noa'h|No-ar]] chuchotait à chacun :"
+  },
+  {
+   "sp": "NOAH",
+   "start": 223.63,
+   "end": 228.32,
+   "text": "[[לַיְלָה טוֹב|layla tov|laïla tov]], les girafes. [[לַיְלָה טוֹב|layla tov|laïla tov]], les lapins. [[לַיְלָה טוֹב|layla tov|laïla tov]], les petites tortues."
+  },
+  {
+   "sp": "N",
+   "start": 231.02,
+   "end": 235.47,
+   "text": "Un matin, plus un bruit. Plus de tic, tic, tic. Le [[גֶּשֶׁם|guéshem|guéchème]] s'était arrêté !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 236.27,
+   "end": 241.16,
+   "text": "[[בֹּקֶר טוֹב|boker tov|bôkèr tov]], [[יְלָדִים|yéladim|yéladimme]] ! Bonjour, les enfants ! Venez vite, j'ai besoin de vous."
+  },
+  {
+   "sp": "N",
+   "start": 241.96,
+   "end": 246.61,
+   "text": "[[נֹחַ|Noa'h|No-ar]] ouvrit une petite fenêtre. Dans ses mains, il tenait un bel oiseau tout blanc."
+  },
+  {
+   "sp": "ARIE",
+   "start": 247.41,
+   "end": 248.42,
+   "text": "C'est une colombe !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 249.22,
+   "end": 256.27,
+   "text": "Oui, Arié. En hébreu, la colombe, c'est la [[יוֹנָה|yona|yona]]. Ma [[יוֹנָה|yona|yona]] va voler très loin, et nous dire si la terre est sèche."
+  },
+  {
+   "sp": "N",
+   "start": 257.07,
+   "end": 262.89,
+   "text": "La [[יוֹנָה|yona|yona]] ouvrit ses ailes et s'envola au-dessus du [[מַיִם|mayim|maillime]]. Les enfants attendirent… attendirent… et attendirent encore."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 263.69,
+   "end": 267.41,
+   "text": "Elle revient ! La [[יוֹנָה|yona|yona]] revient ! Elle a quelque chose dans son bec !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 268.21,
+   "end": 270.91,
+   "text": "C'est une petite feuille verte ! Une feuille d'olivier !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 271.71,
+   "end": 278.05,
+   "text": "Merveilleux ! Si la [[יוֹנָה|yona|yona]] a trouvé un arbre, c'est que l'eau s'en va. Bientôt, nous pourrons tous sortir de la [[תֵּבָה|tévah|téva]]."
+  },
+  {
+   "sp": "N",
+   "start": 280.75,
+   "end": 290.17,
+   "text": "Quelques jours plus tard, la [[תֵּבָה|tévah|téva]] se posa tout doucement sur une montagne. La grande porte s'ouvrit, et tous les animaux sortirent, deux par deux, en sautant de joie dans l'herbe mouillée."
+  },
+  {
+   "sp": "N",
+   "start": 290.72,
+   "end": 298.98,
+   "text": "Et là, dans le ciel, apparut quelque chose de magnifique. Une grande arche de couleurs : rouge, orange, jaune, vert, bleu et violet."
+  },
+  {
+   "sp": "ARIE",
+   "start": 299.78,
+   "end": 300.72,
+   "text": "Un arc-en-ciel !"
+  },
+  {
+   "sp": "NOAH",
+   "start": 301.52,
+   "end": 311.57,
+   "text": "Oui. En hébreu, on dit [[קֶשֶׁת|késhet|kéchète]]. La [[קֶשֶׁת|késhet|kéchète]], c'est une promesse de [[|Hachem|Achème]] : plus jamais de grand déluge. Chaque fois que vous verrez une [[קֶשֶׁת|késhet|kéchète]], souvenez-vous de cette promesse."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 312.37,
+   "end": 314.43,
+   "text": "[[קֶשֶׁת|késhet|kéchète]]… J'aime bien les couleurs de la [[קֶשֶׁת|késhet|kéchète]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 315.23,
+   "end": 317.44,
+   "text": "Monsieur [[נֹחַ|Noa'h|No-ar]]… Est-ce qu'on pourra revenir vous voir ?"
+  },
+  {
+   "sp": "NOAH",
+   "start": 318.24,
+   "end": 328.52,
+   "text": "Bien sûr, ma grande. Chaque fois que vous serez gentils avec les animaux, et gentils les uns avec les autres, je serai un peu avec vous. [[תּוֹדָה|toda|toda]], les enfants. Vous avez été de très bons marins."
+  },
+  {
+   "sp": "N",
+   "start": 331.22,
+   "end": 338.78,
+   "text": "La [[יוֹנָה|yona|yona]] se posa sur l'épaule de [[|Hillel|Ilèl]], battit des ailes… et, pfiou ! les trois enfants se retrouvèrent dans leurs lits, sous leurs couvertures toutes chaudes."
+  },
+  {
+   "sp": "N",
+   "start": 339.33,
+   "end": 345.75,
+   "text": "Dehors, le [[גֶּשֶׁם|guéshem|guéchème]] s'était arrêté. Et dans le ciel de la nuit, on devinait encore, tout petit, un morceau de [[קֶשֶׁת|késhet|kéchète]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 346.55,
+   "end": 348.33,
+   "text": "[[|Eydel|Èïdèl]]… tu crois que c'était un rêve ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 349.13,
+   "end": 355.11,
+   "text": "Je ne sais pas, Arié. Mais moi, je me souviens de tous les mots : [[תֵּבָה|tévah|téva]], [[מַיִם|mayim|maillime]], [[יוֹנָה|yona|yona]], [[קֶשֶׁת|késhet|kéchète]], [[גֶּשֶׁם|guéshem|guéchème]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 355.91,
+   "end": 361.1,
+   "text": "[[תֵּבָה|tévah|téva]], [[מַיִם|mayim|maillime]], [[יוֹנָה|yona|yona]], [[קֶשֶׁת|késhet|kéchète]], [[גֶּשֶׁם|guéshem|guéchème]]… [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié."
+  },
+  {
+   "sp": "N",
+   "start": 361.9,
+   "end": 371.63,
+   "text": "Et les trois enfants fermèrent les yeux, en rêvant de girafes, de colombes et d'arcs-en-ciel. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}
