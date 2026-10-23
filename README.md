@@ -4,14 +4,14 @@ Histoires du soir bilingues français · hébreu pour les enfants de familles fr
 
 ## Le site
 
-`index.html` est un mini-lecteur statique, sans build : il lit `episodes/<id>/story.mp3` et `episodes/<id>/cues.json` (texte synchronisé) et affiche la fiche parent de chaque épisode. Il se déploie tel quel sur Vercel (projet « Other », sans commande de build, dossier racine).
+`public/index.html` est un mini-lecteur statique, sans build : il lit `public/episodes/<id>/story.mp3` et `public/episodes/<id>/cues.json` (texte synchronisé) et affiche la fiche parent de chaque épisode. Il se déploie tel quel sur Vercel : `vercel.json` désactive la détection de framework et sert le dossier `public/`.
 
 Épisodes actuels :
 
 | # | Paracha | Dossier | Durée |
 |---|---------|---------|-------|
-| 1 | Noa'h | `episodes/noah` | 6 min 22 |
-| 2 | Lekh Lekha | `episodes/lekh-lekha` | 6 min 07 |
+| 1 | Noa'h | `public/episodes/noah` | 6 min 22 |
+| 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 6 min 07 |
 
 Un lien direct vers un épisode : `/#noah` ou `/#lekh-lekha`.
 
@@ -23,7 +23,7 @@ Un lien direct vers un épisode : `/#noah` ou `/#lekh-lekha`.
 cd generator
 pip install -r requirements.txt
 ./fetch_models.sh
-python gen.py story_lekh_lekha ../episodes/lekh-lekha
+python gen.py story_lekh_lekha ../public/episodes/lekh-lekha
 ```
 
 Le script d'une histoire (`story_*.py`) est une liste de répliques `(personnage, texte)`. Un mot hébreu s'écrit `[[hébreu|translittération|prononciation]]` : le lecteur affiche la translittération et l'hébreu, la voix lit la prononciation. `~` marque un changement de scène.
