@@ -27,7 +27,7 @@ VOICE = {
     "AVRAM":  ("gilles", 0, 0.95, 0.0),
     "SARAI":  ("upmc",   0, 0.95, 0.0),
     "EYDEL":  ("upmc",   0, 0.93, 2.5),
-    "ARIE":   ("upmc",   1, 0.97, 3.5),
+    "ARIE":   ("upmc",   1, 1.0,  2.0),
     "HILLEL": ("siwis",  0, 0.93, 4.5),
 }
 MODELS = {"siwis": "fr_FR-siwis-medium", "tom": "fr_FR-tom-medium", "upmc": "fr_FR-upmc-medium", "gilles": "fr_FR-gilles-low"}

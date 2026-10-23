@@ -11,7 +11,7 @@ Histoires du soir bilingues français · hébreu pour les enfants de familles fr
 | # | Paracha | Dossier | Durée |
 |---|---------|---------|-------|
 | 1 | Noa'h | `public/episodes/noah` | 6 min 22 |
-| 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 6 min 07 |
+| 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 6 min 06 |
 
 Un lien direct vers un épisode : `/#noah` ou `/#lekh-lekha`.
 
