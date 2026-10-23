@@ -10,8 +10,8 @@ Histoires du soir bilingues français · hébreu pour les enfants de familles fr
 
 | # | Paracha | Dossier | Durée |
 |---|---------|---------|-------|
-| 1 | Noa'h | `public/episodes/noah` | 6 min 22 |
-| 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 6 min 06 |
+| 1 | Noa'h | `public/episodes/noah` | 10 min 34 |
+| 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 9 min 31 |
 
 Un lien direct vers un épisode : `/#noah` ou `/#lekh-lekha`.
 
@@ -28,12 +28,20 @@ python gen.py story_lekh_lekha ../public/episodes/lekh-lekha
 
 Le script d'une histoire (`story_*.py`) est une liste de répliques `(personnage, texte)`. Un mot hébreu s'écrit `[[hébreu|translittération|prononciation]]` : le lecteur affiche la translittération et l'hébreu, la voix lit la prononciation. `~` marque un changement de scène.
 
-Les voix sont des modèles Piper libres (français). Il n'y a pas encore de voix hébraïque : les mots hébreux sont lus par les voix françaises à partir d'une orthographe phonétique (par exemple `No-ar` pour Noa'h). Pour vérifier une orthographe, regardez sa transcription espeak : un `(en)` veut dire que le mot est lu à l'anglaise.
+Les voix viennent de Gemini TTS (Google AI Studio) dès que `GEMINI_API_KEY` est défini : chaque réplique est envoyée avec une consigne de style (conteuse douce, enfant de 4 ans…), et les mots hébreux sont envoyés en écriture hébraïque pour être prononcés à l'israélienne. Les clips sont mis en cache dans `generator/.tts-cache/`, donc une relance ne repaie que les répliques modifiées. Une histoire coûte environ 0,10 $.
 
-| Personnage | Voix |
-|------------|------|
-| Conteuse | Piper siwis |
-| Noa'h | Piper tom |
-| Avram | Piper gilles |
-| Saraï | Piper upmc (Jessica) |
-| Eydel, Arié, Hillel | Piper upmc / siwis, voix montées de 2,5 à 4,5 demi-tons |
+```bash
+GEMINI_API_KEY=... python gen.py story_noah ../public/episodes/noah
+```
+
+| Personnage | Voix Gemini |
+|------------|-------------|
+| Conteuse | Achernar |
+| Noa'h | Algenib |
+| Avram | Orus |
+| Saraï | Vindemiatrix |
+| Eydel | Leda, montée de 3 demi-tons |
+| Arié | Puck, montée de 3 demi-tons |
+| Hillel | Achird, montée de 3 demi-tons |
+
+Sans clé, ou avec `TTS_ENGINE=piper`, le générateur reprend les voix Piper libres (françaises, après `./fetch_models.sh`) : les mots hébreux sont alors lus à partir de l'orthographe phonétique du troisième champ (par exemple `No-ar` pour Noa'h). Pour vérifier une orthographe, regardez sa transcription espeak : un `(en)` veut dire que le mot est lu à l'anglaise.

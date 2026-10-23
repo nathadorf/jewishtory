@@ -1,10 +1,11 @@
 """Render one story script to a mixed MP3 plus a cue file for the web player.
 
 Usage: python gen.py <story_module> <out_dir>
+Voices come from Gemini TTS when GEMINI_API_KEY is set (TTS_ENGINE=piper forces the free Piper voices).
 The story module exposes TITLE, SEGMENTS [(speaker, text)] and optionally AMBIENCE.
 """
-import importlib, json, os, re, subprocess, sys
-import numpy as np, soundfile as sf, sherpa_onnx
+import base64, hashlib, importlib, json, os, re, subprocess, sys, time, urllib.error, urllib.request
+import numpy as np, soundfile as sf
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
@@ -13,6 +14,7 @@ SR = 24000
 MARK = re.compile(r"\[\[([^|\]]*)\|([^|\]]*)\|([^|\]]*)\]\]")
 
 def piper(name):
+    import sherpa_onnx
     d = f"{M}/vits-piper-{name}"
     onnx = [x for x in os.listdir(d) if x.endswith(".onnx")][0]
     cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
@@ -30,14 +32,73 @@ VOICE = {
     "ARIE":   ("upmc",   1, 1.0,  2.0),
     "HILLEL": ("siwis",  0, 0.93, 4.5),
 }
+# Gemini voice, style prompt, pitch shift. Hebrew words are sent in Hebrew script.
+STYLE_N = "une conteuse française douce qui raconte une histoire du soir à de petits enfants, lentement, avec chaleur"
+GEMINI = {
+    "N":      ("Achernar",     STYLE_N, 0.0),
+    "NOAH":   ("Algenib",      "un vieil homme sage et très gentil, à la voix grave et chaleureuse, qui parle doucement à des enfants", 0.0),
+    "AVRAM":  ("Orus",         "un homme bon et courageux, à la voix chaude et posée, qui parle doucement à des enfants", 0.0),
+    "SARAI":  ("Vindemiatrix", "une femme tendre et accueillante, comme une maman, qui parle doucement à des enfants", 0.0),
+    "EYDEL":  ("Leda",         "une petite fille de huit ans, douce, comme une grande sœur", 3.0),
+    "ARIE":   ("Puck",         "un petit garçon de six ans, curieux et plein d'énergie", 3.0),
+    "HILLEL": ("Achird",       "un tout petit garçon de quatre ans, mignon et un peu rêveur", 3.0),
+}
+# Each model has its own daily request quota: when one runs out, the next one takes over.
+GEMINI_MODELS = os.environ.get("GEMINI_TTS_MODELS", "gemini-2.5-flash-preview-tts,gemini-3.8-flash-tts").split(",")
+CACHE = D + "/.tts-cache"
+USE_GEMINI = bool(os.environ.get("GEMINI_API_KEY")) and os.environ.get("TTS_ENGINE") != "piper"
+
+def gemini_call(model, voice, prompt):
+    body = {"contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"],
+                                 "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
+    req = urllib.request.Request(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+    for attempt in range(5):
+        try:
+            r = json.load(urllib.request.urlopen(req, timeout=180))
+            return base64.b64decode(r["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and "PerDay" in e.read().decode(errors="ignore"): return None
+            if e.code not in (429, 500, 503) or attempt == 4: raise
+        except (KeyError, IndexError):
+            if attempt == 4: raise
+        time.sleep(10 * 2 ** attempt)
+
+def gemini(sp, text):
+    voice, style, _ = GEMINI[sp]
+    who = "Lis ce passage comme " if sp == "N" else "Dis cette réplique avec la voix d'"
+    prompts = {"gemini-2.5-flash-preview-tts":
+                   f"{who}{style}. Les mots écrits en hébreu sont à prononcer à l'israélienne. "
+                   f"Ne lis que le texte après les deux points.\n\n: {text}"}
+    # Newer models read a plain-text direction aloud, but not one in brackets
+    default = f"[Voix : {style}. Mots hébreux prononcés à l'israélienne.]\n{text}"
+    jobs = [(m, prompts.get(m, default)) for m in GEMINI_MODELS]
+    paths = [f"{CACHE}/{hashlib.sha1(f'{m}|{voice}|{p}'.encode()).hexdigest()}.pcm" for m, p in jobs]
+    path = next((p for p in paths if os.path.exists(p)), None)
+    for (model, prompt), p in zip(jobs, paths):
+        if path: break
+        pcm = gemini_call(model, voice, prompt)
+        if pcm is None:
+            print(f"   daily quota reached for {model}", flush=True); continue
+        os.makedirs(CACHE, exist_ok=True)
+        open(p, "wb").write(pcm); path = p
+    if not path: sys.exit("All Gemini TTS models are out of daily quota")
+    return np.frombuffer(open(path, "rb").read(), dtype="<i2").astype(np.float32) / 32768, 24000
+
 MODELS = {"siwis": "fr_FR-siwis-medium", "tom": "fr_FR-tom-medium", "upmc": "fr_FR-upmc-medium", "gilles": "fr_FR-gilles-low"}
 _eng = {}
 
 def synth(sp, text, tmp):
-    eng, sid, speed, semi = VOICE[sp]
-    if eng not in _eng: _eng[eng] = piper(MODELS[eng])
-    a = _eng[eng].generate(text, sid=sid, speed=speed)
-    x = np.array(a.samples, dtype=np.float32); sr = a.sample_rate
+    if USE_GEMINI:
+        x, sr = gemini(sp, text); semi = GEMINI[sp][2]
+    else:
+        eng, sid, speed, semi = VOICE[sp]
+        if eng not in _eng: _eng[eng] = piper(MODELS[eng])
+        a = _eng[eng].generate(text, sid=sid, speed=speed)
+        x = np.array(a.samples, dtype=np.float32); sr = a.sample_rate
     sf.write(f"{tmp}/_in.wav", x, sr)
     r = 2 ** (semi / 12)
     filt = f"asetrate={int(sr*r)},aresample={SR},atempo={1/r:.5f}" if semi else f"aresample={SR}"
@@ -90,7 +151,8 @@ def main(story_name, out):
     for i, (sp, txt) in enumerate(story.SEGMENTS):
         if sp == "~":
             add(silence(0.5)); add(chime()); prev = None; scenes.append(len(cues)); continue
-        tts = MARK.sub(lambda m: m.group(3), txt)
+        # Gemini reads Hebrew script (names without one keep their transliteration), Piper the phonetic spelling
+        tts = MARK.sub(lambda m: (m.group(1) or m.group(2)) if USE_GEMINI else m.group(3), txt)
         if prev is not None:
             add(silence(0.55 if sp == prev else 0.8))
         y = synth(sp, tts, out)
@@ -106,7 +168,9 @@ def main(story_name, out):
     for start, end, level, kind in getattr(story, "AMBIENCE", []):
         env = np.zeros(n, np.float32)
         env[(at(start) if start else 0):at(end)] = level
-        env = np.convolve(env, np.ones(2*SR)/(2*SR), mode="same").astype(np.float32)
+        c = np.concatenate([[0], np.cumsum(env, dtype=np.float64)])  # 2 s moving average = fades
+        i = np.arange(n); lo, hi = np.clip(i - SR, 0, n), np.clip(i + SR, 0, n)
+        env = ((c[hi] - c[lo]) / (2*SR)).astype(np.float32)
         mix += noise_bed(kind, n, out) * env
 
     mix = np.clip(mix, -0.99, 0.99)
