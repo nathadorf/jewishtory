@@ -1,7 +1,8 @@
 """Render one story script to a mixed MP3 plus a cue file for the web player.
 
 Usage: python gen.py <story_module> <out_dir>
-Voices come from Gemini TTS when GEMINI_API_KEY is set (TTS_ENGINE=piper forces the free Piper voices).
+Voices come from Gemini TTS when GEMINI_API_KEY is set (TTS_ENGINE=piper forces the free Piper voices,
+TTS_ENGINE=elevenlabs uses ElevenLabs with ELEVENLABS_API_KEY).
 The story module exposes TITLE, SEGMENTS [(speaker, text)] and optionally AMBIENCE.
 """
 import base64, hashlib, importlib, json, os, re, subprocess, sys, time, urllib.error, urllib.request
@@ -52,7 +53,47 @@ GEMINI = {
 # Each model has its own daily request quota: when one runs out, the next one takes over.
 GEMINI_MODELS = os.environ.get("GEMINI_TTS_MODELS", "gemini-2.5-flash-preview-tts,gemini-3.8-flash-tts").split(",")
 CACHE = D + "/.tts-cache"
-USE_GEMINI = bool(os.environ.get("GEMINI_API_KEY")) and os.environ.get("TTS_ENGINE") != "piper"
+ENGINE = os.environ.get("TTS_ENGINE") or ("gemini" if os.environ.get("GEMINI_API_KEY") else "piper")
+USE_GEMINI = ENGINE == "gemini"
+USE_ELEVEN = ENGINE == "elevenlabs"
+
+# ElevenLabs default voices (v3 speaks them with a native French accent), stability, pitch shift.
+ELEVEN_MODEL = os.environ.get("ELEVEN_MODEL", "eleven_v3")
+ELEVEN = {
+    "N":      ("XrExE9yKIg1WjnnlVkGX", 0.5, 0.0),  # Matilda
+    "NOAH":   ("JBFqnCBsd6RMkjVDRZzb", 0.5, 0.0),  # George
+    "AVRAM":  ("nPczCjzI2devNBz1zQrb", 0.5, 0.0),  # Brian
+    "SARAI":  ("EXAVITQu4vr4xnSDxMaL", 0.5, 0.0),  # Sarah
+    "AVRAHAM": ("nPczCjzI2devNBz1zQrb", 0.5, 0.0),
+    "SARAH":  ("EXAVITQu4vr4xnSDxMaL", 0.5, 0.0),
+    "MALAKH": ("SAz9YHcvj6GT2YYXdXww", 0.5, 0.0),  # River
+    "EYDEL":  ("cgSgspJ2msm6clMCkdW9", 0.5, 2.0),  # Jessica
+    "ARIE":   ("IKne3meq5aSn9XLyUdCD", 0.5, 3.0),  # Charlie
+    "HILLEL": ("9BWtsMINqrJLrRacOk9x", 0.5, 4.0),  # Aria
+}
+# Transliterations ElevenLabs misreads ("Noa'h" comes out as "No-a")
+ELEVEN_SAY = {"Noa'h": "No-arr"}
+
+def eleven(sp, text):
+    voice, stability, _ = ELEVEN[sp]
+    for k, v in ELEVEN_SAY.items(): text = text.replace(k, v)
+    body = {"text": text, "model_id": ELEVEN_MODEL, "language_code": "fr",
+            "voice_settings": {"stability": stability, "similarity_boost": 0.8}}
+    p = f"{CACHE}/el-{hashlib.sha1(json.dumps([voice, body], sort_keys=True).encode()).hexdigest()}.pcm"
+    if not os.path.exists(p):
+        req = urllib.request.Request(
+            f"https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=pcm_24000",
+            data=json.dumps(body).encode(),
+            headers={"Content-Type": "application/json", "xi-api-key": os.environ["ELEVENLABS_API_KEY"]})
+        for attempt in range(5):
+            try:
+                pcm = urllib.request.urlopen(req, timeout=180).read(); break
+            except urllib.error.HTTPError as e:
+                if e.code not in (429, 500, 503) or attempt == 4: raise
+                time.sleep(5 * 2 ** attempt)
+        os.makedirs(CACHE, exist_ok=True)
+        open(p, "wb").write(pcm)
+    return np.frombuffer(open(p, "rb").read(), dtype="<i2").astype(np.float32) / 32768, 24000
 
 def gemini_call(model, voice, prompt):
     body = {"contents": [{"parts": [{"text": prompt}]}],
@@ -98,7 +139,9 @@ MODELS = {"siwis": "fr_FR-siwis-medium", "tom": "fr_FR-tom-medium", "upmc": "fr_
 _eng = {}
 
 def synth(sp, text, tmp):
-    if USE_GEMINI:
+    if USE_ELEVEN:
+        x, sr = eleven(sp, text); semi = ELEVEN[sp][2]
+    elif USE_GEMINI:
         x, sr = gemini(sp, text); semi = GEMINI[sp][2]
     else:
         eng, sid, speed, semi = VOICE[sp]
@@ -157,8 +200,9 @@ def main(story_name, out):
     for i, (sp, txt) in enumerate(story.SEGMENTS):
         if sp == "~":
             add(silence(0.5)); add(chime()); prev = None; scenes.append(len(cues)); continue
-        # Gemini reads Hebrew script (names without one keep their transliteration), Piper the phonetic spelling
-        tts = MARK.sub(lambda m: (m.group(1) or m.group(2)) if USE_GEMINI else m.group(3), txt)
+        # Gemini reads Hebrew script (names without one keep their transliteration), ElevenLabs the
+        # transliteration (from Hebrew script it drops the final 'h of Noa'h), Piper the phonetic spelling
+        tts = MARK.sub(lambda m: (m.group(1) or m.group(2)) if USE_GEMINI else m.group(2) if USE_ELEVEN else m.group(3), txt)
         if prev is not None:
             add(silence(0.55 if sp == prev else 0.8))
         y = synth(sp, tts, out)
