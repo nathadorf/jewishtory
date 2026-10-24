@@ -12,8 +12,9 @@ Histoires du soir bilingues français · hébreu pour les enfants de familles fr
 |---|---------|---------|-------|
 | 1 | Noa'h | `public/episodes/noah` | 10 min 34 |
 | 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 9 min 31 |
+| 3 | Vayera | `public/episodes/vayera` | 12 min 14 |
 
-Un lien direct vers un épisode : `/#noah` ou `/#lekh-lekha`.
+Un lien direct vers un épisode : `/#noah`, `/#lekh-lekha` ou `/#vayera`.
 
 ## Le générateur audio
 
@@ -38,8 +39,9 @@ GEMINI_API_KEY=... python gen.py story_noah ../public/episodes/noah
 |------------|-------------|
 | Conteuse | Achernar |
 | Noa'h | Algenib |
-| Avram | Orus |
-| Saraï | Vindemiatrix |
+| Avram, Avraham | Orus |
+| Saraï, Sarah | Vindemiatrix |
+| Le malakh (l'ange) | Iapetus |
 | Eydel | Leda, montée de 3 demi-tons |
 | Arié | Puck, montée de 3 demi-tons |
 | Hillel | Achird, montée de 3 demi-tons |
