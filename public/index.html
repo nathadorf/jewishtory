@@ -14,17 +14,17 @@
   --bg:#f3f0fa; --surface:#ffffff; --ink:#26224a; --muted:#6c6890;
   --accent:#e38b2c; --accent-ink:#ffffff; --line:#ddd8ee;
   --hl:#fff1dc; --chip:#efeaff;
-  --v-N:#6b5fb5; --v-NOAH:#2f5d8a; --v-AVRAM:#8a4b2f; --v-SARAI:#2f7f8a; --v-EYDEL:#c2477a; --v-ARIE:#2f8a63; --v-HILLEL:#c27a12;
+  --v-N:#6b5fb5; --v-NOAH:#2f5d8a; --v-AVRAM:#8a4b2f; --v-SARAI:#2f7f8a; --v-AVRAHAM:#8a4b2f; --v-SARAH:#2f7f8a; --v-MALAKH:#9a7a12; --v-EYDEL:#c2477a; --v-ARIE:#2f8a63; --v-HILLEL:#c27a12;
   --f-display:"Fraunces", Georgia, serif; --f-body:"Varela Round","Rubik",system-ui,sans-serif; --f-he:"Rubik","Arial Hebrew",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#141230; --surface:#1e1b42; --ink:#ece9ff; --muted:#a9a4d0; --accent:#f2a54a; --accent-ink:#1b1430;
   --line:#332f63; --hl:#3a2f2a; --chip:#2a2660;
-  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}}
+  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-AVRAHAM:#e5a383; --v-SARAH:#7fd3dd; --v-MALAKH:#f0d77a; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#141230; --surface:#1e1b42; --ink:#ece9ff; --muted:#a9a4d0; --accent:#f2a54a; --accent-ink:#1b1430;
   --line:#332f63; --hl:#3a2f2a; --chip:#2a2660;
-  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}
+  --v-N:#b3a8ff; --v-NOAH:#86b9ec; --v-AVRAM:#e5a383; --v-SARAI:#7fd3dd; --v-AVRAHAM:#e5a383; --v-SARAH:#7fd3dd; --v-MALAKH:#f0d77a; --v-EYDEL:#f08bb4; --v-ARIE:#79d1a8; --v-HILLEL:#f2c06b; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
 .wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
 h1,h2{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
@@ -130,8 +130,8 @@ canvas#scene{width:100%;max-width:100%;aspect-ratio:16/7;border-radius:18px;disp
 <audio id="audio" preload="metadata"></audio>
 
 <script>
-const NAMES = {N:"Conteuse",NOAH:"Noa'h",AVRAM:"Avram",SARAI:"Saraï",EYDEL:"Eydel",ARIE:"Arié",HILLEL:"Hillel"};
-const GLOSS = {"tévah":"l'arche","mayim":"l'eau","yona":"la colombe","késhet":"l'arc-en-ciel","guéshem":"la pluie","shalom":"bonjour","layla tov":"bonne nuit","boker tov":"bonjour (le matin)","toda":"merci","toda rabbah":"merci beaucoup","yéladim":"les enfants","Noa'h":"Noé","ohel":"la tente","gamal":"le chameau","gmalim":"les chameaux","kokhavim":"les étoiles","dérekh":"le chemin","'hol":"le sable","Lekh lekha":"va, pars","Avram":"Abram","Saraï":"Saraï"};
+const NAMES = {N:"Conteuse",NOAH:"Noa'h",AVRAM:"Avram",SARAI:"Saraï",AVRAHAM:"Avraham",SARAH:"Sarah",MALAKH:"Le malakh",EYDEL:"Eydel",ARIE:"Arié",HILLEL:"Hillel"};
+const GLOSS = {"tévah":"l'arche","mayim":"l'eau","yona":"la colombe","késhet":"l'arc-en-ciel","guéshem":"la pluie","shalom":"bonjour","layla tov":"bonne nuit","boker tov":"bonjour (le matin)","toda":"merci","toda rabbah":"merci beaucoup","yéladim":"les enfants","Noa'h":"Noé","ohel":"la tente","gamal":"le chameau","gmalim":"les chameaux","kokhavim":"les étoiles","dérekh":"le chemin","'hol":"le sable","Lekh lekha":"va, pars","Avram":"Abram","Saraï":"Saraï","or'him":"les invités","lé'hem":"le pain","tsé'hok":"le rire","har":"la montagne","hinéni":"me voici","malakh":"l'ange","ayil":"le bélier","shofar":"la corne de bélier","Avraham":"Abraham","Yits'hak":"Isaac"};
 const EPISODES = [
   { id:"noah", dir:"episodes/noah/", parasha:"Noa'h", title:"Eydel, Arié et Hillel sur la tévah de Noa'h",
     subtitle:"Les enfants montent sur l'arche, aident Noa'h avec les animaux et voient la première késhet.",
@@ -148,7 +148,15 @@ const EPISODES = [
       also:"Révisés de la semaine dernière : <b>mayim</b> (l'eau), <b>tévah</b>, <b>yona</b>, <b>toda</b>, <b>layla tov</b>. Nouvelle expression : <b>Lekh lekha</b> (va, pars).",
       summary:"Hachem dit à Avram « Lekh lekha » : quitte ton pays et va vers celui que je te montrerai. Avram part avec Saraï, fait la paix avec son neveu Loth en le laissant choisir en premier, et Hachem lui promet une famille aussi nombreuse que les étoiles.",
       question:"« Avram a laissé Loth choisir en premier pour ne pas se disputer. Toi, à qui tu pourrais laisser choisir en premier demain ? »", answer:"et compter ensemble les kokhavim par la fenêtre",
-      ideas:["Ce soir, regarder les kokhavim par la fenêtre et essayer de les compter.","Construire un ohel avec une couverture et deux chaises.","En promenade, dire « dérekh » à chaque nouveau chemin.","Au parc, toucher le 'hol du bac à sable."] } }
+      ideas:["Ce soir, regarder les kokhavim par la fenêtre et essayer de les compter.","Construire un ohel avec une couverture et deux chaises.","En promenade, dire « dérekh » à chaque nouveau chemin.","Au parc, toucher le 'hol du bac à sable."] } },
+  { id:"vayera", dir:"episodes/vayera/", parasha:"Vayera", title:"Eydel, Arié et Hillel sous la tente d'Avraham",
+    subtitle:"Les enfants aident Avraham à accueillir trois mystérieux voyageurs, entendent rire Sarah et rencontrent le bébé Yits'hak.",
+    art:"tent", scenes:["La yona revient","Trois voyageurs","Le lé'hem de Sarah","Le bébé Yits'hak","Le har","Retour au lit"],
+    sheet:{ words:[["אוֹרְחִים","or'him","les invités","Avraham court les accueillir sous son arbre"],["לֶחֶם","lé'hem","le pain","Hillel pétrit la pâte avec Sarah"],["צְחוֹק","tsé'hok","le rire","le rire de Sarah, qui donne son nom à Yits'hak"],["הַר","har","la montagne","Avraham et Yits'hak la montent ensemble"],["הִנֵּנִי","hinéni","me voici","la réponse d'Avraham quand on l'appelle"]],
+      also:"Révisés : <b>ohel</b> (la tente), <b>mayim</b> (l'eau), <b>dérekh</b> (le chemin), <b>kokhavim</b> (les étoiles), <b>yona</b>, <b>toda</b>, <b>layla tov</b>. Nouveaux mots en passant : <b>malakh</b> (l'ange), <b>ayil</b> (le bélier), <b>shofar</b>.",
+      summary:"Avraham accueille trois voyageurs qui sont des anges : ils annoncent que Sarah aura un fils, et elle rit. Yits'hak naît, son nom vient du rire. Plus tard, Hachem met la confiance d'Avraham à l'épreuve sur le mont Moriah ; l'ange l'arrête aussitôt et un bélier prend la place de Yits'hak. (Dans l'épisode, la ligature d'Isaac est racontée sans aucune image effrayante : une « très grande question » de confiance, et l'ange qui rappelle qu'Hachem ne veut jamais qu'on fasse du mal à un enfant. L'épisode laisse de côté Sodome.)",
+      question:"« Avraham courait pour accueillir les or'him. Toi, qui aimerais-tu inviter à la maison, et qu'est-ce que tu lui offrirais ? »", answer:"du lé'hem, comme Sarah",
+      ideas:["Faire une 'halla ou un petit pain ensemble et dire « lé'hem » en le partageant.","Quand on t'appelle, répondre « hinéni ! » (me voici).","Préparer un coin accueil pour le prochain invité : un verre de mayim et un coussin.","Écouter un shofar en vidéo et raconter l'histoire du ayil."] } }
 ];
 
 const $ = id => document.getElementById(id);
@@ -307,7 +315,42 @@ function drawDesert(ts){
   if(s>=4){ camel(W*0.38,H*0.9,0.8,0,0); }
   if(s===0 || s===5) dove(W*0.25+Math.sin(ts/600)*40,H*0.3+Math.cos(ts/400)*8,ts);
 }
-function draw(ts){ if(EP && EP.art==="desert") drawDesert(ts); else drawArk(ts); requestAnimationFrame(draw); }
+function drawTent(ts){
+  const s=sceneAt(phase), night=(s===0||s===5), dusk=(s===3);
+  if(night) sky("#141238","#3b3470"); else if(dusk) sky("#f2994a","#f7d08a"); else sky("#8fc3ea","#f6e3b4");
+  if(night) starfield(ts,90);
+  else { cx.fillStyle="#fff4c2"; cx.beginPath(); cx.arc(W*0.85,H*(dusk?0.45:0.18),dusk?44:36,0,7); cx.fill(); }
+  if(s===4){ // the mountain
+    cx.fillStyle="#b07a52"; cx.beginPath(); cx.moveTo(W*0.15,H); cx.lineTo(W*0.5,H*0.22); cx.lineTo(W*0.88,H); cx.fill();
+    cx.fillStyle="#c99467"; cx.beginPath(); cx.moveTo(W*0.5,H*0.22); cx.lineTo(W*0.62,H*0.48); cx.lineTo(W*0.55,H*0.44); cx.lineTo(W*0.5,H*0.5); cx.lineTo(W*0.44,H*0.42); cx.lineTo(W*0.38,H*0.48); cx.fill();
+    cx.fillStyle="#5e8a4a"; cx.beginPath(); cx.arc(W*0.57,H*0.3,14,0,7); cx.fill();
+    cx.strokeStyle="#e9e2cf"; cx.lineWidth=4; cx.beginPath(); cx.arc(W*0.565,H*0.29,6,0,6); cx.stroke(); // ram's horn
+    const g=0.35+0.25*Math.sin(reduce?0:ts/500); cx.fillStyle=`rgba(255,240,180,${g})`; cx.beginPath(); cx.arc(W*0.5,H*0.12,40,0,7); cx.fill();
+    return;
+  }
+  [["#d9a85f",0.66,0.8],["#f0cc88",0.82,1.4]].forEach(([c,b,f],k)=>{
+    cx.fillStyle=night?["#4b3f6b","#6a5a88"][k]:c; cx.beginPath(); cx.moveTo(0,H);
+    for(let x=0;x<=W;x+=16) cx.lineTo(x,H*b+Math.sin(x/(160*f)+k*2)*16*f);
+    cx.lineTo(W,H); cx.fill();
+  });
+  // oak tree
+  cx.fillStyle=night?"#3a2e44":"#6e4a2c"; cx.fillRect(W*0.2,H*0.5,18,H*0.32);
+  cx.fillStyle=night?"#2f4a3e":"#4f7f3e"; [[0,0,60],[-40,20,44],[40,22,46]].forEach(([dx,dy,r])=>{cx.beginPath();cx.arc(W*0.2+9+dx,H*0.46+dy,r,0,7);cx.fill();});
+  // tent, open on every side
+  cx.fillStyle=night?"#6b4a3a":"#7a4f35"; cx.beginPath(); cx.moveTo(W*0.5,H*0.86); cx.lineTo(W*0.64,H*0.5); cx.lineTo(W*0.8,H*0.86); cx.fill();
+  cx.fillStyle="#ffcf7a"; cx.globalAlpha=night?0.9:0.55; cx.beginPath(); cx.moveTo(W*0.6,H*0.86); cx.lineTo(W*0.64,H*0.62); cx.lineTo(W*0.69,H*0.86); cx.fill(); cx.globalAlpha=1;
+  if(s===1){ // three shining travellers on the road
+    const off=reduce?0:Math.min(ts/60%160,160);
+    for(let i=0;i<3;i++){ const x=W*0.95-off-i*40, y=H*0.8;
+      cx.fillStyle="rgba(255,240,180,.35)"; cx.beginPath(); cx.arc(x,y-30,26,0,7); cx.fill();
+      cx.fillStyle="#f3ead6"; cx.fillRect(x-8,y-30,16,34); cx.beginPath(); cx.arc(x,y-38,8,0,7); cx.fill(); }
+  }
+  if(s===3){ // little cradle with a laughing baby
+    cx.fillStyle="#caa27a"; cx.beginPath(); cx.ellipse(W*0.42,H*0.84,34,12,0,0,Math.PI); cx.fill();
+    cx.fillStyle="#f5d3b5"; cx.beginPath(); cx.arc(W*0.42,H*0.8,10,0,7); cx.fill(); }
+  if(s===0 || s===5) dove(W*0.3+Math.sin(ts/600)*40,H*0.25+Math.cos(ts/400)*8,ts);
+}
+function draw(ts){ if(EP && EP.art==="desert") drawDesert(ts); else if(EP && EP.art==="tent") drawTent(ts); else drawArk(ts); requestAnimationFrame(draw); }
 requestAnimationFrame(draw);
 </script>
 </body>
