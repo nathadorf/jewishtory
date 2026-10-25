@@ -57,26 +57,29 @@ ENGINE = os.environ.get("TTS_ENGINE") or ("gemini" if os.environ.get("GEMINI_API
 USE_GEMINI = ENGINE == "gemini"
 USE_ELEVEN = ENGINE == "elevenlabs"
 
-# ElevenLabs default voices (v3 speaks them with a native French accent), stability, pitch shift.
+# ElevenLabs voices (the family's cloned voices where there is one), stability, pitch shift.
 ELEVEN_MODEL = os.environ.get("ELEVEN_MODEL", "eleven_v3")
 ELEVEN = {
-    "N":      ("XrExE9yKIg1WjnnlVkGX", 0.5, 0.0),  # Matilda
-    "NOAH":   ("JBFqnCBsd6RMkjVDRZzb", 0.5, 0.0),  # George
-    "AVRAM":  ("nPczCjzI2devNBz1zQrb", 0.5, 0.0),  # Brian
-    "SARAI":  ("EXAVITQu4vr4xnSDxMaL", 0.5, 0.0),  # Sarah
-    "AVRAHAM": ("nPczCjzI2devNBz1zQrb", 0.5, 0.0),
-    "SARAH":  ("EXAVITQu4vr4xnSDxMaL", 0.5, 0.0),
-    "MALAKH": ("SAz9YHcvj6GT2YYXdXww", 0.5, 0.0),  # River
-    "EYDEL":  ("cgSgspJ2msm6clMCkdW9", 0.5, 2.0),  # Jessica
-    "ARIE":   ("IKne3meq5aSn9XLyUdCD", 0.5, 3.0),  # Charlie
-    "HILLEL": ("9BWtsMINqrJLrRacOk9x", 0.5, 4.0),  # Aria
+    "N":      ("aOSD39cV4XRDtOpMvm1q", 0.5, 0.0),  # Perla (cloned)
+    "NOAH":   ("DFDYvvyyjCAOT2ZfVdAJ", 0.5, 0.0),  # Nath (cloned)
+    "AVRAM":  ("DFDYvvyyjCAOT2ZfVdAJ", 0.5, 0.0),
+    "AVRAHAM": ("DFDYvvyyjCAOT2ZfVdAJ", 0.5, 0.0),
+    "SARAI":  ("YxrwjAKoUKULGd0g8K9Y", 0.5, 0.0),  # Lucie
+    "SARAH":  ("YxrwjAKoUKULGd0g8K9Y", 0.5, 0.0),
+    "MALAKH": ("bJ4Wa440PU9c765nkJkn", 0.5, 0.0),  # Jon (voice library)
+    "EYDEL":  ("AdiNhJ93zqf9SO6bIKOv", 0.5, 3.0),  # cloned "Arié" voice, pitched up (user pick)
+    "ARIE":   ("Yx2a8qp2EqI9c5i8MzBo", 0.5, 4.0),  # Philippine (voice library, native French), pitched up
+    "HILLEL": ("4vw2WJu8nMr3TyBPShRq", 0.5, 2.0),  # cloned "Eydel" voice, pitched up (user pick)
 }
+# v3 ignores the speed setting; a bracketed direction slows Nath's naturally quick delivery
+ELEVEN_TAG = {sp: "[slowly, gently] " for sp in ("NOAH", "AVRAM", "AVRAHAM")}
 # Transliterations ElevenLabs misreads ("Noa'h" comes out as "No-a")
 ELEVEN_SAY = {"Noa'h": "No-arr"}
 
 def eleven(sp, text):
     voice, stability, _ = ELEVEN[sp]
     for k, v in ELEVEN_SAY.items(): text = text.replace(k, v)
+    text = ELEVEN_TAG.get(sp, "") + text
     body = {"text": text, "model_id": ELEVEN_MODEL, "language_code": "fr",
             "voice_settings": {"stability": stability, "similarity_boost": 0.8}}
     p = f"{CACHE}/el-{hashlib.sha1(json.dumps([voice, body], sort_keys=True).encode()).hexdigest()}.pcm"
