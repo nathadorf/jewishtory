@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>
 <title>Jewishtory</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#26224a">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Varela+Round&family=Rubik:wght@500&display=swap">
@@ -32,7 +36,8 @@ h1{font-size:clamp(1.7rem,5vw,2.4rem)}
 h2{font-size:1.3rem}
 .eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
 .he{font-family:var(--f-he);direction:rtl;unicode-bidi:isolate}
-.brand{font-family:var(--f-display);font-weight:700;font-size:1.1rem}
+.brand{font-family:var(--f-display);font-weight:700;font-size:1.1rem;display:flex;align-items:center;gap:.5rem}
+.brand img{width:1.8rem;height:1.8rem;display:block}
 .episodes{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
 .ep{font:inherit;text-align:start;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:12px 14px;border-radius:14px;cursor:pointer;display:flex;flex-direction:column;gap:2px;min-width:0}
 .ep small{color:var(--muted);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
@@ -85,7 +90,7 @@ canvas#scene{width:100%;max-width:100%;aspect-ratio:16/7;border-radius:18px;disp
 </head>
 <body>
 <div class="wrap">
-  <div class="brand">Jewishtory</div>
+  <div class="brand"><img src="icon.svg" alt="">Jewishtory</div>
   <nav class="episodes" id="episodes" aria-label="Épisodes"></nav>
 
   <header class="hero">

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Jewishtory</title>
+  <defs>
+    <mask id="moon"><rect width="64" height="64" fill="#fff"/><circle cx="35" cy="28" r="15" fill="#000"/></mask>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#26224a"/>
+  <circle cx="27" cy="36" r="19" fill="#f2a54a" mask="url(#moon)"/>
+  <g fill="none" stroke="#ffd89a" stroke-width="2.4" stroke-linejoin="round">
+    <polygon points="45.00,10.50 52.36,23.25 37.64,23.25"/>
+    <polygon points="45.00,27.50 37.64,14.75 52.36,14.75"/>
+  </g>
+</svg>
