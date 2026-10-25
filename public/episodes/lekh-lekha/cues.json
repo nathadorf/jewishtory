@@ -1,6 +1,6 @@
 {
  "title": "Eydel, Arié et Hillel sur la route d'Avram",
- "duration": 571.14,
+ "duration": 434.37,
  "scenes": [
   0,
   5,
@@ -13,319 +13,319 @@
   {
    "sp": "N",
    "start": 9.2,
-   "end": 26.73,
+   "end": 23.29,
    "text": "Une semaine avait passé depuis le grand voyage sur la [[תֵּבָה|tévah|téva]]. Ce soir-là, [[|Eydel|Èïdèl]], Arié et [[|Hillel|Ilèl]] étaient déjà en pyjama, quand on entendit toc, toc, toc… contre la fenêtre."
   },
   {
    "sp": "HILLEL",
-   "start": 27.53,
-   "end": 32.72,
+   "start": 24.09,
+   "end": 28.49,
    "text": "C'est la [[יוֹנָה|yona|yona]] ! La colombe de [[נֹחַ|Noa'h|No-ar]] ! Elle est revenue !"
   },
   {
    "sp": "ARIE",
-   "start": 33.52,
-   "end": 37.64,
+   "start": 29.29,
+   "end": 33.38,
    "text": "Elle veut qu'on la suive, regardez ! Elle bat des ailes vers le ciel."
   },
   {
    "sp": "N",
-   "start": 38.44,
-   "end": 57.63,
+   "start": 34.18,
+   "end": 48.44,
    "text": "La [[יוֹנָה|yona|yona]] fit un petit tour dans la chambre… et pfiou ! Les trois enfants se retrouvèrent assis sur du sable tout chaud. Du sable, à perte de vue. En hébreu, le sable, ça se dit [[חוֹל|'hol|rôle]]."
   },
   {
    "sp": "EYDEL",
-   "start": 58.43,
-   "end": 62.0,
+   "start": 49.24,
+   "end": 51.95,
    "text": "Du [[חוֹל|'hol|rôle]] partout ! On est dans le désert !"
   },
   {
    "sp": "N",
-   "start": 64.7,
-   "end": 79.2,
+   "start": 54.65,
+   "end": 64.31,
    "text": "Devant eux, une longue file d'animaux avançait doucement. De grands animaux, avec de longues jambes, un long cou… et une bosse sur le dos."
   },
   {
    "sp": "ARIE",
-   "start": 80.0,
-   "end": 85.0,
+   "start": 65.11,
+   "end": 68.37,
    "text": "Des chameaux ! Un, deux, trois… dix chameaux !"
   },
   {
    "sp": "N",
-   "start": 85.8,
-   "end": 97.58,
+   "start": 69.17,
+   "end": 77.01,
    "text": "Sur le premier chameau, il y avait un homme avec un grand sourire et des yeux très doux. Il arrêta son chameau devant les enfants."
   },
   {
    "sp": "AVRAM",
-   "start": 98.38,
-   "end": 109.79,
+   "start": 77.81,
+   "end": 83.65,
    "text": "[[שָׁלוֹם|shalom|chalom]], [[יְלָדִים|yéladim|yéladimme]] ! Bienvenue ! Je m'appelle [[אַבְרָם|Avram|Avrame]]. Et voici mon [[גָּמָל|gamal|gamal]]. En hébreu, le chameau, c'est le [[גָּמָל|gamal|gamal]]."
   },
   {
    "sp": "HILLEL",
-   "start": 110.59,
-   "end": 116.66,
+   "start": 84.45,
+   "end": 90.84,
    "text": "[[גָּמָל|gamal|gamal]]… Il est tout doux, ton [[גָּמָל|gamal|gamal]]. Et il a de très longs cils !"
   },
   {
    "sp": "N",
-   "start": 117.46,
-   "end": 128.42,
+   "start": 91.64,
+   "end": 100.24,
    "text": "Derrière [[אַבְרָם|Avram|Avrame]], une femme descendit de son [[גָּמָל|gamal|gamal]]. Elle portait un grand foulard bleu, et elle tendit aux enfants une gourde d'eau fraîche."
   },
   {
    "sp": "SARAI",
-   "start": 129.22,
-   "end": 139.14,
+   "start": 101.04,
+   "end": 107.44,
    "text": "[[שָׁלוֹם|shalom|chalom]], les enfants. Je suis [[שָׂרַי|Saraï|Saraï]]. Vous devez avoir soif, dans tout ce [[חוֹל|'hol|rôle]]. Voici un peu de [[מַיִם|mayim|maillime]]."
   },
   {
    "sp": "EYDEL",
-   "start": 139.94,
-   "end": 144.45,
+   "start": 108.24,
+   "end": 114.07,
    "text": "[[מַיִם|mayim|maillime]] ! Je connais ce mot ! C'est l'eau ! [[תּוֹדָה|toda|toda]], [[שָׂרַי|Saraï|Saraï]]."
   },
   {
    "sp": "ARIE",
-   "start": 147.15,
-   "end": 151.35,
+   "start": 116.77,
+   "end": 120.27,
    "text": "Dis, [[אַבְרָם|Avram|Avrame]]… où est-ce que vous allez, avec tous ces chameaux ?"
   },
   {
    "sp": "AVRAM",
-   "start": 152.15,
-   "end": 166.93,
+   "start": 121.07,
+   "end": 130.51,
    "text": "C'est une belle question, Arié. Un jour, [[|Hachem|Achème]] m'a parlé. Il m'a dit : [[לֶךְ לְךָ|Lekh lekha|lèr léra]]. Ça veut dire : va. Pars de ta maison, quitte ton pays, et va vers le pays que je te montrerai."
   },
   {
    "sp": "HILLEL",
-   "start": 167.73,
-   "end": 170.6,
+   "start": 131.31,
+   "end": 133.12,
    "text": "Mais… tu sais où c'est, ce pays ?"
   },
   {
    "sp": "AVRAM",
-   "start": 171.4,
-   "end": 181.17,
+   "start": 133.92,
+   "end": 140.35,
    "text": "Non, [[|Hillel|Ilèl]]. Pas encore. Mais j'ai confiance. Alors je suis le [[דֶּרֶךְ|dérekh|dérèr]], le chemin, un pas après l'autre."
   },
   {
    "sp": "EYDEL",
-   "start": 181.97,
-   "end": 184.73,
+   "start": 141.15,
+   "end": 145.05,
    "text": "Le [[דֶּרֶךְ|dérekh|dérèr]]… C'est comme un chemin d'aventure !"
   },
   {
    "sp": "SARAI",
-   "start": 185.53,
-   "end": 193.82,
+   "start": 145.85,
+   "end": 151.21,
    "text": "Exactement. Et sur le [[דֶּרֶךְ|dérekh|dérèr]], on n'est jamais seuls. On marche ensemble, et on aide tous ceux qu'on rencontre."
   },
   {
    "sp": "N",
-   "start": 194.62,
-   "end": 223.84,
+   "start": 152.01,
+   "end": 169.48,
    "text": "Alors les enfants montèrent sur les chameaux. [[|Eydel|Èïdèl]] sur le grand [[גָּמָל|gamal|gamal]] de [[שָׂרַי|Saraï|Saraï]], Arié et [[|Hillel|Ilèl]] sur celui d'[[אַבְרָם|Avram|Avrame]]. Et toute la caravane reprit le [[דֶּרֶךְ|dérekh|dérèr]], en se balançant doucement. À droite, à gauche. À droite, à gauche."
   },
   {
    "sp": "ARIE",
-   "start": 224.64,
-   "end": 227.44,
+   "start": 170.28,
+   "end": 172.23,
    "text": "Ça tangue comme la [[תֵּבָה|tévah|téva]] de [[נֹחַ|Noa'h|No-ar]] !"
   },
   {
    "sp": "N",
-   "start": 230.14,
-   "end": 246.12,
+   "start": 174.93,
+   "end": 185.73,
    "text": "Quand le soleil devint tout orange, la caravane s'arrêta. [[אַבְרָם|Avram|Avrame]] et [[שָׂרַי|Saraï|Saraï]] plantèrent un grand [[אֹהֶל|ohel|ôhèl]] : une tente en laine brune, avec des tapis tout moelleux à l'intérieur."
   },
   {
    "sp": "SARAI",
-   "start": 246.92,
-   "end": 257.96,
+   "start": 186.53,
+   "end": 193.24,
    "text": "Voici notre [[אֹהֶל|ohel|ôhèl]]. Notre tente. Ici, la porte est toujours ouverte, pour que chaque voyageur puisse entrer se reposer."
   },
   {
    "sp": "HILLEL",
-   "start": 258.76,
-   "end": 261.67,
+   "start": 194.04,
+   "end": 196.33,
    "text": "Je peux dormir dans l'[[אֹהֶל|ohel|ôhèl]], moi aussi ?"
   },
   {
    "sp": "SARAI",
-   "start": 262.47,
-   "end": 268.13,
+   "start": 197.13,
+   "end": 199.65,
    "text": "Bien sûr, mon petit. Il y a de la place pour tout le monde dans notre [[אֹהֶל|ohel|ôhèl]]."
   },
   {
    "sp": "N",
-   "start": 268.93,
-   "end": 286.37,
+   "start": 200.45,
+   "end": 208.77,
    "text": "Les enfants aidèrent à donner du [[מַיִם|mayim|maillime]] aux chameaux. Les [[גְּמַלִּים|gmalim|guemalime]] buvaient, buvaient, buvaient… On aurait dit qu'ils ne s'arrêteraient jamais !"
   },
   {
    "sp": "EYDEL",
-   "start": 287.17,
-   "end": 290.8,
+   "start": 209.57,
+   "end": 212.54,
    "text": "Ils boivent autant que tous les animaux de la [[תֵּבָה|tévah|téva]] réunis !"
   },
   {
    "sp": "N",
-   "start": 291.6,
-   "end": 306.76,
+   "start": 213.34,
+   "end": 223.1,
    "text": "Mais tout à coup, on entendit des cris près du puits. Deux bergers se disputaient. L'un travaillait pour [[אַבְרָם|Avram|Avrame]], l'autre pour son neveu, [[|Loth|Lote]]."
   },
   {
    "sp": "ARIE",
-   "start": 307.56,
-   "end": 312.46,
+   "start": 223.9,
+   "end": 228.84,
    "text": "Ils se disputent pour le [[מַיִם|mayim|maillime]] ! Chacun veut faire boire ses moutons en premier !"
   },
   {
    "sp": "HILLEL",
-   "start": 313.26,
-   "end": 316.55,
+   "start": 229.64,
+   "end": 233.8,
    "text": "C'est comme moi et Arié, quand on veut le même jouet…"
   },
   {
    "sp": "N",
-   "start": 317.35,
-   "end": 326.59,
+   "start": 234.6,
+   "end": 240.65,
    "text": "[[אַבְרָם|Avram|Avrame]] s'approcha tout doucement. Il ne cria pas. Il posa sa main sur l'épaule de son neveu [[|Loth|Lote]]."
   },
   {
    "sp": "AVRAM",
-   "start": 327.39,
-   "end": 345.34,
+   "start": 241.45,
+   "end": 252.14,
    "text": "[[|Loth|Lote]], nous sommes une famille. Il ne faut pas de dispute entre nous. Regarde : le pays est grand. Si tu prends le [[דֶּרֶךְ|dérekh|dérèr]] de gauche, je prendrai le [[דֶּרֶךְ|dérekh|dérèr]] de droite. Et si tu prends la droite, j'irai à gauche. Choisis, toi d'abord."
   },
   {
    "sp": "EYDEL",
-   "start": 346.14,
-   "end": 350.08,
+   "start": 252.94,
+   "end": 256.61,
    "text": "Il le laisse choisir en premier… Comme quand on partage un gâteau !"
   },
   {
    "sp": "SARAI",
-   "start": 350.88,
-   "end": 357.57,
+   "start": 257.41,
+   "end": 261.97,
    "text": "Oui, [[|Eydel|Èïdèl]]. Le plus fort, ce n'est pas celui qui crie. C'est celui qui fait la paix."
   },
   {
    "sp": "N",
-   "start": 358.37,
-   "end": 374.7,
+   "start": 262.77,
+   "end": 274.54,
    "text": "[[|Loth|Lote]] choisit la vallée verte, et partit de son côté avec ses moutons. Et les bergers se serrèrent la main. Plus de dispute près du puits : il y avait assez de [[מַיִם|mayim|maillime]] pour tout le monde."
   },
   {
    "sp": "HILLEL",
-   "start": 375.5,
-   "end": 381.1,
+   "start": 275.34,
+   "end": 282.14,
    "text": "Arié… demain, je te laisse choisir le jouet en premier. D'accord ?"
   },
   {
    "sp": "ARIE",
-   "start": 381.9,
-   "end": 385.31,
+   "start": 282.94,
+   "end": 287.43,
    "text": "D'accord, [[|Hillel|Ilèl]]. Et après, c'est ton tour. [[תּוֹדָה|toda|toda]] !"
   },
   {
    "sp": "N",
-   "start": 388.01,
-   "end": 399.85,
+   "start": 290.13,
+   "end": 298.13,
    "text": "La nuit tomba sur le désert. Il faisait doux. [[אַבְרָם|Avram|Avrame]] prit la main des enfants et les emmena dehors, un peu plus loin que l'[[אֹהֶל|ohel|ôhèl]]."
   },
   {
    "sp": "AVRAM",
-   "start": 400.65,
-   "end": 404.54,
+   "start": 298.93,
+   "end": 302.75,
    "text": "Levez les yeux, [[יְלָדִים|yéladim|yéladimme]]. Regardez le ciel."
   },
   {
    "sp": "N",
-   "start": 405.34,
-   "end": 418.34,
+   "start": 303.55,
+   "end": 310.31,
    "text": "Et là-haut, il y en avait des milliers, et des milliers, et des milliers. Des petites lumières qui brillaient partout."
   },
   {
    "sp": "ARIE",
-   "start": 419.14,
-   "end": 427.06,
+   "start": 311.11,
+   "end": 319.52,
    "text": "Des étoiles ! Je vais les compter ! Une, deux, trois, quatre… oh, il y en a trop !"
   },
   {
    "sp": "AVRAM",
-   "start": 427.86,
-   "end": 442.17,
+   "start": 320.32,
+   "end": 330.79,
    "text": "En hébreu, les étoiles, ce sont les [[כּוֹכָבִים|kokhavim|kôravime]]. Une nuit comme celle-ci, [[|Hachem|Achème]] m'a dit : regarde les [[כּוֹכָבִים|kokhavim|kôravime]]. Essaie de les compter. Ta famille sera aussi nombreuse que les [[כּוֹכָבִים|kokhavim|kôravime]] du ciel."
   },
   {
    "sp": "HILLEL",
-   "start": 442.97,
-   "end": 447.83,
+   "start": 331.59,
+   "end": 336.42,
    "text": "Aussi nombreuse que les [[כּוֹכָבִים|kokhavim|kôravime]] ? Ça fait beaucoup, beaucoup d'enfants !"
   },
   {
    "sp": "SARAI",
-   "start": 448.63,
-   "end": 460.21,
+   "start": 337.22,
+   "end": 344.58,
    "text": "Oui, [[|Hillel|Ilèl]]. Beaucoup d'enfants, et de petits-enfants… Et peut-être même trois enfants qui s'appellent [[|Eydel|Èïdèl]], Arié et [[|Hillel|Ilèl]]."
   },
   {
    "sp": "EYDEL",
-   "start": 461.01,
-   "end": 464.79,
+   "start": 345.38,
+   "end": 348.17,
    "text": "Alors… on fait un peu partie de ta famille, [[אַבְרָם|Avram|Avrame]] ?"
   },
   {
    "sp": "AVRAM",
-   "start": 465.59,
-   "end": 474.53,
+   "start": 348.97,
+   "end": 355.1,
    "text": "Bien sûr, [[|Eydel|Èïdèl]]. Chaque enfant qui regarde les [[כּוֹכָבִים|kokhavim|kôravime]] et qui est gentil sur son [[דֶּרֶךְ|dérekh|dérèr]] fait partie de la famille."
   },
   {
    "sp": "N",
-   "start": 477.23,
-   "end": 493.69,
+   "start": 357.8,
+   "end": 367.02,
    "text": "Les enfants s'allongèrent sur un tapis, devant l'[[אֹהֶל|ohel|ôhèl]], la tête pleine de [[כּוֹכָבִים|kokhavim|kôravime]]. Le [[גָּמָל|gamal|gamal]] d'[[אַבְרָם|Avram|Avrame]] vint se coucher tout près d'eux, comme un gros coussin chaud."
   },
   {
    "sp": "SARAI",
-   "start": 494.49,
-   "end": 502.81,
+   "start": 367.82,
+   "end": 373.45,
    "text": "Demain, nous reprendrons le [[דֶּרֶךְ|dérekh|dérèr]]. Mais vous, il est temps de rentrer chez vous. [[לַיְלָה טוֹב|layla tov|laïla tov]], mes chéris."
   },
   {
    "sp": "N",
-   "start": 503.61,
-   "end": 518.66,
+   "start": 374.25,
+   "end": 383.57,
    "text": "La [[יוֹנָה|yona|yona]] se posa sur l'épaule d'[[|Eydel|Èïdèl]], battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits, sous leurs couvertures."
   },
   {
    "sp": "ARIE",
-   "start": 519.46,
-   "end": 522.73,
+   "start": 384.37,
+   "end": 387.86,
    "text": "[[|Eydel|Èïdèl]]… tu crois qu'[[אַבְרָם|Avram|Avrame]] a trouvé son pays ?"
   },
   {
    "sp": "EYDEL",
-   "start": 523.53,
-   "end": 531.14,
+   "start": 388.66,
+   "end": 397.74,
    "text": "Oui, j'en suis sûre. Il suit le [[דֶּרֶךְ|dérekh|dérèr]], un pas après l'autre. Et il a les [[כּוֹכָבִים|kokhavim|kôravime]] pour lui montrer la route."
   },
   {
    "sp": "HILLEL",
-   "start": 531.94,
-   "end": 541.01,
+   "start": 398.54,
+   "end": 408.77,
    "text": "Moi je me souviens de tous les mots : [[אֹהֶל|ohel|ôhèl]], [[גָּמָל|gamal|gamal]], [[כּוֹכָבִים|kokhavim|kôravime]], [[דֶּרֶךְ|dérekh|dérèr]], [[חוֹל|'hol|rôle]]… et [[מַיִם|mayim|maillime]] !"
   },
   {
    "sp": "N",
-   "start": 541.81,
-   "end": 560.34,
+   "start": 409.57,
+   "end": 423.57,
    "text": "Par la fenêtre, une étoile brillait plus fort que les autres. Comme un clin d'œil d'[[אַבְרָם|Avram|Avrame]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves, sous les [[כּוֹכָבִים|kokhavim|kôravime]]."
   }
  ]
