@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jewishtory · Histoires du soir</title>
 <meta name="description" content="Une histoire du soir pour chaque paracha, en français avec des mots d'hébreu, à écouter avec les enfants.">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-64.png" type="image/png" sizes="64x64">
 <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<meta property="og:title" content="Jewishtory · Histoires du soir">
+<meta property="og:image" content="logo.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#26224a">
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -47,11 +49,15 @@ button{font:inherit;color:inherit}
 /* header */
 .top{display:flex;align-items:center;gap:8px;min-height:52px}
 .brand{font-family:var(--f-display);font-weight:700;font-size:1.2rem;display:flex;align-items:center;gap:.55rem;margin-right:auto;color:inherit;text-decoration:none}
-.brand img{width:2rem;height:2rem;display:block}
+.brand img{display:block;width:auto}
+.brand .mascot{height:46px;margin:-4px 0}
+.brand .wordmark{height:22px}
+@media (max-width:420px){.brand{gap:.35rem}.brand .mascot{height:40px}.brand .wordmark{height:17px}}
 .icon-btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);padding:0 14px;height:42px;border-radius:999px;cursor:pointer;white-space:nowrap}
 .icon-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .icon-btn.round{width:42px;padding:0;justify-content:center}
 @media (max-width:420px){.icon-btn .lbl-long{display:none}}
+@media (max-width:360px){#open-picker{width:42px;padding:0;justify-content:center}#open-picker>span{display:none}}
 
 /* this week banner */
 .week{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px 12px 10px 16px;box-shadow:var(--shadow)}
@@ -161,8 +167,8 @@ footer{text-align:center;font-size:.85rem;color:var(--muted);padding-top:12px}
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="./"><img src="icon.svg" alt="">Jewishtory</a>
-    <button class="icon-btn" id="open-picker" aria-haspopup="dialog">
+    <a class="brand" href="./" aria-label="Jewishtory, accueil"><img class="mascot" src="logo-mascot.png" alt=""><img class="wordmark" src="logo-wordmark.png" alt="Jewishtory"></a>
+    <button class="icon-btn" id="open-picker" aria-haspopup="dialog" aria-label="Toutes les histoires">
       <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>Histoires<span class="lbl-long" id="count-lbl"></span></span>
     </button>
     <button class="icon-btn round" id="theme" aria-label="Changer de thème"><svg viewBox="0 0 24 24" id="theme-ico"></svg></button>
