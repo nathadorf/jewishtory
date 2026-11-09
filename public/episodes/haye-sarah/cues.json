@@ -1,0 +1,403 @@
+{
+ "title": "Eydel, Arié et Hillel au puits de Rivka",
+ "duration": 490.67,
+ "scenes": [
+  0,
+  9,
+  17,
+  43,
+  57
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 19.94,
+   "text": "Ce soir-là, il y avait un grand silence dans la chambre. [[|Hillel|Ilèl]] serrait son doudou, et [[|Eydel|Èïdèl]] regardait par la fenêtre. Toc, toc, toc. La [[יוֹנָה|yona|yona]] était revenue."
+  },
+  {
+   "sp": "ARIE",
+   "start": 20.74,
+   "end": 23.76,
+   "text": "La [[יוֹנָה|yona|yona]] ! On va revoir [[אַבְרָהָם|Avraham|Avraame]] et [[שָׂרָה|Sarah|Sara]] ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 24.56,
+   "end": 28.96,
+   "text": "Tenez-vous bien la main. Prêts ? Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 29.76,
+   "end": 39.06,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent devant l'[[אֹהֶל|ohel|ôhèl]] d'[[אַבְרָהָם|Avraham|Avraame]]. Mais ce jour-là, l'[[אֹהֶל|ohel|ôhèl]] était tout calme."
+  },
+  {
+   "sp": "N",
+   "start": 39.61,
+   "end": 48.57,
+   "text": "[[שָׂרָה|Sarah|Sara]] avait vécu une très longue et belle vie. Et maintenant, sa vie était terminée. [[אַבְרָהָם|Avraham|Avraame]] était assis devant l'[[אֹהֶל|ohel|ôhèl]], et il pleurait doucement."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 49.37,
+   "end": 51.38,
+   "text": "Il est triste, [[אַבְרָהָם|Avraham|Avraame]]…"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 52.18,
+   "end": 60.41,
+   "text": "Oui, [[|Hillel|Ilèl]]. Quand on aime quelqu'un très fort et qu'il n'est plus là, on est triste. Viens, on va s'asseoir à côté de lui."
+  },
+  {
+   "sp": "N",
+   "start": 61.21,
+   "end": 70.97,
+   "text": "Les trois enfants s'assirent tout près d'[[אַבְרָהָם|Avraham|Avraame]]. Ils ne dirent rien. Ils restèrent juste là, avec lui. Et au bout d'un moment, [[אַבְרָהָם|Avraham|Avraame]] sourit un tout petit peu."
+  },
+  {
+   "sp": "AVRAHAM",
+   "start": 71.77,
+   "end": 78.0,
+   "text": "[[תּוֹדָה|toda|toda]], [[יְלָדִים|yéladim|yéladimme]]. Ça fait du bien de ne pas être tout seul. [[שָׂרָה|Sarah|Sara]] vous aimait beaucoup, vous savez. Elle parlait souvent de vous."
+  },
+  {
+   "sp": "N",
+   "start": 80.7,
+   "end": 88.11,
+   "text": "Les jours passèrent. [[יִצְחָק|Yits'hak|Itsrak]] était devenu un grand jeune homme. Un matin, [[אַבְרָהָם|Avraham|Avraame]] appela son fidèle serviteur, [[אֱלִיעֶזֶר|Eliézer|Éliézèr]]."
+  },
+  {
+   "sp": "AVRAHAM",
+   "start": 88.91,
+   "end": 98.52,
+   "text": "[[אֱלִיעֶזֶר|Eliézer|Éliézèr]] ! Mon fils [[יִצְחָק|Yits'hak|Itsrak]] est grand, maintenant. Il est temps qu'il se marie. Je voudrais que tu partes très loin, dans le pays de ma famille, pour lui trouver une femme. Une femme au cœur très gentil."
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 99.32,
+   "end": 102.05,
+   "text": "[[הִנֵּנִי|hinéni|inéni]]. Je pars dès demain, [[אַבְרָהָם|Avraham|Avraame]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 102.85,
+   "end": 104.53,
+   "text": "On peut venir avec toi, [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] ?"
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 105.33,
+   "end": 109.49,
+   "text": "Bien sûr ! Le [[דֶּרֶךְ|dérekh|dérèr]] est long. Trois amis de plus, ce ne sera pas de trop."
+  },
+  {
+   "sp": "N",
+   "start": 110.29,
+   "end": 122.32,
+   "text": "[[אֱלִיעֶזֶר|Eliézer|Éliézèr]] prépara dix [[גְּמַלִּים|gmalim|gmalime]], chargés de cadeaux : des tissus brillants, des bijoux en or, des petits pots de miel. [[|Hillel|Ilèl]] grimpa tout en haut d'un [[גָּמָל|gamal|gamal]], et la caravane se mit en route."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 123.12,
+   "end": 129.19,
+   "text": "Hue, [[גָּמָל|gamal|gamal]] ! Il a toujours des grands cils, comme la dernière fois !"
+  },
+  {
+   "sp": "N",
+   "start": 129.99,
+   "end": 140.46,
+   "text": "Ils marchèrent longtemps, très longtemps, à travers le désert. Le soleil chauffait. Le sable volait. Et les [[גְּמַלִּים|gmalim|gmalime]] avaient de plus en plus soif."
+  },
+  {
+   "sp": "N",
+   "start": 143.16,
+   "end": 154.08,
+   "text": "Le soir, ils arrivèrent près d'une ville. Au bord du chemin, il y avait un puits, un grand trou rond plein d'eau fraîche. En hébreu, le puits, c'est la [[בְּאֵר|bé'èr|béère]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 154.88,
+   "end": 163.46,
+   "text": "La [[בְּאֵר|bé'èr|béère]] ! Enfin de l'eau ! Mais comment on fait pour choisir la bonne femme pour [[יִצְחָק|Yits'hak|Itsrak]] ? Il y a plein de gens, ici."
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 164.26,
+   "end": 167.86,
+   "text": "C'est une très bonne question, Arié. Je vais demander de l'aide à [[|Hachem|Achème]]."
+  },
+  {
+   "sp": "N",
+   "start": 168.66,
+   "end": 172.34,
+   "text": "Et [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] ferma les yeux, et il pria tout doucement."
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 173.14,
+   "end": 184.45,
+   "text": "[[|Hachem|Achème]], aide-moi. Je vais demander un peu d'eau à une jeune fille. Si elle me dit : bois, et je vais aussi donner à boire à tes [[גְּמַלִּים|gmalim|gmalime]]… alors je saurai que c'est elle. Celle qui a un cœur plein de bonté."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 185.25,
+   "end": 189.4,
+   "text": "Donner à boire à dix [[גְּמַלִּים|gmalim|gmalime]] ? Mais ça boit énormément, un [[גָּמָל|gamal|gamal]] !"
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 190.2,
+   "end": 192.17,
+   "text": "Justement, [[|Eydel|Èïdèl]]. C'est pour ça."
+  },
+  {
+   "sp": "N",
+   "start": 192.97,
+   "end": 204.54,
+   "text": "À peine [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] avait-il fini de parler qu'une jeune fille arriva au puits. Elle portait sur son épaule une grande cruche en terre. En hébreu, la cruche, c'est le [[כַּד|kad|kad]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 205.34,
+   "end": 208.01,
+   "text": "Le [[כַּד|kad|kad]]… Il est plus grand que moi !"
+  },
+  {
+   "sp": "N",
+   "start": 208.81,
+   "end": 216.92,
+   "text": "La jeune fille descendit jusqu'à la [[בְּאֵר|bé'èr|béère]], remplit son [[כַּד|kad|kad]] de [[מַיִם|mayim|maillime]] fraîche, et remonta. Alors [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] courut vers elle."
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 217.72,
+   "end": 221.39,
+   "text": "S'il te plaît, jeune fille… Est-ce que je peux boire un peu d'eau de ton [[כַּד|kad|kad]] ?"
+  },
+  {
+   "sp": "RIVKA",
+   "start": 222.19,
+   "end": 225.49,
+   "text": "Bois, monsieur, bois ! Vous avez l'air si fatigué."
+  },
+  {
+   "sp": "N",
+   "start": 226.29,
+   "end": 232.34,
+   "text": "Elle pencha son [[כַּד|kad|kad]], et [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] but. Puis elle regarda les [[גְּמַלִּים|gmalim|gmalime]], qui tiraient leurs grandes langues."
+  },
+  {
+   "sp": "RIVKA",
+   "start": 233.14,
+   "end": 239.76,
+   "text": "Et vos [[גְּמַלִּים|gmalim|gmalime]] aussi ont soif. Je vais leur donner à boire, jusqu'à ce qu'ils n'aient plus soif du tout !"
+  },
+  {
+   "sp": "N",
+   "start": 240.56,
+   "end": 253.12,
+   "text": "Et la jeune fille se mit à courir. Elle descendait à la [[בְּאֵר|bé'èr|béère]], remplissait son [[כַּד|kad|kad]], remontait, et versait l'eau dans l'abreuvoir. Encore. Et encore. Et encore."
+  },
+  {
+   "sp": "ARIE",
+   "start": 253.92,
+   "end": 256.03,
+   "text": "On t'aide ! [[|Eydel|Èïdèl]], [[|Hillel|Ilèl]], venez !"
+  },
+  {
+   "sp": "N",
+   "start": 256.83,
+   "end": 276.18,
+   "text": "Les trois enfants se mirent à porter de l'eau eux aussi. [[|Hillel|Ilèl]] avait un tout petit [[כַּד|kad|kad]], mais il le portait très sérieusement. Un [[גָּמָל|gamal|gamal]], deux [[גְּמַלִּים|gmalim|gmalime]], trois… jusqu'à dix ! Les [[גְּמַלִּים|gmalim|gmalime]] burent, burent, burent, et ils firent de grands soupirs de bonheur."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 276.98,
+   "end": 280.48,
+   "text": "Ouf ! Je n'ai jamais porté autant d'eau de toute ma vie !"
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 281.28,
+   "end": 283.25,
+   "text": "Comment t'appelles-tu, jeune fille au grand cœur ?"
+  },
+  {
+   "sp": "RIVKA",
+   "start": 284.05,
+   "end": 293.55,
+   "text": "Je m'appelle [[רִבְקָה|Rivka|Rivka]]. Ma famille habite tout près. Venez dormir chez nous. Il y a de la paille pour les [[גְּמַלִּים|gmalim|gmalime]], et de la place pour les [[אוֹרְחִים|or'him|orrime]]."
+  },
+  {
+   "sp": "N",
+   "start": 294.35,
+   "end": 296.9,
+   "text": "Les yeux d'[[אֱלִיעֶזֶר|Eliézer|Éliézèr]] se remplirent de larmes de joie."
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 297.7,
+   "end": 301.19,
+   "text": "[[תּוֹדָה|toda|toda]], [[|Hachem|Achème]]. Tu m'as guidé sur le [[דֶּרֶךְ|dérekh|dérèr]]. C'est elle."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 301.99,
+   "end": 305.05,
+   "text": "Pourquoi il pleure, [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] ? Il est triste ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 305.85,
+   "end": 312.22,
+   "text": "Non, [[|Hillel|Ilèl]]. Ce sont des larmes de joie. Il a trouvé ce qu'il cherchait : quelqu'un qui fait du [[חֶסֶד|'héssed|rèssède]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 313.02,
+   "end": 314.84,
+   "text": "Du [[חֶסֶד|'héssed|rèssède]] ? C'est quoi ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 315.64,
+   "end": 326.08,
+   "text": "Le [[חֶסֶד|'héssed|rèssède]], c'est la bonté. C'est quand on aide quelqu'un plus que ce qu'il demande. [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] voulait juste un peu d'eau, et [[רִבְקָה|Rivka|Rivka]] a donné à boire à tout le monde."
+  },
+  {
+   "sp": "N",
+   "start": 328.78,
+   "end": 334.87,
+   "text": "Chez [[רִבְקָה|Rivka|Rivka]], [[אֱלִיעֶזֶר|Eliézer|Éliézèr]] raconta toute l'histoire à sa famille. Puis il demanda à [[רִבְקָה|Rivka|Rivka]], très doucement :"
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 335.67,
+   "end": 340.43,
+   "text": "[[רִבְקָה|Rivka|Rivka]], veux-tu venir avec moi, pour te marier avec [[יִצְחָק|Yits'hak|Itsrak]], le fils d'[[אַבְרָהָם|Avraham|Avraame]] ?"
+  },
+  {
+   "sp": "RIVKA",
+   "start": 341.23,
+   "end": 343.48,
+   "text": "Oui. Je veux venir."
+  },
+  {
+   "sp": "N",
+   "start": 344.28,
+   "end": 351.84,
+   "text": "Et le lendemain, la caravane repartit sur le long [[דֶּרֶךְ|dérekh|dérèr]], avec [[רִבְקָה|Rivka|Rivka]] assise sur un [[גָּמָל|gamal|gamal]], et les trois enfants à côté d'elle."
+  },
+  {
+   "sp": "N",
+   "start": 352.39,
+   "end": 359.69,
+   "text": "Un soir, près de chez [[אַבְרָהָם|Avraham|Avraame]], ils virent un jeune homme qui marchait seul dans les champs. Il réfléchissait, et il priait."
+  },
+  {
+   "sp": "RIVKA",
+   "start": 360.49,
+   "end": 362.05,
+   "text": "Qui est cet homme qui vient vers nous ?"
+  },
+  {
+   "sp": "ELIEZER",
+   "start": 362.85,
+   "end": 363.65,
+   "text": "C'est [[יִצְחָק|Yits'hak|Itsrak]]."
+  },
+  {
+   "sp": "N",
+   "start": 364.45,
+   "end": 370.58,
+   "text": "[[רִבְקָה|Rivka|Rivka]] descendit du [[גָּמָל|gamal|gamal]]. [[יִצְחָק|Yits'hak|Itsrak]] s'approcha. Ils se regardèrent, et ils se sourirent."
+  },
+  {
+   "sp": "YITSHAK",
+   "start": 371.38,
+   "end": 374.66,
+   "text": "[[שָׁלוֹם|shalom|chalom]], [[רִבְקָה|Rivka|Rivka]]. Bienvenue. Je t'attendais."
+  },
+  {
+   "sp": "N",
+   "start": 375.46,
+   "end": 386.13,
+   "text": "Quelques jours plus tard, il y eut une grande fête. [[יִצְחָק|Yits'hak|Itsrak]] et [[רִבְקָה|Rivka|Rivka]] se marièrent sous une [[חֻפָּה|'houppa|roupa]], un joli toit de tissu tenu par quatre bâtons. Tout le monde chantait."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 386.93,
+   "end": 390.52,
+   "text": "La [[חֻפָּה|'houppa|roupa]] ! Comme au mariage de tonton !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 391.32,
+   "end": 394.02,
+   "text": "[[מַזָּל טוֹב|mazal tov|mazal tov]] ! [[מַזָּל טוֹב|mazal tov|mazal tov]] !"
+  },
+  {
+   "sp": "N",
+   "start": 394.82,
+   "end": 406.6,
+   "text": "Et [[אַבְרָהָם|Avraham|Avraame]] souriait, pour la première fois depuis longtemps. [[יִצְחָק|Yits'hak|Itsrak]] emmena [[רִבְקָה|Rivka|Rivka]] dans l'[[אֹהֶל|ohel|ôhèl]] de sa maman [[שָׂרָה|Sarah|Sara]]. Et l'[[אֹהֶל|ohel|ôhèl]] redevint lumineux et plein de joie."
+  },
+  {
+   "sp": "YITSHAK",
+   "start": 407.4,
+   "end": 411.96,
+   "text": "Avec [[רִבְקָה|Rivka|Rivka]], c'est comme si la lumière était revenue dans la maison."
+  },
+  {
+   "sp": "N",
+   "start": 414.66,
+   "end": 418.3,
+   "text": "Le soir tomba. La [[יוֹנָה|yona|yona]] vint se poser sur le bras d'[[|Eydel|Èïdèl]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 419.1,
+   "end": 424.04,
+   "text": "Il faut rentrer. [[תּוֹדָה|toda|toda]], [[רִבְקָה|Rivka|Rivka]]. [[תּוֹדָה|toda|toda]], [[אֱלִיעֶזֶר|Eliézer|Éliézèr]]. Et [[מַזָּל טוֹב|mazal tov|mazal tov]] !"
+  },
+  {
+   "sp": "RIVKA",
+   "start": 424.84,
+   "end": 427.32,
+   "text": "[[לַיְלָה טוֹב|layla tov|laïla tov]], mes petits porteurs d'eau !"
+  },
+  {
+   "sp": "N",
+   "start": 428.12,
+   "end": 435.36,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits, bien au chaud."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 436.16,
+   "end": 447.64,
+   "text": "[[|Eydel|Èïdèl]]… Demain, je vais faire du [[חֶסֶד|'héssed|rèssède]]. Je vais aider Maman à porter les courses. Même les lourdes."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 448.44,
+   "end": 452.07,
+   "text": "Et moi, je donnerai à boire au chat. Comme [[רִבְקָה|Rivka|Rivka]] avec les [[גְּמַלִּים|gmalim|gmalime]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 452.87,
+   "end": 463.54,
+   "text": "Moi je me souviens de tous les mots : [[בְּאֵר|bé'èr|béère]], le puits. [[כַּד|kad|kad]], la cruche. [[חֶסֶד|'héssed|rèssède]], la bonté. [[חֻפָּה|'houppa|roupa]]… et [[מַזָּל טוֹב|mazal tov|mazal tov]] !"
+  },
+  {
+   "sp": "N",
+   "start": 464.34,
+   "end": 479.87,
+   "text": "Et les trois enfants s'endormirent, en rêvant d'un grand puits plein d'eau fraîche, et de dix [[גְּמַלִּים|gmalim|gmalime]] qui faisaient des soupirs de bonheur. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

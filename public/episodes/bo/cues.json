@@ -1,0 +1,332 @@
+{
+ "title": "Eydel, Arié et Hillel et la nuit de Pessa'h",
+ "duration": 437.73,
+ "scenes": [
+  0,
+  9,
+  15,
+  24,
+  34,
+  45
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 22.96,
+   "text": "Ce soir-là, il y avait une coupure de courant. Toute la maison était dans le noir. Papa avait allumé une bougie, et les enfants regardaient la petite flamme danser sur le mur. Et puis… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 23.76,
+   "end": 26.95,
+   "text": "La [[יוֹנָה|yona|yona]] ! Elle n'a pas peur du noir, elle !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 27.75,
+   "end": 31.57,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.37,
+   "end": 44.16,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent en [[מִצְרַיִם|Mitsraïm|Mitsraïm]], dans le palais de [[פַּרְעֹה|Pharaon|Faraon]]. [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]] étaient déjà là, debout devant le trône."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 44.96,
+   "end": 47.36,
+   "text": "Ah, vous voilà ! Vous arrivez pour la fin de l'histoire."
+  },
+  {
+   "sp": "AHARON",
+   "start": 48.16,
+   "end": 55.84,
+   "text": "[[פַּרְעֹה|Pharaon|Faraon]], [[|Hachem|Achème]] te le demande encore une fois : laisse partir mon peuple. Sinon, demain, des sauterelles couvriront tout le pays."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 56.64,
+   "end": 60.39,
+   "text": "Bon, bon… Les hommes peuvent partir. Mais les enfants restent ici !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 61.19,
+   "end": 67.41,
+   "text": "Non. Nous partirons tous ensemble. Avec nos enfants, avec nos grands-parents, avec nos moutons. Toute la [[מִשְׁפָּחָה|mishpa'ha|michpara]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 68.21,
+   "end": 72.11,
+   "text": "Tu entends, [[|Hillel|Ilèl]] ? Pour [[מֹשֶׁה|Moshé|Moché]], on ne laisse pas les enfants derrière."
+  },
+  {
+   "sp": "N",
+   "start": 74.81,
+   "end": 93.49,
+   "text": "Le lendemain, [[מֹשֶׁה|Moshé|Moché]] tendit son [[מַטֶּה|maté|maté]] vers le ciel. Un vent souffla, toute la journée et toute la nuit. Et au matin, on entendit un bruit comme une énorme pluie : bzzzzz… Des milliers et des milliers de sauterelles. En hébreu, c'est l'[[אַרְבֶּה|arbé|arbé]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 94.29,
+   "end": 97.87,
+   "text": "L'[[אַרְבֶּה|arbé|arbé]] ! Il y en a tellement qu'on ne voit plus le ciel !"
+  },
+  {
+   "sp": "N",
+   "start": 98.67,
+   "end": 110.83,
+   "text": "L'[[אַרְבֶּה|arbé|arbé]] mangea tout : toutes les feuilles, toutes les herbes, tous les fruits sur les arbres. Il ne resta plus rien de vert dans tout le pays. Sauf à Goshen, là où habitaient les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]]."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 111.63,
+   "end": 114.24,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] ! J'ai eu tort ! Enlève l'[[אַרְבֶּה|arbé|arbé]] !"
+  },
+  {
+   "sp": "N",
+   "start": 115.04,
+   "end": 122.08,
+   "text": "Un grand vent emporta l'[[אַרְבֶּה|arbé|arbé]] jusque dans la mer. Mais [[פַּרְעֹה|Pharaon|Faraon]]… changea encore d'avis."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 122.88,
+   "end": 126.39,
+   "text": "Encore ! Son [[לֵב|lev|lèv]] est vraiment très dur !"
+  },
+  {
+   "sp": "N",
+   "start": 129.09,
+   "end": 141.39,
+   "text": "Alors [[מֹשֶׁה|Moshé|Moché]] leva la main vers le ciel. Et tout devint noir. Un noir si épais qu'on aurait pu le toucher. En hébreu, l'obscurité, c'est le [[חֹשֶׁךְ|'hoshekh|rochèr]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 142.19,
+   "end": 147.16,
+   "text": "[[|Eydel|Èïdèl]] ? [[|Hillel|Ilèl]] ? Où êtes-vous ? Je ne vois rien du tout !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 147.96,
+   "end": 151.53,
+   "text": "On est là, Arié. Donne-moi ta main. Ne bouge pas."
+  },
+  {
+   "sp": "N",
+   "start": 152.33,
+   "end": 160.56,
+   "text": "Pendant trois jours, les Égyptiens restèrent dans le [[חֹשֶׁךְ|'hoshekh|rochèr]]. Personne ne pouvait voir son voisin. Personne ne pouvait se lever de sa place."
+  },
+  {
+   "sp": "N",
+   "start": 161.11,
+   "end": 164.12,
+   "text": "Mais tout à coup, [[|Hillel|Ilèl]] tira sur la manche d'[[|Eydel|Èïdèl]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 164.92,
+   "end": 168.54,
+   "text": "Regardez ! Là-bas ! Il y a de la lumière !"
+  },
+  {
+   "sp": "N",
+   "start": 169.34,
+   "end": 177.68,
+   "text": "Dans les maisons des enfants d'[[יִשְׂרָאֵל|Israël|Israèl]], il y avait de l'[[אוֹר|or|or]]. De la lumière. Une lumière douce et chaude, comme celle des bougies de Chabbat."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 178.48,
+   "end": 186.21,
+   "text": "L'[[אוֹר|or|or]] ! En hébreu, la lumière, c'est l'[[אוֹר|or|or]]. Même au milieu du [[חֹשֶׁךְ|'hoshekh|rochèr]], chez les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]], il fait clair."
+  },
+  {
+   "sp": "ARIE",
+   "start": 187.01,
+   "end": 189.65,
+   "text": "Comme la bougie de Papa, ce soir, à la maison !"
+  },
+  {
+   "sp": "N",
+   "start": 192.35,
+   "end": 199.22,
+   "text": "Quand l'[[אוֹר|or|or]] revint en Égypte, [[מֹשֶׁה|Moshé|Moché]] réunit tous les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]]. Il avait une annonce très importante."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 200.02,
+   "end": 211.03,
+   "text": "Écoutez tous ! Cette nuit est une nuit spéciale. Chaque famille va préparer un agneau, et faire un grand repas. Mettez vos chaussures, prenez vos bâtons, soyez prêts. Cette nuit, nous partons !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 211.58,
+   "end": 220.46,
+   "text": "Et avec un peu du sang de l'agneau, chaque famille va faire une marque sur la porte de sa maison. Comme ça, quand [[|Hachem|Achème]] passera, cette nuit, Il passera au-dessus de vos maisons, et vous serez protégés."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 221.26,
+   "end": 227.24,
+   "text": "Passer au-dessus… En hébreu, ça se dit [[פֶּסַח|Pessa'h|Péssar]] ! C'est pour ça que la fête s'appelle [[פֶּסַח|Pessa'h|Péssar]] !"
+  },
+  {
+   "sp": "N",
+   "start": 228.04,
+   "end": 235.15,
+   "text": "Les enfants allèrent dans la maison de [[מִרְיָם|Myriam|Miriame]]. Toute la famille était là, avec les chaussures aux pieds et les sacs prêts près de la porte."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 235.95,
+   "end": 240.95,
+   "text": "Venez, venez ! Vous allez nous aider. Il faut faire le pain pour la route, vite, vite !"
+  },
+  {
+   "sp": "N",
+   "start": 241.75,
+   "end": 249.84,
+   "text": "Ils pétrirent la pâte avec de l'eau et de la farine. Mais il n'y avait pas le temps d'attendre que la pâte gonfle. Pas le temps du tout !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 250.64,
+   "end": 256.77,
+   "text": "Tant pis, on la fait cuire comme ça, toute plate. Ce sera un [[לֶחֶם|lé'hem|lérème]] tout plat. Une [[מַצָּה|matsa|matsa]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 257.57,
+   "end": 263.12,
+   "text": "La [[מַצָּה|matsa|matsa]] ! Comme à [[פֶּסַח|Pessa'h|Péssar]], à la maison ! Ça fait crac quand on croque !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 263.92,
+   "end": 270.4,
+   "text": "Ah, c'est ça qu'on mangera chez vous, plus tard ? Des [[מַצּוֹת|matsot|matsot]] ? Alors vous vous souviendrez de cette nuit."
+  },
+  {
+   "sp": "N",
+   "start": 273.1,
+   "end": 284.5,
+   "text": "À minuit, [[|Hachem|Achème]] fit la dernière plaie. La plus terrible, chez les Égyptiens. Mais dans les maisons marquées, les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] étaient bien à l'abri, autour de la table, tous ensemble."
+  },
+  {
+   "sp": "N",
+   "start": 285.05,
+   "end": 289.32,
+   "text": "Et au milieu de la nuit, [[פַּרְעֹה|Pharaon|Faraon]] lui-même courut chercher [[מֹשֶׁה|Moshé|Moché]]."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 290.12,
+   "end": 296.52,
+   "text": "Partez ! Partez tout de suite ! Tous ! Avec vos enfants, avec vos moutons ! Allez-vous-en !"
+  },
+  {
+   "sp": "N",
+   "start": 297.32,
+   "end": 310.22,
+   "text": "Alors, dans la nuit, des milliers et des milliers de gens se mirent en marche. Des papas, des mamans, des grands-parents, des bébés. Ils portaient la pâte de [[מַצָּה|matsa|matsa]] sur leurs épaules, enveloppée dans des tissus."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 311.02,
+   "end": 316.94,
+   "text": "Attendez ! On n'oublie pas [[יוֹסֵף|Yossef|Yossèf]] ! Il nous avait demandé, il y a très longtemps, de l'emmener avec nous dans le pays d'[[יִשְׂרָאֵל|Israël|Israèl]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 317.74,
+   "end": 321.07,
+   "text": "On n'oublie personne. Même [[יוֹסֵף|Yossef|Yossèf]] !"
+  },
+  {
+   "sp": "N",
+   "start": 321.87,
+   "end": 331.98,
+   "text": "Et les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] sortirent d'Égypte, libres. Pour la première fois depuis très longtemps, personne ne leur criait dessus. Personne ne les obligeait à faire des briques."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 332.78,
+   "end": 336.01,
+   "text": "On est libres ! On est libres !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 336.81,
+   "end": 344.68,
+   "text": "Et chaque année, à cette date, vous raconterez cette histoire à vos enfants. Vous mangerez de la [[מַצָּה|matsa|matsa]]. Et les enfants poseront des questions. C'est comme ça qu'on n'oubliera jamais."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 345.48,
+   "end": 353.07,
+   "text": "Ma nichtana ! Les questions du Seder ! Pourquoi cette nuit est-elle différente de toutes les autres nuits ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 353.87,
+   "end": 357.7,
+   "text": "Exactement, [[|Eydel|Èïdèl]]. Parce que cette nuit-là, nous sommes sortis d'Égypte."
+  },
+  {
+   "sp": "N",
+   "start": 360.4,
+   "end": 365.82,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule de [[|Hillel|Ilèl]], au milieu de la foule qui marchait sous les étoiles."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 366.62,
+   "end": 373.6,
+   "text": "[[תּוֹדָה|toda|toda]] pour votre aide, mes amis. Gardez bien le goût de la [[מַצָּה|matsa|matsa]]. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 374.4,
+   "end": 382.5,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. La lumière était revenue dans toute la maison."
+  },
+  {
+   "sp": "ARIE",
+   "start": 383.3,
+   "end": 385.92,
+   "text": "L'[[אוֹר|or|or]] est revenu ! Fini le [[חֹשֶׁךְ|'hoshekh|rochèr]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 386.72,
+   "end": 391.35,
+   "text": "[[|Eydel|Èïdèl]]… À [[פֶּסַח|Pessa'h|Péssar]], c'est moi qui poserai les questions. Je suis le plus petit."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 392.15,
+   "end": 396.4,
+   "text": "Oui, [[|Hillel|Ilèl]]. Et maintenant, tu connais les réponses. Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 397.2,
+   "end": 410.45,
+   "text": "[[אַרְבֶּה|arbé|arbé]], les sauterelles. [[חֹשֶׁךְ|'hoshekh|rochèr]], le noir. [[אוֹר|or|or]], la lumière. [[מַצָּה|matsa|matsa]], le pain tout plat. Et [[פֶּסַח|Pessa'h|Péssar]], quand [[|Hachem|Achème]] passe au-dessus !"
+  },
+  {
+   "sp": "N",
+   "start": 411.25,
+   "end": 426.93,
+   "text": "Et les trois enfants s'endormirent, avec dans la bouche comme un petit goût de [[מַצָּה|matsa|matsa]], et dans le cœur, la joie d'être libres. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

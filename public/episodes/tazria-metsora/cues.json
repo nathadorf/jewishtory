@@ -1,0 +1,319 @@
+{
+ "title": "Eydel, Arié et Hillel et les taches sur le mur",
+ "duration": 447.4,
+ "scenes": [
+  0,
+  12,
+  22,
+  33,
+  42
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 30.32,
+   "text": "Ce jour-là, à l'école, Arié avait dit quelque chose de pas très gentil sur un garçon de sa classe. Il l'avait dit tout bas, à un copain. Mais le copain l'avait répété. Et maintenant, toute la classe le savait, et le garçon était triste. Ce soir-là, Arié ne disait rien. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 31.12,
+   "end": 33.28,
+   "text": "La [[יוֹנָה|yona|yona]] ! Arié, tu viens ?"
+  },
+  {
+   "sp": "ARIE",
+   "start": 34.08,
+   "end": 35.76,
+   "text": "Oui… je viens."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 36.56,
+   "end": 40.39,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 41.19,
+   "end": 55.06,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le camp d'[[יִשְׂרָאֵל|Israël|Israèl]]. Devant une tente, il y avait plein de monde, et on entendait des chants. Et des pleurs de [[תִּינוֹק|tinok|tinok]]. Un bébé !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 55.86,
+   "end": 64.73,
+   "text": "Venez, les enfants ! C'est une fête ! Ma voisine a eu un [[תִּינוֹק|tinok|tinok]], un petit garçon. Et aujourd'hui, c'est son [[שְׁמִינִי|shmini|chmini]], son huitième jour."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 65.53,
+   "end": 68.56,
+   "text": "Le huitième jour ? Comme pour [[אַהֲרֹן|Aharon|Aarone]] ?"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 69.36,
+   "end": 89.87,
+   "text": "Comme pour [[אַהֲרֹן|Aharon|Aarone]], [[|Hillel|Ilèl]]. Le huitième jour, c'est un jour spécial. Aujourd'hui, le [[תִּינוֹק|tinok|tinok]] va faire sa [[בְּרִית|brit|brit]]. Comme [[אַבְרָהָם|Avraham|Avraame]], il y a très longtemps. La [[בְּרִית|brit|brit]], c'est une alliance. Une promesse d'amitié entre [[|Hachem|Achème]] et ce petit bébé."
+  },
+  {
+   "sp": "N",
+   "start": 90.67,
+   "end": 98.43,
+   "text": "Le papa tenait le [[תִּינוֹק|tinok|tinok]] dans ses bras. Tout le monde chantait. Puis on annonça le prénom du bébé, et tout le monde cria :"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 99.23,
+   "end": 102.34,
+   "text": "[[מַזָּל טוֹב|mazal tov|mazal tov]] ! [[מַזָּל טוֹב|mazal tov|mazal tov]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 103.14,
+   "end": 107.38,
+   "text": "Il est tout petit, le [[תִּינוֹק|tinok|tinok]]. Il a un tout petit nez."
+  },
+  {
+   "sp": "N",
+   "start": 108.18,
+   "end": 113.33,
+   "text": "Et tout le monde mangea des gâteaux au miel, pour fêter le nouveau bébé de la famille d'[[יִשְׂרָאֵל|Israël|Israèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 116.03,
+   "end": 129.73,
+   "text": "Plus loin dans le camp, les enfants virent quelque chose d'étrange. Un [[כֹּהֵן|kohen|koèn]] était devant une maison, et il regardait les murs, très sérieusement. Sur les pierres, il y avait des taches. Des taches vertes et rouges."
+  },
+  {
+   "sp": "ARIE",
+   "start": 130.53,
+   "end": 133.28,
+   "text": "C'est quoi, ces taches ? De la moisissure ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 134.08,
+   "end": 144.63,
+   "text": "Non, Arié. C'est une maladie très spéciale, qui n'existe plus aujourd'hui. Elle s'appelle la [[צָרַעַת|tsara'at|tsaraat]]. Elle pouvait venir sur les murs d'un [[בַּיִת|bayit|baït]], sur les habits… ou même sur la peau."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 145.43,
+   "end": 146.66,
+   "text": "Et pourquoi elle venait ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 147.46,
+   "end": 158.36,
+   "text": "Nos sages disent qu'elle venait surtout à cause des [[מִלִּים|milim|milime]]. Des mots. Quand quelqu'un disait du mal des autres. En hébreu, on appelle ça le [[לָשׁוֹן הָרָע|lashon hara|lachone ara]]. La mauvaise langue."
+  },
+  {
+   "sp": "N",
+   "start": 159.16,
+   "end": 160.39,
+   "text": "Arié baissa la tête."
+  },
+  {
+   "sp": "AHARON",
+   "start": 161.19,
+   "end": 168.87,
+   "text": "Le [[לָשׁוֹן הָרָע|lashon hara|lachone ara]], c'est quand on dit des choses pas gentilles sur quelqu'un qui n'est pas là. Même si c'est vrai. Même si on le dit tout bas."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 169.67,
+   "end": 177.93,
+   "text": "Alors la [[צָרַעַת|tsara'at|tsaraat]], c'était comme un panneau qui disait : attention, quelque chose ne va pas dans tes [[מִלִּים|milim|milime]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 178.73,
+   "end": 189.82,
+   "text": "Exactement, [[|Eydel|Èïdèl]]. D'abord, les taches venaient sur les murs du [[בַּיִת|bayit|baït]]. Pour prévenir doucement. Si on ne changeait pas, elles venaient sur les habits. Et si on ne changeait toujours pas, sur la peau."
+  },
+  {
+   "sp": "ARIE",
+   "start": 190.62,
+   "end": 194.12,
+   "text": "Alors [[|Hachem|Achème]] prévenait d'abord… tout doucement."
+  },
+  {
+   "sp": "N",
+   "start": 196.82,
+   "end": 204.91,
+   "text": "Un peu plus loin, en dehors du camp, il y avait un homme assis tout seul, sous une petite tente. Il avait de la [[צָרַעַת|tsara'at|tsaraat]] sur les mains."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 205.71,
+   "end": 207.85,
+   "text": "Pourquoi il est tout seul, le monsieur ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 208.65,
+   "end": 222.89,
+   "text": "Pendant quelques jours, il doit rester un peu à l'écart. Tu sais pourquoi, [[|Hillel|Ilèl]] ? Parce qu'avec ses [[מִלִּים|milim|milime]], il a séparé les gens. Il a fâché des amis entre eux. Alors maintenant, il est un peu séparé, lui aussi. Pour qu'il comprenne ce que ça fait."
+  },
+  {
+   "sp": "N",
+   "start": 223.69,
+   "end": 231.05,
+   "text": "Mais [[אַהֲרֹן|Aharon|Aarone]] ne le laissa pas tout seul. Il alla le voir tous les jours. Il s'asseyait à côté de lui, et il lui parlait doucement."
+  },
+  {
+   "sp": "AHARON",
+   "start": 231.85,
+   "end": 234.17,
+   "text": "[[שָׁלוֹם|shalom|chalom]], mon ami. Comment vas-tu aujourd'hui ?"
+  },
+  {
+   "sp": "N",
+   "start": 234.97,
+   "end": 239.53,
+   "text": "Le monsieur levait les yeux. Il avait l'air triste. Mais aussi un peu soulagé."
+  },
+  {
+   "sp": "N",
+   "start": 240.08,
+   "end": 248.93,
+   "text": "J'ai beaucoup réfléchi, dit le monsieur. J'ai dit des choses méchantes sur mon voisin. Ce n'était pas bien. Quand je rentrerai, j'irai lui demander pardon."
+  },
+  {
+   "sp": "AHARON",
+   "start": 249.73,
+   "end": 253.01,
+   "text": "Alors ton [[לֵב|lev|lèv]] est déjà en train de guérir. Et ta peau va suivre."
+  },
+  {
+   "sp": "N",
+   "start": 253.81,
+   "end": 264.87,
+   "text": "Et quelques jours plus tard, les taches avaient disparu. [[אַהֲרֹן|Aharon|Aarone]] fit une petite cérémonie avec deux oiseaux. Il en laissa un s'envoler, tout libre, dans le ciel bleu."
+  },
+  {
+   "sp": "ARIE",
+   "start": 265.67,
+   "end": 267.46,
+   "text": "Pourquoi il laisse partir l'oiseau ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 268.26,
+   "end": 280.51,
+   "text": "Les oiseaux gazouillent toute la journée, Arié. Ils bavardent. Celui-là s'envole, et il emporte le [[לָשׁוֹן הָרָע|lashon hara|lachone ara]] très loin. Et maintenant, notre ami peut rentrer dans le camp. Avec des [[מִלִּים|milim|milime]] toutes neuves."
+  },
+  {
+   "sp": "N",
+   "start": 283.21,
+   "end": 288.03,
+   "text": "Le soir, Arié s'assit près de [[מִרְיָם|Myriam|Miriame]]. Il avait les yeux un peu brillants."
+  },
+  {
+   "sp": "ARIE",
+   "start": 288.83,
+   "end": 300.21,
+   "text": "[[מִרְיָם|Myriam|Miriame]]… Aujourd'hui, à l'école, j'ai fait du [[לָשׁוֹן הָרָע|lashon hara|lachone ara]]. J'ai dit quelque chose de pas gentil sur un garçon. Et maintenant, tout le monde le sait."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 301.01,
+   "end": 321.25,
+   "text": "Merci de me le dire, Arié. C'est déjà un grand pas. Tu sais, il y a une histoire très ancienne. Un homme avait dit du mal de son voisin. Pour s'excuser, le sage lui dit : prends un oreiller de plumes, monte en haut d'une colline, et ouvre-le dans le vent."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 322.05,
+   "end": 324.13,
+   "text": "Toutes les plumes s'envolent !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 324.93,
+   "end": 332.37,
+   "text": "Oui, [[|Hillel|Ilèl]]. Et ensuite, le sage lui dit : maintenant, va ramasser toutes les plumes."
+  },
+  {
+   "sp": "ARIE",
+   "start": 333.17,
+   "end": 335.68,
+   "text": "Mais c'est impossible ! Elles sont parties partout !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 336.48,
+   "end": 348.64,
+   "text": "C'est comme les [[מִלִּים|milim|milime]], Arié. Une fois qu'elles sont sorties, on ne peut plus les rattraper. Alors ce qu'on peut faire, c'est réparer. Et la prochaine fois, réfléchir avant de parler."
+  },
+  {
+   "sp": "ARIE",
+   "start": 349.44,
+   "end": 350.47,
+   "text": "Comment je répare ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 351.27,
+   "end": 362.45,
+   "text": "Demain, tu peux aller voir le garçon. Tu lui dis pardon. Et tu dis quelque chose de gentil sur lui, devant toute la classe. Des bonnes [[מִלִּים|milim|milime]], pour remplacer les mauvaises."
+  },
+  {
+   "sp": "N",
+   "start": 365.15,
+   "end": 370.22,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule d'Arié. Il était temps de rentrer."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 371.02,
+   "end": 377.89,
+   "text": "[[תּוֹדָה|toda|toda]] d'être venus à la fête du [[תִּינוֹק|tinok|tinok]]. Et n'oubliez pas les plumes. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 378.69,
+   "end": 384.93,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "ARIE",
+   "start": 385.73,
+   "end": 392.35,
+   "text": "Demain, je dis pardon. Et je dis à toute la classe qu'il dessine super bien. Parce que c'est vrai."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 393.15,
+   "end": 401.16,
+   "text": "Et moi, je ne dirai que des [[מִלִּים|milim|milime]] gentilles. Même sur Arié quand il me prend mes jouets."
+  },
+  {
+   "sp": "ARIE",
+   "start": 401.96,
+   "end": 402.37,
+   "text": "Eh !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 403.17,
+   "end": 404.28,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 405.08,
+   "end": 419.16,
+   "text": "[[תִּינוֹק|tinok|tinok]], le bébé. [[בְּרִית|brit|brit]], l'alliance. [[מִלִּים|milim|milime]], les mots. [[לָשׁוֹן הָרָע|lashon hara|lachone ara]], la mauvaise langue. Et [[בַּיִת|bayit|baït]], la maison, avec les taches sur le mur."
+  },
+  {
+   "sp": "N",
+   "start": 419.96,
+   "end": 436.6,
+   "text": "Et les trois enfants s'endormirent. Et dans le rêve d'Arié, toutes les plumes revenaient, une par une, se poser dans l'oreiller, parce qu'il avait dit pardon. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

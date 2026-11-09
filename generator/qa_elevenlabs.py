@@ -4,6 +4,7 @@ import sys, os, json, re, base64, subprocess, hashlib, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); os.environ["TTS_ENGINE"]="elevenlabs"
 import gen
 mod, ep = sys.argv[1], sys.argv[2]
+import importlib; gen.apply_cast(importlib.import_module(mod))
 cues = json.load(open(f"{ep}/cues.json"))["cues"]
 expected = [gen.MARK.sub(lambda m: m.group(2), c["text"]) for c in cues]
 flag = []

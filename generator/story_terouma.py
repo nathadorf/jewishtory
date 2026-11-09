@@ -1,0 +1,92 @@
+# Episode 18 : Terouma. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: terouma, mishkan, aron, krouvim, ménora. Reused: louhot, lehem, or, lev, har, yona, toda, layla tov.
+# Everyone brings a gift "from the heart" and the children watch the Mishkan's furniture take shape.
+
+TITLE = "Eydel, Arié et Hillel et la maison de Hachem"
+
+W = {
+    "terouma": "[[תְּרוּמָה|terouma|térouma]]",
+    "mishkan": "[[מִשְׁכָּן|mishkan|michkane]]",
+    "aron": "[[אָרוֹן|aron|arone]]",
+    "krouvim": "[[כְּרוּבִים|krouvim|krouvime]]",
+    "menora": "[[מְנוֹרָה|ménora|ménora]]",
+    "louhot": "[[לוּחוֹת|lou'hot|lourot]]",
+    "lehem": "[[לֶחֶם|lé'hem|lérème]]",
+    "or": "[[אוֹר|or|or]]",
+    "lev": "[[לֵב|lev|lèv]]",
+    "har": "[[הַר|har|ar]]",
+    "shabbat": "[[שַׁבָּת|Chabbat|Chabat]]",
+    "mitsrayim": "[[מִצְרַיִם|Mitsraïm|Mitsraïm]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "miriam": "[[מִרְיָם|Myriam|Miriame]]",
+    "betsalel": "[[בְּצַלְאֵל|Betsalel|Bétsalèl]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, {hillel} avait cassé sa tirelire. Dedans, il y avait trois pièces, un bouton, et une bille bleue. Il voulait les mettre dans la boîte de tsédaka de la cuisine, mais il n'était pas sûr que le bouton compte. Toc, toc, toc. La {yona}."),
+ ("HILLEL", "La {yona} ! J'emporte ma bille, au cas où."),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent au pied du {har} Sinaï. {moshe} venait de redescendre de la montagne. Et il avait l'air très heureux."),
+ ("MOSHE", "Mes amis ! J'ai une grande nouvelle ! {hachem} m'a dit : faites-moi une maison, et j'habiterai au milieu de vous."),
+ ("ARIE", "Une maison pour {hachem} ? Mais {hachem} est partout, non ?"),
+ ("MOSHE", "Tu as raison, Arié. {hachem} est partout. Mais Il veut qu'on Lui fasse une place. Un endroit spécial, au milieu de nos tentes. On l'appellera le {mishkan}."),
+ ("EYDEL", "Le {mishkan}… Ça vient du mot pour habiter. La maison où {hachem} habite avec nous."),
+ ("~", ""),
+ ("N", "Alors {moshe} monta sur un rocher, et il parla à tout le peuple."),
+ ("MOSHE", "Pour construire le {mishkan}, chacun peut apporter une {terouma}. Un cadeau. De l'or, de l'argent, du tissu bleu, de la laine, du bois, de l'huile pour la lumière. Mais seulement si vous en avez envie. Seulement si votre {lev} vous le dit."),
+ ("HILLEL", "Une {terouma}… C'est comme la boîte de tsédaka !"),
+ ("N", "Et alors, de toutes les tentes, les gens se mirent à sortir, les bras chargés. Une maman apporta ses bracelets en or. Un papa, des planches de bois. Une grand-mère, un beau tissu tout bleu, qu'elle avait tissé elle-même. Les enfants apportaient des boutons brillants, des petites cuillères, des perles."),
+ ("MIRIAM", "Moi, j'apporte mon miroir en cuivre. Celui avec lequel je me coiffais, en Égypte."),
+ ("ARIE", "Il y en a tellement ! Ça fait une montagne de cadeaux !"),
+ ("N", "{hillel} serrait sa bille bleue dans sa main. Il hésitait."),
+ ("HILLEL", "{moshe}… Est-ce que je peux donner ma bille ? Elle n'est pas en or. Elle est juste bleue."),
+ ("MOSHE", "{hillel}, la {terouma} la plus précieuse, ce n'est pas celle qui coûte le plus cher. C'est celle qui vient du {lev}. Ta bille bleue sera parfaite."),
+ ("N", "Et {hillel} posa sa bille au sommet de la montagne de cadeaux. Elle brillait au soleil, comme un petit morceau de ciel."),
+ ("N", "Il y avait tellement de {terouma} qu'à la fin, {moshe} dut dire stop !"),
+ ("MOSHE", "Arrêtez ! Arrêtez ! On en a trop ! On a déjà tout ce qu'il faut !"),
+ ("EYDEL", "C'est la première fois que j'entends quelqu'un dire : arrêtez de donner !"),
+ ("~", ""),
+ ("N", "Un artisan très doué s'occupa de tout. Il s'appelait {betsalel}. Il savait travailler l'or, le bois, la pierre, le tissu. Il avait des mains très habiles, et un cœur plein de sagesse."),
+ ("N", "D'abord, il fabriqua une grande boîte en bois, recouverte d'or dedans et dehors. En hébreu, c'est l'{aron}."),
+ ("ARIE", "C'est pour quoi faire, l'{aron} ?"),
+ ("MOSHE", "C'est là qu'on mettra les {louhot}, Arié. Les tables de pierre avec les dix paroles. L'{aron} est le cœur du {mishkan}."),
+ ("N", "Sur le couvercle de l'{aron}, {betsalel} fit deux personnages en or, avec des ailes et des visages d'enfants. Ils se regardaient l'un l'autre, et leurs ailes s'ouvraient vers le haut. En hébreu, ce sont les {krouvim}."),
+ ("HILLEL", "Les {krouvim} ont des visages d'enfants ! Comme nous !"),
+ ("MOSHE", "Oui, {hillel}. Et c'est entre les deux {krouvim} que {hachem} me parlera."),
+ ("N", "Ensuite, {betsalel} fit une table en bois et en or. Chaque vendredi, on y poserait douze pains, bien rangés. Douze {lehem}, un pour chaque tribu d'{israel}."),
+ ("ARIE", "Douze pains ! Ça fait beaucoup de 'hallot !"),
+ ("~", ""),
+ ("N", "Puis {betsalel} prit un gros bloc d'or. Il le frappa avec un marteau, toc, toc, toc, encore et encore, pendant des heures. Et petit à petit, une forme apparut : un chandelier, avec sept branches. En hébreu, c'est la {menora}."),
+ ("EYDEL", "La {menora} ! Elle est tout en un seul morceau d'or ! Sans aucune soudure !"),
+ ("N", "Les branches de la {menora} étaient décorées de fleurs et d'amandes en or. On aurait dit un arbre doré, en train de fleurir."),
+ ("MOSHE", "Chaque soir, on y allumera sept petites flammes, avec de l'huile d'olive bien pure. Pour que l'{or} ne s'éteigne jamais dans le {mishkan}."),
+ ("HILLEL", "Comme les bougies de Hanouka ?"),
+ ("EYDEL", "Presque, {hillel} ! Hanouka, c'est pour se souvenir d'une {menora} comme celle-ci, beaucoup plus tard."),
+ ("N", "Enfin, tout autour, on tendit de grands rideaux en tissu bleu, rouge et violet, brodés de {krouvim}. Et le {mishkan} fut prêt à être monté, au milieu du camp."),
+ ("ARIE", "C'est la plus belle tente du monde !"),
+ ("MOSHE", "Et le plus beau, c'est que chacun y a mis quelque chose. Les bracelets de la maman, le bois du papa, le tissu de la grand-mère… et la bille de {hillel}."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur la {menora}, entre deux branches. Il était temps de rentrer."),
+ ("MOSHE", "{toda}, mes amis, pour votre {terouma}. Maintenant, {hachem} a une maison au milieu de nous. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("HILLEL", "Demain, je mets mes trois pièces dans la boîte de tsédaka. Et le bouton aussi. C'est ma {terouma}."),
+ ("EYDEL", "Et tu sais, {hillel}, les rabbins disent que chaque maison peut être un petit {mishkan}. Quand on est gentils, quand on allume les bougies de {shabbat}, {hachem} habite aussi chez nous."),
+ ("ARIE", "Dans notre maison ? Même dans notre chambre en désordre ?"),
+ ("EYDEL", "Même dans notre chambre, Arié. Mais peut-être qu'on peut la ranger un peu."),
+ ("HILLEL", "Je me souviens des mots ! {terouma}, le cadeau. {mishkan}, la maison de {hachem}. {aron}, la boîte en or. {krouvim}, les anges-enfants. Et {menora}, le chandelier."),
+ ("N", "Et les trois enfants s'endormirent dans leur petit {mishkan} à eux, bien au chaud, avec une douce lumière qui brillait dans le couloir. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

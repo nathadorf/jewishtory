@@ -1,0 +1,307 @@
+{
+ "title": "Eydel, Arié et Hillel au pied du mont Sinaï",
+ "duration": 433.19,
+ "scenes": [
+  0,
+  10,
+  18,
+  28,
+  40
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 25.28,
+   "text": "Ce soir-là, Maman était très fatiguée. Elle avait fait les courses, la cuisine, le linge, les devoirs, le bain… tout toute seule. Les enfants l'avaient vue s'asseoir sur le canapé en soupirant. Et puis, dans la chambre… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 26.08,
+   "end": 28.65,
+   "text": "La [[יוֹנָה|yona|yona]] ! On retourne dans le désert ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 29.45,
+   "end": 33.28,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 34.08,
+   "end": 48.43,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent devant l'[[אֹהֶל|ohel|ôhèl]] de [[מֹשֶׁה|Moshé|Moché]], au milieu du camp des enfants d'[[יִשְׂרָאֵל|Israël|Israèl]]. Devant l'[[אֹהֶל|ohel|ôhèl]], il y avait une file de gens immense. Elle n'en finissait pas."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 49.23,
+   "end": 51.65,
+   "text": "Pourquoi tous ces gens font la queue ?"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 52.45,
+   "end": 63.73,
+   "text": "Ils attendent [[מֹשֶׁה|Moshé|Moché]]. Dès qu'il y a une dispute, ou une question, tout le monde vient le voir. Du matin jusqu'au soir. Il est épuisé."
+  },
+  {
+   "sp": "N",
+   "start": 64.53,
+   "end": 74.44,
+   "text": "Au même moment, un vieux monsieur arriva sur un chameau, avec [[צִפּוֹרָה|Tsipora|Tsipora]], la femme de [[מֹשֶׁה|Moshé|Moché]], et leurs deux garçons. C'était [[יִתְרוֹ|Yitro|Yitro]], le papa de [[צִפּוֹרָה|Tsipora|Tsipora]]."
+  },
+  {
+   "sp": "YITRO",
+   "start": 75.24,
+   "end": 86.52,
+   "text": "[[שָׁלוֹם|shalom|chalom]], mon gendre ! J'ai entendu parler de tout ce que [[|Hachem|Achème]] a fait pour vous. La mer qui s'ouvre, le [[מָן|man|mane]] du ciel… Je suis venu te voir, avec toute ta [[מִשְׁפָּחָה|mishpa'ha|michpara]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 87.32,
+   "end": 90.23,
+   "text": "[[יִתְרוֹ|Yitro|Yitro]] ! [[צִפּוֹרָה|Tsipora|Tsipora]] ! Mes garçons ! Quelle joie !"
+  },
+  {
+   "sp": "N",
+   "start": 91.03,
+   "end": 101.89,
+   "text": "Ils se firent de grands câlins. Puis [[יִתְרוֹ|Yitro|Yitro]] s'assit, et regarda [[מֹשֶׁה|Moshé|Moché]] travailler toute la journée. Écouter, répondre, juger. Encore et encore."
+  },
+  {
+   "sp": "N",
+   "start": 104.59,
+   "end": 107.07,
+   "text": "Le soir, [[יִתְרוֹ|Yitro|Yitro]] prit [[מֹשֶׁה|Moshé|Moché]] à part."
+  },
+  {
+   "sp": "YITRO",
+   "start": 107.87,
+   "end": 116.54,
+   "text": "[[מֹשֶׁה|Moshé|Moché]], ce que tu fais n'est pas bon. Tu vas t'épuiser. Et le peuple aussi, à attendre toute la journée. Tu ne peux pas tout faire tout seul."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 117.34,
+   "end": 119.02,
+   "text": "Mais alors, comment faire ?"
+  },
+  {
+   "sp": "YITRO",
+   "start": 119.82,
+   "end": 133.48,
+   "text": "Choisis des hommes sages et honnêtes. Chacun s'occupera d'un petit groupe. Pour les petites questions, ce sont eux qui répondront. Et toi, tu t'occuperas seulement des grandes questions. Comme ça, la charge sera partagée."
+  },
+  {
+   "sp": "ARIE",
+   "start": 134.28,
+   "end": 141.07,
+   "text": "C'est comme à la maison ! Si chacun fait un peu, Maman n'est pas toute seule à tout faire."
+  },
+  {
+   "sp": "YITRO",
+   "start": 141.87,
+   "end": 144.46,
+   "text": "Exactement, mon garçon. Tu as tout compris."
+  },
+  {
+   "sp": "N",
+   "start": 145.26,
+   "end": 150.01,
+   "text": "Et [[מֹשֶׁה|Moshé|Moché]] écouta le conseil de [[יִתְרוֹ|Yitro|Yitro]]. Il trouva même que c'était une très bonne idée."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 150.81,
+   "end": 155.44,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] est le plus grand chef du peuple, et pourtant il écoute les conseils."
+  },
+  {
+   "sp": "N",
+   "start": 158.14,
+   "end": 167.54,
+   "text": "Quelques semaines plus tard, les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] arrivèrent au pied d'une montagne, dans le désert. Le [[הַר|har|ar]] [[סִינַי|Sinaï|Sinaï]]. Ils installèrent leurs tentes tout autour."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 168.34,
+   "end": 173.27,
+   "text": "Préparez-vous. Lavez vos habits. Dans trois jours, [[|Hachem|Achème]] va nous parler. Ici, sur le [[הַר|har|ar]] [[סִינַי|Sinaï|Sinaï]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 174.07,
+   "end": 178.17,
+   "text": "[[|Hachem|Achème]] va nous parler ? À tout le monde ? Même à moi ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 178.97,
+   "end": 183.28,
+   "text": "Même à toi, [[|Hillel|Ilèl]]. Les grands, les petits, les bébés. Tout le monde."
+  },
+  {
+   "sp": "N",
+   "start": 184.08,
+   "end": 190.58,
+   "text": "Pendant trois jours, tout le monde se prépara. On lava les habits, on rangea les tentes. Et [[מֹשֶׁה|Moshé|Moché]] demanda au peuple :"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 191.38,
+   "end": 197.02,
+   "text": "[[|Hachem|Achème]] veut nous donner la Torah. Ses règles, pour vivre bien, ensemble. Est-ce que vous voulez la recevoir ?"
+  },
+  {
+   "sp": "N",
+   "start": 197.82,
+   "end": 203.48,
+   "text": "Et tout le peuple, d'une seule voix, comme une seule personne avec un seul cœur, répondit :"
+  },
+  {
+   "sp": "N",
+   "start": 204.03,
+   "end": 207.56,
+   "text": "[[נַעֲשֶׂה וְנִשְׁמָע|na'assé vénishma|naassé vénichma]] ! Nous ferons, et nous comprendrons !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 208.36,
+   "end": 213.66,
+   "text": "[[נַעֲשֶׂה וְנִשְׁמָע|na'assé vénishma|naassé vénichma]] ! On dit oui, avant même de savoir ce qu'il y a dedans ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 214.46,
+   "end": 223.38,
+   "text": "Oui, Arié. Parce qu'ils avaient confiance. Comme quand Papa nous dit : viens, j'ai une surprise. On y va, et après on découvre."
+  },
+  {
+   "sp": "N",
+   "start": 226.08,
+   "end": 241.68,
+   "text": "Le troisième jour, au matin, quelque chose d'incroyable arriva. Un gros nuage descendit sur le [[הַר|har|ar]]. En hébreu, le nuage, c'est l'[[עָנָן|anan|anane]]. L'[[עָנָן|anan|anane]] était épais, tout sombre, avec des éclairs qui brillaient dedans."
+  },
+  {
+   "sp": "N",
+   "start": 242.23,
+   "end": 250.73,
+   "text": "Et on entendit des bruits. Des [[קוֹלוֹת|kolot|kolot]]. Le tonnerre. Et un son très fort, qui devenait de plus en plus fort : le [[שׁוֹפָר|shofar|chofar]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 251.53,
+   "end": 257.12,
+   "text": "Le [[שׁוֹפָר|shofar|chofar]] ! Comme à Roch Hachana ! Mais beaucoup plus fort !"
+  },
+  {
+   "sp": "N",
+   "start": 257.92,
+   "end": 268.53,
+   "text": "Toute la montagne tremblait. Et même les oiseaux s'étaient arrêtés de chanter. Même les vaches s'étaient arrêtées de meugler. Tout le monde était silencieux, et écoutait."
+  },
+  {
+   "sp": "N",
+   "start": 269.08,
+   "end": 282.65,
+   "text": "Et alors, la voix de [[|Hachem|Achème]] parla. En hébreu, la voix, c'est le [[קוֹל|kol|kol]]. Un [[קוֹל|kol|kol]] immense et doux en même temps, qui remplissait tout. Il dit [[עֶשֶׂר|ésser|éssèr]] paroles. Dix."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 283.45,
+   "end": 285.94,
+   "text": "[[עֶשֶׂר|ésser|éssèr]]… Les dix commandements."
+  },
+  {
+   "sp": "N",
+   "start": 286.74,
+   "end": 300.49,
+   "text": "Je suis [[|Hachem|Achème]], ton Dieu, qui t'a fait sortir d'Égypte. Tu n'auras pas d'autres dieux. Tu ne prononceras pas mon nom pour rien. Souviens-toi du jour du [[שַׁבָּת|Chabbat|Chabat]], pour le rendre saint. Respecte ton père et ta mère."
+  },
+  {
+   "sp": "ARIE",
+   "start": 301.29,
+   "end": 308.78,
+   "text": "Respecte ton père et ta mère… Oups. Ce soir, je n'ai pas aidé Maman."
+  },
+  {
+   "sp": "N",
+   "start": 309.58,
+   "end": 317.93,
+   "text": "Et le [[קוֹל|kol|kol]] continua : Ne tue pas. Ne prends pas ce qui est aux autres. Ne mens pas sur ton voisin. Ne sois pas jaloux de ce que les autres ont."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 318.73,
+   "end": 322.5,
+   "text": "Ne sois pas jaloux… Comme les frères de Yossef !"
+  },
+  {
+   "sp": "N",
+   "start": 323.3,
+   "end": 338.25,
+   "text": "Puis le [[קוֹל|kol|kol]] se tut. Et [[מֹשֶׁה|Moshé|Moché]] monta tout en haut du [[הַר|har|ar]], dans l'[[עָנָן|anan|anane]]. Il y resta quarante jours. Et [[|Hachem|Achème]] lui donna deux grandes pierres, sur lesquelles étaient gravées les [[עֶשֶׂר|ésser|éssèr]] paroles. En hébreu, ce sont les [[לוּחוֹת|lou'hot|lourot]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 339.05,
+   "end": 343.39,
+   "text": "Les [[לוּחוֹת|lou'hot|lourot]] ! Comme dans la synagogue, au-dessus de l'armoire de la Torah !"
+  },
+  {
+   "sp": "N",
+   "start": 346.09,
+   "end": 351.17,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule d'Arié. Il était temps de rentrer."
+  },
+  {
+   "sp": "YITRO",
+   "start": 351.97,
+   "end": 358.48,
+   "text": "[[תּוֹדָה|toda|toda]] d'être venus, les enfants. Et n'oubliez pas mon conseil : à la maison, on partage le travail."
+  },
+  {
+   "sp": "N",
+   "start": 359.28,
+   "end": 366.85,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Mais Arié se releva aussitôt."
+  },
+  {
+   "sp": "ARIE",
+   "start": 367.65,
+   "end": 370.01,
+   "text": "Attendez-moi !"
+  },
+  {
+   "sp": "N",
+   "start": 370.81,
+   "end": 378.97,
+   "text": "Il courut dans le salon. Maman était encore sur le canapé. Arié lui fit un gros bisou, et il ramassa toutes les chaussettes qui traînaient par terre."
+  },
+  {
+   "sp": "ARIE",
+   "start": 379.77,
+   "end": 388.59,
+   "text": "Maman, à partir de demain, je t'aide. On partage. C'est [[יִתְרוֹ|Yitro|Yitro]] qui l'a dit. Et [[|Hachem|Achème]] aussi : respecte ton père et ta mère."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 389.39,
+   "end": 390.62,
+   "text": "Et qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 391.42,
+   "end": 407.98,
+   "text": "[[עָנָן|anan|anane]], le nuage. [[קוֹל|kol|kol]], la voix. [[עֶשֶׂר|ésser|éssèr]], dix. [[לוּחוֹת|lou'hot|lourot]], les tables de pierre. Et [[נַעֲשֶׂה וְנִשְׁמָע|na'assé vénishma|naassé vénichma]] : nous ferons, et nous comprendrons !"
+  },
+  {
+   "sp": "N",
+   "start": 408.78,
+   "end": 422.39,
+   "text": "Et les trois enfants s'endormirent, en entendant encore, tout au loin, le son du [[שׁוֹפָר|shofar|chofar]] au-dessus du [[הַר|har|ar]] [[סִינַי|Sinaï|Sinaï]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

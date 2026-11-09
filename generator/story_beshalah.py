@@ -1,0 +1,96 @@
+# Episode 15 : Beshala'h. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: yam, rua'h, shira, tof, man. Reused: mate, pharaon, mitsrayim, matsa, lehem, shabbat, yona, toda, layla tov.
+# Crossing the sea (the Egyptian army is simply stopped by the waters), Miriam's song, and the manna with its double portion for Shabbat. Amalek is left out.
+
+TITLE = "Eydel, Arié et Hillel et la mer qui s'ouvre"
+
+W = {
+    "yam": "[[יָם|yam|yame]]",
+    "ruah": "[[רוּחַ|rou'ah|rouar]]",
+    "shira": "[[שִׁירָה|shira|chira]]",
+    "tof": "[[תֹּף|tof|tof]]",
+    "man": "[[מָן|man|mane]]",
+    "mate": "[[מַטֶּה|maté|maté]]",
+    "matsa": "[[מַצָּה|matsa|matsa]]",
+    "matsot": "[[מַצּוֹת|matsot|matsot]]",
+    "lehem": "[[לֶחֶם|lé'hem|lérème]]",
+    "shabbat": "[[שַׁבָּת|Chabbat|Chabat]]",
+    "mitsrayim": "[[מִצְרַיִם|Mitsraïm|Mitsraïm]]",
+    "pharaon": "[[פַּרְעֹה|Pharaon|Faraon]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "aharon": "[[אַהֲרֹן|Aharon|Aarone]]",
+    "miriam": "[[מִרְיָם|Myriam|Miriame]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, dans le bain, {hillel} avait fait une expérience. Il avait poussé l'eau avec ses deux mains pour faire un chemin au milieu. Mais l'eau revenait toujours. Plus tard, dans son lit, il y pensait encore… quand toc, toc, toc. La {yona}."),
+ ("HILLEL", "La {yona} ! On va voir les enfants d'{israel} qui sont libres ?"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le désert, au milieu d'une immense foule qui marchait. Devant eux, une grande colonne de nuage montrait le chemin."),
+ ("MOSHE", "Bienvenue, mes amis ! Suivez le nuage. Le jour, c'est un nuage qui nous guide. Et la nuit, c'est une colonne de feu, qui nous éclaire."),
+ ("ARIE", "Un nuage qui montre la route ! C'est mieux qu'un GPS !"),
+ ("N", "Ils marchèrent jusqu'au bord d'une très grande mer. En hébreu, la mer, c'est le {yam}. Les vagues faisaient chhh… chhh… sur le sable."),
+ ("HILLEL", "Le {yam} ! On va se baigner ?"),
+ ("N", "Mais à ce moment-là, on entendit un grondement derrière eux. Au loin, un nuage de poussière. Des chevaux, des chars, des soldats. {pharaon} avait encore changé d'avis. Il voulait ramener tout le monde en {mitsrayim} !"),
+ ("ARIE", "Oh non ! Le {yam} devant, et {pharaon} derrière ! On est coincés !"),
+ ("N", "Tout le monde avait peur. Les gens criaient, les bébés pleuraient. Mais {moshe} restait calme."),
+ ("MOSHE", "N'ayez pas peur ! Restez tranquilles. Vous allez voir comment {hachem} va nous sauver."),
+ ("~", ""),
+ ("N", "{moshe} leva son {mate} au-dessus du {yam}. Et alors, un vent très fort se mit à souffler. En hébreu, le vent, c'est le {ruah}. Le {ruah} souffla toute la nuit, très fort, et le {yam}… s'ouvrit en deux !"),
+ ("HILLEL", "Le {yam} s'ouvre ! Comme dans mon bain ! Mais en vrai !"),
+ ("N", "L'eau s'était levée de chaque côté, comme deux grands murs transparents. Et au milieu, il y avait un chemin. Un chemin tout sec !"),
+ ("MOSHE", "Avancez ! Avancez tous !"),
+ ("N", "Les enfants d'{israel} entrèrent dans le {yam}. Les trois enfants marchaient au milieu, la bouche ouverte. À droite et à gauche, à travers les murs d'eau, on voyait des poissons qui nageaient, des algues qui ondulaient, et même une tortue qui les regardait passer."),
+ ("ARIE", "Coucou, la tortue !"),
+ ("EYDEL", "C'est comme un grand aquarium… mais on est dedans !"),
+ ("N", "Toute la nuit, ils marchèrent. Et au matin, tout le monde était passé de l'autre côté. Les soldats de {pharaon} essayèrent de les suivre. Alors {moshe} tendit encore son {mate}, et les eaux revinrent à leur place. Les chars de {pharaon} ne purent jamais rattraper les enfants d'{israel}."),
+ ("HILLEL", "On est sauvés !"),
+ ("~", ""),
+ ("N", "Sur la plage, de l'autre côté, il y eut un grand silence. Et puis, tout le monde se mit à chanter. {moshe} chantait, et tout le peuple chantait avec lui. En hébreu, un chant, c'est une {shira}."),
+ ("MOSHE", "Je chanterai pour {hachem}, car Il est grand ! Il a sauvé son peuple !"),
+ ("N", "Et alors, {miriam}, la sœur de {moshe}, sortit un petit tambour rond, avec des clochettes. En hébreu, c'est un {tof}."),
+ ("MIRIAM", "Venez, les filles ! Venez, les enfants ! On danse ! Chantez pour {hachem} !"),
+ ("N", "Et {miriam} tapa sur son {tof}, tam, tam, tam ! Toutes les femmes sortirent leurs {tof} et se mirent à danser en rond sur le sable. {eydel} dansait en tenant la main de {miriam}."),
+ ("EYDEL", "Je n'ai jamais dansé aussi fort de toute ma vie !"),
+ ("MIRIAM", "Tiens, {hillel}, prends mon {tof}. À toi !"),
+ ("HILLEL", "Tam, tam, tam ! C'est la plus belle {shira} du monde !"),
+ ("ARIE", "Mais {miriam}, comment ça se fait que vous aviez des {tof} ? Vous êtes partis si vite d'Égypte…"),
+ ("MIRIAM", "Parce que je savais qu'un jour, on serait libres, Arié. Alors j'avais préparé mon {tof}, pour être prête à danser."),
+ ("~", ""),
+ ("N", "Ils marchèrent ensuite plusieurs jours dans le désert. Les {matsot} étaient finies. Il n'y avait plus de {lehem}. Et tout le monde commençait à avoir faim."),
+ ("HILLEL", "{eydel}… J'ai faim. Mon ventre fait des bruits."),
+ ("AHARON", "Patience, {hillel}. {moshe} a parlé à {hachem}. Demain matin, tu verras."),
+ ("N", "Le lendemain matin, quand les enfants sortirent de la tente, le sol était tout blanc. Couvert de petits grains, ronds et brillants, comme de la neige, ou comme de la rosée."),
+ ("ARIE", "C'est quoi ? Man hou ? C'est quoi, ça ?"),
+ ("MOSHE", "C'est le pain que {hachem} vous envoie du ciel. Vous l'appelez déjà par son nom : le {man}."),
+ ("N", "Les enfants goûtèrent. Le {man} était doux, comme un gâteau au miel."),
+ ("HILLEL", "Mmm ! Ça a le goût de… de crêpe au miel !"),
+ ("MOSHE", "On dit que le {man} a le goût de ce dont on a envie, {hillel}. Chacun ramasse juste ce qu'il faut pour sa famille, pour un jour. Pas plus."),
+ ("N", "Et chaque matin, le {man} tombait du ciel. Mais le vendredi, quelque chose de spécial arriva."),
+ ("MOSHE", "Aujourd'hui, ramassez deux fois plus. Une part pour aujourd'hui, et une part pour demain. Car demain, c'est {shabbat}. Et le jour du {shabbat}, il ne tombera pas de {man}. Tout le monde se reposera, même le ciel."),
+ ("EYDEL", "Deux parts ! C'est pour ça qu'on met deux 'hallot sur la table, le vendredi soir !"),
+ ("MOSHE", "Exactement, {eydel}. Pour se souvenir du {man}."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur le {tof} de {miriam}. Il était temps de rentrer."),
+ ("MIRIAM", "{toda}, mes amis, pour la danse. Gardez toujours un {tof} prêt, pour les jours de joie. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("ARIE", "Demain, je fais une {shira} avec la casserole et la cuillère de Maman. C'est mon {tof} !"),
+ ("EYDEL", "Je ne suis pas sûre que Maman sera d'accord, Arié."),
+ ("HILLEL", "Et moi je me souviens des mots : {yam}, la mer. {ruah}, le vent. {shira}, le chant. {tof}, le tambour. Et {man}, le pain du ciel qui a le goût de crêpe !"),
+ ("N", "Et les trois enfants s'endormirent, en entendant encore, tout au fond de leur rêve, le bruit du {yam}, et le tam, tam, tam du {tof} de {miriam}. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+# the strong east wind that opens the sea
+AMBIENCE = [("{moshe} leva son {mate} au-dessus".format(**W), "Sur la plage, de l'autre côté", 0.05, "wind")]

@@ -2,3 +2,4 @@ generator/models
 __pycache__/
 *.wav
 generator/.tts-cache/
+_qa.mp3

@@ -1,0 +1,315 @@
+{
+ "title": "Eydel, Arié et Hillel et le calendrier des fêtes",
+ "duration": 439.59,
+ "scenes": [
+  0,
+  10,
+  13,
+  21,
+  24,
+  30,
+  40
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 22.15,
+   "text": "Ce soir-là, Maman avait accroché un nouveau calendrier sur le frigo. [[|Hillel|Ilèl]] demandait : c'est quand, mon anniversaire ? Et c'est quand, la prochaine fête ? Il voulait tout savoir. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 22.95,
+   "end": 27.5,
+   "text": "La [[יוֹנָה|yona|yona]] ! Elle sait peut-être quand c'est, la prochaine fête !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 28.3,
+   "end": 32.13,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.93,
+   "end": 45.19,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent devant la tente de [[מֹשֶׁה|Moshé|Moché]]. Il était en train de dessiner, avec un bâton, sur le sable. Des ronds, des traits, des petites lunes."
+  },
+  {
+   "sp": "ARIE",
+   "start": 45.99,
+   "end": 47.65,
+   "text": "Qu'est-ce que tu dessines, [[מֹשֶׁה|Moshé|Moché]] ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 48.45,
+   "end": 56.72,
+   "text": "Un calendrier, Arié ! [[|Hachem|Achème]] vient de m'expliquer toutes les fêtes de l'année. En hébreu, on les appelle les [[מוֹעֲדִים|mo'adim|moadime]]. Ça veut dire : les rendez-vous."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 57.52,
+   "end": 59.44,
+   "text": "Des rendez-vous ? Avec qui ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 60.24,
+   "end": 67.07,
+   "text": "Avec [[|Hachem|Achème]], [[|Hillel|Ilèl]]. Comme quand on donne rendez-vous à un ami qu'on aime bien. Chaque année, à la même date, on se retrouve."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 67.87,
+   "end": 70.06,
+   "text": "On peut les voir, tous les [[מוֹעֲדִים|mo'adim|moadime]] ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 70.86,
+   "end": 76.14,
+   "text": "La [[יוֹנָה|yona|yona]] peut vous les montrer. Accrochez-vous bien. Vous allez traverser toute une année en une seule nuit."
+  },
+  {
+   "sp": "N",
+   "start": 78.84,
+   "end": 89.19,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes. Et d'abord, elle s'arrêta sur un vendredi soir. Dans toutes les tentes, les bougies étaient allumées. Les familles chantaient autour de la table."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 89.99,
+   "end": 98.7,
+   "text": "Le premier rendez-vous, c'est le [[שַׁבָּת|Chabbat|Chabat]]. Il revient chaque semaine. C'est le plus petit, mais c'est le plus important. Le rendez-vous de tous les sept jours."
+  },
+  {
+   "sp": "ARIE",
+   "start": 99.5,
+   "end": 102.37,
+   "text": "Le [[שַׁבָּת|Chabbat|Chabat]], on le connaît ! On le fait toutes les semaines !"
+  },
+  {
+   "sp": "N",
+   "start": 105.07,
+   "end": 112.51,
+   "text": "Puis la [[יוֹנָה|yona|yona]] vola vers le printemps. Les arbres étaient en fleurs. Et dans chaque maison, il y avait des [[מַצּוֹת|matsot|matsot]] sur la table."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 113.31,
+   "end": 117.16,
+   "text": "[[פֶּסַח|Pessa'h|Péssar]] ! Le rendez-vous de la sortie d'Égypte !"
+  },
+  {
+   "sp": "N",
+   "start": 117.96,
+   "end": 129.74,
+   "text": "Le deuxième soir de [[פֶּסַח|Pessa'h|Péssar]], les enfants virent un [[כֹּהֵן|kohen|koèn]] qui apportait au [[מִשְׁכָּן|mishkan|michkane]] une gerbe d'orge, toute fraîche, toute verte. Une mesure de grains qu'on appelle un [[עֹמֶר|omer|omèr]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 130.54,
+   "end": 140.86,
+   "text": "C'est l'[[עֹמֶר|omer|omèr]]. Et à partir d'aujourd'hui, on va [[לִסְפֹּר|lispor|lispor]]. Compter. Chaque soir, on compte un jour de plus. Un, deux, trois… jusqu'à quarante-neuf."
+  },
+  {
+   "sp": "ARIE",
+   "start": 141.66,
+   "end": 144.57,
+   "text": "Quarante-neuf ! Pourquoi on compte ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 145.37,
+   "end": 152.44,
+   "text": "Parce qu'on attend quelque chose de très beau, Arié. Quand on attend quelque chose qu'on aime, on compte les jours. Comme toi, avant ton anniversaire."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 153.24,
+   "end": 156.87,
+   "text": "Moi, je compte les dodos avant mon anniversaire !"
+  },
+  {
+   "sp": "N",
+   "start": 157.67,
+   "end": 170.71,
+   "text": "Et la [[יוֹנָה|yona|yona]] fit voler les enfants au-dessus des jours. Un… deux… dix… vingt… trente… quarante-neuf ! Et le cinquantième jour…"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 173.41,
+   "end": 182.37,
+   "text": "[[שָׁבוּעוֹת|Shavouot|Chavouot]] ! Le jour où on a reçu la Torah, au pied du [[הַר|har|ar]] Sinaï ! Tout le monde met des fleurs, et on mange des gâteaux au fromage !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 183.17,
+   "end": 186.15,
+   "text": "Alors on comptait l'[[עֹמֶר|omer|omèr]] pour attendre le cadeau de la Torah !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 186.95,
+   "end": 194.2,
+   "text": "Exactement. Et à [[שָׁבוּעוֹת|Shavouot|Chavouot]], on apporte au [[מִשְׁכָּן|mishkan|michkane]] les tout premiers fruits du [[שָׂדֶה|sadé|sadé]]. Les plus beaux."
+  },
+  {
+   "sp": "N",
+   "start": 196.9,
+   "end": 207.06,
+   "text": "La [[יוֹנָה|yona|yona]] continua son voyage. L'été passa. Les feuilles commencèrent à jaunir. Et tout à coup, on entendit un son puissant : tekiaaaa !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 207.86,
+   "end": 210.08,
+   "text": "Le [[שׁוֹפָר|shofar|chofar]] ! C'est [[רֹאשׁ הַשָּׁנָה|Roch Hachana|Roch Achana]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 210.88,
+   "end": 220.19,
+   "text": "Oui, Arié. Le premier jour du septième mois, c'est le rendez-vous du [[שׁוֹפָר|shofar|chofar]]. Le début de la nouvelle année. On se réveille, on réfléchit, et on décide d'être encore meilleurs."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 220.99,
+   "end": 228.1,
+   "text": "Et on mange des pommes avec du miel ! Pour une année toute douce !"
+  },
+  {
+   "sp": "N",
+   "start": 228.9,
+   "end": 231.48,
+   "text": "Dix jours plus tard, tout le monde était habillé en blanc."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 232.28,
+   "end": 238.82,
+   "text": "[[יוֹם כִּפּוּר|Yom Kippour|Yom Kipour]]. Le jour du grand pardon. On l'a vu la dernière fois, avec [[אַהֲרֹן|Aharon|Aarone]]."
+  },
+  {
+   "sp": "N",
+   "start": 241.52,
+   "end": 256.72,
+   "text": "Et seulement cinq jours après… surprise ! Tout le monde sortait de sa maison, avec des planches, des branches, des feuilles de palmier. Et chaque famille construisait une petite cabane dehors. En hébreu, une cabane, c'est une [[סֻכָּה|soukka|souka]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 257.52,
+   "end": 260.6,
+   "text": "Une [[סֻכָּה|soukka|souka]] ! Je veux construire une [[סֻכָּה|soukka|souka]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 261.4,
+   "end": 272.2,
+   "text": "C'est [[סֻכּוֹת|Souccot|Soukot]], [[|Hillel|Ilèl]]. Pendant sept jours, on habite dans la [[סֻכָּה|soukka|souka]]. On y mange, on y dort même, si on veut. Pour se souvenir que dans le désert, on vivait dans des cabanes, et que [[|Hachem|Achème]] nous protégeait."
+  },
+  {
+   "sp": "N",
+   "start": 273.0,
+   "end": 282.92,
+   "text": "Les trois enfants aidèrent une famille à construire sa [[סֻכָּה|soukka|souka]]. Arié posa les branches sur le toit. [[|Eydel|Èïdèl]] accrocha des fruits et des dessins. Et [[|Hillel|Ilèl]]…"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 283.72,
+   "end": 289.87,
+   "text": "Je mets assez de trous dans le toit, pour qu'on voie les [[כּוֹכָבִים|kokhavim|kôravime]] !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 290.67,
+   "end": 297.45,
+   "text": "Bravo, [[|Hillel|Ilèl]]. Le toit d'une [[סֻכָּה|soukka|souka]] doit laisser passer un peu le ciel. Pour qu'on puisse voir les [[כּוֹכָבִים|kokhavim|kôravime]] la nuit."
+  },
+  {
+   "sp": "N",
+   "start": 298.25,
+   "end": 310.84,
+   "text": "Puis [[מִרְיָם|Myriam|Miriame]] leur montra un drôle de bouquet. Une grande branche de palmier, toute droite, avec des branches de saule et de myrte attachées autour. Et à côté, un gros citron très parfumé."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 311.64,
+   "end": 328.28,
+   "text": "C'est le [[לוּלָב|loulav|loulav]]. On le tient dans la main, avec le cédrat. Et on l'agite dans toutes les directions : devant, à droite, derrière, à gauche, en haut, en bas. Pour dire : [[|Hachem|Achème]] est partout !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 329.08,
+   "end": 332.39,
+   "text": "Le [[לוּלָב|loulav|loulav]] fait chhh, chhh, quand on l'agite !"
+  },
+  {
+   "sp": "N",
+   "start": 333.19,
+   "end": 341.27,
+   "text": "Et tout le monde se mit à agiter son [[לוּלָב|loulav|loulav]], en chantant. Chhh, chhh, chhh. Ça faisait comme le bruit du vent dans les palmiers."
+  },
+  {
+   "sp": "N",
+   "start": 343.97,
+   "end": 353.08,
+   "text": "La [[יוֹנָה|yona|yona]] ramena les enfants devant la tente de [[מֹשֶׁה|Moshé|Moché]]. Le dessin dans le sable était fini. Il y avait tous les [[מוֹעֲדִים|mo'adim|moadime]], en rond, comme une grande roue."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 353.88,
+   "end": 361.75,
+   "text": "Vous voyez ? L'année tourne comme une roue. Et chaque fois qu'on revient à un de ces [[מוֹעֲדִים|mo'adim|moadime]], on retrouve [[|Hachem|Achème]]. Et on se retrouve aussi, tous ensemble, en famille."
+  },
+  {
+   "sp": "N",
+   "start": 362.55,
+   "end": 366.84,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule de [[|Hillel|Ilèl]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 367.64,
+   "end": 371.05,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. À bientôt, pour le prochain rendez-vous. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 371.85,
+   "end": 378.09,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 378.89,
+   "end": 385.36,
+   "text": "Demain, on écrit tous les [[מוֹעֲדִים|mo'adim|moadime]] sur le calendrier du frigo ! Avec des couleurs !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 386.16,
+   "end": 390.83,
+   "text": "Et moi, je vais [[לִסְפֹּר|lispor|lispor]] les jours jusqu'à la prochaine fête. Comme l'[[עֹמֶר|omer|omèr]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 391.63,
+   "end": 392.74,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 393.54,
+   "end": 411.49,
+   "text": "[[מוֹעֲדִים|mo'adim|moadime]], les rendez-vous avec [[|Hachem|Achème]]. [[עֹמֶר|omer|omèr]], la gerbe. [[לִסְפֹּר|lispor|lispor]], compter. [[סֻכָּה|soukka|souka]], la cabane avec des trous pour les étoiles. Et [[לוּלָב|loulav|loulav]], le bouquet qui fait chhh !"
+  },
+  {
+   "sp": "N",
+   "start": 412.29,
+   "end": 428.79,
+   "text": "Et les trois enfants s'endormirent, pendant que la grande roue de l'année continuait de tourner, doucement, de rendez-vous en rendez-vous. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

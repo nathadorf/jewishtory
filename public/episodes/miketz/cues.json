@@ -1,0 +1,373 @@
+{
+ "title": "Eydel, Arié et Hillel au palais de Pharaon",
+ "duration": 495.08,
+ "scenes": [
+  0,
+  11,
+  27,
+  41,
+  52
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 20.31,
+   "text": "Ce soir-là, [[|Hillel|Ilèl]] n'arrêtait pas de demander : et [[יוֹסֵף|Yossef|Yossèf]] ? Il est toujours en prison ? Quand est-ce qu'il sort ? Et justement… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 21.11,
+   "end": 25.42,
+   "text": "On va voir [[יוֹסֵף|Yossef|Yossèf]] ! On va le sortir de prison !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 26.22,
+   "end": 30.05,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 30.85,
+   "end": 45.23,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans un immense palais, avec des colonnes dorées et des peintures sur les murs. Au fond, sur un grand trône, un roi se tenait la tête dans les mains."
+  },
+  {
+   "sp": "ARIE",
+   "start": 46.03,
+   "end": 46.93,
+   "text": "C'est qui, lui ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 47.73,
+   "end": 54.27,
+   "text": "C'est [[פַּרְעֹה|Pharaon|Faraon]], Arié. Le [[מֶלֶךְ|mélekh|mélèr]] d'Égypte. En hébreu, le roi, c'est le [[מֶלֶךְ|mélekh|mélèr]]."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 55.07,
+   "end": 63.63,
+   "text": "J'ai fait deux [[חֲלוֹמוֹת|'halomot|ralomot]] cette nuit, et personne, personne ne peut me les expliquer ! Tous mes savants se grattent la tête, et ils ne disent que des bêtises !"
+  },
+  {
+   "sp": "N",
+   "start": 64.43,
+   "end": 69.59,
+   "text": "Alors l'échanson, celui qui sert à boire au [[מֶלֶךְ|mélekh|mélèr]], s'avança tout gêné."
+  },
+  {
+   "sp": "ECHANSON",
+   "start": 70.39,
+   "end": 82.47,
+   "text": "[[פַּרְעֹה|Pharaon|Faraon]]… Je viens de me souvenir de quelque chose. Il y a deux ans, en prison, un jeune Hébreu m'a expliqué mon [[חֲלוֹם|'halom|ralom]]. Et tout est arrivé exactement comme il l'avait dit. Il s'appelle [[יוֹסֵף|Yossef|Yossèf]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 83.27,
+   "end": 85.42,
+   "text": "Enfin ! Il s'en souvient !"
+  },
+  {
+   "sp": "PHARAON",
+   "start": 86.22,
+   "end": 88.08,
+   "text": "Qu'on aille le chercher ! Tout de suite !"
+  },
+  {
+   "sp": "N",
+   "start": 90.78,
+   "end": 99.91,
+   "text": "On sortit [[יוֹסֵף|Yossef|Yossèf]] de la prison. On lui coupa les cheveux, on lui donna de beaux habits propres, et on l'amena devant le [[מֶלֶךְ|mélekh|mélèr]]. Les enfants marchaient à côté de lui."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 100.71,
+   "end": 104.03,
+   "text": "Vous êtes revenus ! Je savais que [[|Hachem|Achème]] ne m'oublierait pas."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 104.83,
+   "end": 107.55,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]], on m'a dit que tu sais expliquer les [[חֲלוֹמוֹת|'halomot|ralomot]]."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 108.35,
+   "end": 115.17,
+   "text": "Ce n'est pas moi, [[פַּרְעֹה|Pharaon|Faraon]]. C'est [[|Hachem|Achème]] qui donne la réponse. Moi, je ne fais que l'écouter."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 115.97,
+   "end": 134.9,
+   "text": "Écoute alors. J'étais au bord du fleuve. Sept vaches sont sorties de l'eau, grosses et belles. En hébreu, les vaches, ce sont les [[פָּרוֹת|parot|parot]]. Puis sept autres [[פָּרוֹת|parot|parot]] sont sorties, toutes maigres, toutes laides. Et les maigres ont mangé les grosses ! Et elles sont restées toutes maigres !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 135.7,
+   "end": 138.48,
+   "text": "Des [[פָּרוֹת|parot|parot]] qui mangent des [[פָּרוֹת|parot|parot]] ? C'est bizarre !"
+  },
+  {
+   "sp": "PHARAON",
+   "start": 139.28,
+   "end": 146.13,
+   "text": "Et ensuite, j'ai rêvé de sept épis de blé, pleins et dorés. Et sept épis tout secs les ont avalés."
+  },
+  {
+   "sp": "N",
+   "start": 146.93,
+   "end": 151.33,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]] ferma les yeux un instant. Puis il parla, très calmement."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 152.13,
+   "end": 168.2,
+   "text": "Tes deux [[חֲלוֹמוֹת|'halomot|ralomot]] disent la même chose, [[פַּרְעֹה|Pharaon|Faraon]]. Les sept [[פָּרוֹת|parot|parot]] grosses, ce sont sept années où il y aura beaucoup de blé, beaucoup de nourriture pour tout le monde. Mais ensuite viendront sept années de [[רָעָב|ra'av|raav]]. La famine. Il n'y aura plus rien à manger."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 169.0,
+   "end": 175.49,
+   "text": "Le [[רָעָב|ra'av|raav]], c'est quand on a très faim et qu'il n'y a rien dans le frigo ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 176.29,
+   "end": 179.97,
+   "text": "Oui, [[|Hillel|Ilèl]]. Mais pour tout un pays, et pendant très longtemps."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 180.77,
+   "end": 191.57,
+   "text": "Alors voici mon idée. Pendant les sept bonnes années, il faut garder un peu de blé chaque année, dans de grands greniers. Comme ça, pendant le [[רָעָב|ra'av|raav]], il y aura assez de [[לֶחֶם|lé'hem|lérème]] pour tout le monde."
+  },
+  {
+   "sp": "N",
+   "start": 192.37,
+   "end": 196.81,
+   "text": "[[פַּרְעֹה|Pharaon|Faraon]] se leva de son trône. Il regardait [[יוֹסֵף|Yossef|Yossèf]] avec de grands yeux."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 197.61,
+   "end": 210.43,
+   "text": "Quelle [[חָכְמָה|'hokhma|rorma]] ! Quelle sagesse ! En hébreu, on dit [[חָכְמָה|'hokhma|rorma]], n'est-ce pas ? Il n'y a personne d'aussi sage que toi. C'est toi qui t'occuperas de toute l'Égypte. Tu seras le premier, juste après moi !"
+  },
+  {
+   "sp": "N",
+   "start": 211.23,
+   "end": 219.56,
+   "text": "Et [[פַּרְעֹה|Pharaon|Faraon]] lui donna sa bague, un collier en or, et un char tiré par des chevaux. Tout le monde s'inclinait sur son passage."
+  },
+  {
+   "sp": "ARIE",
+   "start": 220.36,
+   "end": 226.62,
+   "text": "Ce matin il était en prison, et ce soir il est presque [[מֶלֶךְ|mélekh|mélèr]] !"
+  },
+  {
+   "sp": "N",
+   "start": 229.32,
+   "end": 243.19,
+   "text": "La [[יוֹנָה|yona|yona]] fit tourner le temps, et les sept bonnes années passèrent. [[יוֹסֵף|Yossef|Yossèf]] remplit des greniers immenses, avec des montagnes de blé. Puis le [[רָעָב|ra'av|raav]] arriva, partout. Même très loin, au pays de [[יַעֲקֹב|Yaakov|Yaakov]]."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 243.99,
+   "end": 253.39,
+   "text": "Mes fils, il n'y a plus rien à manger. On m'a dit qu'en [[מִצְרַיִם|Mitsraïm|Mitsraïm]], il y a du blé. Allez en acheter. Mais [[בִּנְיָמִין|Binyamin|Biniamine]], le petit dernier, reste avec moi. Je ne veux pas le perdre, lui aussi."
+  },
+  {
+   "sp": "N",
+   "start": 254.19,
+   "end": 265.31,
+   "text": "Et dix [[אַחִים|a'him|arime]] partirent vers [[מִצְרַיִם|Mitsraïm|Mitsraïm]]. Ils arrivèrent devant le grand chef qui vendait le blé. Ils se penchèrent jusqu'à terre devant lui. Comme dans le [[חֲלוֹם|'halom|ralom]] de [[יוֹסֵף|Yossef|Yossèf]], il y a très longtemps !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 266.11,
+   "end": 270.77,
+   "text": "Arié… Le grand chef, c'est [[יוֹסֵף|Yossef|Yossèf]] ! Mais ils ne le reconnaissent pas !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 271.57,
+   "end": 275.96,
+   "text": "Avec ses habits égyptiens et sa couronne, moi non plus je ne l'aurais pas reconnu."
+  },
+  {
+   "sp": "N",
+   "start": 276.76,
+   "end": 285.83,
+   "text": "Mais [[יוֹסֵף|Yossef|Yossèf]], lui, reconnut tout de suite ses [[אַחִים|a'him|arime]]. Son cœur battait très fort. Il voulait savoir s'ils avaient changé. S'ils regrettaient."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 286.63,
+   "end": 289.32,
+   "text": "D'où venez-vous ? Vous êtes des espions, peut-être ?"
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 290.12,
+   "end": 300.2,
+   "text": "Non, monseigneur ! Nous sommes douze frères, les fils d'un même père. Le plus petit est resté à la maison avec notre papa. Et un autre… n'est plus là."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 301.0,
+   "end": 309.61,
+   "text": "Prouvez-le. Revenez avec votre petit frère. En attendant, l'un de vous restera ici, comme invité. [[שִׁמְעוֹן|Shimon|Chimone]], tu restes."
+  },
+  {
+   "sp": "N",
+   "start": 310.41,
+   "end": 316.26,
+   "text": "Et les [[אַחִים|a'him|arime]] se mirent à parler entre eux, en hébreu, sans savoir que [[יוֹסֵף|Yossef|Yossèf]] comprenait tout."
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 317.06,
+   "end": 322.63,
+   "text": "C'est à cause de ce qu'on a fait à [[יוֹסֵף|Yossef|Yossèf]]… On ne l'a pas écouté quand il pleurait au fond du trou."
+  },
+  {
+   "sp": "N",
+   "start": 323.43,
+   "end": 328.07,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]] se retourna, et il pleura en cachette. [[|Hillel|Ilèl]] lui prit la main."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 328.87,
+   "end": 330.93,
+   "text": "Pourquoi tu pleures, [[יוֹסֵף|Yossef|Yossèf]] ?"
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 331.73,
+   "end": 334.65,
+   "text": "Parce qu'ils regrettent, [[|Hillel|Ilèl]]. Ils regrettent vraiment."
+  },
+  {
+   "sp": "N",
+   "start": 337.35,
+   "end": 344.72,
+   "text": "Les [[אַחִים|a'him|arime]] rentrèrent chez [[יַעֲקֹב|Yaakov|Yaakov]]. Le blé fut mangé, et le [[רָעָב|ra'av|raav]] continuait. Alors [[יְהוּדָה|Yéhouda|Yéhouda]] parla à son père."
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 345.52,
+   "end": 352.93,
+   "text": "Papa, laisse-nous emmener [[בִּנְיָמִין|Binyamin|Biniamine]]. Je te promets de le protéger. Je m'occuperai de lui comme de mon propre enfant."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 353.73,
+   "end": 357.17,
+   "text": "Bon… Partez, mes fils. Et que [[|Hachem|Achème]] vous protège."
+  },
+  {
+   "sp": "N",
+   "start": 357.97,
+   "end": 372.83,
+   "text": "Quand [[יוֹסֵף|Yossef|Yossèf]] vit [[בִּנְיָמִין|Binyamin|Biniamine]], son petit frère, le fils de sa maman, il dut sortir de la pièce tellement il était ému. Puis il organisa un grand repas pour tous ses [[אַחִים|a'him|arime]]. [[שִׁמְעוֹן|Shimon|Chimone]] était libre, et tout le monde mangeait du bon [[לֶחֶם|lé'hem|lérème]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 373.63,
+   "end": 377.96,
+   "text": "Et regardez ! [[בִּנְיָמִין|Binyamin|Biniamine]] a une assiette cinq fois plus grande que les autres !"
+  },
+  {
+   "sp": "N",
+   "start": 378.76,
+   "end": 388.82,
+   "text": "Le lendemain matin, les [[אַחִים|a'him|arime]] repartirent avec leurs sacs pleins de blé. Mais [[יוֹסֵף|Yossef|Yossèf]] avait fait cacher sa coupe en argent, sa [[גְּבִיעַ|guévia|guévia]], dans le sac de [[בִּנְיָמִין|Binyamin|Biniamine]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 389.62,
+   "end": 390.64,
+   "text": "Pourquoi il fait ça ?"
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 391.44,
+   "end": 397.43,
+   "text": "Pour voir si mes [[אַחִים|a'him|arime]] vont abandonner [[בִּנְיָמִין|Binyamin|Biniamine]], comme ils m'ont abandonné… ou s'ils vont le défendre."
+  },
+  {
+   "sp": "N",
+   "start": 398.23,
+   "end": 408.49,
+   "text": "Les soldats rattrapèrent les [[אַחִים|a'him|arime]] sur la route. Ils ouvrirent les sacs, un par un… et dans le sac de [[בִּנְיָמִין|Binyamin|Biniamine]], il y avait la [[גְּבִיעַ|guévia|guévia]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 409.29,
+   "end": 412.51,
+   "text": "Oh non ! Qu'est-ce qui va se passer ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 413.31,
+   "end": 415.23,
+   "text": "On le saura la prochaine fois, [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 417.93,
+   "end": 421.56,
+   "text": "La [[יוֹנָה|yona|yona]] se posa sur l'épaule d'[[|Eydel|Èïdèl]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 422.36,
+   "end": 430.72,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Revenez vite. La suite, c'est le plus beau moment de toute ma vie. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 431.52,
+   "end": 437.76,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "ARIE",
+   "start": 438.56,
+   "end": 443.26,
+   "text": "Moi, plus tard, je serai comme [[יוֹסֵף|Yossef|Yossèf]]. J'aurai beaucoup de [[חָכְמָה|'hokhma|rorma]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 444.06,
+   "end": 446.55,
+   "text": "Alors commence par te souvenir des mots, Arié."
+  },
+  {
+   "sp": "ARIE",
+   "start": 447.35,
+   "end": 460.33,
+   "text": "Facile ! [[מֶלֶךְ|mélekh|mélèr]], le roi. [[פָּרוֹת|parot|parot]], les vaches. [[רָעָב|ra'av|raav]], la famine. [[חָכְמָה|'hokhma|rorma]], la sagesse. Et [[גְּבִיעַ|guévia|guévia]], la coupe en argent !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 461.13,
+   "end": 469.24,
+   "text": "Et demain, au goûter, je garde un biscuit pour plus tard. Comme [[יוֹסֵף|Yossef|Yossèf]] avec le blé."
+  },
+  {
+   "sp": "N",
+   "start": 470.04,
+   "end": 484.28,
+   "text": "Et les trois enfants s'endormirent en se demandant ce que les [[אַחִים|a'him|arime]] allaient faire pour sauver [[בִּנְיָמִין|Binyamin|Biniamine]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

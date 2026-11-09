@@ -1,0 +1,93 @@
+# Episode 33 : Kora'h. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: ma'hloket, kina (reused), shaked, pera'h, mate (reused), tehilim. Reused: kohen gadol, shalom, yona, toda, layla tov.
+# Kora'h's jealousy, Moshé going himself to make peace, Kora'h's group "disappearing from the camp" in one non-graphic sentence,
+# and Aharon's staff blossoming with almonds overnight. Kora'h's sons, who chose peace, later write psalms.
+
+TITLE = "Eydel, Arié et Hillel et le bâton qui fleurit"
+
+W = {
+    "mahloket": "[[מַחְלֹקֶת|ma'hloket|marlokète]]",
+    "kina": "[[קִנְאָה|kin'a|kina]]",
+    "shaked": "[[שָׁקֵד|shaked|chakèd]]",
+    "shkedim": "[[שְׁקֵדִים|shkédim|chkédime]]",
+    "perah": "[[פֶּרַח|péra'h|pérar]]",
+    "pirhim": "[[פְּרָחִים|pra'him|prarime]]",
+    "mate": "[[מַטֶּה|maté|maté]]",
+    "matot": "[[מַטּוֹת|matot|matote]]",
+    "tehilim": "[[תְּהִלִּים|Téhilim|Téilime]]",
+    "kohen gadol": "[[כֹּהֵן גָּדוֹל|kohen gadol|koèn gadol]]",
+    "mishkan": "[[מִשְׁכָּן|mishkan|michkane]]",
+    "mahane": "[[מַחֲנֶה|ma'hané|marané]]",
+    "shvatim": "[[שְׁבָטִים|shvatim|chvatime]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "aharon": "[[אַהֲרֹן|Aharon|Aarone]]",
+    "korah": "[[קֹרַח|Kora'h|Korar]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce jour-là, dans la cour de l'école, il y avait eu une grande dispute. Tout le monde voulait être le chef du jeu. Ça criait, ça se poussait, et finalement, plus personne n'avait joué. {hillel} était rentré tout grognon. Toc, toc, toc. La {yona}."),
+ ("HILLEL", "La {yona}… J'espère qu'il n'y a pas de dispute, là-bas."),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le {mahane}. Mais quelque chose n'allait pas. Devant la tente de {moshe}, il y avait un groupe d'hommes qui criaient très fort. Et au milieu, un homme richement habillé, qui criait plus fort que tout le monde."),
+ ("KORAH", "{moshe} ! {aharon} ! Pourquoi c'est toujours vous les chefs ? Toi, tu es le chef du peuple. Et ton frère, il est le {kohen gadol}. Et nous, alors ? Tout le peuple est saint ! Pourquoi vous vous mettez au-dessus de nous ?"),
+ ("ARIE", "C'est qui, ce monsieur ?"),
+ ("EYDEL", "C'est {korah}, Arié. Il est le cousin de {moshe}. Et il a beaucoup de {kina}. De la jalousie. Il veut être le chef à la place de {moshe}."),
+ ("N", "{moshe} écouta, sans crier. Puis il tomba à genoux, le visage contre le sol, très triste."),
+ ("HILLEL", "Pourquoi {moshe} ne se défend pas ?"),
+ ("MOSHE", "Parce que je n'ai jamais voulu être le chef, {hillel}. C'est {hachem} qui m'a choisi. Et ce n'est pas en criant plus fort qu'on arrange les choses. C'est une {mahloket}. Une dispute. Et une {mahloket}, c'est comme un feu. Plus on souffle dessus, plus elle grandit."),
+ ("~", ""),
+ ("N", "{moshe} essaya de faire la paix. Il envoya un message à deux amis de {korah}, Datan et Aviram, pour leur proposer de venir parler. Mais ils refusèrent."),
+ ("N", "On ne viendra pas ! répondirent-ils."),
+ ("ARIE", "Ils ne veulent même pas parler !"),
+ ("N", "Alors {moshe} fit quelque chose de très humble. Le grand {moshe}, le chef de tout le peuple, se leva… et il alla lui-même jusqu'à leurs tentes, à pied. Pour essayer encore de faire le {shalom}."),
+ ("EYDEL", "Il va les voir lui-même. Même s'ils ont été méchants avec lui."),
+ ("MOSHE", "Pour le {shalom}, on peut faire le premier pas, {eydel}. Même quand on a raison. Surtout quand on a raison."),
+ ("N", "Mais {korah} et sa bande ne voulaient rien entendre. Ils restaient devant leurs tentes, les bras croisés, à crier."),
+ ("~", ""),
+ ("N", "Alors {hachem} montra à tout le peuple que {moshe} disait la vérité. Ce jour-là, {korah} et sa bande disparurent du {mahane}, et on ne les revit jamais plus."),
+ ("HILLEL", "Ils sont partis ?"),
+ ("EYDEL", "Oui, {hillel}. La {mahloket} les a emportés loin du peuple."),
+ ("N", "Mais les fils de {korah}, eux, n'avaient pas suivi leur papa. Ils avaient choisi le {shalom}. Et ils restèrent dans le {mahane}."),
+ ("AHARON", "Et vous savez quoi ? Plus tard, les enfants de leurs enfants deviendront des musiciens au Temple. Et ils écriront des chants pour {hachem}, qui sont dans le livre des {tehilim}, les psaumes. On les chante encore aujourd'hui."),
+ ("ARIE", "Le papa a choisi la dispute. Et les enfants ont choisi la musique."),
+ ("~", ""),
+ ("N", "Mais certaines personnes dans le peuple se demandaient encore : pourquoi c'est {aharon}, le {kohen gadol} ? Alors {hachem} dit à {moshe} : demande à chacun des douze chefs de {shvatim} de t'apporter son {mate}. Son bâton."),
+ ("MOSHE", "Chaque chef écrit son nom sur son {mate}. {aharon} écrira son nom sur le {mate} de la tribu de Lévi. Et nous allons poser les douze {matot} dans le {mishkan}, pendant la nuit."),
+ ("HILLEL", "Et qu'est-ce qui va se passer ?"),
+ ("MOSHE", "Le {mate} de celui que {hachem} a choisi va fleurir."),
+ ("ARIE", "Un bâton qui fleurit ? Mais c'est du bois sec !"),
+ ("N", "Les douze chefs apportèrent leurs {matot}, tout secs, tout droits. {moshe} les posa côte à côte dans le {mishkan}, devant l'arche. Et tout le monde alla se coucher. Les enfants aussi, dans une petite tente, avec la {yona}."),
+ ("N", "Le lendemain matin, très tôt, {moshe} entra dans le {mishkan}. Les enfants le suivirent sur la pointe des pieds."),
+ ("~", ""),
+ ("N", "Onze {matot} étaient exactement comme la veille. Tout secs. Mais le douzième… le {mate} d'{aharon}…"),
+ ("HILLEL", "Il a des feuilles ! Et des fleurs !"),
+ ("N", "Le bâton d'{aharon} avait des bourgeons verts. Puis des {pirhim}, de jolies fleurs blanches et roses. Et au milieu des fleurs, des amandes. Des vraies amandes, toutes mûres ! En hébreu, l'amande, c'est le {shaked}."),
+ ("EYDEL", "En une seule nuit, il a fait des bourgeons, des {pirhim}, et des {shkedim} !"),
+ ("ARIE", "Je peux goûter un {shaked} ?"),
+ ("AHARON", "Celui-là, on va le garder, Arié. {hachem} a demandé qu'on mette mon {mate} à côté de l'arche, pour toujours. Pour que tout le monde se souvienne. Et pour que les disputes s'arrêtent."),
+ ("N", "Et quand le peuple vit le {mate} fleuri, plus personne ne cria. La {mahloket} était finie."),
+ ("EYDEL", "Le {shaked}, c'est le premier arbre à fleurir au printemps en {israel}. Avant tous les autres. Pour Tou Bichvat, on chante une chanson sur lui."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur le {mate} fleuri. Il était temps de rentrer."),
+ ("MOSHE", "{toda}, mes amis. Et souvenez-vous : la {mahloket}, c'est comme un feu. Le {shalom}, c'est comme un {perah}. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("HILLEL", "Demain, dans la cour, je dirai : on n'a pas besoin d'un chef. On fait chacun son tour. Comme ça, pas de {mahloket}."),
+ ("ARIE", "Et si quelqu'un se fâche, on fait le premier pas. Comme {moshe}."),
+ ("EYDEL", "Qui se souvient des mots ?"),
+ ("HILLEL", "{mahloket}, la dispute. {kina}, la jalousie. {perah}, la fleur. {shaked}, l'amande. Et {tehilim}, les chants des enfants de {korah}."),
+ ("N", "Et les trois enfants s'endormirent. Et dans leur rêve, un vieux bâton tout sec se couvrait de fleurs blanches et roses, et d'amandes toutes douces. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

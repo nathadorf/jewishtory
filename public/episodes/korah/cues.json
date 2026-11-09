@@ -1,0 +1,290 @@
+{
+ "title": "Eydel, Arié et Hillel et le bâton qui fleurit",
+ "duration": 413.68,
+ "scenes": [
+  0,
+  10,
+  17,
+  23,
+  30,
+  38
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 26.27,
+   "text": "Ce jour-là, dans la cour de l'école, il y avait eu une grande dispute. Tout le monde voulait être le chef du jeu. Ça criait, ça se poussait, et finalement, plus personne n'avait joué. [[|Hillel|Ilèl]] était rentré tout grognon. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 27.07,
+   "end": 30.94,
+   "text": "La [[יוֹנָה|yona|yona]]… J'espère qu'il n'y a pas de dispute, là-bas."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 31.74,
+   "end": 35.56,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 36.36,
+   "end": 54.24,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le [[מַחֲנֶה|ma'hané|marané]]. Mais quelque chose n'allait pas. Devant la tente de [[מֹשֶׁה|Moshé|Moché]], il y avait un groupe d'hommes qui criaient très fort. Et au milieu, un homme richement habillé, qui criait plus fort que tout le monde."
+  },
+  {
+   "sp": "KORAH",
+   "start": 55.04,
+   "end": 68.21,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] ! [[אַהֲרֹן|Aharon|Aarone]] ! Pourquoi c'est toujours vous les chefs ? Toi, tu es le chef du peuple. Et ton frère, il est le [[כֹּהֵן גָּדוֹל|kohen gadol|koèn gadol]]. Et nous, alors ? Tout le peuple est saint ! Pourquoi vous vous mettez au-dessus de nous ?"
+  },
+  {
+   "sp": "ARIE",
+   "start": 69.01,
+   "end": 69.96,
+   "text": "C'est qui, ce monsieur ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 70.76,
+   "end": 82.81,
+   "text": "C'est [[קֹרַח|Kora'h|Korar]], Arié. Il est le cousin de [[מֹשֶׁה|Moshé|Moché]]. Et il a beaucoup de [[קִנְאָה|kin'a|kina]]. De la jalousie. Il veut être le chef à la place de [[מֹשֶׁה|Moshé|Moché]]."
+  },
+  {
+   "sp": "N",
+   "start": 83.61,
+   "end": 90.92,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] écouta, sans crier. Puis il tomba à genoux, le visage contre le sol, très triste."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 91.72,
+   "end": 94.24,
+   "text": "Pourquoi [[מֹשֶׁה|Moshé|Moché]] ne se défend pas ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 95.04,
+   "end": 108.33,
+   "text": "Parce que je n'ai jamais voulu être le chef, [[|Hillel|Ilèl]]. C'est [[|Hachem|Achème]] qui m'a choisi. Et ce n'est pas en criant plus fort qu'on arrange les choses. C'est une [[מַחְלֹקֶת|ma'hloket|marlokète]]. Une dispute. Et une [[מַחְלֹקֶת|ma'hloket|marlokète]], c'est comme un feu. Plus on souffle dessus, plus elle grandit."
+  },
+  {
+   "sp": "N",
+   "start": 111.03,
+   "end": 120.52,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] essaya de faire la paix. Il envoya un message à deux amis de [[קֹרַח|Kora'h|Korar]], Datan et Aviram, pour leur proposer de venir parler. Mais ils refusèrent."
+  },
+  {
+   "sp": "N",
+   "start": 121.07,
+   "end": 123.07,
+   "text": "On ne viendra pas ! répondirent-ils."
+  },
+  {
+   "sp": "ARIE",
+   "start": 123.87,
+   "end": 125.33,
+   "text": "Ils ne veulent même pas parler !"
+  },
+  {
+   "sp": "N",
+   "start": 126.13,
+   "end": 140.68,
+   "text": "Alors [[מֹשֶׁה|Moshé|Moché]] fit quelque chose de très humble. Le grand [[מֹשֶׁה|Moshé|Moché]], le chef de tout le peuple, se leva… et il alla lui-même jusqu'à leurs tentes, à pied. Pour essayer encore de faire le [[שָׁלוֹם|shalom|chalom]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 141.48,
+   "end": 144.3,
+   "text": "Il va les voir lui-même. Même s'ils ont été méchants avec lui."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 145.1,
+   "end": 149.7,
+   "text": "Pour le [[שָׁלוֹם|shalom|chalom]], on peut faire le premier pas, [[|Eydel|Èïdèl]]. Même quand on a raison. Surtout quand on a raison."
+  },
+  {
+   "sp": "N",
+   "start": 150.5,
+   "end": 157.1,
+   "text": "Mais [[קֹרַח|Kora'h|Korar]] et sa bande ne voulaient rien entendre. Ils restaient devant leurs tentes, les bras croisés, à crier."
+  },
+  {
+   "sp": "N",
+   "start": 159.8,
+   "end": 170.78,
+   "text": "Alors [[|Hachem|Achème]] montra à tout le peuple que [[מֹשֶׁה|Moshé|Moché]] disait la vérité. Ce jour-là, [[קֹרַח|Kora'h|Korar]] et sa bande disparurent du [[מַחֲנֶה|ma'hané|marané]], et on ne les revit jamais plus."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 171.58,
+   "end": 172.69,
+   "text": "Ils sont partis ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 173.49,
+   "end": 177.2,
+   "text": "Oui, [[|Hillel|Ilèl]]. La [[מַחְלֹקֶת|ma'hloket|marlokète]] les a emportés loin du peuple."
+  },
+  {
+   "sp": "N",
+   "start": 178.0,
+   "end": 186.29,
+   "text": "Mais les fils de [[קֹרַח|Kora'h|Korar]], eux, n'avaient pas suivi leur papa. Ils avaient choisi le [[שָׁלוֹם|shalom|chalom]]. Et ils restèrent dans le [[מַחֲנֶה|ma'hané|marané]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 187.09,
+   "end": 199.25,
+   "text": "Et vous savez quoi ? Plus tard, les enfants de leurs enfants deviendront des musiciens au Temple. Et ils écriront des chants pour [[|Hachem|Achème]], qui sont dans le livre des [[תְּהִלִּים|Téhilim|Téilime]], les psaumes. On les chante encore aujourd'hui."
+  },
+  {
+   "sp": "ARIE",
+   "start": 200.05,
+   "end": 205.24,
+   "text": "Le papa a choisi la dispute. Et les enfants ont choisi la musique."
+  },
+  {
+   "sp": "N",
+   "start": 207.94,
+   "end": 221.38,
+   "text": "Mais certaines personnes dans le peuple se demandaient encore : pourquoi c'est [[אַהֲרֹן|Aharon|Aarone]], le [[כֹּהֵן גָּדוֹל|kohen gadol|koèn gadol]] ? Alors [[|Hachem|Achème]] dit à [[מֹשֶׁה|Moshé|Moché]] : demande à chacun des douze chefs de [[שְׁבָטִים|shvatim|chvatime]] de t'apporter son [[מַטֶּה|maté|maté]]. Son bâton."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 222.18,
+   "end": 231.46,
+   "text": "Chaque chef écrit son nom sur son [[מַטֶּה|maté|maté]]. [[אַהֲרֹן|Aharon|Aarone]] écrira son nom sur le [[מַטֶּה|maté|maté]] de la tribu de Lévi. Et nous allons poser les douze [[מַטּוֹת|matot|matote]] dans le [[מִשְׁכָּן|mishkan|michkane]], pendant la nuit."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 232.26,
+   "end": 233.71,
+   "text": "Et qu'est-ce qui va se passer ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 234.51,
+   "end": 237.79,
+   "text": "Le [[מַטֶּה|maté|maté]] de celui que [[|Hachem|Achème]] a choisi va fleurir."
+  },
+  {
+   "sp": "ARIE",
+   "start": 238.59,
+   "end": 242.02,
+   "text": "Un bâton qui fleurit ? Mais c'est du bois sec !"
+  },
+  {
+   "sp": "N",
+   "start": 242.82,
+   "end": 256.64,
+   "text": "Les douze chefs apportèrent leurs [[מַטּוֹת|matot|matote]], tout secs, tout droits. [[מֹשֶׁה|Moshé|Moché]] les posa côte à côte dans le [[מִשְׁכָּן|mishkan|michkane]], devant l'arche. Et tout le monde alla se coucher. Les enfants aussi, dans une petite tente, avec la [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "N",
+   "start": 257.19,
+   "end": 263.78,
+   "text": "Le lendemain matin, très tôt, [[מֹשֶׁה|Moshé|Moché]] entra dans le [[מִשְׁכָּן|mishkan|michkane]]. Les enfants le suivirent sur la pointe des pieds."
+  },
+  {
+   "sp": "N",
+   "start": 266.48,
+   "end": 273.31,
+   "text": "Onze [[מַטּוֹת|matot|matote]] étaient exactement comme la veille. Tout secs. Mais le douzième… le [[מַטֶּה|maté|maté]] d'[[אַהֲרֹן|Aharon|Aarone]]…"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 274.11,
+   "end": 276.83,
+   "text": "Il a des feuilles ! Et des fleurs !"
+  },
+  {
+   "sp": "N",
+   "start": 277.63,
+   "end": 293.24,
+   "text": "Le bâton d'[[אַהֲרֹן|Aharon|Aarone]] avait des bourgeons verts. Puis des [[פְּרָחִים|pra'him|prarime]], de jolies fleurs blanches et roses. Et au milieu des fleurs, des amandes. Des vraies amandes, toutes mûres ! En hébreu, l'amande, c'est le [[שָׁקֵד|shaked|chakèd]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 294.04,
+   "end": 298.93,
+   "text": "En une seule nuit, il a fait des bourgeons, des [[פְּרָחִים|pra'him|prarime]], et des [[שְׁקֵדִים|shkédim|chkédime]] !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 299.73,
+   "end": 300.89,
+   "text": "Je peux goûter un [[שָׁקֵד|shaked|chakèd]] ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 301.69,
+   "end": 310.82,
+   "text": "Celui-là, on va le garder, Arié. [[|Hachem|Achème]] a demandé qu'on mette mon [[מַטֶּה|maté|maté]] à côté de l'arche, pour toujours. Pour que tout le monde se souvienne. Et pour que les disputes s'arrêtent."
+  },
+  {
+   "sp": "N",
+   "start": 311.62,
+   "end": 317.07,
+   "text": "Et quand le peuple vit le [[מַטֶּה|maté|maté]] fleuri, plus personne ne cria. La [[מַחְלֹקֶת|ma'hloket|marlokète]] était finie."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 317.87,
+   "end": 326.06,
+   "text": "Le [[שָׁקֵד|shaked|chakèd]], c'est le premier arbre à fleurir au printemps en [[יִשְׂרָאֵל|Israël|Israèl]]. Avant tous les autres. Pour Tou Bichvat, on chante une chanson sur lui."
+  },
+  {
+   "sp": "N",
+   "start": 328.76,
+   "end": 332.57,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur le [[מַטֶּה|maté|maté]] fleuri. Il était temps de rentrer."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 333.37,
+   "end": 339.39,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Et souvenez-vous : la [[מַחְלֹקֶת|ma'hloket|marlokète]], c'est comme un feu. Le [[שָׁלוֹם|shalom|chalom]], c'est comme un [[פֶּרַח|péra'h|pérar]]. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 340.19,
+   "end": 346.43,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 347.23,
+   "end": 356.97,
+   "text": "Demain, dans la cour, je dirai : on n'a pas besoin d'un chef. On fait chacun son tour. Comme ça, pas de [[מַחְלֹקֶת|ma'hloket|marlokète]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 357.77,
+   "end": 361.15,
+   "text": "Et si quelqu'un se fâche, on fait le premier pas. Comme [[מֹשֶׁה|Moshé|Moché]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 361.95,
+   "end": 363.06,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 363.86,
+   "end": 379.28,
+   "text": "[[מַחְלֹקֶת|ma'hloket|marlokète]], la dispute. [[קִנְאָה|kin'a|kina]], la jalousie. [[פֶּרַח|péra'h|pérar]], la fleur. [[שָׁקֵד|shaked|chakèd]], l'amande. Et [[תְּהִלִּים|Téhilim|Téilime]], les chants des enfants de [[קֹרַח|Kora'h|Korar]]."
+  },
+  {
+   "sp": "N",
+   "start": 380.08,
+   "end": 402.88,
+   "text": "Et les trois enfants s'endormirent. Et dans leur rêve, un vieux bâton tout sec se couvrait de fleurs blanches et roses, et d'amandes toutes douces. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

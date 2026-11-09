@@ -1,0 +1,270 @@
+{
+ "title": "Eydel, Arié et Hillel et les douze cadeaux pareils",
+ "duration": 365.58,
+ "scenes": [
+  0,
+  10,
+  18,
+  33
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 25.84,
+   "text": "Ce soir-là, au goûter d'anniversaire de leur cousin, il y avait eu une petite dispute. Arié et [[|Hillel|Ilèl]] avaient apporté le même cadeau : la même petite voiture rouge. Et chacun disait que le sien était le meilleur. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 26.64,
+   "end": 30.43,
+   "text": "La [[יוֹנָה|yona|yona]]… Bon, on arrête de se disputer, [[|Hillel|Ilèl]]. On y va."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 31.23,
+   "end": 35.05,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 35.85,
+   "end": 50.81,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le camp d'[[יִשְׂרָאֵל|Israël|Israèl]]. Au milieu des tentes, il y avait un homme avec des cheveux très, très longs. Ils lui tombaient jusqu'au milieu du dos."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 51.61,
+   "end": 54.9,
+   "text": "Regardez ses cheveux ! Il ne va jamais chez le coiffeur ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 55.7,
+   "end": 67.79,
+   "text": "Pas en ce moment, [[|Hillel|Ilèl]]. C'est un nazir. Quelqu'un qui a fait une promesse spéciale à [[|Hachem|Achème]], pour quelque temps. Pendant cette période, il ne se coupe pas le [[שֵׂעָר|séar|séar]], les cheveux. Et il ne mange pas de [[עֲנָבִים|anavim|anavime]], de raisins. Ni de jus de raisin."
+  },
+  {
+   "sp": "ARIE",
+   "start": 68.59,
+   "end": 71.68,
+   "text": "Pas de [[עֲנָבִים|anavim|anavime]] ? Même pas un seul ?"
+  },
+  {
+   "sp": "N",
+   "start": 72.48,
+   "end": 75.92,
+   "text": "Le nazir se mit à rire, et il secoua son long [[שֵׂעָר|séar|séar]]."
+  },
+  {
+   "sp": "N",
+   "start": 76.47,
+   "end": 89.18,
+   "text": "Pas un seul ! dit-il. Pendant trente jours, j'ai décidé de me rapprocher de [[|Hachem|Achème]]. Je prie plus, je pense plus. Et quand j'aurai fini, je couperai mon [[שֵׂעָר|séar|séar]], et je ferai une grande fête !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 89.98,
+   "end": 96.22,
+   "text": "C'est un peu comme quand on décide de ne pas manger de bonbons pendant une semaine, pour voir si on est capable."
+  },
+  {
+   "sp": "N",
+   "start": 98.92,
+   "end": 109.48,
+   "text": "Plus loin, devant le [[מִשְׁכָּן|mishkan|michkane]], [[אַהֲרֹן|Aharon|Aarone]] et ses fils, les [[כֹּהֲנִים|kohanim|koanime]], se tenaient debout, face au peuple. Ils levèrent les mains, les doigts écartés d'une façon très spéciale."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 110.28,
+   "end": 116.88,
+   "text": "[[|Hachem|Achème]] m'a appris les mots de la bénédiction des [[כֹּהֲנִים|kohanim|koanime]]. Écoutez bien. Ce sont des mots très anciens. Vous les connaissez peut-être déjà."
+  },
+  {
+   "sp": "AHARON",
+   "start": 117.68,
+   "end": 122.77,
+   "text": "[[יְבָרֶכְךָ|yévarékhékha|yévaréréRa]] [[|Hachem|Achème]] ve-yishmerekha. Que [[|Hachem|Achème]] te bénisse et te garde."
+  },
+  {
+   "sp": "AHARON",
+   "start": 123.32,
+   "end": 127.32,
+   "text": "Que [[|Hachem|Achème]] fasse briller son visage vers toi, et qu'Il te fasse grâce."
+  },
+  {
+   "sp": "AHARON",
+   "start": 127.87,
+   "end": 132.75,
+   "text": "Que [[|Hachem|Achème]] tourne son visage vers toi, et qu'Il te donne le [[שָׁלוֹם|shalom|chalom]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 133.55,
+   "end": 140.1,
+   "text": "Je connais ! C'est ce que Papa dit, le vendredi soir, avec ses mains sur ma tête !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 140.9,
+   "end": 147.26,
+   "text": "Oui, [[|Hillel|Ilèl]] ! Ça vient d'ici. [[יְבָרֶכְךָ|yévarékhékha|yévaréréRa]]… Que [[|Hachem|Achème]] te bénisse."
+  },
+  {
+   "sp": "ARIE",
+   "start": 148.06,
+   "end": 152.55,
+   "text": "Et ça finit par le [[שָׁלוֹם|shalom|chalom]]. Le plus important à la fin."
+  },
+  {
+   "sp": "N",
+   "start": 155.25,
+   "end": 167.47,
+   "text": "Le lendemain, le [[מִשְׁכָּן|mishkan|michkane]] était enfin installé, tout beau, tout brillant. Et alors, un homme arriva, avec un cortège. Il portait de beaux habits, et il conduisait des chariots tirés par des [[שׁוֹר|shor|chor]]."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 168.27,
+   "end": 175.31,
+   "text": "C'est un [[נָשִׂיא|nassi|nassi]]. Un prince. Le chef d'une tribu. Il y a un [[נָשִׂיא|nassi|nassi]] pour chacune des douze [[שְׁבָטִים|shvatim|chvatime]]."
+  },
+  {
+   "sp": "N",
+   "start": 176.11,
+   "end": 187.33,
+   "text": "Les douze [[נְשִׂיאִים|nessi'im|néssiime]] avaient apporté six [[עֲגָלוֹת|agalot|agalot]], six chariots couverts, pour aider à transporter le [[מִשְׁכָּן|mishkan|michkane]] dans le désert. Un chariot pour deux [[נְשִׂיאִים|nessi'im|néssiime]], et un [[שׁוֹר|shor|chor]] pour chacun."
+  },
+  {
+   "sp": "N",
+   "start": 187.88,
+   "end": 203.61,
+   "text": "Puis le premier [[נָשִׂיא|nassi|nassi]] s'avança. C'était Nahshon, le prince de [[יְהוּדָה|Yéhouda|Yéhouda]]. Il avait apporté des cadeaux pour le [[מִשְׁכָּן|mishkan|michkane]] : un plat en argent, un bol en argent, une petite cuillère en or remplie de parfum, de la farine, des animaux pour les [[קָרְבָּנוֹת|korbanot|korbanot]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 204.41,
+   "end": 206.08,
+   "text": "Waouh ! C'est un beau cadeau !"
+  },
+  {
+   "sp": "N",
+   "start": 206.88,
+   "end": 221.64,
+   "text": "Le lendemain, le deuxième [[נָשִׂיא|nassi|nassi]] arriva. Et il apporta… exactement le même cadeau. Un plat en argent, un bol en argent, une cuillère en or. Le troisième jour, le troisième [[נָשִׂיא|nassi|nassi]]… pareil !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 222.44,
+   "end": 225.63,
+   "text": "Mais c'est [[זֵהֶה|zéhé|zéé]] ! C'est pareil !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 226.43,
+   "end": 229.22,
+   "text": "[[זֵהֶה|zéhé|zéé]], ça veut dire identique, [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 230.02,
+   "end": 242.1,
+   "text": "Et pendant douze jours, chaque [[נָשִׂיא|nassi|nassi]] vint, l'un après l'autre. Et chacun apporta un cadeau absolument [[זֵהֶה|zéhé|zéé]]. Jusqu'au dernier, le prince de la tribu de Naftali."
+  },
+  {
+   "sp": "ARIE",
+   "start": 242.9,
+   "end": 246.81,
+   "text": "Ils n'ont pas eu d'autres idées ? Ils auraient pu se mettre d'accord !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 247.61,
+   "end": 255.16,
+   "text": "Ils se sont mis d'accord, Arié. Exprès. Pour que personne ne se dispute pour savoir qui avait le plus beau cadeau. Pour que personne ne soit jaloux."
+  },
+  {
+   "sp": "N",
+   "start": 255.96,
+   "end": 259.01,
+   "text": "Arié regarda [[|Hillel|Ilèl]]. [[|Hillel|Ilèl]] regarda Arié."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 259.81,
+   "end": 269.83,
+   "text": "Et vous savez ce qui est le plus étonnant ? Dans la Torah, [[|Hachem|Achème]] a fait écrire chaque cadeau en entier. Douze fois, avec tous les détails. Le plat, le bol, la cuillère. Douze fois !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 270.63,
+   "end": 273.78,
+   "text": "Alors qu'on aurait pu écrire juste : et les autres ont apporté la même chose !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 274.58,
+   "end": 283.88,
+   "text": "Exactement, [[|Eydel|Èïdèl]]. Mais pour [[|Hachem|Achème]], chaque cadeau est unique. Même s'il est [[זֵהֶה|zéhé|zéé]]. Parce que chaque [[נָשִׂיא|nassi|nassi]] l'a donné avec son cœur à lui, son jour à lui, et ses pensées à lui."
+  },
+  {
+   "sp": "N",
+   "start": 286.58,
+   "end": 290.12,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur un des chariots. Il était temps de rentrer."
+  },
+  {
+   "sp": "AHARON",
+   "start": 290.92,
+   "end": 296.77,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. [[יְבָרֶכְךָ|yévarékhékha|yévaréréRa]] [[|Hachem|Achème]]. Que [[|Hachem|Achème]] vous bénisse et vous garde. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 297.57,
+   "end": 303.81,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "ARIE",
+   "start": 304.61,
+   "end": 311.09,
+   "text": "[[|Hillel|Ilèl]]… Nos deux petites voitures, elles étaient [[זֵהֶה|zéhé|zéé]]. Comme les cadeaux des [[נְשִׂיאִים|nessi'im|néssiime]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 311.89,
+   "end": 314.92,
+   "text": "Alors elles sont toutes les deux les meilleures !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 315.72,
+   "end": 319.69,
+   "text": "Exactement. Chacun l'a choisie avec son cœur à lui."
+  },
+  {
+   "sp": "N",
+   "start": 320.49,
+   "end": 323.84,
+   "text": "Et les deux frères se tapèrent dans la main, réconciliés."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 324.64,
+   "end": 325.75,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 326.55,
+   "end": 338.7,
+   "text": "[[נָשִׂיא|nassi|nassi]], le prince. [[זֵהֶה|zéhé|zéé]], pareil. [[עֲנָבִים|anavim|anavime]], les raisins. [[שֵׂעָר|séar|séar]], les cheveux. Et [[יְבָרֶכְךָ|yévarékhékha|yévaréréRa]], que [[|Hachem|Achème]] te bénisse !"
+  },
+  {
+   "sp": "N",
+   "start": 339.5,
+   "end": 354.78,
+   "text": "Et les trois enfants s'endormirent, sous la plus vieille bénédiction du monde. Que [[|Hachem|Achème]] vous bénisse et vous garde. Qu'Il vous donne le [[שָׁלוֹם|shalom|chalom]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

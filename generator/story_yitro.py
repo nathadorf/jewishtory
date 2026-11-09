@@ -1,0 +1,96 @@
+# Episode 16 : Yitro. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: anan, kol, ésser, lou'hot, na'assé vénishma. Reused: har, shofar, mishpa'ha, shabbat, ohel, yona, toda, layla tov.
+# Yitro's advice (share the work), then Mount Sinai and the Ten Commandments told simply.
+
+TITLE = "Eydel, Arié et Hillel au pied du mont Sinaï"
+
+W = {
+    "anan": "[[עָנָן|anan|anane]]",
+    "kol": "[[קוֹל|kol|kol]]",
+    "kolot": "[[קוֹלוֹת|kolot|kolot]]",
+    "esser": "[[עֶשֶׂר|ésser|éssèr]]",
+    "louhot": "[[לוּחוֹת|lou'hot|lourot]]",
+    "naase": "[[נַעֲשֶׂה וְנִשְׁמָע|na'assé vénishma|naassé vénichma]]",
+    "har": "[[הַר|har|ar]]",
+    "man": "[[מָן|man|mane]]",
+    "shofar": "[[שׁוֹפָר|shofar|chofar]]",
+    "mishpaha": "[[מִשְׁפָּחָה|mishpa'ha|michpara]]",
+    "shabbat": "[[שַׁבָּת|Chabbat|Chabat]]",
+    "ohel": "[[אֹהֶל|ohel|ôhèl]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "yitro": "[[יִתְרוֹ|Yitro|Yitro]]",
+    "tsipora": "[[צִפּוֹרָה|Tsipora|Tsipora]]",
+    "miriam": "[[מִרְיָם|Myriam|Miriame]]",
+    "sinai": "[[סִינַי|Sinaï|Sinaï]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, Maman était très fatiguée. Elle avait fait les courses, la cuisine, le linge, les devoirs, le bain… tout toute seule. Les enfants l'avaient vue s'asseoir sur le canapé en soupirant. Et puis, dans la chambre… toc, toc, toc. La {yona}."),
+ ("ARIE", "La {yona} ! On retourne dans le désert ?"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent devant l'{ohel} de {moshe}, au milieu du camp des enfants d'{israel}. Devant l'{ohel}, il y avait une file de gens immense. Elle n'en finissait pas."),
+ ("HILLEL", "Pourquoi tous ces gens font la queue ?"),
+ ("MIRIAM", "Ils attendent {moshe}. Dès qu'il y a une dispute, ou une question, tout le monde vient le voir. Du matin jusqu'au soir. Il est épuisé."),
+ ("N", "Au même moment, un vieux monsieur arriva sur un chameau, avec {tsipora}, la femme de {moshe}, et leurs deux garçons. C'était {yitro}, le papa de {tsipora}."),
+ ("YITRO", "{shalom}, mon gendre ! J'ai entendu parler de tout ce que {hachem} a fait pour vous. La mer qui s'ouvre, le {man} du ciel… Je suis venu te voir, avec toute ta {mishpaha} !"),
+ ("MOSHE", "{yitro} ! {tsipora} ! Mes garçons ! Quelle joie !"),
+ ("N", "Ils se firent de grands câlins. Puis {yitro} s'assit, et regarda {moshe} travailler toute la journée. Écouter, répondre, juger. Encore et encore."),
+ ("~", ""),
+ ("N", "Le soir, {yitro} prit {moshe} à part."),
+ ("YITRO", "{moshe}, ce que tu fais n'est pas bon. Tu vas t'épuiser. Et le peuple aussi, à attendre toute la journée. Tu ne peux pas tout faire tout seul."),
+ ("MOSHE", "Mais alors, comment faire ?"),
+ ("YITRO", "Choisis des hommes sages et honnêtes. Chacun s'occupera d'un petit groupe. Pour les petites questions, ce sont eux qui répondront. Et toi, tu t'occuperas seulement des grandes questions. Comme ça, la charge sera partagée."),
+ ("ARIE", "C'est comme à la maison ! Si chacun fait un peu, Maman n'est pas toute seule à tout faire."),
+ ("YITRO", "Exactement, mon garçon. Tu as tout compris."),
+ ("N", "Et {moshe} écouta le conseil de {yitro}. Il trouva même que c'était une très bonne idée."),
+ ("EYDEL", "{moshe} est le plus grand chef du peuple, et pourtant il écoute les conseils."),
+ ("~", ""),
+ ("N", "Quelques semaines plus tard, les enfants d'{israel} arrivèrent au pied d'une montagne, dans le désert. Le {har} {sinai}. Ils installèrent leurs tentes tout autour."),
+ ("MOSHE", "Préparez-vous. Lavez vos habits. Dans trois jours, {hachem} va nous parler. Ici, sur le {har} {sinai}."),
+ ("HILLEL", "{hachem} va nous parler ? À tout le monde ? Même à moi ?"),
+ ("MOSHE", "Même à toi, {hillel}. Les grands, les petits, les bébés. Tout le monde."),
+ ("N", "Pendant trois jours, tout le monde se prépara. On lava les habits, on rangea les tentes. Et {moshe} demanda au peuple :"),
+ ("MOSHE", "{hachem} veut nous donner la Torah. Ses règles, pour vivre bien, ensemble. Est-ce que vous voulez la recevoir ?"),
+ ("N", "Et tout le peuple, d'une seule voix, comme une seule personne avec un seul cœur, répondit :"),
+ ("N", "{naase} ! Nous ferons, et nous comprendrons !"),
+ ("ARIE", "{naase} ! On dit oui, avant même de savoir ce qu'il y a dedans ?"),
+ ("EYDEL", "Oui, Arié. Parce qu'ils avaient confiance. Comme quand Papa nous dit : viens, j'ai une surprise. On y va, et après on découvre."),
+ ("~", ""),
+ ("N", "Le troisième jour, au matin, quelque chose d'incroyable arriva. Un gros nuage descendit sur le {har}. En hébreu, le nuage, c'est l'{anan}. L'{anan} était épais, tout sombre, avec des éclairs qui brillaient dedans."),
+ ("N", "Et on entendit des bruits. Des {kolot}. Le tonnerre. Et un son très fort, qui devenait de plus en plus fort : le {shofar} !"),
+ ("HILLEL", "Le {shofar} ! Comme à Roch Hachana ! Mais beaucoup plus fort !"),
+ ("N", "Toute la montagne tremblait. Et même les oiseaux s'étaient arrêtés de chanter. Même les vaches s'étaient arrêtées de meugler. Tout le monde était silencieux, et écoutait."),
+ ("N", "Et alors, la voix de {hachem} parla. En hébreu, la voix, c'est le {kol}. Un {kol} immense et doux en même temps, qui remplissait tout. Il dit {esser} paroles. Dix."),
+ ("EYDEL", "{esser}… Les dix commandements."),
+ ("N", "Je suis {hachem}, ton Dieu, qui t'a fait sortir d'Égypte. Tu n'auras pas d'autres dieux. Tu ne prononceras pas mon nom pour rien. Souviens-toi du jour du {shabbat}, pour le rendre saint. Respecte ton père et ta mère."),
+ ("ARIE", "Respecte ton père et ta mère… Oups. Ce soir, je n'ai pas aidé Maman."),
+ ("N", "Et le {kol} continua : Ne tue pas. Ne prends pas ce qui est aux autres. Ne mens pas sur ton voisin. Ne sois pas jaloux de ce que les autres ont."),
+ ("HILLEL", "Ne sois pas jaloux… Comme les frères de Yossef !"),
+ ("N", "Puis le {kol} se tut. Et {moshe} monta tout en haut du {har}, dans l'{anan}. Il y resta quarante jours. Et {hachem} lui donna deux grandes pierres, sur lesquelles étaient gravées les {esser} paroles. En hébreu, ce sont les {louhot}."),
+ ("ARIE", "Les {louhot} ! Comme dans la synagogue, au-dessus de l'armoire de la Torah !"),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur l'épaule d'Arié. Il était temps de rentrer."),
+ ("YITRO", "{toda} d'être venus, les enfants. Et n'oubliez pas mon conseil : à la maison, on partage le travail."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Mais Arié se releva aussitôt."),
+ ("ARIE", "Attendez-moi !"),
+ ("N", "Il courut dans le salon. Maman était encore sur le canapé. Arié lui fit un gros bisou, et il ramassa toutes les chaussettes qui traînaient par terre."),
+ ("ARIE", "Maman, à partir de demain, je t'aide. On partage. C'est {yitro} qui l'a dit. Et {hachem} aussi : respecte ton père et ta mère."),
+ ("EYDEL", "Et qui se souvient des mots ?"),
+ ("HILLEL", "{anan}, le nuage. {kol}, la voix. {esser}, dix. {louhot}, les tables de pierre. Et {naase} : nous ferons, et nous comprendrons !"),
+ ("N", "Et les trois enfants s'endormirent, en entendant encore, tout au loin, le son du {shofar} au-dessus du {har} {sinai}. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+# storm on the mountain
+AMBIENCE = [("Le troisième jour, au matin", "Puis le {kol} se tut".format(**W), 0.05, "rain")]

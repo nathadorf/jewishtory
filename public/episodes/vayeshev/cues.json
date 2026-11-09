@@ -1,0 +1,355 @@
+{
+ "title": "Eydel, Arié et Hillel et la tunique de Yossef",
+ "duration": 463.08,
+ "scenes": [
+  0,
+  13,
+  20,
+  37,
+  50
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 21.04,
+   "text": "Ce soir-là, [[|Eydel|Èïdèl]] avait un nouveau pyjama, plein de couleurs. Arié le trouvait très joli. Peut-être un peu trop joli… Et puis, toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 21.84,
+   "end": 25.79,
+   "text": "On va voir [[יַעֲקֹב|Yaakov|Yaakov]] ! Enfin, [[יִשְׂרָאֵל|Israël|Israèl]] !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 26.59,
+   "end": 30.41,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 31.21,
+   "end": 43.49,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans un grand camp de tentes, au milieu des collines. [[יַעֲקֹב|Yaakov|Yaakov]] était devenu un vieux monsieur à la barbe blanche."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 44.29,
+   "end": 51.51,
+   "text": "Mes petits amis ! Venez, venez. Je veux vous présenter mon fils [[יוֹסֵף|Yossef|Yossèf]]. Et regardez ce que je lui ai fait faire."
+  },
+  {
+   "sp": "N",
+   "start": 52.31,
+   "end": 63.73,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]] s'avança. Il avait dix-sept ans, et il portait une magnifique tunique, longue jusqu'aux pieds, avec toutes les couleurs de l'arc-en-ciel. En hébreu, une tunique, c'est une [[כְּתֹנֶת|ktonet|ktonète]]."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 64.53,
+   "end": 67.7,
+   "text": "[[שָׁלוֹם|shalom|chalom]] ! Vous aimez ma [[כְּתֹנֶת|ktonet|ktonète]] ? Mon père me l'a offerte."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 68.5,
+   "end": 74.51,
+   "text": "Elle a plein de [[צְבָעִים|tsva'im|tsvaime]] ! Du rouge, du bleu, du jaune, du vert…"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 75.31,
+   "end": 78.19,
+   "text": "[[צְבָעִים|tsva'im|tsvaime]], ça veut dire les couleurs, [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 78.99,
+   "end": 91.04,
+   "text": "Mais plus loin, les grands frères de [[יוֹסֵף|Yossef|Yossèf]] gardaient le [[צֹאן|tson|tsone]]. Ils regardaient la [[כְּתֹנֶת|ktonet|ktonète]], et ils fronçaient les sourcils. En hébreu, les frères, ce sont les [[אַחִים|a'him|arime]]."
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 91.84,
+   "end": 97.27,
+   "text": "Toujours lui ! Papa l'aime plus que nous. Et nous, on n'a pas de [[כְּתֹנֶת|ktonet|ktonète]] pleine de [[צְבָעִים|tsva'im|tsvaime]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 98.07,
+   "end": 99.77,
+   "text": "Ils ont l'air fâchés, les [[אַחִים|a'him|arime]]…"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 100.57,
+   "end": 108.15,
+   "text": "Ils sont jaloux, Arié. En hébreu, la jalousie, c'est la [[קִנְאָה|kin'a|kina]]. C'est un sentiment qui pique, à l'intérieur du cœur."
+  },
+  {
+   "sp": "N",
+   "start": 110.85,
+   "end": 112.94,
+   "text": "Un matin, [[יוֹסֵף|Yossef|Yossèf]] arriva tout excité."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 113.74,
+   "end": 124.48,
+   "text": "Écoutez, mes [[אַחִים|a'him|arime]] ! J'ai fait un [[חֲלוֹם|'halom|ralom]] ! On était dans les champs, on attachait des bottes de blé. Et ma botte s'est levée toute droite… et les vôtres se sont penchées devant elle !"
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 125.28,
+   "end": 129.44,
+   "text": "Tu veux dire que tu vas devenir notre chef ? Toi, le petit ?"
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 130.24,
+   "end": 138.67,
+   "text": "Et ce n'est pas tout ! J'ai fait un autre [[חֲלוֹם|'halom|ralom]]. Le soleil, la lune et onze [[כּוֹכָבִים|kokhavim|kôravime]] se penchaient devant moi !"
+  },
+  {
+   "sp": "N",
+   "start": 139.47,
+   "end": 145.69,
+   "text": "Les [[אַחִים|a'him|arime]] étaient de plus en plus fâchés. La [[קִנְאָה|kin'a|kina]] grandissait dans leur cœur, comme une mauvaise herbe."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 146.49,
+   "end": 152.1,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]], tu devrais peut-être pas raconter tous tes [[חֲלוֹמוֹת|'halomot|ralomot]]… Ça les rend tristes."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 152.9,
+   "end": 159.14,
+   "text": "[[|Hillel|Ilèl]] a raison, [[יוֹסֵף|Yossef|Yossèf]]. Il faut faire attention à ce que ressentent les autres. Mais je garderai ces [[חֲלוֹמוֹת|'halomot|ralomot]] dans mon cœur. Peut-être qu'ils veulent dire quelque chose."
+  },
+  {
+   "sp": "N",
+   "start": 161.84,
+   "end": 167.8,
+   "text": "Un jour, les [[אַחִים|a'him|arime]] étaient partis très loin avec le [[צֹאן|tson|tsone]]. [[יַעֲקֹב|Yaakov|Yaakov]] appela [[יוֹסֵף|Yossef|Yossèf]]."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 168.6,
+   "end": 172.42,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]], mon fils, va voir si tes frères vont bien, et reviens me le dire."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 173.22,
+   "end": 175.61,
+   "text": "J'y vais, Papa. Vous venez avec moi, les enfants ?"
+  },
+  {
+   "sp": "N",
+   "start": 176.41,
+   "end": 183.33,
+   "text": "Ils marchèrent longtemps. Quand les [[אַחִים|a'him|arime]] virent arriver la [[כְּתֹנֶת|ktonet|ktonète]] pleine de [[צְבָעִים|tsva'im|tsvaime]], de loin, ils se dirent :"
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 184.13,
+   "end": 187.05,
+   "text": "Voilà le rêveur ! Enlevons-lui sa [[כְּתֹנֶת|ktonet|ktonète]]."
+  },
+  {
+   "sp": "N",
+   "start": 187.85,
+   "end": 197.72,
+   "text": "Et les [[אַחִים|a'him|arime]] prirent la [[כְּתֹנֶת|ktonet|ktonète]] de [[יוֹסֵף|Yossef|Yossèf]], et ils le firent descendre dans un grand trou dans la terre. Un [[בּוֹר|bor|bor]]. Il n'y avait pas d'eau dedans, seulement du sable."
+  },
+  {
+   "sp": "ARIE",
+   "start": 198.52,
+   "end": 201.91,
+   "text": "Arrêtez ! Ce n'est pas gentil ! C'est votre frère !"
+  },
+  {
+   "sp": "N",
+   "start": 202.71,
+   "end": 208.71,
+   "text": "Mais les [[אַחִים|a'him|arime]] n'écoutaient pas. La [[קִנְאָה|kin'a|kina]] les rendait sourds. [[|Eydel|Èïdèl]] se pencha au bord du [[בּוֹר|bor|bor]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 209.51,
+   "end": 215.73,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]] ! Tu nous entends ? On est là. Tu n'es pas tout seul."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 216.53,
+   "end": 221.38,
+   "text": "Je vous entends… J'ai peur. Mais je sais que [[|Hachem|Achème]] est avec moi."
+  },
+  {
+   "sp": "N",
+   "start": 222.18,
+   "end": 231.49,
+   "text": "Bientôt, une caravane de marchands passa, avec des chameaux chargés de parfums. Elle allait vers un pays lointain : [[מִצְרַיִם|Mitsraïm|Mitsraïm]], l'Égypte."
+  },
+  {
+   "sp": "YEHOUDA",
+   "start": 232.29,
+   "end": 238.63,
+   "text": "Ne lui faisons pas de mal, c'est notre frère. Donnons-le à ces marchands, ils l'emmèneront loin."
+  },
+  {
+   "sp": "N",
+   "start": 239.43,
+   "end": 245.68,
+   "text": "Et c'est ce qu'ils firent. Les marchands emmenèrent [[יוֹסֵף|Yossef|Yossèf]] vers [[מִצְרַיִם|Mitsraïm|Mitsraïm]]. [[|Hillel|Ilèl]] se mit à pleurer."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 246.48,
+   "end": 248.34,
+   "text": "Ils sont méchants, les [[אַחִים|a'him|arime]] !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 249.14,
+   "end": 254.64,
+   "text": "Ils ont laissé la [[קִנְאָה|kin'a|kina]] décider à leur place, [[|Hillel|Ilèl]]. C'est ça qui arrive, quand on ne parle pas de ce qu'on ressent."
+  },
+  {
+   "sp": "N",
+   "start": 255.44,
+   "end": 268.63,
+   "text": "Quand les [[אַחִים|a'him|arime]] rentrèrent, ils montrèrent à [[יַעֲקֹב|Yaakov|Yaakov]] la [[כְּתֹנֶת|ktonet|ktonète]], toute déchirée. Et [[יַעֲקֹב|Yaakov|Yaakov]] crut que [[יוֹסֵף|Yossef|Yossèf]] avait été attaqué par une bête sauvage. Il pleura, il pleura, et personne ne pouvait le consoler."
+  },
+  {
+   "sp": "YAAKOV",
+   "start": 269.43,
+   "end": 271.89,
+   "text": "Mon fils… Mon [[יוֹסֵף|Yossef|Yossèf]]…"
+  },
+  {
+   "sp": "N",
+   "start": 274.59,
+   "end": 289.03,
+   "text": "La [[יוֹנָה|yona|yona]] emmena les enfants en [[מִצְרַיִם|Mitsraïm|Mitsraïm]]. Il faisait chaud, il y avait des palmiers, et un grand fleuve. [[יוֹסֵף|Yossef|Yossèf]] était devenu serviteur dans une grande maison. Il travaillait très bien, et tout ce qu'il faisait réussissait."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 289.83,
+   "end": 295.19,
+   "text": "Vous êtes venus ! Regardez, je m'occupe de toute la maison maintenant. [[|Hachem|Achème]] m'aide chaque jour."
+  },
+  {
+   "sp": "N",
+   "start": 295.99,
+   "end": 303.54,
+   "text": "Mais un jour, à cause d'un mensonge, [[יוֹסֵף|Yossef|Yossèf]] fut mis en prison. Pourtant, il n'avait rien fait de mal."
+  },
+  {
+   "sp": "ARIE",
+   "start": 304.34,
+   "end": 305.61,
+   "text": "C'est pas juste !"
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 306.41,
+   "end": 312.89,
+   "text": "Non, Arié, ce n'est pas juste. Mais même ici, je vais essayer d'être utile. Et d'aider les autres."
+  },
+  {
+   "sp": "N",
+   "start": 313.69,
+   "end": 321.53,
+   "text": "Dans la prison, il y avait un homme très triste : l'échanson de [[פַּרְעֹה|Pharaon|Faraon]], le roi d'Égypte. C'était lui qui servait à boire au roi."
+  },
+  {
+   "sp": "ECHANSON",
+   "start": 322.33,
+   "end": 333.17,
+   "text": "J'ai fait un [[חֲלוֹם|'halom|ralom]] cette nuit, et personne ne peut me l'expliquer. Il y avait une vigne, avec trois branches. Les raisins ont poussé, et je les ai pressés dans la coupe de [[פַּרְעֹה|Pharaon|Faraon]]."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 333.97,
+   "end": 342.42,
+   "text": "C'est [[|Hachem|Achème]] qui explique les [[חֲלוֹמוֹת|'halomot|ralomot]]. Trois branches, ce sont trois jours. Dans trois jours, tu sortiras d'ici, et tu serviras de nouveau [[פַּרְעֹה|Pharaon|Faraon]]."
+  },
+  {
+   "sp": "ECHANSON",
+   "start": 343.22,
+   "end": 345.14,
+   "text": "C'est vrai ? Oh, [[תּוֹדָה|toda|toda]] !"
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 345.94,
+   "end": 351.99,
+   "text": "Quand tu seras libre, s'il te plaît, parle de moi à [[פַּרְעֹה|Pharaon|Faraon]]. Dis-lui que je n'ai rien fait de mal."
+  },
+  {
+   "sp": "N",
+   "start": 352.79,
+   "end": 363.55,
+   "text": "Et trois jours plus tard, tout arriva comme [[יוֹסֵף|Yossef|Yossèf]] l'avait dit. L'échanson sortit de prison. Mais… il oublia [[יוֹסֵף|Yossef|Yossèf]]. Il l'oublia complètement."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 364.35,
+   "end": 367.2,
+   "text": "Oh non ! Il l'a oublié !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 368.0,
+   "end": 375.18,
+   "text": "Ne t'inquiète pas, [[|Hillel|Ilèl]]. [[|Hachem|Achème]], Lui, n'oublie jamais personne. L'histoire n'est pas finie."
+  },
+  {
+   "sp": "N",
+   "start": 377.88,
+   "end": 382.64,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser à la fenêtre de la prison. Il était temps de rentrer."
+  },
+  {
+   "sp": "YOSSEF",
+   "start": 383.44,
+   "end": 391.21,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Vous étiez là au fond du [[בּוֹר|bor|bor]], et vous êtes là ici. Revenez me voir, d'accord ? [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 392.01,
+   "end": 401.08,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Arié regarda le pyjama plein de couleurs d'[[|Eydel|Èïdèl]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 401.88,
+   "end": 408.62,
+   "text": "[[|Eydel|Èïdèl]]… Tout à l'heure, j'étais un peu jaloux de ton pyjama. J'avais un peu de [[קִנְאָה|kin'a|kina]], moi aussi."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 409.42,
+   "end": 415.93,
+   "text": "Merci de me le dire, Arié. Tu vois, quand on le dit, la [[קִנְאָה|kin'a|kina]] devient toute petite. Demain, je te le prête, si tu veux."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 416.73,
+   "end": 433.23,
+   "text": "Et moi je me souviens des mots : [[כְּתֹנֶת|ktonet|ktonète]], la tunique. [[צְבָעִים|tsva'im|tsvaime]], les couleurs. [[אַחִים|a'him|arime]], les frères. [[בּוֹר|bor|bor]], le trou. Et [[קִנְאָה|kin'a|kina]], la jalousie, qui pique."
+  },
+  {
+   "sp": "N",
+   "start": 434.03,
+   "end": 452.28,
+   "text": "Et les trois [[אַחִים|a'him|arime]] de notre histoire, eux, s'endormirent sans aucune [[קִנְאָה|kin'a|kina]], en pensant à [[יוֹסֵף|Yossef|Yossèf]], qui attendait, plein d'espoir, dans son pays lointain. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}
