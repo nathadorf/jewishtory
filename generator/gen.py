@@ -71,10 +71,26 @@ ELEVEN = {
     "ARIE":   ("Yx2a8qp2EqI9c5i8MzBo", 0.5, 4.0),  # Philippine (voice library, native French), pitched up
     "HILLEL": ("4vw2WJu8nMr3TyBPShRq", 0.5, 2.0),  # cloned "Eydel" voice, pitched up (user pick)
 }
+# Voices reused for the later characters
+NATH, LUCIE, JON = ELEVEN["AVRAHAM"], ELEVEN["SARAH"], ELEVEN["MALAKH"]
+KEVIN = ("Xgb3SR8idOHy8scGICeJ", 0.5, 0.0)        # Kevin (young French man)
+PHILIPPINE = ("Yx2a8qp2EqI9c5i8MzBo", 0.5, 0.0)   # Philippine without pitch shift (young woman)
+ELEVEN.update({
+    "YITSHAK": NATH, "YAAKOV": KEVIN, "YOSSEF": KEVIN, "MOSHE": NATH,
+    "RIVKA": PHILIPPINE, "RAHEL": PHILIPPINE, "MIRIAM": PHILIPPINE,
+    "LEA": LUCIE, "YOKHEVED": LUCIE, "BATYA": LUCIE,
+    "ELIEZER": JON, "ESSAV": JON, "LAVAN": JON, "PHARAON": JON, "YEHOUDA": JON, "ECHANSON": JON, "AHARON": JON, "YITRO": JON,
+})
 # v3 ignores the speed setting; a bracketed direction slows Nath's naturally quick delivery
-ELEVEN_TAG = {sp: "[slowly, gently] " for sp in ("NOAH", "AVRAM", "AVRAHAM")}
+ELEVEN_TAG = {sp: "[slowly, gently] " for sp in ("NOAH", "AVRAM", "AVRAHAM", "YITSHAK", "MOSHE")}
 # Transliterations ElevenLabs misreads ("Noa'h" comes out as "No-a")
 ELEVEN_SAY = {"Noa'h": "No-arr"}
+
+def apply_cast(story):
+    # a story can recast a role, e.g. old Yaakov speaks with Nath's voice
+    for sp, v in getattr(story, "CAST", {}).items():
+        ELEVEN[sp] = ELEVEN[v]
+        if ELEVEN[sp] == NATH: ELEVEN_TAG[sp] = "[slowly, gently] "
 
 def eleven(sp, text):
     voice, stability, _ = ELEVEN[sp]
@@ -193,7 +209,7 @@ def noise_bed(kind, n, tmp):
     return y[:n]
 
 def main(story_name, out):
-    story = importlib.import_module(story_name)
+    story = importlib.import_module(story_name); apply_cast(story)
     os.makedirs(out, exist_ok=True)
     parts, cues, scenes, t = [], [], [0], 0.0
     def add(y):

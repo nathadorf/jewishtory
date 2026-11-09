@@ -1,0 +1,103 @@
+# Episode 8 : Vayeshev. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: ktonet, tsva'im, a'him, bor, kin'a. Reused: halom, kokhavim, tson, shalom, yona, toda, layla tov.
+# The brothers' jealousy and the sale are told gently; Potiphar's wife is left out (Yossef goes to prison "à cause d'un mensonge").
+
+TITLE = "Eydel, Arié et Hillel et la tunique de Yossef"
+CAST = {"YAAKOV": "AVRAHAM"}  # Yaakov is old now: Nath's voice
+
+W = {
+    "ktonet": "[[כְּתֹנֶת|ktonet|ktonète]]",
+    "tsvaim": "[[צְבָעִים|tsva'im|tsvaime]]",
+    "ahim": "[[אַחִים|a'him|arime]]",
+    "bor": "[[בּוֹר|bor|bor]]",
+    "kina": "[[קִנְאָה|kin'a|kina]]",
+    "halom": "[[חֲלוֹם|'halom|ralom]]",
+    "halomot": "[[חֲלוֹמוֹת|'halomot|ralomot]]",
+    "kokhavim": "[[כּוֹכָבִים|kokhavim|kôravime]]",
+    "tson": "[[צֹאן|tson|tsone]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "yaakov": "[[יַעֲקֹב|Yaakov|Yaakov]]",
+    "yossef": "[[יוֹסֵף|Yossef|Yossèf]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "yehouda": "[[יְהוּדָה|Yéhouda|Yéhouda]]",
+    "binyamin": "[[בִּנְיָמִין|Binyamin|Biniamine]]",
+    "mitsrayim": "[[מִצְרַיִם|Mitsraïm|Mitsraïm]]",
+    "pharaon": "[[פַּרְעֹה|Pharaon|Faraon]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, {eydel} avait un nouveau pyjama, plein de couleurs. Arié le trouvait très joli. Peut-être un peu trop joli… Et puis, toc, toc, toc. La {yona}."),
+ ("HILLEL", "On va voir {yaakov} ! Enfin, {israel} !"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans un grand camp de tentes, au milieu des collines. {yaakov} était devenu un vieux monsieur à la barbe blanche."),
+ ("YAAKOV", "Mes petits amis ! Venez, venez. Je veux vous présenter mon fils {yossef}. Et regardez ce que je lui ai fait faire."),
+ ("N", "{yossef} s'avança. Il avait dix-sept ans, et il portait une magnifique tunique, longue jusqu'aux pieds, avec toutes les couleurs de l'arc-en-ciel. En hébreu, une tunique, c'est une {ktonet}."),
+ ("YOSSEF", "{shalom} ! Vous aimez ma {ktonet} ? Mon père me l'a offerte."),
+ ("HILLEL", "Elle a plein de {tsvaim} ! Du rouge, du bleu, du jaune, du vert…"),
+ ("EYDEL", "{tsvaim}, ça veut dire les couleurs, {hillel}."),
+ ("N", "Mais plus loin, les grands frères de {yossef} gardaient le {tson}. Ils regardaient la {ktonet}, et ils fronçaient les sourcils. En hébreu, les frères, ce sont les {ahim}."),
+ ("YEHOUDA", "Toujours lui ! Papa l'aime plus que nous. Et nous, on n'a pas de {ktonet} pleine de {tsvaim}."),
+ ("ARIE", "Ils ont l'air fâchés, les {ahim}…"),
+ ("EYDEL", "Ils sont jaloux, Arié. En hébreu, la jalousie, c'est la {kina}. C'est un sentiment qui pique, à l'intérieur du cœur."),
+ ("~", ""),
+ ("N", "Un matin, {yossef} arriva tout excité."),
+ ("YOSSEF", "Écoutez, mes {ahim} ! J'ai fait un {halom} ! On était dans les champs, on attachait des bottes de blé. Et ma botte s'est levée toute droite… et les vôtres se sont penchées devant elle !"),
+ ("YEHOUDA", "Tu veux dire que tu vas devenir notre chef ? Toi, le petit ?"),
+ ("YOSSEF", "Et ce n'est pas tout ! J'ai fait un autre {halom}. Le soleil, la lune et onze {kokhavim} se penchaient devant moi !"),
+ ("N", "Les {ahim} étaient de plus en plus fâchés. La {kina} grandissait dans leur cœur, comme une mauvaise herbe."),
+ ("HILLEL", "{yossef}, tu devrais peut-être pas raconter tous tes {halomot}… Ça les rend tristes."),
+ ("YAAKOV", "{hillel} a raison, {yossef}. Il faut faire attention à ce que ressentent les autres. Mais je garderai ces {halomot} dans mon cœur. Peut-être qu'ils veulent dire quelque chose."),
+ ("~", ""),
+ ("N", "Un jour, les {ahim} étaient partis très loin avec le {tson}. {yaakov} appela {yossef}."),
+ ("YAAKOV", "{yossef}, mon fils, va voir si tes frères vont bien, et reviens me le dire."),
+ ("YOSSEF", "J'y vais, Papa. Vous venez avec moi, les enfants ?"),
+ ("N", "Ils marchèrent longtemps. Quand les {ahim} virent arriver la {ktonet} pleine de {tsvaim}, de loin, ils se dirent :"),
+ ("YEHOUDA", "Voilà le rêveur ! Enlevons-lui sa {ktonet}."),
+ ("N", "Et les {ahim} prirent la {ktonet} de {yossef}, et ils le firent descendre dans un grand trou dans la terre. Un {bor}. Il n'y avait pas d'eau dedans, seulement du sable."),
+ ("ARIE", "Arrêtez ! Ce n'est pas gentil ! C'est votre frère !"),
+ ("N", "Mais les {ahim} n'écoutaient pas. La {kina} les rendait sourds. {eydel} se pencha au bord du {bor}."),
+ ("EYDEL", "{yossef} ! Tu nous entends ? On est là. Tu n'es pas tout seul."),
+ ("YOSSEF", "Je vous entends… J'ai peur. Mais je sais que {hachem} est avec moi."),
+ ("N", "Bientôt, une caravane de marchands passa, avec des chameaux chargés de parfums. Elle allait vers un pays lointain : {mitsrayim}, l'Égypte."),
+ ("YEHOUDA", "Ne lui faisons pas de mal, c'est notre frère. Donnons-le à ces marchands, ils l'emmèneront loin."),
+ ("N", "Et c'est ce qu'ils firent. Les marchands emmenèrent {yossef} vers {mitsrayim}. {hillel} se mit à pleurer."),
+ ("HILLEL", "Ils sont méchants, les {ahim} !"),
+ ("EYDEL", "Ils ont laissé la {kina} décider à leur place, {hillel}. C'est ça qui arrive, quand on ne parle pas de ce qu'on ressent."),
+ ("N", "Quand les {ahim} rentrèrent, ils montrèrent à {yaakov} la {ktonet}, toute déchirée. Et {yaakov} crut que {yossef} avait été attaqué par une bête sauvage. Il pleura, il pleura, et personne ne pouvait le consoler."),
+ ("YAAKOV", "Mon fils… Mon {yossef}…"),
+ ("~", ""),
+ ("N", "La {yona} emmena les enfants en {mitsrayim}. Il faisait chaud, il y avait des palmiers, et un grand fleuve. {yossef} était devenu serviteur dans une grande maison. Il travaillait très bien, et tout ce qu'il faisait réussissait."),
+ ("YOSSEF", "Vous êtes venus ! Regardez, je m'occupe de toute la maison maintenant. {hachem} m'aide chaque jour."),
+ ("N", "Mais un jour, à cause d'un mensonge, {yossef} fut mis en prison. Pourtant, il n'avait rien fait de mal."),
+ ("ARIE", "C'est pas juste !"),
+ ("YOSSEF", "Non, Arié, ce n'est pas juste. Mais même ici, je vais essayer d'être utile. Et d'aider les autres."),
+ ("N", "Dans la prison, il y avait un homme très triste : l'échanson de {pharaon}, le roi d'Égypte. C'était lui qui servait à boire au roi."),
+ ("ECHANSON", "J'ai fait un {halom} cette nuit, et personne ne peut me l'expliquer. Il y avait une vigne, avec trois branches. Les raisins ont poussé, et je les ai pressés dans la coupe de {pharaon}."),
+ ("YOSSEF", "C'est {hachem} qui explique les {halomot}. Trois branches, ce sont trois jours. Dans trois jours, tu sortiras d'ici, et tu serviras de nouveau {pharaon}."),
+ ("ECHANSON", "C'est vrai ? Oh, {toda} !"),
+ ("YOSSEF", "Quand tu seras libre, s'il te plaît, parle de moi à {pharaon}. Dis-lui que je n'ai rien fait de mal."),
+ ("N", "Et trois jours plus tard, tout arriva comme {yossef} l'avait dit. L'échanson sortit de prison. Mais… il oublia {yossef}. Il l'oublia complètement."),
+ ("HILLEL", "Oh non ! Il l'a oublié !"),
+ ("EYDEL", "Ne t'inquiète pas, {hillel}. {hachem}, Lui, n'oublie jamais personne. L'histoire n'est pas finie."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser à la fenêtre de la prison. Il était temps de rentrer."),
+ ("YOSSEF", "{toda}, mes amis. Vous étiez là au fond du {bor}, et vous êtes là ici. Revenez me voir, d'accord ? {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Arié regarda le pyjama plein de couleurs d'{eydel}."),
+ ("ARIE", "{eydel}… Tout à l'heure, j'étais un peu jaloux de ton pyjama. J'avais un peu de {kina}, moi aussi."),
+ ("EYDEL", "Merci de me le dire, Arié. Tu vois, quand on le dit, la {kina} devient toute petite. Demain, je te le prête, si tu veux."),
+ ("HILLEL", "Et moi je me souviens des mots : {ktonet}, la tunique. {tsvaim}, les couleurs. {ahim}, les frères. {bor}, le trou. Et {kina}, la jalousie, qui pique."),
+ ("N", "Et les trois {ahim} de notre histoire, eux, s'endormirent sans aucune {kina}, en pensant à {yossef}, qui attendait, plein d'espoir, dans son pays lointain. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+# wind in the fields from the trip to the brothers until Yaakov weeps
+AMBIENCE = [("Un jour, les {ahim} étaient partis".format(**W), "La {yona} emmena les enfants".format(**W), 0.035, "wind")]
