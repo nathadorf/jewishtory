@@ -347,7 +347,7 @@ function buildPicker(){
   const openBook = EP ? EP.book : EPISODES[0].book;
   const books = BOOKS.map(b=>{
     const eps = EPISODES.map((e,i)=>[e,i]).filter(([e])=>e.book===b);
-    return `<details class="book"${openBook===b?" open":""}><summary><b>${b}</b><span>${BOOK_FR[b]||""} · ${eps.length} parasha${eps.length>1?"s":""}</span></summary><div class="episodes">${eps.map(([e,i])=>`<button class="ep" data-i="${i}" aria-current="${i===EPI}"><small>Paracha ${e.parasha}</small><b>${e.title}</b><span class="badges">${badges(i)}</span></button>`).join("")}</div></details>`;
+    return `<details class="book"${openBook===b?" open":""}><summary><b>${b}</b><span>${BOOK_FR[b]||""} · ${eps.length} ${eps.length>1?"parashiot":"parasha"}</span></summary><div class="episodes">${eps.map(([e,i])=>`<button class="ep" data-i="${i}" aria-current="${i===EPI}"><small>Paracha ${e.parasha}</small><b>${e.title}</b><span class="badges">${badges(i)}</span></button>`).join("")}</div></details>`;
   });
   if(!BOOKS.includes("Devarim")) books.push(`<div class="book soon"><b>Devarim</b><span>${BOOK_FR.Devarim} · bientôt</span></div>`);
   $("episodes").innerHTML = books.join("");
