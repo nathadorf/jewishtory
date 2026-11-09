@@ -2,7 +2,7 @@
 # New words: maté, tsfardéa, dam, barad, lev. Reused: yéor, pharaon, mitsrayim, levenim, esh, yona, toda, layla tov.
 # The first seven plagues, focused on the frogs; nothing scary is described in detail.
 
-TITLE = "Eydel, Arié et Hillel et les grenouilles de Pharaon"
+TITLE = "Les grenouilles de Pharaon"
 
 W = {
     "mate": "[[מַטֶּה|maté|maté]]",

@@ -2,7 +2,7 @@
 # New words: terouma, mishkan, aron, krouvim, ménora. Reused: louhot, lehem, or, lev, har, yona, toda, layla tov.
 # Everyone brings a gift "from the heart" and the children watch the Mishkan's furniture take shape.
 
-TITLE = "Eydel, Arié et Hillel et la maison de Hachem"
+TITLE = "La maison de Hachem"
 
 W = {
     "terouma": "[[תְּרוּמָה|terouma|térouma]]",

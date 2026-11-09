@@ -2,7 +2,7 @@
 # New words: yam, rua'h, shira, tof, man. Reused: mate, pharaon, mitsrayim, matsa, lehem, shabbat, yona, toda, layla tov.
 # Crossing the sea (the Egyptian army is simply stopped by the waters), Miriam's song, and the manna with its double portion for Shabbat. Amalek is left out.
 
-TITLE = "Eydel, Arié et Hillel et la mer qui s'ouvre"
+TITLE = "La mer qui s'ouvre"
 
 W = {
     "yam": "[[יָם|yam|yame]]",

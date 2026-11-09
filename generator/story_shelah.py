@@ -2,7 +2,7 @@
 # New words: méraglim, eshkol, 'hagavim, omets, tsitsit. Reused: midbar, anavim, pa'had, israel, yona, toda, layla tov.
 # The twelve scouts and the giant grapes; ten are afraid, Kalev and Yéhoshoua have courage; the forty years are told gently; tsitsit at the end.
 
-TITLE = "Eydel, Arié et Hillel et la grappe géante"
+TITLE = "La grappe géante"
 
 W = {
     "meraglim": "[[מְרַגְּלִים|méraglim|méraglime]]",

@@ -2,7 +2,7 @@
 # New words: moadim, omer, lispor, soukka, loulav. Reused: shabbat, pessah, matsa, shavouot, shofar, yom kippour, yona, toda, layla tov.
 # The calendar of festivals as "rendez-vous with Hachem", told through a year that passes in one night.
 
-TITLE = "Eydel, Arié et Hillel et le calendrier des fêtes"
+TITLE = "Le calendrier des fêtes"
 
 W = {
     "moadim": "[[מוֹעֲדִים|mo'adim|moadime]]",

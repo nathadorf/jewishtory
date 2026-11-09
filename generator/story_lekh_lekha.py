@@ -1,7 +1,7 @@
 # Episode 2 : Lekh Lekha. Same markup as story.py: [[hebrew|translit|tts]].
 # New words: ohel, gamal, kokhavim, dérekh, 'hol. Reused from Noa'h: mayim, yona, késhet, layla tov, boker tov, toda.
 
-TITLE = "Eydel, Arié et Hillel sur la route d'Avram"
+TITLE = "Sur la route d'Avram"
 
 W = {
     "ohel": "[[אֹהֶל|ohel|ôhèl]]",

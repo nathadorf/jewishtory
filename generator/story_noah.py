@@ -1,7 +1,7 @@
 # Story script. Markup [[hebrew|translit|tts]] : shown as translit (+ Hebrew), spoken as tts.
 # Speakers: N narrator, NOAH, EYDEL, ARIE, HILLEL. "~" = scene break (chime).
 
-TITLE = "Eydel, Arié et Hillel sur la tévah de Noé"
+TITLE = "À bord de la tévah de Noé"
 
 W = {
     "tevah": "[[תֵּבָה|tévah|téva]]",

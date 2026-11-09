@@ -2,7 +2,7 @@
 # New words: lévénim, yéor, sné, esh, na'alayim. Reused: tévah, hinéni, mitsrayim, pharaon, bé'èr, tson, yona, toda, layla tov.
 # Pharaoh's decree is only "un ordre très méchant contre les bébés garçons"; the midwives save them; the Egyptian taskmaster scene becomes "Moshé défend un esclave".
 
-TITLE = "Eydel, Arié et Hillel et le bébé dans le panier"
+TITLE = "Le bébé dans le panier"
 
 W = {
     "levenim": "[[לְבֵנִים|lévénim|lévénime]]",

@@ -2,7 +2,7 @@
 # New words: ktonet, tsva'im, a'him, bor, kin'a. Reused: halom, kokhavim, tson, shalom, yona, toda, layla tov.
 # The brothers' jealousy and the sale are told gently; Potiphar's wife is left out (Yossef goes to prison "à cause d'un mensonge").
 
-TITLE = "Eydel, Arié et Hillel et la tunique de Yossef"
+TITLE = "La tunique de Yossef"
 CAST = {"YAAKOV": "AVRAHAM"}  # Yaakov is old now: Nath's voice
 
 W = {

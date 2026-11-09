@@ -2,7 +2,7 @@
 # New words: tinok, brit, milim, lashon hara, bayit. Reused: shmini, kohen, lev, shalom, yona, toda, layla tov.
 # A baby's brit on the eighth day, then tsara'at explained as a "maladie des mots" that shows on walls and skin, healed by the kohen's visit and by kind words.
 
-TITLE = "Eydel, Arié et Hillel et les taches sur le mur"
+TITLE = "Les taches sur le mur"
 
 W = {
     "tinok": "[[תִּינוֹק|tinok|tinok]]",

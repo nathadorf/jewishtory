@@ -2,7 +2,7 @@
 # New words: savlanout, zahav, égel, sli'ha, panim. Reused: har, anan, louhot, lev, aharon, yona, toda, layla tov.
 # The golden calf as a story about impatience and asking forgiveness; the punishment of the Levites is left out.
 
-TITLE = "Eydel, Arié et Hillel et le veau d'or"
+TITLE = "Le veau d'or"
 
 W = {
     "savlanout": "[[סַבְלָנוּת|savlanout|savlanoute]]",

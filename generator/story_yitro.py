@@ -2,7 +2,7 @@
 # New words: anan, kol, ésser, lou'hot, na'assé vénishma. Reused: har, shofar, mishpa'ha, shabbat, ohel, yona, toda, layla tov.
 # Yitro's advice (share the work), then Mount Sinai and the Ten Commandments told simply.
 
-TITLE = "Eydel, Arié et Hillel au pied du mont Sinaï"
+TITLE = "Au pied du mont Sinaï"
 
 W = {
     "anan": "[[עָנָן|anan|anane]]",

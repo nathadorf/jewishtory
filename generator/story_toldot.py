@@ -2,7 +2,7 @@
 # New words: té'omim, marak, adom, sadé, brakha. Reused: ohel, bé'èr, hessed, yona, toda, layla tov, mayim.
 # The blessing scene is told softly: Rivka knows Hachem's plan, the children feel Essav's sadness, and Yitshak blesses both sons.
 
-TITLE = "Eydel, Arié et Hillel et les jumeaux de Rivka"
+TITLE = "Les jumeaux de Rivka"
 
 W = {
     "teomim": "[[תְּאוֹמִים|té'omim|téomime]]",

@@ -2,7 +2,7 @@
 # New words: shémen, néroth tamid, 'hoshen, avanim, paamonim. Reused: menora, mishkan, or, aron, ohel, yona, toda, layla tov.
 # Pure olive oil for the light, Aharon's clothes: the breastplate with twelve stones and the little bells on his robe.
 
-TITLE = "Eydel, Arié et Hillel et les clochettes d'Aharon"
+TITLE = "Les clochettes d'Aharon"
 
 W = {
     "shemen": "[[שֶׁמֶן|shémen|chémène]]",

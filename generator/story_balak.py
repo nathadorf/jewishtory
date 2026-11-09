@@ -2,7 +2,7 @@
 # New words: aton, klala, ohalim, ma tovou, pé. Reused: malakh, brakha, hamor, israel, yona, toda, layla tov.
 # King Balak hires Bilam to curse Israel; the donkey sees the angel and speaks; every curse turns into a blessing: "Ma tovou".
 
-TITLE = "Eydel, Arié et Hillel et l'ânesse qui parle"
+TITLE = "L'ânesse qui parle"
 
 W = {
     "aton": "[[אָתוֹן|aton|atone]]",

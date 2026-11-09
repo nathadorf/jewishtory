@@ -2,7 +2,7 @@
 # New words: adama, shmita, yovel, dror, guéshem. Reused: shabbat, shofar, sade, brakha, shalom, yona, toda, layla tov.
 # The land's Shabbat every seventh year, the jubilee when everyone goes home free, and the blessings of rain and peace. The curses are left out.
 
-TITLE = "Eydel, Arié et Hillel et le Chabbat de la terre"
+TITLE = "Le Chabbat de la terre"
 
 W = {
     "adama": "[[אֲדָמָה|adama|adama]]",

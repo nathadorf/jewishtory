@@ -2,7 +2,7 @@
 # New words: mélekh, parot, ra'av, 'hokhma, guévia. Reused: halom, a'him, mitsrayim, ktonet, toda, yona, layla tov.
 # Shimon held as a "guest", and the cup in Binyamin's sack ends on a gentle cliffhanger.
 
-TITLE = "Eydel, Arié et Hillel au palais de Pharaon"
+TITLE = "Au palais de Pharaon"
 CAST = {"YAAKOV": "AVRAHAM"}
 
 W = {

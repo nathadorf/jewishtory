@@ -2,7 +2,7 @@
 # New words: midbar, lispor, dégel, shvatim, ma'hané. Reused: mishkan, avanim, hoshen, arie, anan, yona, toda, layla tov.
 # Everyone is counted one by one, the twelve tribes camp around the Mishkan, each under its own flag.
 
-TITLE = "Eydel, Arié et Hillel et les douze drapeaux"
+TITLE = "Les douze drapeaux"
 
 W = {
     "midbar": "[[מִדְבָּר|midbar|midbar]]",

@@ -3,7 +3,7 @@
 # Miriam's well that followed the people; when her long life ends the water stops; Moshé strikes the rock instead of speaking to it;
 # the well comes back and the people sing. Aharon's death and the copper snake are left out (parent sheet).
 
-TITLE = "Eydel, Arié et Hillel et le puits de Myriam"
+TITLE = "Le puits de Myriam"
 
 W = {
     "sela": "[[סֶלַע|séla|séla]]",

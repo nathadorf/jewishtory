@@ -2,7 +2,7 @@
 # New words: mizbéa'h, tamid, éfer, 'hamets, shiv'a. Reused: esh, kohen, toda, korban, lehem, aharon, yona, layla tov.
 # The fire that never goes out, the kohen who clears the ashes every morning, the thank-you offering with its loaves, and the seven days of preparation.
 
-TITLE = "Eydel, Arié et Hillel et le feu qui ne s'éteint jamais"
+TITLE = "Le feu qui ne s'éteint jamais"
 
 W = {
     "mizbeah": "[[מִזְבֵּחַ|mizbéa'h|mizbéar]]",
