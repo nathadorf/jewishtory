@@ -1,0 +1,96 @@
+# Episode 36 : Pin'has. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: banot, a'hayot, na'hala, ken, smikha. Reused: lispor, shvatim, tsédek, mishkan, yona, toda, layla tov.
+# Five sisters ask for their father's share of the land and Hachem says they are right; Moshé lays his hands on Yéhoshoua.
+# The episode of Pin'has's zeal is left out (only his "alliance de paix" is named).
+
+TITLE = "Eydel, Arié et Hillel et les cinq sœurs"
+
+W = {
+    "banot": "[[בָּנוֹת|banot|banot]]",
+    "ahayot": "[[אֲחָיוֹת|a'hayot|araïot]]",
+    "nahala": "[[נַחֲלָה|na'hala|narala]]",
+    "ken": "[[כֵּן|kén|kène]]",
+    "smikha": "[[סְמִיכָה|smikha|smiRa]]",
+    "lispor": "[[לִסְפֹּר|lispor|lispor]]",
+    "shvatim": "[[שְׁבָטִים|shvatim|chvatime]]",
+    "tsedek": "[[צֶדֶק|tsédek|tsédèk]]",
+    "mishkan": "[[מִשְׁכָּן|mishkan|michkane]]",
+    "mahane": "[[מַחֲנֶה|ma'hané|marané]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "aharon": "[[אַהֲרֹן|Aharon|Aarone]]",
+    "yehoshoua": "[[יְהוֹשֻׁעַ|Yéhoshoua|Yéochoua]]",
+    "pinhas": "[[פִּינְחָס|Pin'has|Pinrasse]]",
+    "tselofhad": "[[צְלָפְחָד|Tselof'had|Tsélofrad]]",
+    "mahla": "[[מַחְלָה|Ma'hla|Marla]]",
+    "noa": "[[נֹעָה|Noa|Noa]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce jour-là, au foot, les garçons avaient dit à {eydel} : non, toi tu ne peux pas jouer, c'est un jeu de garçons. {eydel} était rentrée furieuse. Elle n'avait rien dit au dîner. Toc, toc, toc. La {yona}."),
+ ("EYDEL", "La {yona}… J'espère qu'on va voir quelque chose de juste, aujourd'hui."),
+ ("HILLEL", "Donne-moi la main, {eydel}. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le {mahane}, tout près du fleuve Jourdain. De l'autre côté, on voyait les collines du pays d'{israel}. Les quarante ans dans le désert étaient presque finis."),
+ ("MOSHE", "{shalom}, mes amis ! Nous allons bientôt entrer dans le pays. Alors {hachem} m'a demandé de {lispor} encore le peuple. Pour savoir combien de familles il y a dans chacune des {shvatim}. Et partager la terre."),
+ ("ARIE", "Chaque famille aura un morceau de terre ?"),
+ ("MOSHE", "Oui, Arié. Chaque famille aura sa {nahala}. Son héritage. Un champ, une maison, des oliviers. Et la {nahala} passera du papa à ses fils."),
+ ("N", "{eydel} fronça les sourcils."),
+ ("EYDEL", "À ses fils ? Et les filles, alors ?"),
+ ("~", ""),
+ ("N", "Au même moment, cinq jeunes femmes s'avancèrent devant le {mishkan}. Elles se tenaient la main. Devant elles, il y avait {moshe}, les chefs des {shvatim}, et tout le peuple. Elles avaient un peu peur. Mais elles s'avancèrent quand même."),
+ ("HILLEL", "Qui c'est ?"),
+ ("EYDEL", "Ce sont les {banot} de {tselofhad}. Les filles de {tselofhad}. Cinq {ahayot}. Cinq sœurs !"),
+ ("N", "La plus grande prit la parole. Elle s'appelait {mahla}."),
+ ("MAHLA", "{moshe}, notre papa, {tselofhad}, est mort dans le désert. Il n'avait pas de fils. Seulement nous, ses cinq {banot}. Alors, est-ce que le nom de notre papa va disparaître ? Juste parce qu'il n'a pas de garçon ?"),
+ ("NOA", "Donne-nous une {nahala}, à nous, ses filles. Parmi les frères de notre papa."),
+ ("N", "Il y eut un grand silence. Tout le monde regardait {moshe}. Personne n'avait jamais demandé ça avant."),
+ ("ARIE", "Qu'est-ce qu'il va dire ?"),
+ ("N", "{moshe} réfléchit. Puis il dit, très simplement :"),
+ ("MOSHE", "Je ne sais pas. Je vais demander à {hachem}."),
+ ("HILLEL", "Même {moshe} ne sait pas tout !"),
+ ("EYDEL", "Et il le dit. Devant tout le monde. C'est beau, ça."),
+ ("~", ""),
+ ("N", "{moshe} entra dans le {mishkan}. Les cinq {ahayot} attendaient dehors, en se tenant la main très fort. Et {eydel} leur tenait la main, à elles aussi."),
+ ("N", "Puis {moshe} ressortit. Il souriait."),
+ ("MOSHE", "{hachem} a dit : {ken}. Les {banot} de {tselofhad} ont raison. {ken} ! Donnez-leur une {nahala}. Et à partir d'aujourd'hui, c'est la loi pour tout {israel} : quand un papa n'a pas de fils, sa {nahala} ira à ses filles."),
+ ("N", "Les cinq {ahayot} se prirent dans les bras en riant. Elles sautaient de joie. Et {eydel} sautait avec elles."),
+ ("EYDEL", "{ken} ! Elles ont raison ! {hachem} a dit {ken} !"),
+ ("ARIE", "Elles ont changé une loi de la Torah, juste en posant une question !"),
+ ("MAHLA", "On a eu peur de parler. Mais c'était juste. Alors on s'est dit : on y va, ensemble. À cinq, on est plus courageuses."),
+ ("MOSHE", "Vous avez cherché le {tsedek}, la justice. Et vous avez demandé avec respect. C'est comme ça qu'on change les choses."),
+ ("N", "Et les enfants apprirent les noms des cinq {ahayot} : {mahla}, {noa}, Hogla, Milka, et Tirtsa. {hillel} les répéta trois fois pour ne pas les oublier."),
+ ("~", ""),
+ ("N", "Plus tard, {hachem} dit à {moshe} : Monte sur la montagne, et regarde le pays. Tu le verras, mais tu n'y entreras pas."),
+ ("N", "{moshe} ne se plaignit pas pour lui. Il pensa d'abord au peuple."),
+ ("MOSHE", "{hachem}, choisis quelqu'un pour guider le peuple après moi. Pour qu'il ne soit pas comme un troupeau de moutons sans berger."),
+ ("N", "Et {hachem} choisit {yehoshoua}. Celui qui avait eu tellement de courage avec les explorateurs. Celui qui ne quittait jamais la tente de {moshe}, et qui apprenait tout."),
+ ("N", "Devant tout le peuple, {moshe} posa ses deux mains sur la tête de {yehoshoua}. En hébreu, c'est la {smikha}."),
+ ("MOSHE", "{yehoshoua}, c'est toi qui emmèneras le peuple dans le pays. Sois fort et courageux. {hachem} sera avec toi."),
+ ("YEHOSHOUA", "Merci, mon maître. Je ferai de mon mieux. Tout ce que je sais, c'est toi qui me l'as appris."),
+ ("HILLEL", "{moshe} lui donne une {smikha}. Comme Papa avec ses mains sur nos têtes le vendredi !"),
+ ("ARIE", "Et {pinhas}, alors ? On a entendu son nom tout à l'heure."),
+ ("MOSHE", "{pinhas} est le petit-fils d'{aharon}. {hachem} lui a donné une alliance de {shalom}. Plus tard, je vous raconterai."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur l'épaule d'{eydel}. Il était temps de rentrer."),
+ ("MAHLA", "{toda}, {eydel}, de nous avoir tenu la main. Et n'aie jamais peur de demander ce qui est juste. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("EYDEL", "Demain, au foot, je vais demander aux garçons, poliment, avec respect, pourquoi je ne peux pas jouer. Et je jouerai."),
+ ("ARIE", "Et moi, je dirai aux autres garçons : elle a raison. {ken} ! Comme {hachem} pour les {banot} de {tselofhad}."),
+ ("HILLEL", "Et moi je serai l'arbitre !"),
+ ("EYDEL", "Qui se souvient des mots ?"),
+ ("HILLEL", "{banot}, les filles. {ahayot}, les sœurs. {nahala}, l'héritage. {ken}, oui. Et {smikha}, les mains sur la tête."),
+ ("N", "Et les trois enfants s'endormirent. Et {eydel} rêva qu'elle marquait un but magnifique, pendant que cinq sœurs criaient bravo, au bord du terrain. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

@@ -1,0 +1,295 @@
+{
+ "title": "Eydel, Arié et Hillel et les clochettes d'Aharon",
+ "duration": 423.46,
+ "scenes": [
+  0,
+  10,
+  15,
+  27,
+  37
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 23.78,
+   "text": "Ce soir-là, il y avait une petite veilleuse dans le couloir. Elle restait allumée toute la nuit, pour que [[|Hillel|Ilèl]] n'ait pas peur. Arié l'appelait la lumière qui ne dort jamais. Et justement… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 24.58,
+   "end": 27.5,
+   "text": "La [[יוֹנָה|yona|yona]] ! On va voir la [[מְנוֹרָה|ménora|ménora]] ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 28.3,
+   "end": 32.13,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.93,
+   "end": 45.33,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans un grand champ d'oliviers, au bord du désert. Des gens cueillaient les olives, une par une, avec beaucoup de soin."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 46.13,
+   "end": 57.93,
+   "text": "[[שָׁלוֹם|shalom|chalom]], les enfants ! Vous venez nous aider ? Il nous faut les plus belles olives. Pour faire de l'huile toute pure. En hébreu, l'huile, c'est le [[שֶׁמֶן|shémen|chémène]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 58.73,
+   "end": 61.11,
+   "text": "Du [[שֶׁמֶן|shémen|chémène]] ? Pour faire la cuisine ?"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 61.91,
+   "end": 69.83,
+   "text": "Non, Arié. Ce [[שֶׁמֶן|shémen|chémène]]-là, c'est pour la [[מְנוֹרָה|ménora|ménora]] du [[מִשְׁכָּן|mishkan|michkane]]. [[|Hachem|Achème]] a demandé l'huile la plus pure, pour la lumière."
+  },
+  {
+   "sp": "N",
+   "start": 70.63,
+   "end": 84.99,
+   "text": "Les enfants cueillirent des olives toutes vertes et toutes brillantes. Puis [[מִרְיָם|Myriam|Miriame]] les écrasa doucement, très doucement, dans un petit pot. Et la toute première goutte qui sortit était dorée et transparente, comme un rayon de soleil."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 85.79,
+   "end": 93.69,
+   "text": "Celle-là, c'est la meilleure. On ne prend que les toutes premières gouttes. Pas besoin de presser fort. Juste un petit peu."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 94.49,
+   "end": 98.53,
+   "text": "Le [[שֶׁמֶן|shémen|chémène]] brille ! On dirait de l'or liquide !"
+  },
+  {
+   "sp": "N",
+   "start": 101.23,
+   "end": 106.51,
+   "text": "Ils apportèrent le petit pot de [[שֶׁמֶן|shémen|chémène]] au [[מִשְׁכָּן|mishkan|michkane]]. [[אַהֲרֹן|Aharon|Aarone]] les attendait devant la [[מְנוֹרָה|ménora|ménora]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 107.31,
+   "end": 118.37,
+   "text": "Merci, mes amis. Chaque soir, je vais allumer la [[מְנוֹרָה|ménora|ménora]] avec ce [[שֶׁמֶן|shémen|chémène]]. Et la lumière brillera toute la nuit, jusqu'au matin. C'est un [[נֵר תָּמִיד|ner tamid|nèr tamid]]. Une lumière pour toujours."
+  },
+  {
+   "sp": "ARIE",
+   "start": 119.17,
+   "end": 125.17,
+   "text": "Un [[נֵר תָּמִיד|ner tamid|nèr tamid]] ! C'est comme notre veilleuse ! La lumière qui ne dort jamais !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 125.97,
+   "end": 137.02,
+   "text": "Exactement, Arié. Et dans toutes les synagogues du monde, aujourd'hui encore, il y a une petite lampe au-dessus de l'armoire de la Torah. Elle reste toujours allumée. On l'appelle aussi le [[נֵר תָּמִיד|ner tamid|nèr tamid]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 137.82,
+   "end": 140.31,
+   "text": "Pour se souvenir de la [[מְנוֹרָה|ménora|ménora]] du [[מִשְׁכָּן|mishkan|michkane]]."
+  },
+  {
+   "sp": "N",
+   "start": 143.01,
+   "end": 145.68,
+   "text": "Et puis [[מֹשֶׁה|Moshé|Moché]] arriva, avec une grande nouvelle."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 146.48,
+   "end": 153.63,
+   "text": "[[אַהֲרֹן|Aharon|Aarone]], mon frère. [[|Hachem|Achème]] t'a choisi, toi et tes fils, pour s'occuper du [[מִשְׁכָּן|mishkan|michkane]]. Tu seras le [[כֹּהֵן גָּדוֹל|kohen gadol|koèn gadol]]. Le grand prêtre."
+  },
+  {
+   "sp": "AHARON",
+   "start": 154.43,
+   "end": 156.91,
+   "text": "Moi ? Oh… Je ferai de mon mieux."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 157.71,
+   "end": 162.63,
+   "text": "Et pour ça, [[בְּצַלְאֵל|Betsalel|Bétsalèl]] va te faire des habits très spéciaux. Des habits d'honneur et de beauté."
+  },
+  {
+   "sp": "N",
+   "start": 163.43,
+   "end": 175.9,
+   "text": "Les enfants suivirent [[אַהֲרֹן|Aharon|Aarone]] jusqu'à l'atelier de [[בְּצַלְאֵל|Betsalel|Bétsalèl]]. Il y avait des tissus partout : du bleu, du violet, du rouge, du blanc tout fin, et des fils d'or qui brillaient."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 176.7,
+   "end": 180.86,
+   "text": "C'est comme un magasin de déguisements ! Mais en mieux !"
+  },
+  {
+   "sp": "N",
+   "start": 181.66,
+   "end": 200.49,
+   "text": "D'abord, [[אַהֲרֹן|Aharon|Aarone]] enfila une longue robe toute bleue. Et en bas de la robe, tout autour, il y avait des petites grenades en tissu, rouges et violettes… et entre chaque grenade, une petite clochette en or. En hébreu, les clochettes, ce sont les [[פַּעֲמוֹנִים|paamonim|paamonime]]."
+  },
+  {
+   "sp": "N",
+   "start": 201.04,
+   "end": 204.23,
+   "text": "Et quand [[אַהֲרֹן|Aharon|Aarone]] marcha… ding, ding, ding, ding."
+  },
+  {
+   "sp": "ARIE",
+   "start": 205.03,
+   "end": 208.13,
+   "text": "Les [[פַּעֲמוֹנִים|paamonim|paamonime]] ! On t'entend arriver de loin !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 208.93,
+   "end": 218.85,
+   "text": "C'est fait pour ça, Arié. Quand j'entre dans le [[מִשְׁכָּן|mishkan|michkane]], les [[פַּעֲמוֹנִים|paamonim|paamonime]] sonnent. C'est une façon de dire, poliment : me voici, j'arrive. On ne rentre pas sans prévenir."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 219.65,
+   "end": 223.6,
+   "text": "Comme quand on frappe à la porte avant d'entrer dans la chambre de Papa et Maman !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 224.4,
+   "end": 226.33,
+   "text": "Toc, toc ! Ding, ding !"
+  },
+  {
+   "sp": "N",
+   "start": 229.03,
+   "end": 246.95,
+   "text": "Ensuite, [[בְּצַלְאֵל|Betsalel|Bétsalèl]] apporta quelque chose de magnifique. Une pièce de tissu carrée, toute brodée d'or, avec douze pierres précieuses, alignées en quatre rangées de trois. En hébreu, les pierres, ce sont les [[אֲבָנִים|avanim|avanime]]. Et ce bijou, c'est le [[חֹשֶׁן|'hoshen|rochène]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 247.75,
+   "end": 255.71,
+   "text": "Il y a des [[אֲבָנִים|avanim|avanime]] de toutes les couleurs ! Une rouge, une verte, une bleue, une violette…"
+  },
+  {
+   "sp": "AHARON",
+   "start": 256.51,
+   "end": 268.63,
+   "text": "Il y a douze [[אֲבָנִים|avanim|avanime]], une pour chaque tribu d'[[יִשְׂרָאֵל|Israël|Israèl]]. Et sur chaque pierre, on a gravé un nom. Tu vois, ici : [[יְהוּדָה|Yéhouda|Yéhouda]]. Là : [[יוֹסֵף|Yossef|Yossèf]]. Et là, la toute petite : [[בִּנְיָמִין|Binyamin|Biniamine]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 269.43,
+   "end": 273.89,
+   "text": "Ce sont les douze frères ! Ceux qu'on a rencontrés avec [[יוֹסֵף|Yossef|Yossèf]] !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 274.69,
+   "end": 285.36,
+   "text": "Oui, [[|Hillel|Ilèl]]. Et je vais porter le [[חֹשֶׁן|'hoshen|rochène]] sur mon cœur. Comme ça, quand j'entrerai dans le [[מִשְׁכָּן|mishkan|michkane]], je porterai tout le peuple d'[[יִשְׂרָאֵל|Israël|Israèl]] contre mon cœur. Chaque famille. Chaque enfant."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 286.16,
+   "end": 286.71,
+   "text": "Même nous ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 287.51,
+   "end": 290.19,
+   "text": "Même vous, [[|Eydel|Èïdèl]]. Surtout vous."
+  },
+  {
+   "sp": "N",
+   "start": 290.99,
+   "end": 306.67,
+   "text": "Et sur les épaules d'[[אַהֲרֹן|Aharon|Aarone]], il y avait encore deux grosses [[אֲבָנִים|avanim|avanime]] d'un vert très doux, avec les noms des douze tribus, six sur chaque pierre. Et sur son front, une plaque en or, avec écrit : Saint pour [[|Hachem|Achème]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 307.47,
+   "end": 310.69,
+   "text": "Waouh, [[אַהֲרֹן|Aharon|Aarone]]. Tu ressembles à un roi."
+  },
+  {
+   "sp": "AHARON",
+   "start": 311.49,
+   "end": 318.35,
+   "text": "Non, Arié. Pas à un roi. À quelqu'un qui sert. Ces habits sont beaux pour faire honneur au [[מִשְׁכָּן|mishkan|michkane]]. Pas pour moi."
+  },
+  {
+   "sp": "N",
+   "start": 321.05,
+   "end": 336.15,
+   "text": "Le soir tomba sur le désert. [[אַהֲרֹן|Aharon|Aarone]] s'approcha de la [[מְנוֹרָה|ménora|ménora]], ding, ding, ding, avec le petit pot de [[שֶׁמֶן|shémen|chémène]] pur. Il alluma les sept lampes, une par une. Et le [[מִשְׁכָּן|mishkan|michkane]] se remplit d'[[אוֹר|or|or]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 336.95,
+   "end": 341.03,
+   "text": "Voilà. Le [[נֵר תָּמִיד|ner tamid|nèr tamid]] est allumé. Il brillera toute la nuit."
+  },
+  {
+   "sp": "N",
+   "start": 341.83,
+   "end": 345.67,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule d'[[|Eydel|Èïdèl]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "AHARON",
+   "start": 346.47,
+   "end": 351.67,
+   "text": "[[תּוֹדָה|toda|toda]] pour le [[שֶׁמֶן|shémen|chémène]], mes amis. Grâce à vous, la [[מְנוֹרָה|ménora|ménora]] brille. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 352.47,
+   "end": 361.69,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Dans le couloir, la veilleuse brillait toujours."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 362.49,
+   "end": 365.57,
+   "text": "Notre [[נֵר תָּמִיד|ner tamid|nèr tamid]] est toujours là."
+  },
+  {
+   "sp": "ARIE",
+   "start": 366.37,
+   "end": 371.86,
+   "text": "Et demain, je frappe avant d'entrer dans la chambre de Papa et Maman. Ding, ding !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 372.66,
+   "end": 373.77,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 374.57,
+   "end": 397.68,
+   "text": "[[שֶׁמֶן|shémen|chémène]], l'huile qui brille. [[נֵר תָּמִיד|ner tamid|nèr tamid]], la lumière qui ne dort jamais. [[פַּעֲמוֹנִים|paamonim|paamonime]], les clochettes. [[אֲבָנִים|avanim|avanime]], les pierres précieuses. Et [[חֹשֶׁן|'hoshen|rochène]], le bijou sur le cœur d'[[אַהֲרֹן|Aharon|Aarone]]."
+  },
+  {
+   "sp": "N",
+   "start": 398.48,
+   "end": 412.66,
+   "text": "Et les trois enfants s'endormirent, portés eux aussi tout contre un grand cœur, comme les douze noms sur le [[חֹשֶׁן|'hoshen|rochène]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

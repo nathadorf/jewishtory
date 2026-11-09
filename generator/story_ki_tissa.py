@@ -1,0 +1,93 @@
+# Episode 20 : Ki Tissa. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: savlanout, zahav, égel, sli'ha, panim. Reused: har, anan, louhot, lev, aharon, yona, toda, layla tov.
+# The golden calf as a story about impatience and asking forgiveness; the punishment of the Levites is left out.
+
+TITLE = "Eydel, Arié et Hillel et le veau d'or"
+
+W = {
+    "savlanout": "[[סַבְלָנוּת|savlanout|savlanoute]]",
+    "zahav": "[[זָהָב|zahav|zaav]]",
+    "egel": "[[עֵגֶל|égel|éguèl]]",
+    "sliha": "[[סְלִיחָה|sli'ha|slira]]",
+    "panim": "[[פָּנִים|panim|panime]]",
+    "har": "[[הַר|har|ar]]",
+    "man": "[[מָן|man|mane]]",
+    "anan": "[[עָנָן|anan|anane]]",
+    "louhot": "[[לוּחוֹת|lou'hot|lourot]]",
+    "lev": "[[לֵב|lev|lèv]]",
+    "or": "[[אוֹר|or|or]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "aharon": "[[אַהֲרֹן|Aharon|Aarone]]",
+    "miriam": "[[מִרְיָם|Myriam|Miriame]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, il y avait un gâteau au chocolat dans la cuisine. Maman avait dit : on le mange demain, pour l'anniversaire de Papi. Mais {hillel} n'avait pas pu attendre. Il y avait maintenant un petit trou, juste sur le bord… Et {hillel} avait du chocolat sur le menton. Toc, toc, toc. La {yona}."),
+ ("HILLEL", "La {yona} ! Vite, on part !"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent au pied du {har} Sinaï. Tout en haut, l'{anan} cachait le sommet. Et autour, le peuple attendait. Et attendait. Et attendait encore."),
+ ("ARIE", "Ils attendent quoi ?"),
+ ("MIRIAM", "Ils attendent {moshe}. Il est monté sur le {har} il y a quarante jours, pour recevoir les {louhot}. Il avait dit qu'il reviendrait. Mais il n'est toujours pas là… et les gens commencent à s'inquiéter."),
+ ("N", "Et en effet, autour d'eux, des gens criaient, s'agitaient."),
+ ("N", "Il ne reviendra plus ! disaient-ils. Il s'est perdu ! On n'a plus de chef ! Il nous faut quelque chose qu'on peut voir, quelque chose qu'on peut toucher !"),
+ ("EYDEL", "Ils n'ont plus de {savlanout}. En hébreu, la patience, c'est la {savlanout}."),
+ ("HILLEL", "Moi aussi, des fois, je n'ai pas de {savlanout}…"),
+ ("~", ""),
+ ("N", "Les gens allèrent voir {aharon}. Ils lui demandèrent de leur fabriquer un dieu, une statue. {aharon} ne savait pas quoi faire. Il essaya de gagner du temps."),
+ ("AHARON", "Bon… Apportez-moi les boucles d'oreilles en or de vos femmes et de vos enfants. En hébreu, l'or, c'est le {zahav}."),
+ ("N", "{aharon} pensait que les gens ne voudraient pas donner leurs bijoux, et que ça les ferait patienter. Mais tout le monde arriva très vite, avec plein de {zahav}."),
+ ("N", "Le {zahav} fut fondu dans le feu. Et il en sortit… une statue. Un veau tout doré. En hébreu, un veau, c'est un {egel}."),
+ ("ARIE", "Un {egel} en {zahav} ? Mais c'est juste une statue ! Elle ne peut rien faire !"),
+ ("N", "Mais les gens dansaient autour de l'{egel}, en criant très fort. Ils avaient oublié tout ce que {hachem} avait fait pour eux. La mer qui s'ouvre. Le {man}. Les dix paroles."),
+ ("EYDEL", "Il y a quarante jours, ils disaient tous : nous ferons, et nous comprendrons. Et maintenant…"),
+ ("~", ""),
+ ("N", "Tout en haut du {har}, {moshe} descendait, avec les deux {louhot} dans les bras. Deux tables de pierre écrites par {hachem} Lui-même. Il entendit le bruit, les cris, la musique. Et quand il arriva en bas… il vit l'{egel}."),
+ ("N", "{moshe} fut si triste et si fâché qu'il lâcha les {louhot}. Elles tombèrent sur les rochers… et se cassèrent en mille morceaux."),
+ ("HILLEL", "Oh non… Les {louhot} sont cassées…"),
+ ("N", "Tout le monde s'arrêta de danser. Le silence revint. {moshe} prit l'{egel}, le fit fondre dans le feu, et le réduisit en poussière."),
+ ("MOSHE", "{aharon}, mon frère… Qu'est-ce que ce peuple t'a fait, pour que tu fasses une chose pareille ?"),
+ ("AHARON", "Ne te fâche pas, mon frère. Ils avaient peur. Ils n'avaient plus de {savlanout}. J'ai essayé de les faire attendre… mais je n'ai pas réussi."),
+ ("~", ""),
+ ("N", "Le lendemain, {moshe} remonta sur le {har}. Il ne monta pas pour être fâché. Il monta pour demander pardon. Pour tout le peuple. En hébreu, pardon, c'est {sliha}."),
+ ("MOSHE", "{hachem}, le peuple a fait une très grosse bêtise. Mais je t'en prie, pardonne-leur. {sliha}. Ce sont tes enfants. Ne les abandonne pas."),
+ ("ARIE", "{moshe} demande {sliha} pour les autres ? Même si ce n'est pas lui qui a fait la bêtise ?"),
+ ("EYDEL", "Oui, Arié. Parce qu'il les aime. Un bon chef, c'est quelqu'un qui défend son peuple, même quand il s'est trompé."),
+ ("N", "Et {hachem} écouta {moshe}. Il pardonna. Et Il dit : Taille deux nouvelles pierres, comme les premières. Et je les écrirai de nouveau."),
+ ("HILLEL", "De nouvelles {louhot} ! On a une deuxième chance !"),
+ ("N", "Alors {moshe} tailla deux nouvelles pierres, et il remonta sur le {har}. Et là, {hachem} passa devant lui, et lui apprit des mots très beaux. Des mots qu'on dit encore aujourd'hui, à Yom Kippour :"),
+ ("N", "{hachem}, {hachem}, plein de tendresse et de douceur. Patient. Plein d'amour et de vérité. Qui pardonne."),
+ ("EYDEL", "Même {hachem} a de la {savlanout}. Beaucoup de {savlanout}."),
+ ("~", ""),
+ ("N", "Quarante jours plus tard, {moshe} redescendit avec les nouvelles {louhot}. Cette fois, tout le peuple l'attendait, calmement, en silence. Et quand il arriva, tout le monde poussa un petit cri d'étonnement."),
+ ("ARIE", "Regardez son visage ! Il brille !"),
+ ("N", "C'était vrai. Les {panim} de {moshe}, son visage, brillaient d'une lumière très douce. Comme si un peu de l'{or} de {hachem} était resté sur lui."),
+ ("HILLEL", "Ses {panim} brillent comme la veilleuse !"),
+ ("MOSHE", "Ne vous inquiétez pas. C'est d'avoir été si près de {hachem}. Venez, approchez. Je vais vous lire les {louhot}."),
+ ("N", "Et le peuple s'approcha, doucement, et écouta. Ils avaient appris quelque chose de très important : quand on se trompe, on peut demander {sliha}. Et on peut recommencer."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur l'épaule de {hillel}. Il était temps de rentrer."),
+ ("MOSHE", "{toda}, mes amis. N'oubliez pas : il y a toujours une deuxième chance. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. {hillel} avait toujours du chocolat sur le menton."),
+ ("HILLEL", "{eydel}, Arié… Je dois vous dire quelque chose. Le trou dans le gâteau de Papi… c'est moi. Je n'ai pas eu de {savlanout}."),
+ ("EYDEL", "Merci de le dire, {hillel}. Ça, c'est très courageux. Et tu sais ce que tu peux faire ?"),
+ ("HILLEL", "Aller dire {sliha} à Maman ?"),
+ ("N", "Et {hillel} se leva, alla jusqu'au salon en pyjama, et dit à Maman : {sliha}. Maman le prit dans ses bras. Et elle dit qu'on mettrait une jolie fraise sur le trou, et que Papi n'y verrait que du feu."),
+ ("ARIE", "Une deuxième chance pour le gâteau !"),
+ ("EYDEL", "Qui se souvient des mots ?"),
+ ("HILLEL", "{savlanout}, la patience. {zahav}, l'or. {egel}, le veau. {sliha}, pardon. Et {panim}, le visage, qui brille quand on est près de {hachem}."),
+ ("N", "Et les trois enfants s'endormirent. Et si on avait regardé de très près, on aurait vu que le visage de {hillel}, lui aussi, brillait un tout petit peu. Peut-être à cause du chocolat. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

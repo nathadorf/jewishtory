@@ -1,0 +1,314 @@
+{
+ "title": "Eydel, Arié et Hillel et le puits de Myriam",
+ "duration": 409.06,
+ "scenes": [
+  0,
+  10,
+  17,
+  26,
+  36,
+  42
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 26.24,
+   "text": "Ce soir-là, [[|Hillel|Ilèl]] avait demandé un verre d'eau. Puis un deuxième. Puis un troisième. Maman avait dit : c'est le dernier ! Et [[|Hillel|Ilèl]] avait demandé : mais dans le désert, comment ils faisaient pour avoir de l'eau, tous les jours ? Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 27.04,
+   "end": 30.2,
+   "text": "La [[יוֹנָה|yona|yona]] ! Elle va me montrer !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 31.0,
+   "end": 34.82,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 35.62,
+   "end": 49.63,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le [[מַחֲנֶה|ma'hané|marané]], au milieu du [[מִדְבָּר|midbar|midbar]]. Il faisait très chaud. Et pourtant, près de la tente de [[מִרְיָם|Myriam|Miriame]], de l'eau fraîche coulait d'un rocher tout rond."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 50.43,
+   "end": 59.15,
+   "text": "[[שָׁלוֹם|shalom|chalom]], mes chéris ! Vous avez soif ? Vous êtes [[צָמֵא|tsamé|tsamé]] ? Venez boire. Il y a toujours de l'eau, ici."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 59.95,
+   "end": 63.55,
+   "text": "Une [[בְּאֵר|bé'èr|béère]] au milieu du désert ! Comment c'est possible ?"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 64.35,
+   "end": 75.4,
+   "text": "C'est un cadeau de [[|Hachem|Achème]], [[|Hillel|Ilèl]]. Une [[בְּאֵר|bé'èr|béère]] qui nous suit partout. Quand le [[מַחֲנֶה|ma'hané|marané]] part, le rocher roule derrière nous. Et quand on s'arrête, l'eau coule de nouveau."
+  },
+  {
+   "sp": "ARIE",
+   "start": 76.2,
+   "end": 78.88,
+   "text": "Un puits qui roule ! Comme une boule !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 79.68,
+   "end": 90.63,
+   "text": "Les sages l'appellent la [[בְּאֵר|bé'èr|béère]] de [[מִרְיָם|Myriam|Miriame]]. Parce que c'est grâce à elle. Elle a toujours pris soin des autres. Même quand [[מֹשֶׁה|Moshé|Moché]] était un bébé sur le fleuve."
+  },
+  {
+   "sp": "N",
+   "start": 91.43,
+   "end": 97.75,
+   "text": "Les enfants burent, et l'eau était délicieuse. Fraîche et douce, comme l'eau d'une source de montagne."
+  },
+  {
+   "sp": "N",
+   "start": 100.45,
+   "end": 114.69,
+   "text": "Les années passèrent dans le [[מִדְבָּר|midbar|midbar]]. Presque quarante ans. [[מִרְיָם|Myriam|Miriame]] était devenue très, très âgée. Et un jour, entourée de ses frères [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]], sa longue et belle vie se termina, tout doucement."
+  },
+  {
+   "sp": "N",
+   "start": 115.24,
+   "end": 123.72,
+   "text": "Ce jour-là, tout le peuple pleura. Et le lendemain matin… le rocher n'avait plus d'eau. La [[בְּאֵר|bé'èr|béère]] s'était arrêtée."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 124.52,
+   "end": 127.68,
+   "text": "Plus de [[מַיִם|mayim|maillime]] ? Parce que [[מִרְיָם|Myriam|Miriame]] n'est plus là ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 128.48,
+   "end": 132.49,
+   "text": "Oui, [[|Hillel|Ilèl]]. C'est comme ça qu'on a compris que l'eau, c'était grâce à elle."
+  },
+  {
+   "sp": "N",
+   "start": 133.29,
+   "end": 142.99,
+   "text": "Les gens avaient soif. Ils étaient tous [[צָמֵא|tsamé|tsamé]]. Les enfants pleuraient, les animaux aussi. Et les gens se mirent à crier contre [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]]."
+  },
+  {
+   "sp": "N",
+   "start": 143.54,
+   "end": 146.15,
+   "text": "Pourquoi tu nous as emmenés dans ce désert ? Il n'y a pas d'eau !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 146.95,
+   "end": 149.68,
+   "text": "Ils crient encore… Comme avant."
+  },
+  {
+   "sp": "N",
+   "start": 152.38,
+   "end": 166.96,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]] allèrent devant le [[מִשְׁכָּן|mishkan|michkane]]. Et [[|Hachem|Achème]] dit à [[מֹשֶׁה|Moshé|Moché]] : Prends ton [[מַטֶּה|maté|maté]]. Rassemble le peuple devant le rocher. Et parle au rocher. [[לְדַבֵּר|lédaber|lédabèr]]. Parle-lui, devant tout le monde, et il donnera son eau."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 167.76,
+   "end": 170.26,
+   "text": "Parler à un rocher ? Il a des oreilles ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 171.06,
+   "end": 182.16,
+   "text": "Non, [[|Hillel|Ilèl]]. Mais [[|Hachem|Achème]] voulait montrer que même un rocher écoute, quand c'est [[|Hachem|Achème]] qui parle. Que les [[מִלִּים|milim|milime]], les mots, peuvent faire des miracles."
+  },
+  {
+   "sp": "N",
+   "start": 182.96,
+   "end": 195.33,
+   "text": "Tout le peuple se rassembla devant le grand [[סֶלַע|séla|séla]], le rocher. [[מֹשֶׁה|Moshé|Moché]] était très fatigué. Il avait perdu sa sœur. Et les gens criaient, criaient. Il était très en colère."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 196.13,
+   "end": 200.7,
+   "text": "Écoutez-moi, vous qui vous plaignez tout le temps ! Est-ce qu'on va vous faire sortir de l'eau de ce rocher ?"
+  },
+  {
+   "sp": "N",
+   "start": 201.5,
+   "end": 209.83,
+   "text": "Et au lieu de parler au [[סֶלַע|séla|séla]], [[מֹשֶׁה|Moshé|Moché]] leva son [[מַטֶּה|maté|maté]]… et il frappa le rocher. Une fois. Deux fois."
+  },
+  {
+   "sp": "N",
+   "start": 210.38,
+   "end": 215.85,
+   "text": "Et l'eau jaillit. Beaucoup d'eau. Tout le monde but, les gens, les enfants, les animaux."
+  },
+  {
+   "sp": "ARIE",
+   "start": 216.65,
+   "end": 218.48,
+   "text": "Ça a marché ! Il y a de l'eau !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 219.28,
+   "end": 225.32,
+   "text": "Oui, Arié… Mais [[|Hachem|Achème]] avait dit de [[לְדַבֵּר|lédaber|lédabèr]]. De parler. Pas de frapper."
+  },
+  {
+   "sp": "N",
+   "start": 228.02,
+   "end": 233.25,
+   "text": "Le soir, [[מֹשֶׁה|Moshé|Moché]] était assis tout seul devant sa tente. Les enfants s'approchèrent doucement."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 234.05,
+   "end": 235.75,
+   "text": "Tu es triste, [[מֹשֶׁה|Moshé|Moché]] ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 236.55,
+   "end": 245.09,
+   "text": "Oui, [[|Hillel|Ilèl]]. [[|Hachem|Achème]] m'a dit que je n'entrerai pas dans le pays d'[[יִשְׂרָאֵל|Israël|Israèl]]. Parce que j'ai frappé le [[סֶלַע|séla|séla]], au lieu de lui parler. J'étais en colère, et la colère m'a fait oublier."
+  },
+  {
+   "sp": "ARIE",
+   "start": 245.89,
+   "end": 247.75,
+   "text": "Mais tu as juste tapé sur un caillou !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 248.55,
+   "end": 258.71,
+   "text": "Je sais, Arié. Mais je suis le chef. Tout le monde me regarde. Et [[|Hachem|Achème]] voulait que tout le monde apprenne qu'avec des mots doux, on obtient plus qu'en frappant. Et moi, devant tout le monde, j'ai frappé."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 259.51,
+   "end": 262.61,
+   "text": "Avec des mots doux, on obtient plus qu'en frappant…"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 263.41,
+   "end": 264.64,
+   "text": "Même avec mon frère ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 265.44,
+   "end": 267.57,
+   "text": "Surtout avec ton frère, [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "N",
+   "start": 268.37,
+   "end": 271.61,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] regarda les étoiles. Puis il sourit un petit peu."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 272.41,
+   "end": 277.77,
+   "text": "Mais je vais quand même emmener le peuple jusqu'au bord du pays. Et ce sont vos enfants qui entreront. C'est le plus important."
+  },
+  {
+   "sp": "N",
+   "start": 280.47,
+   "end": 293.91,
+   "text": "Quelque temps plus tard, le peuple arriva dans un endroit où il n'y avait pas d'eau. Mais cette fois, personne ne cria. Au contraire. Tout le monde se rassembla autour d'un trou dans le sable. Et ils se mirent à chanter. Un [[שִׁיר|shir|chir]]."
+  },
+  {
+   "sp": "N",
+   "start": 294.46,
+   "end": 300.44,
+   "text": "[[עֲלִי|ali|ali]] [[בְּאֵר|bé'èr|béère]], chantez pour elle ! Monte, puits, monte ! Et tout le monde chantait, en tapant dans les mains."
+  },
+  {
+   "sp": "ARIE",
+   "start": 301.24,
+   "end": 303.16,
+   "text": "[[עֲלִי|ali|ali]] [[בְּאֵר|bé'èr|béère]] ! [[עֲלִי|ali|ali]] [[בְּאֵר|bé'èr|béère]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 303.96,
+   "end": 306.18,
+   "text": "Monte, puits ! Monte !"
+  },
+  {
+   "sp": "N",
+   "start": 306.98,
+   "end": 320.26,
+   "text": "Et du fond du sable, l'eau monta. Elle monta, monta, toute fraîche, jusqu'en haut. Et tout le monde rit, et dansa autour de la [[בְּאֵר|bé'èr|béère]], comme [[מִרְיָם|Myriam|Miriame]] avec son [[תֹּף|tof|tof]], autrefois."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 321.06,
+   "end": 326.38,
+   "text": "Cette fois, ils ont chanté au lieu de crier. Et l'eau est venue."
+  },
+  {
+   "sp": "N",
+   "start": 329.08,
+   "end": 333.14,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser au bord de la [[בְּאֵר|bé'èr|béère]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 333.94,
+   "end": 341.43,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Souvenez-vous de [[מִרְיָם|Myriam|Miriame]]. Et souvenez-vous : les mots doux sont plus forts que les coups. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 342.23,
+   "end": 352.02,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Sur la table de nuit de [[|Hillel|Ilèl]], il y avait encore un verre d'eau."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 352.82,
+   "end": 358.26,
+   "text": "[[עֲלִי|ali|ali]] [[בְּאֵר|bé'èr|béère]]… Je bois une petite gorgée. En pensant à [[מִרְיָם|Myriam|Miriame]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 359.06,
+   "end": 365.37,
+   "text": "Et demain, quand [[|Hillel|Ilèl]] m'énervera, je ne taperai pas. Je parlerai. [[לְדַבֵּר|lédaber|lédabèr]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 366.17,
+   "end": 367.28,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 368.08,
+   "end": 380.79,
+   "text": "[[סֶלַע|séla|séla]], le rocher. [[לְדַבֵּר|lédaber|lédabèr]], parler. [[צָמֵא|tsamé|tsamé]], avoir soif. [[שִׁיר|shir|chir]], le chant. Et [[עֲלִי|ali|ali]], monte, comme l'eau du puits !"
+  },
+  {
+   "sp": "N",
+   "start": 381.59,
+   "end": 398.26,
+   "text": "Et les trois enfants s'endormirent, en entendant, tout au loin, un peuple qui chantait autour d'un puits, sous les étoiles du désert. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

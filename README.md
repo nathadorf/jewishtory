@@ -13,8 +13,42 @@ Histoires du soir bilingues français · hébreu pour les enfants de familles fr
 | 1 | Noa'h | `public/episodes/noah` | 10 min 34 |
 | 2 | Lekh Lekha | `public/episodes/lekh-lekha` | 9 min 31 |
 | 3 | Vayera | `public/episodes/vayera` | 12 min 14 |
+| 4 | Hayé Sarah | `public/episodes/haye-sarah` | 8 min 10 |
+| 5 | Toldot | `public/episodes/toldot` | 7 min 58 |
+| 6 | Vayetsé | `public/episodes/vayetse` | 7 min 52 |
+| 7 | Vayishla'h | `public/episodes/vayishlah` | 7 min 01 |
+| 8 | Vayeshev | `public/episodes/vayeshev` | 7 min 43 |
+| 9 | Miketz | `public/episodes/miketz` | 8 min 15 |
+| 10 | Vayigash | `public/episodes/vayigash` | 7 min 23 |
+| 11 | Vayé'hi | `public/episodes/vayehi` | 7 min 38 |
+| 12 | Shemot | `public/episodes/shemot` | 7 min 56 |
+| 13 | Vaéra | `public/episodes/vaera` | 7 min 34 |
+| 14 | Bo | `public/episodes/bo` | 7 min 17 |
+| 15 | Beshala'h | `public/episodes/beshalah` | 7 min 10 |
+| 16 | Yitro | `public/episodes/yitro` | 7 min 13 |
+| 17 | Mishpatim | `public/episodes/mishpatim` | 6 min 38 |
+| 18 | Terouma | `public/episodes/terouma` | 6 min 56 |
+| 19 | Tetsavé | `public/episodes/tetsave` | 7 min 03 |
+| 20 | Ki Tissa | `public/episodes/ki-tissa` | 7 min 26 |
+| 21 | Vayakhel-Pekoudé | `public/episodes/vayakhel-pekoude` | 7 min 08 |
+| 22 | Vayikra | `public/episodes/vayikra` | 6 min 54 |
+| 23 | Tsav | `public/episodes/tsav` | 6 min 40 |
+| 24 | Shemini | `public/episodes/shemini` | 6 min 46 |
+| 25 | Tazria-Metsora | `public/episodes/tazria-metsora` | 7 min 27 |
+| 26 | A'harei Mot-Kedoshim | `public/episodes/aharei-mot-kedoshim` | 7 min 14 |
+| 27 | Emor | `public/episodes/emor` | 7 min 19 |
+| 28 | Behar-Be'houkotai | `public/episodes/behar-behoukotai` | 6 min 28 |
+| 29 | Bamidbar | `public/episodes/bamidbar` | 6 min 55 |
+| 30 | Nasso | `public/episodes/nasso` | 6 min 05 |
+| 31 | Beha'alotekha | `public/episodes/behaalotekha` | 7 min 19 |
+| 32 | Shla'h | `public/episodes/shelah` | 7 min 13 |
+| 33 | Kora'h | `public/episodes/korah` | 6 min 53 |
+| 34 | 'Houkat | `public/episodes/houkat` | 6 min 49 |
+| 35 | Balak | `public/episodes/balak` | 7 min 13 |
+| 36 | Pin'has | `public/episodes/pinhas` | 6 min 24 |
+| 37 | Matot-Massé | `public/episodes/matot-masse` | 4 min 50 |
 
-Un lien direct vers un épisode : `/#noah`, `/#lekh-lekha` ou `/#vayera`.
+Un lien direct vers un épisode : `/#` suivi du nom du dossier, par exemple `/#noah` ou `/#beshalah`. La liste des épisodes est rangée par livre (Bereshit, Shemot, Vayikra, Bamidbar).
 
 ## Le générateur audio
 
@@ -29,7 +63,7 @@ python gen.py story_lekh_lekha ../public/episodes/lekh-lekha
 
 Le script d'une histoire (`story_*.py`) est une liste de répliques `(personnage, texte)`. Un mot hébreu s'écrit `[[hébreu|translittération|prononciation]]` : le lecteur affiche la translittération et l'hébreu, la voix lit la prononciation. `~` marque un changement de scène.
 
-Les épisodes du site sont générés avec ElevenLabs (`TTS_ENGINE=elevenlabs`, modèle v3, clé dans `ELEVENLABS_API_KEY`). La conteuse, Nath et deux voix d'enfants sont des voix clonées de la famille. Les mots hébreux sont lus depuis la translittération (deuxième champ), et `ELEVEN_SAY` corrige ceux que v3 lit mal (`Noa'h` devient `No-arr`, sinon il dit « No-a »). v3 ignore le réglage de vitesse : une consigne `[slowly, gently]` ralentit les rôles de Nath. Un épisode coûte environ 5 000 crédits.
+Les épisodes du site sont générés avec ElevenLabs (`TTS_ENGINE=elevenlabs`, modèle v3, clé dans `ELEVENLABS_API_KEY`). La conteuse, Nath et deux voix d'enfants sont des voix clonées de la famille. Les mots hébreux sont lus depuis la translittération (deuxième champ), et `ELEVEN_SAY` corrige ceux que v3 lit mal (`Noa'h` devient `No-arr`, sinon il dit « No-a »). v3 ignore le réglage de vitesse : une consigne `[slowly, gently]` ralentit les rôles de Nath. Un épisode d'environ 5 500 caractères a coûté entre 2 500 et 3 000 crédits, reprises comprises.
 
 ```bash
 TTS_ENGINE=elevenlabs python gen.py story_noah ../public/episodes/noah
@@ -47,6 +81,16 @@ v3 saute parfois un bout de phrase : `qa_elevenlabs.py` (qui utilise `GEMINI_API
 | Eydel | voix clonée « Arié », montée de 3 demi-tons |
 | Arié | Philippine, montée de 4 demi-tons |
 | Hillel | voix clonée « Eydel », montée de 2 demi-tons |
+| Yits'hak, Moshé, Yaakov âgé | Nath (clonée), ralenti |
+| Yaakov jeune, Yossef, Yéhoshoua | Kevin |
+| Rivka, Ra'hel, Myriam, Tsipora, l'ânesse, Ma'hla | Philippine, sans effet |
+| Léa, Yokhéved | Lucie |
+| Batya, Noa | Lily |
+| Eliézer, Essav, Lavan, l'échanson, Aharon, un explorateur | Jon |
+| Pharaon, Balak | George |
+| Yéhouda, Yitro, Kalev, Kora'h, Bil'am, Réouven | Brian |
+
+Une histoire peut redonner un rôle à une autre voix avec `CAST`, par exemple `CAST = {"YAAKOV": "AVRAHAM"}` pour que Yaakov âgé parle avec la voix de Nath.
 
 Avec `GEMINI_API_KEY` et sans `TTS_ENGINE`, le générateur utilise Gemini TTS (Google AI Studio) : chaque réplique part avec une consigne de style et les mots hébreux en écriture hébraïque, pour environ 0,10 $ par histoire. Voix : conteuse Achernar, Noa'h Algenib, Avram Orus, Saraï Vindemiatrix, malakh Iapetus, enfants Leda, Puck et Achird montés de 3 demi-tons. Les clips sont mis en cache dans `generator/.tts-cache/`, donc une relance ne repaie que les répliques modifiées.
 

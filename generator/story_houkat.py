@@ -1,0 +1,97 @@
+# Episode 34 : 'Houkat. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: séla, lédaber, tsamé, shir, ali. Reused: bé'èr, mayim, mate, miriam, yona, toda, layla tov.
+# Miriam's well that followed the people; when her long life ends the water stops; Moshé strikes the rock instead of speaking to it;
+# the well comes back and the people sing. Aharon's death and the copper snake are left out (parent sheet).
+
+TITLE = "Eydel, Arié et Hillel et le puits de Myriam"
+
+W = {
+    "sela": "[[סֶלַע|séla|séla]]",
+    "ledaber": "[[לְדַבֵּר|lédaber|lédabèr]]",
+    "tsame": "[[צָמֵא|tsamé|tsamé]]",
+    "shir": "[[שִׁיר|shir|chir]]",
+    "ale": "[[עֲלִי|ali|ali]]",
+    "beer": "[[בְּאֵר|bé'èr|béère]]",
+    "mayim": "[[מַיִם|mayim|maillime]]",
+    "mate": "[[מַטֶּה|maté|maté]]",
+    "mishkan": "[[מִשְׁכָּן|mishkan|michkane]]",
+    "milim": "[[מִלִּים|milim|milime]]",
+    "midbar": "[[מִדְבָּר|midbar|midbar]]",
+    "mahane": "[[מַחֲנֶה|ma'hané|marané]]",
+    "tof": "[[תֹּף|tof|tof]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "aharon": "[[אַהֲרֹן|Aharon|Aarone]]",
+    "miriam": "[[מִרְיָם|Myriam|Miriame]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, {hillel} avait demandé un verre d'eau. Puis un deuxième. Puis un troisième. Maman avait dit : c'est le dernier ! Et {hillel} avait demandé : mais dans le désert, comment ils faisaient pour avoir de l'eau, tous les jours ? Toc, toc, toc. La {yona}."),
+ ("HILLEL", "La {yona} ! Elle va me montrer !"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le {mahane}, au milieu du {midbar}. Il faisait très chaud. Et pourtant, près de la tente de {miriam}, de l'eau fraîche coulait d'un rocher tout rond."),
+ ("MIRIAM", "{shalom}, mes chéris ! Vous avez soif ? Vous êtes {tsame} ? Venez boire. Il y a toujours de l'eau, ici."),
+ ("HILLEL", "Une {beer} au milieu du désert ! Comment c'est possible ?"),
+ ("MIRIAM", "C'est un cadeau de {hachem}, {hillel}. Une {beer} qui nous suit partout. Quand le {mahane} part, le rocher roule derrière nous. Et quand on s'arrête, l'eau coule de nouveau."),
+ ("ARIE", "Un puits qui roule ! Comme une boule !"),
+ ("EYDEL", "Les sages l'appellent la {beer} de {miriam}. Parce que c'est grâce à elle. Elle a toujours pris soin des autres. Même quand {moshe} était un bébé sur le fleuve."),
+ ("N", "Les enfants burent, et l'eau était délicieuse. Fraîche et douce, comme l'eau d'une source de montagne."),
+ ("~", ""),
+ ("N", "Les années passèrent dans le {midbar}. Presque quarante ans. {miriam} était devenue très, très âgée. Et un jour, entourée de ses frères {moshe} et {aharon}, sa longue et belle vie se termina, tout doucement."),
+ ("N", "Ce jour-là, tout le peuple pleura. Et le lendemain matin… le rocher n'avait plus d'eau. La {beer} s'était arrêtée."),
+ ("HILLEL", "Plus de {mayim} ? Parce que {miriam} n'est plus là ?"),
+ ("EYDEL", "Oui, {hillel}. C'est comme ça qu'on a compris que l'eau, c'était grâce à elle."),
+ ("N", "Les gens avaient soif. Ils étaient tous {tsame}. Les enfants pleuraient, les animaux aussi. Et les gens se mirent à crier contre {moshe} et {aharon}."),
+ ("N", "Pourquoi tu nous as emmenés dans ce désert ? Il n'y a pas d'eau !"),
+ ("ARIE", "Ils crient encore… Comme avant."),
+ ("~", ""),
+ ("N", "{moshe} et {aharon} allèrent devant le {mishkan}. Et {hachem} dit à {moshe} : Prends ton {mate}. Rassemble le peuple devant le rocher. Et parle au rocher. {ledaber}. Parle-lui, devant tout le monde, et il donnera son eau."),
+ ("HILLEL", "Parler à un rocher ? Il a des oreilles ?"),
+ ("EYDEL", "Non, {hillel}. Mais {hachem} voulait montrer que même un rocher écoute, quand c'est {hachem} qui parle. Que les {milim}, les mots, peuvent faire des miracles."),
+ ("N", "Tout le peuple se rassembla devant le grand {sela}, le rocher. {moshe} était très fatigué. Il avait perdu sa sœur. Et les gens criaient, criaient. Il était très en colère."),
+ ("MOSHE", "Écoutez-moi, vous qui vous plaignez tout le temps ! Est-ce qu'on va vous faire sortir de l'eau de ce rocher ?"),
+ ("N", "Et au lieu de parler au {sela}, {moshe} leva son {mate}… et il frappa le rocher. Une fois. Deux fois."),
+ ("N", "Et l'eau jaillit. Beaucoup d'eau. Tout le monde but, les gens, les enfants, les animaux."),
+ ("ARIE", "Ça a marché ! Il y a de l'eau !"),
+ ("EYDEL", "Oui, Arié… Mais {hachem} avait dit de {ledaber}. De parler. Pas de frapper."),
+ ("~", ""),
+ ("N", "Le soir, {moshe} était assis tout seul devant sa tente. Les enfants s'approchèrent doucement."),
+ ("HILLEL", "Tu es triste, {moshe} ?"),
+ ("MOSHE", "Oui, {hillel}. {hachem} m'a dit que je n'entrerai pas dans le pays d'{israel}. Parce que j'ai frappé le {sela}, au lieu de lui parler. J'étais en colère, et la colère m'a fait oublier."),
+ ("ARIE", "Mais tu as juste tapé sur un caillou !"),
+ ("MOSHE", "Je sais, Arié. Mais je suis le chef. Tout le monde me regarde. Et {hachem} voulait que tout le monde apprenne qu'avec des mots doux, on obtient plus qu'en frappant. Et moi, devant tout le monde, j'ai frappé."),
+ ("EYDEL", "Avec des mots doux, on obtient plus qu'en frappant…"),
+ ("HILLEL", "Même avec mon frère ?"),
+ ("MOSHE", "Surtout avec ton frère, {hillel}."),
+ ("N", "{moshe} regarda les étoiles. Puis il sourit un petit peu."),
+ ("MOSHE", "Mais je vais quand même emmener le peuple jusqu'au bord du pays. Et ce sont vos enfants qui entreront. C'est le plus important."),
+ ("~", ""),
+ ("N", "Quelque temps plus tard, le peuple arriva dans un endroit où il n'y avait pas d'eau. Mais cette fois, personne ne cria. Au contraire. Tout le monde se rassembla autour d'un trou dans le sable. Et ils se mirent à chanter. Un {shir}."),
+ ("N", "{ale} {beer}, chantez pour elle ! Monte, puits, monte ! Et tout le monde chantait, en tapant dans les mains."),
+ ("ARIE", "{ale} {beer} ! {ale} {beer} !"),
+ ("HILLEL", "Monte, puits ! Monte !"),
+ ("N", "Et du fond du sable, l'eau monta. Elle monta, monta, toute fraîche, jusqu'en haut. Et tout le monde rit, et dansa autour de la {beer}, comme {miriam} avec son {tof}, autrefois."),
+ ("EYDEL", "Cette fois, ils ont chanté au lieu de crier. Et l'eau est venue."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser au bord de la {beer}. Il était temps de rentrer."),
+ ("MOSHE", "{toda}, mes amis. Souvenez-vous de {miriam}. Et souvenez-vous : les mots doux sont plus forts que les coups. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Sur la table de nuit de {hillel}, il y avait encore un verre d'eau."),
+ ("HILLEL", "{ale} {beer}… Je bois une petite gorgée. En pensant à {miriam}."),
+ ("ARIE", "Et demain, quand {hillel} m'énervera, je ne taperai pas. Je parlerai. {ledaber}."),
+ ("EYDEL", "Qui se souvient des mots ?"),
+ ("HILLEL", "{sela}, le rocher. {ledaber}, parler. {tsame}, avoir soif. {shir}, le chant. Et {ale}, monte, comme l'eau du puits !"),
+ ("N", "Et les trois enfants s'endormirent, en entendant, tout au loin, un peuple qui chantait autour d'un puits, sous les étoiles du désert. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

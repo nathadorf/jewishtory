@@ -1,0 +1,102 @@
+# Episode 10 : Vayigash. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: ani, 'haï, agalot, mishpa'ha, dma'ot. Reused: a'him, guévia, mélekh, ra'av, hibouk, mitsrayim, yona, toda, layla tov.
+# Yehouda offers himself in Binyamin's place, Yossef reveals himself, Yaakov comes down to Egypt.
+
+TITLE = "Eydel, Arié et Hillel et le grand secret de Yossef"
+CAST = {"YAAKOV": "AVRAHAM"}
+
+W = {
+    "ani": "[[אֲנִי|ani|ani]]",
+    "hai": "[[חַי|'haï|raï]]",
+    "agalot": "[[עֲגָלוֹת|agalot|agalot]]",
+    "mishpaha": "[[מִשְׁפָּחָה|mishpa'ha|michpara]]",
+    "dmaot": "[[דְּמָעוֹת|dma'ot|dmaot]]",
+    "ahim": "[[אַחִים|a'him|arime]]",
+    "bor": "[[בּוֹר|bor|bor]]",
+    "guevia": "[[גְּבִיעַ|guévia|guévia]]",
+    "melekh": "[[מֶלֶךְ|mélekh|mélèr]]",
+    "raav": "[[רָעָב|ra'av|raav]]",
+    "hibouk": "[[חִבּוּק|'hibouk|ribouk]]",
+    "mitsrayim": "[[מִצְרַיִם|Mitsraïm|Mitsraïm]]",
+    "goshen": "[[גֹּשֶׁן|Goshen|Guochène]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "yaakov": "[[יַעֲקֹב|Yaakov|Yaakov]]",
+    "yossef": "[[יוֹסֵף|Yossef|Yossèf]]",
+    "yehouda": "[[יְהוּדָה|Yéhouda|Yéhouda]]",
+    "binyamin": "[[בִּנְיָמִין|Binyamin|Biniamine]]",
+    "pharaon": "[[פַּרְעֹה|Pharaon|Faraon]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce soir-là, {hillel} était déjà sous sa couverture, les yeux grands ouverts. Il n'avait pensé qu'à ça toute la journée : la coupe d'argent dans le sac de {binyamin}. Toc, toc, toc. La {yona}."),
+ ("HILLEL", "Vite, vite ! Il faut sauver {binyamin} !"),
+ ("EYDEL", "On y va. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans la grande salle du palais de {yossef}. Les onze {ahim} étaient là, à genoux, la tête basse. Et {binyamin}, le plus petit, tremblait au milieu d'eux."),
+ ("YOSSEF", "On a trouvé ma {guevia} dans le sac de {binyamin}. Alors {binyamin} restera ici, en Égypte, pour me servir. Et vous, les autres, rentrez chez votre père."),
+ ("ARIE", "Ils vont l'abandonner ? Comme ils ont abandonné {yossef} ?"),
+ ("EYDEL", "Attends, Arié. Regarde."),
+ ("N", "Alors {yehouda} se leva. Il s'avança tout près de {yossef}. S'avancer, en hébreu, c'est vayigash. C'est le nom de notre histoire."),
+ ("YEHOUDA", "Monseigneur, s'il te plaît, écoute-moi. Notre père est très vieux. Il a déjà perdu un fils qu'il aimait. Si {binyamin} ne rentre pas, son cœur sera trop triste. J'ai promis de le protéger."),
+ ("YEHOUDA", "Alors prends-moi à sa place. Je resterai ici, moi, pour toujours. Mais laisse le petit rentrer chez son papa."),
+ ("HILLEL", "{yehouda} veut prendre la place de son petit frère !"),
+ ("EYDEL", "Oui, {hillel}. Avant, les {ahim} avaient laissé {yossef} tout seul. Maintenant, ils sont prêts à tout pour protéger {binyamin}. Ils ont changé."),
+ ("~", ""),
+ ("N", "{yossef} ne pouvait plus se retenir. Il cria à tous les serviteurs égyptiens :"),
+ ("YOSSEF", "Sortez ! Laissez-moi seul avec mes… avec ces hommes."),
+ ("N", "Tout le monde sortit. Il ne resta que les {ahim}, et trois enfants cachés derrière une colonne. Alors {yossef} enleva sa couronne, et il se mit à pleurer, si fort qu'on l'entendit dans tout le palais. En hébreu, les larmes, ce sont les {dmaot}."),
+ ("YOSSEF", "{ani} {yossef}. C'est moi, {yossef}. Votre frère. Est-ce que mon père est encore {hai} ? Est-ce qu'il est encore vivant ?"),
+ ("N", "Les {ahim} restèrent la bouche ouverte. Ils ne pouvaient pas dire un seul mot. Ils avaient un peu peur, aussi."),
+ ("YOSSEF", "N'ayez pas peur. Approchez-vous. {ani} {yossef}. Ne soyez pas tristes de ce que vous avez fait. C'est {hachem} qui m'a envoyé ici avant vous, pour sauver beaucoup de gens pendant le {raav}. Pour sauver toute notre {mishpaha}."),
+ ("ARIE", "{ani}, ça veut dire moi. {ani} {yossef} : c'est moi, {yossef} !"),
+ ("N", "Et {yossef} prit {binyamin} dans ses bras, et ils pleurèrent tous les deux, avec plein de {dmaot}. Puis {yossef} fit un {hibouk} à chacun de ses {ahim}, un par un. Et ils pleuraient tous ensemble."),
+ ("HILLEL", "Ils font un {hibouk} géant ! Je peux venir aussi ?"),
+ ("N", "Et {hillel} courut se jeter au milieu du {hibouk}. Et {eydel} et Arié aussi. Tout le monde riait et pleurait en même temps."),
+ ("EYDEL", "Ce sont des {dmaot} de joie, {hillel}. Les plus belles."),
+ ("~", ""),
+ ("N", "La nouvelle arriva jusqu'à {pharaon}. Le {melekh} était très content pour {yossef}."),
+ ("PHARAON", "{yossef}, tes frères sont ici ? Quelle joie ! Qu'ils aillent chercher ton père et toute ta {mishpaha}, et qu'ils viennent habiter en Égypte. Je leur donnerai la meilleure terre. Prenez des {agalot}, des chariots, pour transporter les enfants et les mamans."),
+ ("ARIE", "Des {agalot} ! Avec des roues en bois !"),
+ ("N", "Et les {ahim} repartirent, avec des {agalot} chargées de cadeaux, de pain et de bonnes choses. Les enfants étaient assis dans le dernier chariot, celui qui grinçait."),
+ ("YOSSEF", "Et surtout, ne vous disputez pas sur la route !"),
+ ("~", ""),
+ ("N", "Au pays de {yaakov}, le vieux papa attendait devant sa tente. Il était tout courbé, tout triste. Les {ahim} arrivèrent en courant."),
+ ("YEHOUDA", "Papa ! Papa ! {yossef} est {hai} ! Il est vivant ! Et c'est lui qui gouverne toute l'Égypte !"),
+ ("N", "Mais {yaakov} ne les croyait pas. Il secouait la tête. Ça faisait tellement d'années…"),
+ ("YAAKOV", "Ce n'est pas possible… Mon {yossef}…"),
+ ("N", "Alors il vit les {agalot}, que {yossef} avait envoyées. Et tout à coup, ses yeux se mirent à briller. Comme une lumière qui se rallume."),
+ ("YAAKOV", "C'est assez ! Mon fils {yossef} est encore {hai} ! J'irai le voir avant de mourir."),
+ ("N", "Et toute la {mishpaha} se mit en route : les fils, les petits-enfants, les bébés, les moutons, les chèvres. Soixante-dix personnes en tout !"),
+ ("HILLEL", "Soixante-dix ! C'est la plus grande {mishpaha} du monde !"),
+ ("N", "La nuit, sur la route, {hachem} parla à {yaakov} dans un rêve : N'aie pas peur de descendre en Égypte. Je descendrai avec toi, et je te ferai remonter."),
+ ("~", ""),
+ ("N", "Quand ils arrivèrent dans la région de {goshen}, un char doré arriva à toute vitesse. {yossef} sauta du char, et il courut, courut, vers son père."),
+ ("YOSSEF", "Papa !"),
+ ("YAAKOV", "Mon fils… Mon {yossef}…"),
+ ("N", "Et {yossef} se jeta dans les bras de son père, et il pleura longtemps sur son épaule. {yaakov} le serrait si fort, si fort, comme s'il ne voulait plus jamais le lâcher."),
+ ("YAAKOV", "Maintenant, je peux être tranquille. J'ai vu ton visage. Tu es {hai}."),
+ ("ARIE", "{eydel}… Je crois que je pleure un peu, moi aussi."),
+ ("EYDEL", "Moi aussi, Arié. Ce sont des {dmaot} de joie."),
+ ("N", "Et {yossef} installa toute sa {mishpaha} à {goshen}, une région verte, avec de l'herbe pour les troupeaux. Et pendant le {raav}, personne n'eut faim."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur l'épaule de {hillel}. Il était temps de rentrer."),
+ ("YOSSEF", "{toda}, mes amis. Vous étiez là depuis le début : dans le {bor}, en prison, au palais. Et maintenant, avec mon papa. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("HILLEL", "{eydel}, Arié… Si un jour je suis perdu, vous viendrez me chercher ? Comme {yehouda} pour {binyamin} ?"),
+ ("ARIE", "Toujours, {hillel}. On est une {mishpaha}."),
+ ("EYDEL", "Et qui se souvient des mots ?"),
+ ("HILLEL", "Moi ! {ani}, moi. {hai}, vivant. {agalot}, les chariots. {mishpaha}, la famille. Et {dmaot}, les larmes."),
+ ("N", "Et dans le noir, les trois enfants se tinrent la main d'un lit à l'autre, comme une toute petite {mishpaha} bien serrée. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+# wind on the road from Canaan down to Goshen
+AMBIENCE = [("Au pays de {yaakov}".format(**W), "Quand ils arrivèrent dans la région".format(**W), 0.035, "wind")]

@@ -1,0 +1,296 @@
+{
+ "title": "Eydel, Arié et Hillel et les douze drapeaux",
+ "duration": 415.3,
+ "scenes": [
+  0,
+  8,
+  20,
+  28,
+  34,
+  39
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 28.32,
+   "text": "Ce jour-là, la maîtresse de [[|Hillel|Ilèl]] avait fait l'appel, comme tous les matins. Mais elle avait oublié de dire son nom. [[|Hillel|Ilèl]] avait levé la main : et moi ? Elle s'était excusée, et avait dit son nom avec un grand sourire. Mais [[|Hillel|Ilèl]] y pensait encore, le soir. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 29.12,
+   "end": 32.76,
+   "text": "La [[יוֹנָה|yona|yona]] ! Elle, elle ne m'oublie jamais."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 33.56,
+   "end": 37.38,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 38.18,
+   "end": 52.42,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le [[מִדְבָּר|midbar|midbar]], le désert. Un an avait passé depuis la sortie d'Égypte. Et dans tout le camp, il y avait une grande agitation."
+  },
+  {
+   "sp": "ARIE",
+   "start": 53.22,
+   "end": 54.16,
+   "text": "Qu'est-ce qui se passe ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 54.96,
+   "end": 61.04,
+   "text": "[[שָׁלוֹם|shalom|chalom]], mes amis ! [[|Hachem|Achème]] m'a demandé de [[לִסְפֹּר|lispor|lispor]] tout le peuple. De compter chaque personne, une par une."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 61.84,
+   "end": 66.95,
+   "text": "[[לִסְפֹּר|lispor|lispor]] tout le monde ? Mais il y a des milliers et des milliers de gens !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 67.75,
+   "end": 75.83,
+   "text": "C'est vrai, [[|Hillel|Ilèl]]. Mais pour [[|Hachem|Achème]], chacun compte. Personne n'est un simple numéro. Alors on va dire le nom de chacun. Avec sa famille, avec sa tribu."
+  },
+  {
+   "sp": "N",
+   "start": 78.53,
+   "end": 86.93,
+   "text": "Devant la tente de [[מֹשֶׁה|Moshé|Moché]], une longue file s'était formée. [[אַהֲרֹן|Aharon|Aarone]] écrivait dans un grand livre. Chaque personne s'approchait, et donnait son nom."
+  },
+  {
+   "sp": "N",
+   "start": 87.48,
+   "end": 93.8,
+   "text": "Je m'appelle Nahshon, fils d'Aminadav, de la tribu de [[יְהוּדָה|Yéhouda|Yéhouda]] ! dit un homme, tout fier."
+  },
+  {
+   "sp": "AHARON",
+   "start": 94.6,
+   "end": 99.56,
+   "text": "Nahshon, fils d'Aminadav, de [[יְהוּדָה|Yéhouda|Yéhouda]]. Bienvenue, Nahshon. Tu comptes."
+  },
+  {
+   "sp": "N",
+   "start": 100.36,
+   "end": 107.24,
+   "text": "Et l'homme repartit avec un grand sourire. Puis une autre personne s'approcha. Et une autre. Et encore une autre."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 108.04,
+   "end": 116.37,
+   "text": "Il y a douze tribus, [[|Hillel|Ilèl]]. Les douze [[שְׁבָטִים|shvatim|chvatime]]. Une pour chaque fils de Yaakov. Tu te souviens des douze frères ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 117.17,
+   "end": 121.48,
+   "text": "Oui ! [[יְהוּדָה|Yéhouda|Yéhouda]], Yossef, [[בִּנְיָמִין|Binyamin|Biniamine]]… et les autres !"
+  },
+  {
+   "sp": "N",
+   "start": 122.28,
+   "end": 124.17,
+   "text": "[[|Hillel|Ilèl]] tira sur la manche d'[[אַהֲרֹן|Aharon|Aarone]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 124.97,
+   "end": 128.49,
+   "text": "[[אַהֲרֹן|Aharon|Aarone]], tu peux écrire mon nom, à moi aussi ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 129.29,
+   "end": 133.26,
+   "text": "Bien sûr, [[|Hillel|Ilèl]]. Comment tu t'appelles, et qui sont ta sœur et ton frère ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 134.06,
+   "end": 139.54,
+   "text": "Je m'appelle [[|Hillel|Ilèl]]. Ma sœur, c'est [[|Eydel|Èïdèl]]. Et mon frère, c'est Arié."
+  },
+  {
+   "sp": "AHARON",
+   "start": 140.34,
+   "end": 147.99,
+   "text": "[[|Hillel|Ilèl]], frère d'[[|Eydel|Èïdèl]] et d'Arié. Voilà. Tu es dans le livre. Tu comptes, toi aussi."
+  },
+  {
+   "sp": "N",
+   "start": 148.79,
+   "end": 149.95,
+   "text": "[[|Hillel|Ilèl]] rayonnait."
+  },
+  {
+   "sp": "N",
+   "start": 152.65,
+   "end": 156.9,
+   "text": "Quand tout le monde fut compté, [[מֹשֶׁה|Moshé|Moché]] réunit les chefs des [[שְׁבָטִים|shvatim|chvatime]]."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 157.7,
+   "end": 165.62,
+   "text": "Maintenant, [[|Hachem|Achème]] veut que chaque tribu ait sa place autour du [[מִשְׁכָּן|mishkan|michkane]]. Et chaque tribu aura son drapeau. En hébreu, un drapeau, c'est un [[דֶּגֶל|dégel|déguèl]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 166.42,
+   "end": 169.88,
+   "text": "Un [[דֶּגֶל|dégel|déguèl]] pour chaque tribu ! Comme les équipes de foot !"
+  },
+  {
+   "sp": "N",
+   "start": 170.68,
+   "end": 183.24,
+   "text": "Et les enfants aidèrent à préparer les [[דְּגָלִים|dégalim|dégalime]]. Chaque [[דֶּגֶל|dégel|déguèl]] avait la couleur de la pierre de sa tribu, sur le [[חֹשֶׁן|'hoshen|rochène]] d'[[אַהֲרֹן|Aharon|Aarone]]. Il y avait douze [[אֲבָנִים|avanim|avanime]], alors il y avait douze couleurs."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 184.04,
+   "end": 194.17,
+   "text": "Le [[דֶּגֶל|dégel|déguèl]] de [[יְהוּדָה|Yéhouda|Yéhouda]] est bleu ciel, comme sa pierre. Et dessus, on va peindre un [[אַרְיֵה|arié|arié]]. Un lion."
+  },
+  {
+   "sp": "ARIE",
+   "start": 194.97,
+   "end": 197.25,
+   "text": "Un [[אַרְיֵה|arié|arié]] ! C'est mon [[דֶּגֶל|dégel|déguèl]] à moi !"
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 198.05,
+   "end": 204.2,
+   "text": "Le [[דֶּגֶל|dégel|déguèl]] de [[בִּנְיָמִין|Binyamin|Biniamine]] a toutes les couleurs mélangées. Et dessus, on peint un loup."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 205.0,
+   "end": 211.62,
+   "text": "Et le [[דֶּגֶל|dégel|déguèl]] de Zevouloun, il a un bateau ! Parce qu'ils habiteront au bord de la mer !"
+  },
+  {
+   "sp": "N",
+   "start": 214.32,
+   "end": 233.67,
+   "text": "Puis tout le monde installa le [[מַחֲנֶה|ma'hané|marané]], le camp, exactement comme [[|Hachem|Achème]] l'avait dit. Au milieu, le [[מִשְׁכָּן|mishkan|michkane]]. Tout autour, les tentes de la tribu de [[לֵוִי|Lévi|Lévi]], qui s'occupait du [[מִשְׁכָּן|mishkan|michkane]]. Et autour d'eux, les douze [[שְׁבָטִים|shvatim|chvatime]], trois de chaque côté. À l'est, au sud, à l'ouest, au nord."
+  },
+  {
+   "sp": "N",
+   "start": 234.22,
+   "end": 239.9,
+   "text": "La [[יוֹנָה|yona|yona]] emmena les enfants tout en haut, dans le ciel, pour qu'ils puissent voir le [[מַחֲנֶה|ma'hané|marané]] d'en haut."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 240.7,
+   "end": 247.5,
+   "text": "Oh, regardez ! Ça fait un grand carré ! Avec le [[מִשְׁכָּן|mishkan|michkane]] au milieu, comme un cœur !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 248.3,
+   "end": 254.88,
+   "text": "Et les [[דְּגָלִים|dégalim|dégalime]] flottent dans le vent, avec toutes les couleurs ! On dirait un arc-en-ciel posé sur le sable !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 255.68,
+   "end": 260.49,
+   "text": "Et tout le monde regarde vers le milieu. Vers le [[מִשְׁכָּן|mishkan|michkane]]."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 261.29,
+   "end": 268.4,
+   "text": "Exactement, [[|Hillel|Ilèl]]. Chacun a sa place, et sa couleur. Personne n'est pareil. Mais tout le monde regarde dans la même direction."
+  },
+  {
+   "sp": "N",
+   "start": 271.1,
+   "end": 292.63,
+   "text": "Et quand l'[[עָנָן|anan|anane]], le nuage, se leva au-dessus du [[מִשְׁכָּן|mishkan|michkane]], tout le [[מַחֲנֶה|ma'hané|marané]] se mit en route. Dans l'ordre. D'abord la tribu de [[יְהוּדָה|Yéhouda|Yéhouda]], avec son [[דֶּגֶל|dégel|déguèl]] au lion. Puis les autres. Et au milieu, les enfants de [[לֵוִי|Lévi|Lévi]] portaient le [[מִשְׁכָּן|mishkan|michkane]], démonté pièce par pièce. Et l'[[אָרוֹן|aron|arone]], tout doré, avançait devant."
+  },
+  {
+   "sp": "ARIE",
+   "start": 293.43,
+   "end": 296.81,
+   "text": "C'est comme un défilé ! Un défilé dans le [[מִדְבָּר|midbar|midbar]] !"
+  },
+  {
+   "sp": "N",
+   "start": 297.61,
+   "end": 308.75,
+   "text": "Et quand l'[[עָנָן|anan|anane]] s'arrêta, tout le monde s'arrêta. On remonta le [[מִשְׁכָּן|mishkan|michkane]]. Et chaque tribu retrouva sa place, sous son [[דֶּגֶל|dégel|déguèl]], comme si elle n'avait jamais bougé."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 309.55,
+   "end": 313.45,
+   "text": "Pourquoi la Torah s'appelle Bamidbar, dans le [[מִדְבָּר|midbar|midbar]] ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 314.25,
+   "end": 323.67,
+   "text": "Parce que le [[מִדְבָּר|midbar|midbar]], c'est un endroit vide, [[|Eydel|Èïdèl]]. Il n'appartient à personne. Pour dire que la Torah est à tout le monde. Et pour la recevoir, il faut se faire un peu de place dans le cœur. Comme un [[מִדְבָּר|midbar|midbar]]."
+  },
+  {
+   "sp": "N",
+   "start": 326.37,
+   "end": 331.94,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur le [[דֶּגֶל|dégel|déguèl]] de [[יְהוּדָה|Yéhouda|Yéhouda]], à côté du lion. Il était temps de rentrer."
+  },
+  {
+   "sp": "AHARON",
+   "start": 332.74,
+   "end": 339.7,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Et n'oubliez pas : votre nom est écrit dans le livre. Vous comptez. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 340.5,
+   "end": 346.74,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 347.54,
+   "end": 356.21,
+   "text": "Demain, si la maîtresse oublie encore mon nom, je lui dirai : je compte ! Comme dans le livre d'[[אַהֲרֹן|Aharon|Aarone]] !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 357.01,
+   "end": 366.97,
+   "text": "Et moi, je vais dessiner notre [[דֶּגֶל|dégel|déguèl]]. Notre famille. Avec un lion, une fleur pour [[|Eydel|Èïdèl]], et un petit oiseau pour [[|Hillel|Ilèl]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 367.77,
+   "end": 368.88,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 369.68,
+   "end": 383.28,
+   "text": "[[מִדְבָּר|midbar|midbar]], le désert. [[לִסְפֹּר|lispor|lispor]], compter. [[דֶּגֶל|dégel|déguèl]], le drapeau. [[שְׁבָטִים|shvatim|chvatime]], les tribus. Et [[מַחֲנֶה|ma'hané|marané]], le camp, en forme de carré."
+  },
+  {
+   "sp": "N",
+   "start": 384.08,
+   "end": 404.5,
+   "text": "Et les trois enfants s'endormirent. Et quelque part, dans un grand livre très ancien, il y avait trois noms de plus, écrits à l'encre bleue : [[|Eydel|Èïdèl]], Arié, [[|Hillel|Ilèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

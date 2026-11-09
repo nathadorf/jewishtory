@@ -1,0 +1,91 @@
+# Episode 32 : Shla'h Lekha. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: méraglim, eshkol, 'hagavim, omets, tsitsit. Reused: midbar, anavim, pa'had, israel, yona, toda, layla tov.
+# The twelve scouts and the giant grapes; ten are afraid, Kalev and Yéhoshoua have courage; the forty years are told gently; tsitsit at the end.
+
+TITLE = "Eydel, Arié et Hillel et la grappe géante"
+
+W = {
+    "meraglim": "[[מְרַגְּלִים|méraglim|méraglime]]",
+    "eshkol": "[[אֶשְׁכּוֹל|eshkol|èchkol]]",
+    "hagavim": "[[חֲגָבִים|'hagavim|ragavime]]",
+    "omets": "[[אֹמֶץ|omets|omèts]]",
+    "tsitsit": "[[צִיצִית|tsitsit|tsitsite]]",
+    "midbar": "[[מִדְבָּר|midbar|midbar]]",
+    "anavim": "[[עֲנָבִים|anavim|anavime]]",
+    "pahad": "[[פַּחַד|pa'had|parad]]",
+    "man": "[[מָן|man|mane]]",
+    "anan": "[[עָנָן|anan|anane]]",
+    "mahane": "[[מַחֲנֶה|ma'hané|marané]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "moshe": "[[מֹשֶׁה|Moshé|Moché]]",
+    "kalev": "[[כָּלֵב|Kalev|Kalèv]]",
+    "yehoshoua": "[[יְהוֹשֻׁעַ|Yéhoshoua|Yéochoua]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "Ce jour-là, à la piscine, Arié devait sauter du grand plongeoir pour la première fois. Il était monté tout en haut… et il était redescendu par l'échelle. Il avait eu trop peur. Le soir, il n'en parlait à personne. Toc, toc, toc. La {yona}."),
+ ("ARIE", "La {yona}… Bon. On y va."),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le {mahane}, tout près de la frontière du pays d'{israel}. Ils y étaient presque ! Juste derrière les collines, il y avait la Terre promise."),
+ ("MOSHE", "{shalom}, mes amis ! Aujourd'hui, j'envoie douze hommes, un par tribu, pour aller voir le pays. Ce sont les {meraglim}. Les explorateurs. Ils vont nous dire comment c'est, là-bas."),
+ ("HILLEL", "On peut aller avec eux ?"),
+ ("MOSHE", "Si vous restez bien avec {kalev} et {yehoshoua}. Ce sont deux hommes très courageux."),
+ ("KALEV", "Venez, les enfants ! On part à l'aventure !"),
+ ("~", ""),
+ ("N", "Les {meraglim} marchèrent pendant quarante jours à travers le pays. Et quel pays ! Il y avait des collines vertes, des ruisseaux qui chantaient, des oliviers, des figuiers, des grenadiers, et des abeilles partout."),
+ ("YEHOSHOUA", "Regardez, les enfants ! C'est un pays où coulent le lait et le miel, comme {hachem} l'avait promis !"),
+ ("N", "Et puis, dans une vallée, ils trouvèrent une vigne extraordinaire. Les {anavim}, les raisins, étaient énormes. Chaque grain était gros comme une prune. Et une seule grappe… était plus grande qu'{hillel} ! En hébreu, une grappe, c'est un {eshkol}."),
+ ("HILLEL", "Un {eshkol} géant ! Il est plus grand que moi !"),
+ ("KALEV", "Il est tellement lourd qu'il faut deux hommes pour le porter ! On va l'accrocher à un grand bâton, et on va le ramener au {mahane}, pour que tout le monde le voie !"),
+ ("N", "Mais certains {meraglim} ne regardaient pas les fruits. Ils regardaient les villes, avec leurs grands murs. Et les gens qui habitaient là, qui étaient très grands et très forts."),
+ ("ARIE", "Ils ont l'air inquiets, les autres {meraglim}…"),
+ ("~", ""),
+ ("N", "Quand les {meraglim} rentrèrent au {mahane}, tout le peuple se rassembla autour d'eux. On posa l'{eshkol} géant au milieu, et tout le monde fit : ooooh !"),
+ ("N", "Mais alors, dix des {meraglim} prirent la parole. Et ils n'avaient que du {pahad} dans la voix."),
+ ("MERAGUEL", "Oui, le pays est beau. Mais les gens là-bas sont des géants ! Leurs villes ont des murs jusqu'au ciel ! À côté d'eux, on était comme des {hagavim}. Des toutes petites sauterelles ! On ne pourra jamais y entrer !"),
+ ("HILLEL", "Des {hagavim} ? Comme les sauterelles en Égypte ?"),
+ ("EYDEL", "Oui, {hillel}. Ils se sentaient tout petits. Le {pahad} les rendait tout petits."),
+ ("N", "Et le {pahad} se répandit dans tout le {mahane}, comme un feu. Les gens se mirent à pleurer. Toute la nuit."),
+ ("N", "Mais deux des {meraglim} se levèrent. {kalev} et {yehoshoua}."),
+ ("KALEV", "Silence ! Écoutez-moi ! Nous pouvons y aller ! Nous allons réussir !"),
+ ("YEHOSHOUA", "Le pays est très, très bon. Et {hachem} est avec nous ! Il nous a fait sortir d'Égypte, Il a ouvert la mer ! N'ayez pas peur !"),
+ ("ARIE", "Ils sont deux contre dix… et ils n'ont pas peur."),
+ ("EYDEL", "Ils ont de l'{omets}, Arié. Du courage. Avoir de l'{omets}, ce n'est pas ne jamais avoir peur. C'est avoir peur… et avancer quand même, parce qu'on a confiance."),
+ ("N", "Arié pensa très fort au grand plongeoir."),
+ ("~", ""),
+ ("N", "Mais le peuple n'écouta pas {kalev} et {yehoshoua}. Le {pahad} était trop fort. Alors {hachem} dit à {moshe} : puisqu'ils ont peur, ils ne sont pas encore prêts. Ils resteront dans le {midbar} pendant quarante ans. Un an pour chaque jour du voyage des {meraglim}."),
+ ("HILLEL", "Quarante ans ! C'est très long !"),
+ ("MOSHE", "Oui, {hillel}. Mais {hachem} ne les abandonne pas. Il continuera à leur donner le {man}, et l'eau, et l'{anan}. Et ce sont leurs enfants, les enfants d'aujourd'hui, qui entreront dans le pays. Des enfants courageux. Avec {kalev} et {yehoshoua} à leur tête."),
+ ("ARIE", "Alors ce sont les enfants qui entreront… Les enfants comme nous."),
+ ("~", ""),
+ ("N", "Le soir, {moshe} réunit tout le monde. Il avait un dernier message de {hachem}. Il montra son vêtement : aux quatre coins, il y avait des fils qui pendaient, avec un fil bleu au milieu."),
+ ("MOSHE", "Ce sont les {tsitsit}. {hachem} a dit : mettez des {tsitsit} aux coins de vos vêtements. Et quand vous les verrez, vous vous souviendrez de tous les commandements. Et vous ne suivrez pas seulement ce que vos yeux voient, ou ce que votre {pahad} vous dit."),
+ ("HILLEL", "Papa a des {tsitsit} ! Sous sa chemise !"),
+ ("MOSHE", "Et le fil bleu, c'est comme la mer, et la mer est comme le ciel. Quand tu le regardes, tu te souviens que {hachem} est là. Et ça donne de l'{omets}."),
+ ("N", "{kalev} s'approcha d'Arié, et il lui posa la main sur l'épaule."),
+ ("KALEV", "Toi, Arié, tu as quelque chose sur le cœur. Je le vois."),
+ ("ARIE", "Aujourd'hui, à la piscine, j'ai eu peur de sauter du grand plongeoir. Je suis redescendu."),
+ ("KALEV", "Moi aussi, j'avais peur, devant les grands murs. Le cœur qui bat, les jambes qui tremblent. Mais tu sais ce que j'ai fait ? J'ai pensé à tout ce que {hachem} avait déjà fait pour nous. Et j'ai fait un pas. Juste un. Et puis un autre."),
+ ("~", ""),
+ ("N", "La {yona} vint se poser sur l'épaule d'Arié. Il était temps de rentrer."),
+ ("YEHOSHOUA", "{toda}, mes amis. Et souviens-toi, Arié : un pas, puis un autre. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("ARIE", "Samedi prochain, je retourne à la piscine. Je monte sur le grand plongeoir. Et j'aurai de l'{omets}. Comme {kalev}."),
+ ("HILLEL", "Et moi je serai en bas, et je crierai : bravo Arié !"),
+ ("EYDEL", "Qui se souvient des mots ?"),
+ ("HILLEL", "{meraglim}, les explorateurs. {eshkol}, la grappe géante. {hagavim}, les sauterelles. {omets}, le courage. Et {tsitsit}, les fils avec le fil bleu."),
+ ("N", "Et les trois enfants s'endormirent. Et Arié rêva qu'il était tout en haut du grand plongeoir. Il avait un peu peur. Il fit un pas… et il sauta. Splash ! {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []

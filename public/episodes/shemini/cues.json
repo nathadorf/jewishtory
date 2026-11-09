@@ -1,0 +1,319 @@
+{
+ "title": "Eydel, Arié et Hillel et les poissons à écailles",
+ "duration": 406.54,
+ "scenes": [
+  0,
+  9,
+  14,
+  29,
+  41
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 23.72,
+   "text": "Ce soir-là, au dîner, il y avait du poisson. [[|Hillel|Ilèl]] avait demandé : pourquoi on peut manger du saumon, mais pas des crevettes ? Et Papa avait répondu : ça, c'est une très bonne question pour la [[יוֹנָה|yona|yona]]. Et justement… toc, toc, toc."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 24.52,
+   "end": 27.37,
+   "text": "La [[יוֹנָה|yona|yona]] ! Papa avait raison !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 28.17,
+   "end": 32.0,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.8,
+   "end": 49.11,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans la cour du [[מִשְׁכָּן|mishkan|michkane]]. Tout le peuple d'[[יִשְׂרָאֵל|Israël|Israèl]] était là, rassemblé, en habits de fête. Personne ne parlait. Tout le monde attendait."
+  },
+  {
+   "sp": "ARIE",
+   "start": 49.91,
+   "end": 50.84,
+   "text": "Qu'est-ce qui se passe ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 51.64,
+   "end": 62.68,
+   "text": "Aujourd'hui, c'est le [[שְׁמִינִי|shmini|chmini]], Arié. Le huitième jour. Pendant [[שִׁבְעָה|shiv'a|chiva]] jours, [[אַהֲרֹן|Aharon|Aarone]] et ses fils se sont préparés. Et aujourd'hui, pour la première fois, [[אַהֲרֹן|Aharon|Aarone]] va servir dans le [[מִשְׁכָּן|mishkan|michkane]], comme [[כֹּהֵן|kohen|koèn]]."
+  },
+  {
+   "sp": "N",
+   "start": 63.48,
+   "end": 75.75,
+   "text": "[[אַהֲרֹן|Aharon|Aarone]] s'avança, avec ses beaux habits et ses clochettes. Ding, ding, ding. Il prépara les [[קָרְבָּנוֹת|korbanot|korbanot]] sur le [[מִזְבֵּחַ|mizbéa'h|mizbéar]]. Puis il leva les mains vers le peuple, et il dit une bénédiction."
+  },
+  {
+   "sp": "AHARON",
+   "start": 76.55,
+   "end": 82.53,
+   "text": "Que [[|Hachem|Achème]] vous bénisse et vous garde. Que [[|Hachem|Achème]] fasse briller son visage vers vous. Et qu'Il vous donne le [[שָׁלוֹם|shalom|chalom]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 83.33,
+   "end": 90.14,
+   "text": "C'est la bénédiction des [[כֹּהֲנִים|kohanim|koanime]] ! Celle qu'on entend à la synagogue, quand les gens mettent leur talith sur la tête !"
+  },
+  {
+   "sp": "N",
+   "start": 92.84,
+   "end": 110.37,
+   "text": "Et puis… il se passa quelque chose d'extraordinaire. Le ciel s'ouvrit, et une grande flamme descendit. Un [[אֵשׁ|esh|èch]] venu du ciel, qui se posa sur le [[מִזְבֵּחַ|mizbéa'h|mizbéar]]. Et la lumière du [[כָּבוֹד|kavod|kavod]] de [[|Hachem|Achème]] brilla sur tout le peuple."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 111.17,
+   "end": 114.41,
+   "text": "Le [[אֵשׁ|esh|èch]] vient du ciel ! Tout seul !"
+  },
+  {
+   "sp": "N",
+   "start": 115.21,
+   "end": 121.6,
+   "text": "Tout le peuple poussa un grand cri de joie. Les gens tombaient à genoux, ils chantaient, ils pleuraient de bonheur."
+  },
+  {
+   "sp": "ARIE",
+   "start": 122.4,
+   "end": 125.21,
+   "text": "[[|Hachem|Achème]] a dit oui ! Il aime le [[מִשְׁכָּן|mishkan|michkane]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 126.01,
+   "end": 132.27,
+   "text": "Oui, Arié. Aujourd'hui, [[|Hachem|Achème]] habite vraiment au milieu de nous. C'est le plus beau jour depuis la sortie d'Égypte."
+  },
+  {
+   "sp": "N",
+   "start": 134.97,
+   "end": 141.77,
+   "text": "Le soir, après la grande fête, [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]] s'assirent avec les enfants, au bord d'un petit ruisseau qui coulait près du camp."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 142.57,
+   "end": 149.8,
+   "text": "[[מֹשֶׁה|Moshé|Moché]], j'ai une question. Pourquoi on peut manger certains animaux, et pas d'autres ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 150.6,
+   "end": 160.42,
+   "text": "C'est justement ce que [[|Hachem|Achème]] vient de nous apprendre, [[|Hillel|Ilèl]]. Il nous a dit quels animaux sont [[כָּשֵׁר|kasher|kachèr]]. [[כָּשֵׁר|kasher|kachèr]], ça veut dire : bon, permis, qui convient."
+  },
+  {
+   "sp": "AHARON",
+   "start": 161.22,
+   "end": 166.0,
+   "text": "On va faire un jeu. Je vous dis les règles, et vous devinez si l'animal est [[כָּשֵׁר|kasher|kachèr]]. D'accord ?"
+  },
+  {
+   "sp": "ARIE",
+   "start": 166.8,
+   "end": 168.51,
+   "text": "D'accord !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 169.31,
+   "end": 183.04,
+   "text": "Pour les animaux qui marchent sur la terre, il faut deux choses. Un : des sabots fendus en deux, comme deux petits orteils. Deux : l'animal rumine. Il mâche, il avale, et puis il remâche encore."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 183.84,
+   "end": 185.31,
+   "text": "Comme un chewing-gum ?"
+  },
+  {
+   "sp": "AHARON",
+   "start": 186.11,
+   "end": 195.73,
+   "text": "Un peu comme un chewing-gum, oui ! Alors : le [[שׁוֹר|shor|chor]], le bœuf. Sabots fendus ? Oui. Il rumine ? Oui. Alors ?"
+  },
+  {
+   "sp": "ARIE",
+   "start": 196.53,
+   "end": 198.62,
+   "text": "[[כָּשֵׁר|kasher|kachèr]] !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 199.42,
+   "end": 200.92,
+   "text": "Bravo ! Le mouton ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 201.72,
+   "end": 204.59,
+   "text": "Sabots fendus, il rumine… [[כָּשֵׁר|kasher|kachèr]] !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 205.39,
+   "end": 212.13,
+   "text": "Et le [[גָּמָל|gamal|gamal]], le chameau ? Il rumine… mais ses pieds ne sont pas fendus. Ils sont comme des gros coussins."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 212.93,
+   "end": 217.1,
+   "text": "Alors… pas [[כָּשֵׁר|kasher|kachèr]] ! Mais il a quand même des grands cils."
+  },
+  {
+   "sp": "AHARON",
+   "start": 217.9,
+   "end": 224.42,
+   "text": "Pas [[כָּשֵׁר|kasher|kachèr]], mais très gentil, c'est vrai. Et le cochon ? Il a des sabots fendus… mais il ne rumine pas."
+  },
+  {
+   "sp": "ARIE",
+   "start": 225.22,
+   "end": 227.44,
+   "text": "Pas [[כָּשֵׁר|kasher|kachèr]] ! Il faut les deux !"
+  },
+  {
+   "sp": "N",
+   "start": 230.14,
+   "end": 236.79,
+   "text": "Dans le ruisseau, de petits poissons nageaient, tout brillants. En hébreu, les poissons, ce sont les [[דָּגִים|dagim|dagime]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 237.59,
+   "end": 240.18,
+   "text": "Et les [[דָּגִים|dagim|dagime]] ? Ils n'ont pas de pieds !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 240.98,
+   "end": 250.6,
+   "text": "Pour les [[דָּגִים|dagim|dagime]], il y a aussi deux règles, [[|Hillel|Ilèl]]. Regarde ce petit [[דָּג|dag|dag]], là. Tu vois les petites ailes, sur les côtés, qui l'aident à nager ? Ce sont ses nageoires. En hébreu, une nageoire, c'est un [[סְנַפִּיר|snapir|snapir]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 251.4,
+   "end": 254.89,
+   "text": "Il a des [[סְנַפִּירִים|snapirim|snapirime]] ! Ça bouge tout le temps !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 255.69,
+   "end": 263.34,
+   "text": "Et regarde son dos. Tu vois les petites plaques brillantes, comme des paillettes, ou comme les tuiles d'un toit ? Ce sont ses écailles. En hébreu, c'est la [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 264.14,
+   "end": 269.32,
+   "text": "Alors un [[דָּג|dag|dag]] [[כָּשֵׁר|kasher|kachèr]], il doit avoir des [[סְנַפִּירִים|snapirim|snapirime]] et de la [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 270.12,
+   "end": 271.37,
+   "text": "Exactement, [[|Eydel|Èïdèl]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 272.17,
+   "end": 284.64,
+   "text": "Alors le saumon, il a des [[סְנַפִּירִים|snapirim|snapirime]] et de la [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]]… [[כָּשֵׁר|kasher|kachèr]] ! Et la crevette… elle n'a pas de [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]]. Elle a une carapace. Pas [[כָּשֵׁר|kasher|kachèr]] !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 285.44,
+   "end": 287.38,
+   "text": "C'est la réponse à ma question !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 288.18,
+   "end": 300.83,
+   "text": "Tu vois, [[|Hillel|Ilèl]]. Et pour les oiseaux, [[|Hachem|Achème]] nous a donné une liste. Les oiseaux qui attaquent les autres, comme l'aigle ou le vautour, ne sont pas [[כָּשֵׁר|kasher|kachèr]]. Mais la poule, le canard… et la [[יוֹנָה|yona|yona]], sont [[כָּשֵׁר|kasher|kachèr]]."
+  },
+  {
+   "sp": "N",
+   "start": 301.63,
+   "end": 303.87,
+   "text": "La [[יוֹנָה|yona|yona]] roucoula, un peu vexée."
+  },
+  {
+   "sp": "ARIE",
+   "start": 304.67,
+   "end": 308.87,
+   "text": "Ne t'inquiète pas, [[יוֹנָה|yona|yona]]. Toi, on ne te mange pas. Tu es notre amie !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 311.57,
+   "end": 314.73,
+   "text": "Mais [[מֹשֶׁה|Moshé|Moché]], pourquoi [[|Hachem|Achème]] a fait ces règles ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 315.53,
+   "end": 324.11,
+   "text": "La Torah dit : soyez saints, parce que je suis saint. Faire attention à ce qu'on mange, c'est se rappeler de [[|Hachem|Achème]] plusieurs fois par jour. À chaque repas. Même au goûter."
+  },
+  {
+   "sp": "N",
+   "start": 324.91,
+   "end": 329.2,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule de [[|Hillel|Ilèl]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "AHARON",
+   "start": 330.0,
+   "end": 335.04,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. C'était le plus beau [[שְׁמִינִי|shmini|chmini]] de toute ma vie. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 335.84,
+   "end": 342.08,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 342.88,
+   "end": 353.98,
+   "text": "Demain, je vais regarder tous les poissons du livre des animaux. Pour voir s'ils ont des [[סְנַפִּירִים|snapirim|snapirime]] et de la [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 354.78,
+   "end": 359.61,
+   "text": "Et moi les animaux de la ferme. Sabots fendus, et chewing-gum !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 360.41,
+   "end": 361.53,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 362.33,
+   "end": 377.2,
+   "text": "[[שְׁמִינִי|shmini|chmini]], le huitième jour. [[כָּשֵׁר|kasher|kachèr]], permis. [[דָּגִים|dagim|dagime]], les poissons. [[סְנַפִּיר|snapir|snapir]], la nageoire. Et [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]], les écailles qui brillent."
+  },
+  {
+   "sp": "N",
+   "start": 378.0,
+   "end": 395.74,
+   "text": "Et les trois enfants s'endormirent. Et cette nuit-là, [[|Hillel|Ilèl]] rêva qu'il nageait dans un grand ruisseau, avec des [[סְנַפִּירִים|snapirim|snapirime]] sur les côtés et de la [[קַשְׂקֶשֶׂת|kaskéssèt|kaskéssète]] toute brillante sur le dos. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

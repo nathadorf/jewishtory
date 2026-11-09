@@ -1,0 +1,368 @@
+{
+ "title": "Eydel, Arié et Hillel et le bébé dans le panier",
+ "duration": 476.38,
+ "scenes": [
+  0,
+  11,
+  20,
+  31,
+  39,
+  51
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 23.69,
+   "text": "Ce soir-là, Maman avait sorti le grand panier en osier, celui où dormait [[|Hillel|Ilèl]] quand il était tout bébé. [[|Hillel|Ilèl]] n'en revenait pas d'avoir été si petit. Et puis… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 24.49,
+   "end": 27.17,
+   "text": "On retourne en Égypte ? Voir [[יוֹסֵף|Yossef|Yossèf]] ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 27.97,
+   "end": 32.26,
+   "text": "Je ne sais pas… Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 33.06,
+   "end": 42.4,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent en [[מִצְרַיִם|Mitsraïm|Mitsraïm]], sous un soleil brûlant. Mais tout avait changé."
+  },
+  {
+   "sp": "N",
+   "start": 42.95,
+   "end": 52.91,
+   "text": "[[יוֹסֵף|Yossef|Yossèf]] n'était plus là depuis longtemps. Il y avait maintenant un nouveau [[פַּרְעֹה|Pharaon|Faraon]], qui ne se souvenait plus de lui. Et les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] étaient devenus très, très nombreux."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 53.71,
+   "end": 57.57,
+   "text": "Pourquoi tous ces gens portent des briques ? Ils ont l'air si fatigués…"
+  },
+  {
+   "sp": "N",
+   "start": 58.37,
+   "end": 74.33,
+   "text": "Le nouveau [[פַּרְעֹה|Pharaon|Faraon]] avait peur des Hébreux. Alors il les avait obligés à travailler pour lui, du matin au soir. Ils fabriquaient des briques avec de la boue et de la paille, pour construire ses villes. En hébreu, les briques, ce sont les [[לְבֵנִים|lévénim|lévénime]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 75.13,
+   "end": 79.1,
+   "text": "Des [[לְבֵנִים|lévénim|lévénime]], toute la journée ? Sans jouer ? Sans se reposer ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 79.9,
+   "end": 83.99,
+   "text": "Oui, Arié. Ils étaient devenus des esclaves. C'est très triste."
+  },
+  {
+   "sp": "N",
+   "start": 84.79,
+   "end": 100.01,
+   "text": "Et [[פַּרְעֹה|Pharaon|Faraon]] donna même un ordre très méchant contre les bébés garçons des Hébreux. Mais deux sages-femmes très courageuses, Shifra et Poua, refusèrent de lui obéir. Elles protégeaient tous les bébés, en cachette."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 100.81,
+   "end": 107.43,
+   "text": "Elles ont dit non au roi… pour protéger les bébés. Elles sont vraiment courageuses."
+  },
+  {
+   "sp": "N",
+   "start": 110.13,
+   "end": 119.91,
+   "text": "Dans une petite maison, une maman, [[יוֹכֶבֶד|Yokhéved|YoRévèd]], berçait un bébé tout neuf. À côté d'elle, une petite fille aux yeux vifs le regardait. C'était sa grande sœur, [[מִרְיָם|Myriam|Miriame]]."
+  },
+  {
+   "sp": "YOKHEVED",
+   "start": 120.71,
+   "end": 126.71,
+   "text": "Chut… Il ne faut pas qu'on l'entende. Ça fait trois mois que je le cache. Mais il grandit, et il pleure de plus en plus fort."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 127.51,
+   "end": 129.22,
+   "text": "Maman, qu'est-ce qu'on va faire ?"
+  },
+  {
+   "sp": "YOKHEVED",
+   "start": 130.02,
+   "end": 135.7,
+   "text": "On va lui fabriquer une petite [[תֵּבָה|tévah|téva]], un petit panier. Et on va le confier à [[|Hachem|Achème]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 136.5,
+   "end": 140.58,
+   "text": "Une [[תֵּבָה|tévah|téva]] ! Comme le bateau de Noa'h !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 141.38,
+   "end": 145.63,
+   "text": "Exactement, [[|Hillel|Ilèl]] ! Le même mot. Mais celle-ci est toute petite."
+  },
+  {
+   "sp": "N",
+   "start": 146.43,
+   "end": 162.99,
+   "text": "[[יוֹכֶבֶד|Yokhéved|YoRévèd]] tressa un panier de joncs, et elle le recouvrit de goudron pour que l'eau ne rentre pas. Elle y coucha le bébé, bien emmailloté. Puis elle le posa au bord du grand fleuve, au milieu des roseaux. En hébreu, le fleuve, c'est le [[יְאוֹר|yéor|yéor]]."
+  },
+  {
+   "sp": "YOKHEVED",
+   "start": 163.79,
+   "end": 168.03,
+   "text": "[[מִרְיָם|Myriam|Miriame]], reste cachée là. Et regarde bien ce qui va arriver à ton petit frère."
+  },
+  {
+   "sp": "N",
+   "start": 168.83,
+   "end": 176.87,
+   "text": "[[מִרְיָם|Myriam|Miriame]] s'accroupit dans les roseaux. Les trois enfants s'accroupirent à côté d'elle. La petite [[תֵּבָה|tévah|téva]] flottait doucement sur le [[יְאוֹר|yéor|yéor]]."
+  },
+  {
+   "sp": "N",
+   "start": 179.57,
+   "end": 189.94,
+   "text": "Tout à coup, on entendit des rires et des voix. La fille de [[פַּרְעֹה|Pharaon|Faraon]] descendait se baigner dans le [[יְאוֹר|yéor|yéor]], avec ses servantes. On l'appelle [[בִּתְיָה|Batya|Batia]]."
+  },
+  {
+   "sp": "BATYA",
+   "start": 190.74,
+   "end": 196.22,
+   "text": "Oh, regardez ! Un petit panier, au milieu des roseaux. Allez le chercher, s'il vous plaît."
+  },
+  {
+   "sp": "N",
+   "start": 197.02,
+   "end": 202.83,
+   "text": "Une servante rapporta la [[תֵּבָה|tévah|téva]]. [[בִּתְיָה|Batya|Batia]] souleva doucement le couvercle. Et le bébé se mit à pleurer."
+  },
+  {
+   "sp": "BATYA",
+   "start": 203.63,
+   "end": 211.84,
+   "text": "Mon pauvre petit… C'est un bébé des Hébreux. N'aie pas peur. Personne ne te fera de mal. Je vais m'occuper de toi."
+  },
+  {
+   "sp": "ARIE",
+   "start": 212.64,
+   "end": 216.41,
+   "text": "Elle est gentille, la princesse ! Même si son papa est méchant !"
+  },
+  {
+   "sp": "N",
+   "start": 217.21,
+   "end": 221.34,
+   "text": "Alors [[מִרְיָם|Myriam|Miriame]] sortit des roseaux, et s'approcha, toute courageuse."
+  },
+  {
+   "sp": "MIRIAM",
+   "start": 222.14,
+   "end": 226.79,
+   "text": "Princesse… Veux-tu que j'aille chercher une maman hébreue, pour nourrir le bébé ?"
+  },
+  {
+   "sp": "BATYA",
+   "start": 227.59,
+   "end": 228.15,
+   "text": "Oui, va."
+  },
+  {
+   "sp": "N",
+   "start": 228.95,
+   "end": 237.23,
+   "text": "Et [[מִרְיָם|Myriam|Miriame]] courut chercher… sa propre maman ! [[יוֹכֶבֶד|Yokhéved|YoRévèd]] put garder son bébé, et le nourrir, jusqu'à ce qu'il soit grand."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 238.03,
+   "end": 242.18,
+   "text": "Elle a ramené sa maman ! [[מִרְיָם|Myriam|Miriame]] est trop maligne !"
+  },
+  {
+   "sp": "BATYA",
+   "start": 242.98,
+   "end": 246.24,
+   "text": "Je l'appellerai [[מֹשֶׁה|Moshé|Moché]]. Parce que je l'ai tiré de l'eau."
+  },
+  {
+   "sp": "N",
+   "start": 248.94,
+   "end": 266.14,
+   "text": "La [[יוֹנָה|yona|yona]] fit tourner le temps. [[מֹשֶׁה|Moshé|Moché]] grandit dans le palais de [[פַּרְעֹה|Pharaon|Faraon]], comme un prince. Mais il n'oubliait jamais qu'il était un enfant d'[[יִשְׂרָאֵל|Israël|Israèl]]. Un jour, il vit un esclave qui se faisait frapper. Il le défendit. Et [[פַּרְעֹה|Pharaon|Faraon]] se mit très en colère contre lui."
+  },
+  {
+   "sp": "N",
+   "start": 266.69,
+   "end": 273.61,
+   "text": "Alors [[מֹשֶׁה|Moshé|Moché]] dut s'enfuir, très loin, dans le désert. Fatigué, il s'assit près d'une [[בְּאֵר|bé'èr|béère]], un puits."
+  },
+  {
+   "sp": "ARIE",
+   "start": 274.41,
+   "end": 278.9,
+   "text": "Encore une [[בְּאֵר|bé'èr|béère]] ! Il se passe toujours quelque chose près des puits !"
+  },
+  {
+   "sp": "N",
+   "start": 279.7,
+   "end": 289.07,
+   "text": "Et en effet, sept jeunes filles arrivèrent pour donner à boire à leur [[צֹאן|tson|tsone]]. Mais des bergers méchants les poussèrent pour prendre leur place. [[מֹשֶׁה|Moshé|Moché]] se leva."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 289.87,
+   "end": 292.07,
+   "text": "Laissez-les ! Elles étaient là avant vous."
+  },
+  {
+   "sp": "N",
+   "start": 292.87,
+   "end": 298.99,
+   "text": "Et [[מֹשֶׁה|Moshé|Moché]] donna lui-même à boire à tout leur [[צֹאן|tson|tsone]]. L'une des jeunes filles s'appelait [[צִפּוֹרָה|Tsipora|Tsipora]]."
+  },
+  {
+   "sp": "TSIPORA",
+   "start": 299.79,
+   "end": 304.53,
+   "text": "Merci, étranger. Viens manger chez nous. Mon père voudra te remercier."
+  },
+  {
+   "sp": "N",
+   "start": 305.33,
+   "end": 313.75,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] resta dans cette famille. Il se maria avec [[צִפּוֹרָה|Tsipora|Tsipora]], et il devint berger. Il gardait le [[צֹאן|tson|tsone]] dans le désert, tous les jours."
+  },
+  {
+   "sp": "N",
+   "start": 316.45,
+   "end": 330.26,
+   "text": "Un jour, [[מֹשֶׁה|Moshé|Moché]] conduisait le [[צֹאן|tson|tsone]] près d'une montagne. Et là, il vit quelque chose d'extraordinaire : un buisson tout en feu. En hébreu, le buisson, c'est le [[סְנֶה|sné|sné]]. Et le feu, c'est l'[[אֵשׁ|esh|èch]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 331.06,
+   "end": 337.77,
+   "text": "Le [[סְנֶה|sné|sné]] brûle ! Mais… il ne se consume pas ! Les feuilles restent toutes vertes !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 338.57,
+   "end": 341.17,
+   "text": "Comme c'est étrange… Je vais m'approcher pour voir."
+  },
+  {
+   "sp": "N",
+   "start": 341.97,
+   "end": 346.54,
+   "text": "Et du milieu de l'[[אֵשׁ|esh|èch]], une voix appela : [[מֹשֶׁה|Moshé|Moché]] ! [[מֹשֶׁה|Moshé|Moché]] !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 347.34,
+   "end": 349.37,
+   "text": "[[הִנֵּנִי|hinéni|inéni]]. Me voici."
+  },
+  {
+   "sp": "ARIE",
+   "start": 350.17,
+   "end": 352.88,
+   "text": "[[הִנֵּנִי|hinéni|inéni]] ! Comme Avraham !"
+  },
+  {
+   "sp": "N",
+   "start": 353.68,
+   "end": 366.36,
+   "text": "La voix de [[|Hachem|Achème]] dit : N'approche pas plus. Enlève tes chaussures, car l'endroit où tu te tiens est une terre sainte. En hébreu, les chaussures, ce sont les [[נַעֲלַיִם|na'alayim|naalaïme]]."
+  },
+  {
+   "sp": "N",
+   "start": 366.91,
+   "end": 372.78,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] enleva ses [[נַעֲלַיִם|na'alayim|naalaïme]]. Les trois enfants enlevèrent aussi les leurs, sans faire de bruit."
+  },
+  {
+   "sp": "N",
+   "start": 373.33,
+   "end": 382.98,
+   "text": "Et [[|Hachem|Achème]] dit : J'ai vu la tristesse de mon peuple en Égypte. J'ai entendu leurs cris. Va voir [[פַּרְעֹה|Pharaon|Faraon]], et fais sortir les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] d'Égypte."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 383.78,
+   "end": 390.21,
+   "text": "Moi ? Mais qui suis-je, pour aller voir [[פַּרְעֹה|Pharaon|Faraon]] ? Et en plus, j'ai du mal à parler. Les mots ne sortent pas bien de ma bouche."
+  },
+  {
+   "sp": "N",
+   "start": 391.01,
+   "end": 399.48,
+   "text": "Et [[|Hachem|Achème]] répondit : Je serai avec toi. Et ton frère [[אַהֲרֹן|Aharon|Aarone]] parlera avec toi. Il vient déjà à ta rencontre."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 400.28,
+   "end": 405.07,
+   "text": "Même [[מֹשֶׁה|Moshé|Moché]] avait peur de ne pas y arriver. Mais il n'était pas tout seul."
+  },
+  {
+   "sp": "N",
+   "start": 407.77,
+   "end": 412.54,
+   "text": "La [[יוֹנָה|yona|yona]] se posa sur le bâton de berger de [[מֹשֶׁה|Moshé|Moché]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 413.34,
+   "end": 420.59,
+   "text": "[[תּוֹדָה|toda|toda]], les enfants. Demain, je pars en Égypte. Ce sera difficile. Mais je sais que [[|Hachem|Achème]] est avec moi. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 421.39,
+   "end": 428.59,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits, les pieds tout nus."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 429.39,
+   "end": 432.74,
+   "text": "Oh ! On a oublié nos [[נַעֲלַיִם|na'alayim|naalaïme]] près du [[סְנֶה|sné|sné]] !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 433.54,
+   "end": 435.84,
+   "text": "Pas grave, [[|Hillel|Ilèl]]. On avait déjà nos pyjamas."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 436.64,
+   "end": 437.75,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 438.55,
+   "end": 449.42,
+   "text": "Moi ! [[לְבֵנִים|lévénim|lévénime]], les briques. [[יְאוֹר|yéor|yéor]], le fleuve. [[סְנֶה|sné|sné]], le buisson. [[אֵשׁ|esh|èch]], le feu. Et [[נַעֲלַיִם|na'alayim|naalaïme]], les chaussures !"
+  },
+  {
+   "sp": "N",
+   "start": 450.22,
+   "end": 465.58,
+   "text": "Et [[|Hillel|Ilèl]] s'endormit en serrant son doudou, en pensant au petit [[מֹשֶׁה|Moshé|Moché]] qui flottait sur le [[יְאוֹר|yéor|yéor]], bien au chaud dans sa petite [[תֵּבָה|tévah|téva]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

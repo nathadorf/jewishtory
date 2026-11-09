@@ -1,0 +1,307 @@
+{
+ "title": "Eydel, Arié et Hillel et les cinq sœurs",
+ "duration": 384.66,
+ "scenes": [
+  0,
+  9,
+  21,
+  30,
+  40
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 22.16,
+   "text": "Ce jour-là, au foot, les garçons avaient dit à [[|Eydel|Èïdèl]] : non, toi tu ne peux pas jouer, c'est un jeu de garçons. [[|Eydel|Èïdèl]] était rentrée furieuse. Elle n'avait rien dit au dîner. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 22.96,
+   "end": 27.32,
+   "text": "La [[יוֹנָה|yona|yona]]… J'espère qu'on va voir quelque chose de juste, aujourd'hui."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 28.12,
+   "end": 32.01,
+   "text": "Donne-moi la main, [[|Eydel|Èïdèl]]. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.81,
+   "end": 48.17,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans le [[מַחֲנֶה|ma'hané|marané]], tout près du fleuve Jourdain. De l'autre côté, on voyait les collines du pays d'[[יִשְׂרָאֵל|Israël|Israèl]]. Les quarante ans dans le désert étaient presque finis."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 48.97,
+   "end": 58.89,
+   "text": "[[שָׁלוֹם|shalom|chalom]], mes amis ! Nous allons bientôt entrer dans le pays. Alors [[|Hachem|Achème]] m'a demandé de [[לִסְפֹּר|lispor|lispor]] encore le peuple. Pour savoir combien de familles il y a dans chacune des [[שְׁבָטִים|shvatim|chvatime]]. Et partager la terre."
+  },
+  {
+   "sp": "ARIE",
+   "start": 59.69,
+   "end": 61.55,
+   "text": "Chaque famille aura un morceau de terre ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 62.35,
+   "end": 70.9,
+   "text": "Oui, Arié. Chaque famille aura sa [[נַחֲלָה|na'hala|narala]]. Son héritage. Un champ, une maison, des oliviers. Et la [[נַחֲלָה|na'hala|narala]] passera du papa à ses fils."
+  },
+  {
+   "sp": "N",
+   "start": 71.7,
+   "end": 73.14,
+   "text": "[[|Eydel|Èïdèl]] fronça les sourcils."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 73.94,
+   "end": 76.27,
+   "text": "À ses fils ? Et les filles, alors ?"
+  },
+  {
+   "sp": "N",
+   "start": 78.97,
+   "end": 92.52,
+   "text": "Au même moment, cinq jeunes femmes s'avancèrent devant le [[מִשְׁכָּן|mishkan|michkane]]. Elles se tenaient la main. Devant elles, il y avait [[מֹשֶׁה|Moshé|Moché]], les chefs des [[שְׁבָטִים|shvatim|chvatime]], et tout le peuple. Elles avaient un peu peur. Mais elles s'avancèrent quand même."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 93.32,
+   "end": 93.96,
+   "text": "Qui c'est ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 94.76,
+   "end": 103.96,
+   "text": "Ce sont les [[בָּנוֹת|banot|banot]] de [[צְלָפְחָד|Tselof'had|Tsélofrad]]. Les filles de [[צְלָפְחָד|Tselof'had|Tsélofrad]]. Cinq [[אֲחָיוֹת|a'hayot|araïot]]. Cinq sœurs !"
+  },
+  {
+   "sp": "N",
+   "start": 104.76,
+   "end": 107.8,
+   "text": "La plus grande prit la parole. Elle s'appelait [[מַחְלָה|Ma'hla|Marla]]."
+  },
+  {
+   "sp": "MAHLA",
+   "start": 108.6,
+   "end": 124.77,
+   "text": "[[מֹשֶׁה|Moshé|Moché]], notre papa, [[צְלָפְחָד|Tselof'had|Tsélofrad]], est mort dans le désert. Il n'avait pas de fils. Seulement nous, ses cinq [[בָּנוֹת|banot|banot]]. Alors, est-ce que le nom de notre papa va disparaître ? Juste parce qu'il n'a pas de garçon ?"
+  },
+  {
+   "sp": "NOA",
+   "start": 125.57,
+   "end": 131.35,
+   "text": "Donne-nous une [[נַחֲלָה|na'hala|narala]], à nous, ses filles. Parmi les frères de notre papa."
+  },
+  {
+   "sp": "N",
+   "start": 132.15,
+   "end": 138.34,
+   "text": "Il y eut un grand silence. Tout le monde regardait [[מֹשֶׁה|Moshé|Moché]]. Personne n'avait jamais demandé ça avant."
+  },
+  {
+   "sp": "ARIE",
+   "start": 139.14,
+   "end": 140.07,
+   "text": "Qu'est-ce qu'il va dire ?"
+  },
+  {
+   "sp": "N",
+   "start": 140.87,
+   "end": 144.09,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] réfléchit. Puis il dit, très simplement :"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 144.89,
+   "end": 146.84,
+   "text": "Je ne sais pas. Je vais demander à [[|Hachem|Achème]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 147.64,
+   "end": 149.5,
+   "text": "Même [[מֹשֶׁה|Moshé|Moché]] ne sait pas tout !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 150.3,
+   "end": 153.23,
+   "text": "Et il le dit. Devant tout le monde. C'est beau, ça."
+  },
+  {
+   "sp": "N",
+   "start": 155.93,
+   "end": 165.25,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] entra dans le [[מִשְׁכָּן|mishkan|michkane]]. Les cinq [[אֲחָיוֹת|a'hayot|araïot]] attendaient dehors, en se tenant la main très fort. Et [[|Eydel|Èïdèl]] leur tenait la main, à elles aussi."
+  },
+  {
+   "sp": "N",
+   "start": 165.8,
+   "end": 168.46,
+   "text": "Puis [[מֹשֶׁה|Moshé|Moché]] ressortit. Il souriait."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 169.26,
+   "end": 179.95,
+   "text": "[[|Hachem|Achème]] a dit : [[כֵּן|kén|kène]]. Les [[בָּנוֹת|banot|banot]] de [[צְלָפְחָד|Tselof'had|Tsélofrad]] ont raison. [[כֵּן|kén|kène]] ! Donnez-leur une [[נַחֲלָה|na'hala|narala]]. Et à partir d'aujourd'hui, c'est la loi pour tout [[יִשְׂרָאֵל|Israël|Israèl]] : quand un papa n'a pas de fils, sa [[נַחֲלָה|na'hala|narala]] ira à ses filles."
+  },
+  {
+   "sp": "N",
+   "start": 180.75,
+   "end": 187.15,
+   "text": "Les cinq [[אֲחָיוֹת|a'hayot|araïot]] se prirent dans les bras en riant. Elles sautaient de joie. Et [[|Eydel|Èïdèl]] sautait avec elles."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 187.95,
+   "end": 191.39,
+   "text": "[[כֵּן|kén|kène]] ! Elles ont raison ! [[|Hachem|Achème]] a dit [[כֵּן|kén|kène]] !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 192.19,
+   "end": 196.17,
+   "text": "Elles ont changé une loi de la Torah, juste en posant une question !"
+  },
+  {
+   "sp": "MAHLA",
+   "start": 196.97,
+   "end": 207.58,
+   "text": "On a eu peur de parler. Mais c'était juste. Alors on s'est dit : on y va, ensemble. À cinq, on est plus courageuses."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 208.38,
+   "end": 215.31,
+   "text": "Vous avez cherché le [[צֶדֶק|tsédek|tsédèk]], la justice. Et vous avez demandé avec respect. C'est comme ça qu'on change les choses."
+  },
+  {
+   "sp": "N",
+   "start": 216.11,
+   "end": 228.36,
+   "text": "Et les enfants apprirent les noms des cinq [[אֲחָיוֹת|a'hayot|araïot]] : [[מַחְלָה|Ma'hla|Marla]], [[נֹעָה|Noa|Noa]], Hogla, Milka, et Tirtsa. [[|Hillel|Ilèl]] les répéta trois fois pour ne pas les oublier."
+  },
+  {
+   "sp": "N",
+   "start": 231.06,
+   "end": 238.51,
+   "text": "Plus tard, [[|Hachem|Achème]] dit à [[מֹשֶׁה|Moshé|Moché]] : Monte sur la montagne, et regarde le pays. Tu le verras, mais tu n'y entreras pas."
+  },
+  {
+   "sp": "N",
+   "start": 239.06,
+   "end": 242.92,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] ne se plaignit pas pour lui. Il pensa d'abord au peuple."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 243.72,
+   "end": 248.71,
+   "text": "[[|Hachem|Achème]], choisis quelqu'un pour guider le peuple après moi. Pour qu'il ne soit pas comme un troupeau de moutons sans berger."
+  },
+  {
+   "sp": "N",
+   "start": 249.51,
+   "end": 260.59,
+   "text": "Et [[|Hachem|Achème]] choisit [[יְהוֹשֻׁעַ|Yéhoshoua|Yéochoua]]. Celui qui avait eu tellement de courage avec les explorateurs. Celui qui ne quittait jamais la tente de [[מֹשֶׁה|Moshé|Moché]], et qui apprenait tout."
+  },
+  {
+   "sp": "N",
+   "start": 261.14,
+   "end": 267.65,
+   "text": "Devant tout le peuple, [[מֹשֶׁה|Moshé|Moché]] posa ses deux mains sur la tête de [[יְהוֹשֻׁעַ|Yéhoshoua|Yéochoua]]. En hébreu, c'est la [[סְמִיכָה|smikha|smiRa]]."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 268.45,
+   "end": 274.2,
+   "text": "[[יְהוֹשֻׁעַ|Yéhoshoua|Yéochoua]], c'est toi qui emmèneras le peuple dans le pays. Sois fort et courageux. [[|Hachem|Achème]] sera avec toi."
+  },
+  {
+   "sp": "YEHOSHOUA",
+   "start": 275.0,
+   "end": 279.27,
+   "text": "Merci, mon maître. Je ferai de mon mieux. Tout ce que je sais, c'est toi qui me l'as appris."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 280.07,
+   "end": 288.54,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] lui donne une [[סְמִיכָה|smikha|smiRa]]. Comme Papa avec ses mains sur nos têtes le vendredi !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 289.34,
+   "end": 292.64,
+   "text": "Et [[פִּינְחָס|Pin'has|Pinrasse]], alors ? On a entendu son nom tout à l'heure."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 293.44,
+   "end": 300.48,
+   "text": "[[פִּינְחָס|Pin'has|Pinrasse]] est le petit-fils d'[[אַהֲרֹן|Aharon|Aarone]]. [[|Hachem|Achème]] lui a donné une alliance de [[שָׁלוֹם|shalom|chalom]]. Plus tard, je vous raconterai."
+  },
+  {
+   "sp": "N",
+   "start": 303.18,
+   "end": 307.02,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur l'épaule d'[[|Eydel|Èïdèl]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "MAHLA",
+   "start": 307.82,
+   "end": 316.86,
+   "text": "[[תּוֹדָה|toda|toda]], [[|Eydel|Èïdèl]], de nous avoir tenu la main. Et n'aie jamais peur de demander ce qui est juste. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 317.66,
+   "end": 323.9,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 324.7,
+   "end": 332.83,
+   "text": "Demain, au foot, je vais demander aux garçons, poliment, avec respect, pourquoi je ne peux pas jouer. Et je jouerai."
+  },
+  {
+   "sp": "ARIE",
+   "start": 333.63,
+   "end": 340.66,
+   "text": "Et moi, je dirai aux autres garçons : elle a raison. [[כֵּן|kén|kène]] ! Comme [[|Hachem|Achème]] pour les [[בָּנוֹת|banot|banot]] de [[צְלָפְחָד|Tselof'had|Tsélofrad]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 341.46,
+   "end": 343.26,
+   "text": "Et moi je serai l'arbitre !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 344.06,
+   "end": 345.18,
+   "text": "Qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 345.98,
+   "end": 357.23,
+   "text": "[[בָּנוֹת|banot|banot]], les filles. [[אֲחָיוֹת|a'hayot|araïot]], les sœurs. [[נַחֲלָה|na'hala|narala]], l'héritage. [[כֵּן|kén|kène]], oui. Et [[סְמִיכָה|smikha|smiRa]], les mains sur la tête."
+  },
+  {
+   "sp": "N",
+   "start": 358.03,
+   "end": 373.86,
+   "text": "Et les trois enfants s'endormirent. Et [[|Eydel|Èïdèl]] rêva qu'elle marquait un but magnifique, pendant que cinq sœurs criaient bravo, au bord du terrain. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

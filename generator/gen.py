@@ -75,11 +75,17 @@ ELEVEN = {
 NATH, LUCIE, JON = ELEVEN["AVRAHAM"], ELEVEN["SARAH"], ELEVEN["MALAKH"]
 KEVIN = ("Xgb3SR8idOHy8scGICeJ", 0.5, 0.0)        # Kevin (young French man)
 PHILIPPINE = ("Yx2a8qp2EqI9c5i8MzBo", 0.5, 0.0)   # Philippine without pitch shift (young woman)
+GEORGE = ("JBFqnCBsd6RMkjVDRZzb", 0.5, 0.0)       # George (premade, warm; clean French with v3)
+BRIAN = ("nPczCjzI2devNBz1zQrb", 0.5, 0.0)        # Brian (premade, very deep)
+LILY = ("pFZP5JQG7iQjIQuC4Bku", 0.5, 0.0)         # Lily (premade, soft; clean French with v3)
 ELEVEN.update({
     "YITSHAK": NATH, "YAAKOV": KEVIN, "YOSSEF": KEVIN, "MOSHE": NATH,
     "RIVKA": PHILIPPINE, "RAHEL": PHILIPPINE, "MIRIAM": PHILIPPINE,
-    "LEA": LUCIE, "YOKHEVED": LUCIE, "BATYA": LUCIE,
-    "ELIEZER": JON, "ESSAV": JON, "LAVAN": JON, "PHARAON": JON, "YEHOUDA": JON, "ECHANSON": JON, "AHARON": JON, "YITRO": JON,
+    "LEA": LUCIE, "YOKHEVED": LUCIE, "BATYA": LILY, "TSIPORA": PHILIPPINE,
+    "ELIEZER": JON, "ESSAV": JON, "LAVAN": JON, "ECHANSON": JON, "AHARON": JON,
+    "PHARAON": GEORGE, "YEHOUDA": BRIAN, "YITRO": BRIAN,
+    "KALEV": BRIAN, "YEHOSHOUA": KEVIN, "MERAGUEL": JON, "KORAH": BRIAN,
+    "BALAK": GEORGE, "BILAM": BRIAN, "ATON": PHILIPPINE, "MAHLA": PHILIPPINE, "NOA": LILY, "REOUVEN": BRIAN,
 })
 # v3 ignores the speed setting; a bracketed direction slows Nath's naturally quick delivery
 ELEVEN_TAG = {sp: "[slowly, gently] " for sp in ("NOAH", "AVRAM", "AVRAHAM", "YITSHAK", "MOSHE")}

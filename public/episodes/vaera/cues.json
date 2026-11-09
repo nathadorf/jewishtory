@@ -1,0 +1,351 @@
+{
+ "title": "Eydel, Arié et Hillel et les grenouilles de Pharaon",
+ "duration": 454.12,
+ "scenes": [
+  0,
+  9,
+  19,
+  22,
+  33,
+  37,
+  47
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 23.28,
+   "text": "Ce soir-là, [[|Hillel|Ilèl]] avait emporté au lit sa grenouille en plastique, celle qui saute quand on appuie sur son dos. Hop ! Elle atterrit sur le nez d'Arié. Et au même moment… toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 24.08,
+   "end": 26.98,
+   "text": "On va voir [[מֹשֶׁה|Moshé|Moché]] ! Il est arrivé chez [[פַּרְעֹה|Pharaon|Faraon]] ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 27.78,
+   "end": 30.81,
+   "text": "On va voir. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 31.61,
+   "end": 45.68,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent en [[מִצְרַיִם|Mitsraïm|Mitsraïm]], devant les grandes portes du palais. [[מֹשֶׁה|Moshé|Moché]] était là, avec un autre homme, un peu plus âgé, au sourire très doux."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 46.48,
+   "end": 51.12,
+   "text": "Mes amis ! Je vous présente mon grand frère, [[אַהֲרֹן|Aharon|Aarone]]. C'est lui qui va parler avec moi devant [[פַּרְעֹה|Pharaon|Faraon]]."
+  },
+  {
+   "sp": "AHARON",
+   "start": 51.92,
+   "end": 54.96,
+   "text": "[[שָׁלוֹם|shalom|chalom]], les enfants. [[מֹשֶׁה|Moshé|Moché]] m'a beaucoup parlé de vous."
+  },
+  {
+   "sp": "N",
+   "start": 55.76,
+   "end": 60.91,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] tenait un grand bâton de berger. En hébreu, le bâton, c'est le [[מַטֶּה|maté|maté]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 61.71,
+   "end": 65.08,
+   "text": "C'est le [[מַטֶּה|maté|maté]] de quand tu gardais les moutons ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 65.88,
+   "end": 71.16,
+   "text": "Oui, [[|Hillel|Ilèl]]. Mais maintenant, c'est un [[מַטֶּה|maté|maté]] spécial. [[|Hachem|Achème]] va faire des choses extraordinaires avec lui."
+  },
+  {
+   "sp": "N",
+   "start": 73.86,
+   "end": 80.66,
+   "text": "Ils entrèrent dans la grande salle. [[פַּרְעֹה|Pharaon|Faraon]] était assis sur son trône, avec son grand chapeau, entouré de ses magiciens."
+  },
+  {
+   "sp": "AHARON",
+   "start": 81.46,
+   "end": 87.38,
+   "text": "[[פַּרְעֹה|Pharaon|Faraon]], voici ce que dit [[|Hachem|Achème]], le Dieu d'[[יִשְׂרָאֵל|Israël|Israèl]] : laisse partir mon peuple."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 88.18,
+   "end": 95.94,
+   "text": "[[|Hachem|Achème]] ? Je ne le connais pas. Et je ne laisserai personne partir. Qui va fabriquer mes [[לְבֵנִים|lévénim|lévénime]], si les Hébreux s'en vont ?"
+  },
+  {
+   "sp": "N",
+   "start": 96.74,
+   "end": 106.63,
+   "text": "Alors [[אַהֲרֹן|Aharon|Aarone]] jeta le [[מַטֶּה|maté|maté]] par terre. Et le bâton se transforma en serpent ! Un grand serpent qui se tortillait sur le sol."
+  },
+  {
+   "sp": "ARIE",
+   "start": 107.43,
+   "end": 108.37,
+   "text": "Waouh !"
+  },
+  {
+   "sp": "PHARAON",
+   "start": 109.17,
+   "end": 111.94,
+   "text": "Ha ! Mes magiciens savent faire ça aussi."
+  },
+  {
+   "sp": "N",
+   "start": 112.74,
+   "end": 125.4,
+   "text": "Et les magiciens jetèrent leurs bâtons, qui devinrent eux aussi des serpents. Mais le serpent d'[[אַהֲרֹן|Aharon|Aarone]] ouvrit grand la bouche… et il avala tous les autres ! Puis il redevint un [[מַטֶּה|maté|maté]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 126.2,
+   "end": 129.52,
+   "text": "Regarde la tête de [[פַּרְעֹה|Pharaon|Faraon]], Arié. Il ne sait plus quoi dire !"
+  },
+  {
+   "sp": "PHARAON",
+   "start": 130.32,
+   "end": 132.35,
+   "text": "Non. Je ne les laisse pas partir."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 133.15,
+   "end": 140.97,
+   "text": "Son [[לֵב|lev|lèv]] est dur comme une pierre. En hébreu, le cœur, c'est le [[לֵב|lev|lèv]]. Et le [[לֵב|lev|lèv]] de [[פַּרְעֹה|Pharaon|Faraon]] ne veut rien entendre."
+  },
+  {
+   "sp": "N",
+   "start": 143.67,
+   "end": 160.15,
+   "text": "Le lendemain matin, [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]] attendirent [[פַּרְעֹה|Pharaon|Faraon]] au bord du [[יְאוֹר|yéor|yéor]], le grand fleuve. [[אַהֲרֹן|Aharon|Aarone]] toucha l'eau avec le [[מַטֶּה|maté|maté]]. Et toute l'eau du [[יְאוֹר|yéor|yéor]] devint rouge, comme du sang. En hébreu, le sang, c'est le [[דָּם|dam|dame]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 160.95,
+   "end": 164.7,
+   "text": "L'eau est toute rouge ! Plus personne ne peut boire !"
+  },
+  {
+   "sp": "N",
+   "start": 165.5,
+   "end": 175.4,
+   "text": "Les Égyptiens creusaient des trous partout pour trouver de l'eau. Mais [[פַּרְעֹה|Pharaon|Faraon]] retourna dans son palais, le [[לֵב|lev|lèv]] toujours aussi dur."
+  },
+  {
+   "sp": "N",
+   "start": 178.1,
+   "end": 189.46,
+   "text": "Sept jours plus tard, [[אַהֲרֹן|Aharon|Aarone]] tendit encore le [[מַטֶּה|maté|maté]] au-dessus du [[יְאוֹר|yéor|yéor]]. Et alors, on entendit un drôle de bruit. Croâ. Croâ. Croâ croâ croâ !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 190.26,
+   "end": 191.23,
+   "text": "Des grenouilles !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 192.03,
+   "end": 195.49,
+   "text": "En hébreu, une grenouille, c'est une [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]]."
+  },
+  {
+   "sp": "N",
+   "start": 196.29,
+   "end": 207.42,
+   "text": "Il y en avait une… puis dix… puis cent… puis des milliers ! Des [[צְפַרְדְּעִים|tsfardé'im|tsfardéime]] sortaient du [[יְאוֹר|yéor|yéor]] et sautaient partout. Dans les maisons. Dans les cuisines. Dans les lits !"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 208.22,
+   "end": 211.55,
+   "text": "Il y a une [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]] dans le chapeau de [[פַּרְעֹה|Pharaon|Faraon]] !"
+  },
+  {
+   "sp": "N",
+   "start": 212.35,
+   "end": 226.04,
+   "text": "Et c'était vrai. Une grosse [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]] verte était assise sur la tête du roi. Une autre sautait dans son assiette de soupe. Et une autre encore faisait croâ dans sa chambre, juste à côté de son oreiller."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 226.84,
+   "end": 234.16,
+   "text": "Assez ! Assez ! [[מֹשֶׁה|Moshé|Moché]], demande à ton Dieu d'enlever ces [[צְפַרְדְּעִים|tsfardé'im|tsfardéime]] ! Et je laisserai partir ton peuple, c'est promis !"
+  },
+  {
+   "sp": "N",
+   "start": 234.96,
+   "end": 242.16,
+   "text": "[[מֹשֶׁה|Moshé|Moché]] pria. Et les [[צְפַרְדְּעִים|tsfardé'im|tsfardéime]] disparurent. Mais dès que tout fut calme, [[פַּרְעֹה|Pharaon|Faraon]] changea d'avis."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 242.96,
+   "end": 245.49,
+   "text": "Finalement… non. Ils restent."
+  },
+  {
+   "sp": "ARIE",
+   "start": 246.29,
+   "end": 250.32,
+   "text": "Mais il avait promis ! Ce n'est pas juste de ne pas tenir sa promesse !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 251.12,
+   "end": 253.86,
+   "text": "Tu as raison, Arié. Une promesse, c'est une promesse."
+  },
+  {
+   "sp": "N",
+   "start": 256.56,
+   "end": 271.98,
+   "text": "Alors [[|Hachem|Achème]] envoya d'autres plaies. Des petites bêtes qui grattaient partout, sur les gens et sur les animaux. Puis des animaux sauvages qui couraient dans les villes. Puis une maladie sur les troupeaux. Puis des boutons qui grattaient sur la peau des Égyptiens."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 272.78,
+   "end": 275.89,
+   "text": "Et chez les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]], il y en avait aussi ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 276.69,
+   "end": 282.66,
+   "text": "Non, [[|Hillel|Ilèl]]. Regarde : à Goshen, là où habitent les Hébreux, il n'y a rien. [[|Hachem|Achème]] protège son peuple."
+  },
+  {
+   "sp": "N",
+   "start": 283.46,
+   "end": 292.6,
+   "text": "Et à chaque fois, [[פַּרְעֹה|Pharaon|Faraon]] disait oui… puis non. Oui… puis non. Son [[לֵב|lev|lèv]] devenait de plus en plus dur."
+  },
+  {
+   "sp": "N",
+   "start": 295.3,
+   "end": 310.1,
+   "text": "Un matin, [[מֹשֶׁה|Moshé|Moché]] leva son [[מַטֶּה|maté|maté]] vers le ciel. Et le ciel devint tout noir. Le tonnerre gronda, boum, boum ! Et des grêlons tombèrent, gros comme des balles de ping-pong. En hébreu, la grêle, c'est le [[בָּרָד|barad|barad]]."
+  },
+  {
+   "sp": "N",
+   "start": 310.65,
+   "end": 320.74,
+   "text": "Mais le plus étonnant, c'est qu'au milieu de chaque grêlon de glace, il y avait une petite flamme d'[[אֵשׁ|esh|èch]]. Le feu et la glace, ensemble !"
+  },
+  {
+   "sp": "ARIE",
+   "start": 321.54,
+   "end": 324.73,
+   "text": "De l'[[אֵשׁ|esh|èch]] dans le [[בָּרָד|barad|barad]] ? C'est impossible !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 325.53,
+   "end": 327.61,
+   "text": "Pour [[|Hachem|Achème]], rien n'est impossible, Arié."
+  },
+  {
+   "sp": "N",
+   "start": 328.41,
+   "end": 338.67,
+   "text": "Avant l'orage, [[מֹשֶׁה|Moshé|Moché]] avait prévenu tout le monde : rentrez vos animaux, mettez-vous à l'abri. Et certains Égyptiens l'avaient écouté. Ils étaient bien au chaud chez eux."
+  },
+  {
+   "sp": "PHARAON",
+   "start": 339.47,
+   "end": 345.55,
+   "text": "Cette fois, j'ai eu tort. [[|Hachem|Achème]] a raison. Arrête le [[בָּרָד|barad|barad]], [[מֹשֶׁה|Moshé|Moché]], et vous partirez."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 346.35,
+   "end": 351.77,
+   "text": "Dès que je serai sorti de la ville, je lèverai les mains vers [[|Hachem|Achème]], et le [[בָּרָד|barad|barad]] s'arrêtera."
+  },
+  {
+   "sp": "N",
+   "start": 352.57,
+   "end": 359.16,
+   "text": "Et le [[בָּרָד|barad|barad]] s'arrêta. Le soleil revint. Mais… [[פַּרְעֹה|Pharaon|Faraon]] changea encore d'avis."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 359.96,
+   "end": 363.01,
+   "text": "Encore ?! Il est têtu, [[פַּרְעֹה|Pharaon|Faraon]] !"
+  },
+  {
+   "sp": "AHARON",
+   "start": 363.81,
+   "end": 370.01,
+   "text": "Oui, [[|Hillel|Ilèl]]. Mais ne t'inquiète pas. L'histoire n'est pas finie. Bientôt, les enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] seront libres."
+  },
+  {
+   "sp": "N",
+   "start": 372.71,
+   "end": 377.07,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur le [[מַטֶּה|maté|maté]] de [[מֹשֶׁה|Moshé|Moché]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 377.87,
+   "end": 382.54,
+   "text": "[[תּוֹדָה|toda|toda]] d'être venus, mes amis. Revenez la prochaine fois. Vous verrez la fin de l'histoire. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 383.34,
+   "end": 394.2,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Et sur l'oreiller de [[|Hillel|Ilèl]]… il y avait une petite grenouille."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 395.0,
+   "end": 399.6,
+   "text": "Ah ! Une [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]] ! Ah non… c'est la mienne. Celle en plastique."
+  },
+  {
+   "sp": "ARIE",
+   "start": 400.4,
+   "end": 403.75,
+   "text": "Croâ ! [[לַיְלָה טוֹב|layla tov|laïla tov]], [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]] !"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 404.55,
+   "end": 405.78,
+   "text": "Et qui se souvient des mots ?"
+  },
+  {
+   "sp": "ARIE",
+   "start": 406.58,
+   "end": 417.67,
+   "text": "Moi ! [[מַטֶּה|maté|maté]], le bâton. [[צְפַרְדֵּעַ|tsfardéa|tsfardéa]], la grenouille. [[דָּם|dam|dame]], le sang. [[בָּרָד|barad|barad]], la grêle. Et [[לֵב|lev|lèv]], le cœur."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 418.47,
+   "end": 427.18,
+   "text": "Et nous, on va garder un [[לֵב|lev|lèv]] tout doux. Pas un [[לֵב|lev|lèv]] dur comme [[פַּרְעֹה|Pharaon|Faraon]]. Quand on promet quelque chose, on le fait."
+  },
+  {
+   "sp": "N",
+   "start": 427.98,
+   "end": 443.32,
+   "text": "Et dans le noir, on entendit encore un tout petit croâ. C'était [[|Hillel|Ilèl]], qui rigolait sous sa couverture. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

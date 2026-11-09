@@ -1,0 +1,314 @@
+{
+ "title": "Eydel, Arié et Hillel et l'âne qui tombe",
+ "duration": 398.5,
+ "scenes": [
+  0,
+  7,
+  17,
+  26,
+  37,
+  43
+ ],
+ "cues": [
+  {
+   "sp": "N",
+   "start": 9.2,
+   "end": 24.18,
+   "text": "Ce jour-là, au parc, Arié avait trouvé un ballon rouge, tout seul sous un banc. Il l'avait gardé toute l'après-midi. Et maintenant, le ballon était au pied de son lit. Arié le regardait, un peu gêné. Toc, toc, toc. La [[יוֹנָה|yona|yona]]."
+  },
+  {
+   "sp": "ARIE",
+   "start": 24.98,
+   "end": 27.27,
+   "text": "La [[יוֹנָה|yona|yona]] ! Euh… On y va ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 28.07,
+   "end": 31.89,
+   "text": "Donnez-moi la main. Un, deux, trois…"
+  },
+  {
+   "sp": "N",
+   "start": 32.69,
+   "end": 47.08,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent au pied du [[הַר|har|ar]] Sinaï. Il y avait encore un peu d'[[עָנָן|anan|anane]] tout en haut. Et [[מֹשֶׁה|Moshé|Moché]] était assis sur un rocher, entouré de gens qui écoutaient."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 47.88,
+   "end": 58.67,
+   "text": "Ah, mes amis ! Venez vous asseoir. [[|Hachem|Achème]] nous a donné les dix paroles. Mais maintenant, Il m'a expliqué plein d'autres règles. Des règles pour la vie de tous les jours. Des règles de [[צֶדֶק|tsédek|tsédèk]]."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 59.47,
+   "end": 61.46,
+   "text": "Le [[צֶדֶק|tsédek|tsédèk]], c'est quoi ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 62.26,
+   "end": 69.4,
+   "text": "Le [[צֶדֶק|tsédek|tsédèk]], [[|Hillel|Ilèl]], c'est la justice. C'est quand chacun est traité comme il faut. Les grands et les petits, les riches et les pauvres."
+  },
+  {
+   "sp": "N",
+   "start": 72.1,
+   "end": 81.3,
+   "text": "Juste à ce moment-là, un gros [[שׁוֹר|shor|chor]], un bœuf, passa tout seul, au milieu du camp. Il avait une corde autour du cou, mais personne au bout."
+  },
+  {
+   "sp": "ARIE",
+   "start": 82.1,
+   "end": 84.48,
+   "text": "Regardez ! Un [[שׁוֹר|shor|chor]] perdu !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 85.28,
+   "end": 93.97,
+   "text": "Justement, Arié. Voici une des règles de [[|Hachem|Achème]] : si tu trouves le [[שׁוֹר|shor|chor]] ou l'âne de quelqu'un qui s'est perdu, tu ne le gardes pas pour toi. Tu le ramènes à son propriétaire."
+  },
+  {
+   "sp": "ARIE",
+   "start": 94.77,
+   "end": 96.51,
+   "text": "Même si on ne sait pas à qui il est ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 97.31,
+   "end": 103.4,
+   "text": "Alors tu le gardes bien, tu t'en occupes, et tu cherches à qui il est. Et quand le propriétaire vient le chercher, tu le lui rends."
+  },
+  {
+   "sp": "N",
+   "start": 104.2,
+   "end": 108.79,
+   "text": "Arié devint tout rouge. Il pensait au ballon rouge, au pied de son lit."
+  },
+  {
+   "sp": "ARIE",
+   "start": 109.59,
+   "end": 113.34,
+   "text": "Et… si ce n'est pas un [[שׁוֹר|shor|chor]], mais… un ballon ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 114.14,
+   "end": 119.74,
+   "text": "Un [[שׁוֹר|shor|chor]], un ballon, un doudou… C'est pareil, Arié. Ce qui est perdu, on aide à le retrouver."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 120.54,
+   "end": 125.08,
+   "text": "Demain, on retournera au parc avec le ballon, Arié. Et on demandera à qui il est."
+  },
+  {
+   "sp": "N",
+   "start": 125.88,
+   "end": 130.85,
+   "text": "Arié hocha la tête. Puis il alla aider un vieux monsieur qui courait derrière son [[שׁוֹר|shor|chor]]."
+  },
+  {
+   "sp": "N",
+   "start": 133.55,
+   "end": 149.2,
+   "text": "Un peu plus loin, ils entendirent un grand braiment. Hi-han ! Hi-han ! Un âne était tombé par terre. En hébreu, l'âne, c'est le [[חֲמוֹר|'hamor|ramor]]. Il portait des sacs beaucoup trop lourds, et il n'arrivait plus à se relever."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 150.0,
+   "end": 153.53,
+   "text": "Le pauvre [[חֲמוֹר|'hamor|ramor]] ! Il a trop de sacs !"
+  },
+  {
+   "sp": "N",
+   "start": 154.33,
+   "end": 163.85,
+   "text": "Le propriétaire du [[חֲמוֹר|'hamor|ramor]] essayait de le relever tout seul. Mais c'était un homme avec qui les voisins s'étaient disputés, la semaine d'avant. Personne ne voulait l'aider."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 164.65,
+   "end": 172.57,
+   "text": "[[|Hachem|Achème]] dit : même si c'est l'âne de quelqu'un avec qui tu t'es disputé, tu dois l'aider. Tu ne laisses pas le [[חֲמוֹר|'hamor|ramor]] par terre. Vous le relevez ensemble."
+  },
+  {
+   "sp": "N",
+   "start": 173.37,
+   "end": 186.27,
+   "text": "Alors les trois enfants coururent. [[|Eydel|Èïdèl]] tira sur la corde, Arié poussa les sacs, et [[|Hillel|Ilèl]] caressa la tête du [[חֲמוֹר|'hamor|ramor]] pour lui donner du courage. Et le voisin fâché vint aider, lui aussi."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 187.07,
+   "end": 189.45,
+   "text": "Un, deux, trois… Hop !"
+  },
+  {
+   "sp": "N",
+   "start": 190.25,
+   "end": 197.95,
+   "text": "Et le [[חֲמוֹר|'hamor|ramor]] se releva. Hi-han ! Et le propriétaire et le voisin se regardèrent… et ils se sourirent."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 198.75,
+   "end": 203.88,
+   "text": "Ils ne sont plus fâchés ! Le [[חֲמוֹר|'hamor|ramor]] les a réconciliés !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 204.68,
+   "end": 208.23,
+   "text": "Tu vois, [[|Hillel|Ilèl]]. Quand on s'aide, même ceux qui étaient fâchés redeviennent amis."
+  },
+  {
+   "sp": "N",
+   "start": 210.93,
+   "end": 215.04,
+   "text": "Le soir, devant le feu, [[מֹשֶׁה|Moshé|Moché]] continua à raconter les règles de [[|Hachem|Achème]]."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 215.84,
+   "end": 223.83,
+   "text": "Voici une autre règle, très importante. Quand un [[גֵּר|guer|guèr]], un étranger, vient habiter chez vous, vous ne lui faites pas de peine. Vous l'aimez, vous l'aidez."
+  },
+  {
+   "sp": "ARIE",
+   "start": 224.63,
+   "end": 225.97,
+   "text": "Pourquoi c'est si important ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 226.77,
+   "end": 231.62,
+   "text": "Parce que vous savez ce que ça fait. Vous aussi, vous étiez des [[גֵּר|guer|guèr]] en [[מִצְרַיִם|Mitsraïm|Mitsraïm]]. Vous vous souvenez comme c'était triste ?"
+  },
+  {
+   "sp": "EYDEL",
+   "start": 232.42,
+   "end": 238.43,
+   "text": "C'est comme le nouveau dans la classe, qui ne parle pas encore bien français. Il est un peu [[גֵּר|guer|guèr]], lui aussi."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 239.23,
+   "end": 241.3,
+   "text": "Demain, je jouerai avec lui."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 242.1,
+   "end": 251.51,
+   "text": "Et voici encore une règle : six jours, tu travailles. Et le septième jour, c'est [[שַׁבָּת|Chabbat|Chabat]]. Tu te reposes. Et pas seulement toi. Ton [[שׁוֹר|shor|chor]] et ton [[חֲמוֹר|'hamor|ramor]] se reposent aussi."
+  },
+  {
+   "sp": "HILLEL",
+   "start": 252.31,
+   "end": 256.78,
+   "text": "Même le [[חֲמוֹר|'hamor|ramor]] fait [[שַׁבָּת|Chabbat|Chabat]] ? Il est content, alors !"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 257.58,
+   "end": 268.54,
+   "text": "Et trois fois par an, vous ferez une grande fête pour [[|Hachem|Achème]]. Ce sont les [[חַגִּים|'haguim|raguime]]. [[פֶּסַח|Pessa'h|Péssar]], quand on est sortis d'Égypte. [[שָׁבוּעוֹת|Shavouot|Chavouot]], pour le jour où on a reçu la Torah. Et [[סֻכּוֹת|Souccot|Soukot]], pour les cabanes dans le désert."
+  },
+  {
+   "sp": "ARIE",
+   "start": 269.34,
+   "end": 272.04,
+   "text": "Trois [[חַגִּים|'haguim|raguime]] ! Avec des bons repas ?"
+  },
+  {
+   "sp": "MOSHE",
+   "start": 272.84,
+   "end": 275.52,
+   "text": "Avec des très bons repas, Arié. Et de la joie."
+  },
+  {
+   "sp": "N",
+   "start": 278.22,
+   "end": 287.35,
+   "text": "Le lendemain matin, [[מֹשֶׁה|Moshé|Moché]] lut à tout le peuple le livre avec toutes les règles. Et tout le peuple répondit, encore une fois, d'une seule voix :"
+  },
+  {
+   "sp": "N",
+   "start": 287.9,
+   "end": 291.43,
+   "text": "[[נַעֲשֶׂה וְנִשְׁמָע|na'assé vénishma|naassé vénichma]] ! Nous ferons, et nous comprendrons !"
+  },
+  {
+   "sp": "N",
+   "start": 291.98,
+   "end": 302.97,
+   "text": "Puis [[מֹשֶׁה|Moshé|Moché]] et [[אַהֲרֹן|Aharon|Aarone]] montèrent un peu sur le [[הַר|har|ar]], avec soixante-dix sages d'[[יִשְׂרָאֵל|Israël|Israèl]]. Et là-haut, ils virent une lumière bleue, toute brillante, comme le ciel le plus pur du monde."
+  },
+  {
+   "sp": "MOSHE",
+   "start": 303.77,
+   "end": 310.89,
+   "text": "Maintenant, je dois monter tout en haut du [[הַר|har|ar]], pour recevoir les [[לוּחוֹת|lou'hot|lourot]]. Je resterai quarante jours. [[אַהֲרֹן|Aharon|Aarone]] s'occupera de vous en attendant."
+  },
+  {
+   "sp": "AHARON",
+   "start": 311.69,
+   "end": 313.72,
+   "text": "Ne t'inquiète pas, mon frère. Va."
+  },
+  {
+   "sp": "N",
+   "start": 314.52,
+   "end": 319.22,
+   "text": "Et [[מֹשֶׁה|Moshé|Moché]] monta, monta, et il disparut dans l'[[עָנָן|anan|anane]]."
+  },
+  {
+   "sp": "N",
+   "start": 321.92,
+   "end": 325.84,
+   "text": "La [[יוֹנָה|yona|yona]] vint se poser sur le dos du [[חֲמוֹר|'hamor|ramor]]. Il était temps de rentrer."
+  },
+  {
+   "sp": "AHARON",
+   "start": 326.64,
+   "end": 332.32,
+   "text": "[[תּוֹדָה|toda|toda]], mes amis. Vous avez été de vrais enfants d'[[יִשְׂרָאֵל|Israël|Israèl]] aujourd'hui. [[לַיְלָה טוֹב|layla tov|laïla tov]]."
+  },
+  {
+   "sp": "N",
+   "start": 333.12,
+   "end": 341.26,
+   "text": "La [[יוֹנָה|yona|yona]] battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits. Arié regarda le ballon rouge."
+  },
+  {
+   "sp": "ARIE",
+   "start": 342.06,
+   "end": 352.11,
+   "text": "Demain matin, avant l'école, on va au parc. On cherche le propriétaire. Et on lui rend son ballon. C'est le [[צֶדֶק|tsédek|tsédèk]]."
+  },
+  {
+   "sp": "EYDEL",
+   "start": 352.91,
+   "end": 355.78,
+   "text": "Bravo, Arié. Et qui se souvient des mots ?"
+  },
+  {
+   "sp": "HILLEL",
+   "start": 356.58,
+   "end": 370.8,
+   "text": "[[שׁוֹר|shor|chor]], le bœuf. [[חֲמוֹר|'hamor|ramor]], l'âne qui fait hi-han. [[גֵּר|guer|guèr]], l'étranger. [[חַגִּים|'haguim|raguime]], les fêtes. Et [[צֶדֶק|tsédek|tsédèk]], la justice."
+  },
+  {
+   "sp": "N",
+   "start": 371.6,
+   "end": 387.7,
+   "text": "Et les trois enfants s'endormirent. Et cette nuit-là, Arié rêva d'un petit garçon au parc, tout content d'avoir retrouvé son ballon rouge. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Eydel|Èïdèl]]. [[לַיְלָה טוֹב|layla tov|laïla tov]], Arié. [[לַיְלָה טוֹב|layla tov|laïla tov]], [[|Hillel|Ilèl]]. Fais de beaux rêves."
+  }
+ ]
+}

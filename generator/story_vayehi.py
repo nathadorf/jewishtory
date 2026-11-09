@@ -1,0 +1,98 @@
+# Episode 11 : Vayé'hi. Same markup as story.py: [[hebrew|translit|tts]].
+# New words: nékhadim, yadayim, yamin, arié, 'hazak. Reused: brakha, mishpa'ha, a'him, hibouk, ahava, yona, toda, layla tov.
+# Ephraïm and Menashé get the Friday-night blessing; Yaakov's death is told in one calm sentence, surrounded by his family.
+
+TITLE = "Eydel, Arié et Hillel et la bénédiction de Yaakov"
+CAST = {"YAAKOV": "AVRAHAM"}
+
+W = {
+    "nekhadim": "[[נְכָדִים|nékhadim|néradime]]",
+    "yadayim": "[[יָדַיִם|yadayim|yadaïme]]",
+    "yamin": "[[יָמִין|yamin|yamine]]",
+    "arie": "[[אַרְיֵה|arié|arié]]",
+    "hazak": "[[חֲזַק|'hazak|razak]]",
+    "brakha": "[[בְּרָכָה|brakha|braRa]]",
+    "brakhot": "[[בְּרָכוֹת|brakhot|braRot]]",
+    "mishpaha": "[[מִשְׁפָּחָה|mishpa'ha|michpara]]",
+    "ahim": "[[אַחִים|a'him|arime]]",
+    "hibouk": "[[חִבּוּק|'hibouk|ribouk]]",
+    "ahava": "[[אַהֲבָה|ahava|aava]]",
+    "yona": "[[יוֹנָה|yona|yona]]",
+    "shalom": "[[שָׁלוֹם|shalom|chalom]]",
+    "toda": "[[תּוֹדָה|toda|toda]]",
+    "layla tov": "[[לַיְלָה טוֹב|layla tov|laïla tov]]",
+    "shabbat": "[[שַׁבָּת|Chabbat|Chabat]]",
+    "yaakov": "[[יַעֲקֹב|Yaakov|Yaakov]]",
+    "yossef": "[[יוֹסֵף|Yossef|Yossèf]]",
+    "yehouda": "[[יְהוּדָה|Yéhouda|Yéhouda]]",
+    "efraim": "[[אֶפְרַיִם|Éfraïm|Éfraïm]]",
+    "menashe": "[[מְנַשֶּׁה|Ménashé|Ménaché]]",
+    "israel": "[[יִשְׂרָאֵל|Israël|Israèl]]",
+    "eydel": "[[|Eydel|Èïdèl]]",
+    "hillel": "[[|Hillel|Ilèl]]",
+    "hachem": "[[|Hachem|Achème]]",
+}
+
+S = [
+ ("N", "C'était vendredi soir. Avant le dîner de {shabbat}, Papa avait posé ses deux {yadayim}, ses deux mains, sur la tête de chaque enfant, et il avait murmuré une {brakha}. Et maintenant, dans le lit… toc, toc, toc. La {yona}."),
+ ("ARIE", "La {yona} ! On va voir {yaakov} et {yossef} ?"),
+ ("EYDEL", "Donnez-moi la main. Un, deux, trois…"),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans une grande maison, en Égypte, dans la région verte de Goshen. {yaakov} était là, assis dans son lit. Il était devenu très, très vieux."),
+ ("YAAKOV", "Mes petits amis… Venez près de moi. Mes yeux ne voient plus très bien, mais je reconnais vos voix."),
+ ("HILLEL", "{shalom}, {yaakov}. Tu es fatigué ?"),
+ ("YAAKOV", "Oui, {hillel}. J'ai vécu une très longue vie. Mais aujourd'hui, j'ai encore quelque chose de très important à faire. Je vais donner une {brakha} à mes enfants, et à mes {nekhadim}."),
+ ("ARIE", "Tes {nekhadim} ? C'est quoi ?"),
+ ("YAAKOV", "Les {nekhadim}, ce sont les petits-enfants. Comme vous, pour vos grands-parents."),
+ ("~", ""),
+ ("N", "La porte s'ouvrit, et {yossef} entra, avec ses deux garçons. Ils avaient les cheveux bien peignés et des habits égyptiens tout propres."),
+ ("YOSSEF", "Papa, voici mes fils. Le grand s'appelle {menashe}, et le petit s'appelle {efraim}."),
+ ("YAAKOV", "Approchez, mes {nekhadim}. Je ne pensais même plus revoir le visage de ton papa, {yossef}. Et {hachem} m'a même permis de voir tes enfants !"),
+ ("N", "{yaakov} les serra dans ses bras et les embrassa. Puis {yossef} les plaça devant lui, bien comme il faut : le grand, {menashe}, du côté de la main droite de son papa. En hébreu, la droite, c'est {yamin}. Et le petit, {efraim}, de l'autre côté."),
+ ("EYDEL", "Parce que la main {yamin}, c'est pour la plus grande {brakha}. Et {menashe} est l'aîné."),
+ ("N", "Mais alors, {yaakov} fit quelque chose d'étonnant. Il croisa ses {yadayim}, ses deux mains ! Il posa sa main {yamin} sur la tête du petit {efraim}, et sa main gauche sur la tête du grand {menashe}."),
+ ("YOSSEF", "Non, Papa ! Tu t'es trompé. C'est {menashe}, l'aîné. Mets ta main {yamin} sur sa tête."),
+ ("YAAKOV", "Je sais, mon fils. Je sais. Ne t'inquiète pas. Ils seront grands tous les deux. Chacun à sa façon."),
+ ("N", "Puis {yaakov} leva un peu la voix, et il dit une {brakha} que tout le monde entendit."),
+ ("YAAKOV", "Que {hachem} vous bénisse. Et à partir d'aujourd'hui, dans toutes les familles d'{israel}, les papas et les mamans diront à leurs garçons : que {hachem} te rende comme {efraim} et comme {menashe}."),
+ ("ARIE", "Mais… c'est ce que Papa dit, le vendredi soir ! Avec ses {yadayim} sur ma tête !"),
+ ("EYDEL", "Exactement, Arié ! Et pour les filles, on dit : que {hachem} te rende comme Sarah, Rivka, Ra'hel et Léa. Ça vient d'ici, de ce moment-là."),
+ ("HILLEL", "Pourquoi {efraim} et {menashe}, et pas d'autres ?"),
+ ("YAAKOV", "Parce que ces deux frères ne se sont jamais disputés pour savoir qui est le premier, {hillel}. Le grand n'a pas été jaloux du petit. C'est ça que je souhaite à tous les enfants."),
+ ("~", ""),
+ ("N", "Ensuite, {yaakov} appela tous ses fils. Les douze {ahim} entrèrent, un par un, et se placèrent autour du lit. La chambre était pleine."),
+ ("YAAKOV", "Rassemblez-vous, mes fils. Écoutez votre père, {israel}."),
+ ("N", "Et {yaakov} donna à chacun une {brakha} différente. Une {brakha} rien que pour lui. Parce que chaque fils était différent, avec ses forces à lui."),
+ ("YAAKOV", "{yehouda}, mon fils. Tu es comme un {arie}, un jeune lion. Courageux et fort. Tu as su protéger ton petit frère. Les rois viendront de toi."),
+ ("N", "Arié se redressa d'un coup."),
+ ("ARIE", "Un {arie} ! Comme moi ! Je m'appelle comme un lion !"),
+ ("EYDEL", "Oui, Arié. En hébreu, {arie}, ça veut dire lion. Tu as un nom très courageux."),
+ ("N", "Et {yaakov} continua. Il y avait un fils qui serait marin, au bord de la mer. Un autre qui serait fort comme un âne qui porte de lourds paquets. Un autre qui courrait vite comme une biche. Un autre qui aurait le meilleur pain et l'huile la plus douce."),
+ ("YAAKOV", "Et toi, {yossef}… tu es comme un bel arbre, planté près d'une source. Tes branches passent par-dessus le mur. Que {hachem} te bénisse, de toutes les bénédictions du ciel."),
+ ("HILLEL", "Il a donné une {brakha} à tout le monde. Même au plus petit."),
+ ("~", ""),
+ ("N", "Quand il eut fini, {yaakov} regarda ses douze fils, ses {nekhadim}, et les trois enfants. Il souriait, très calme."),
+ ("YAAKOV", "Quand je ne serai plus là, emmenez-moi dans le pays d'{israel}. Mettez-moi près d'Avraham et de Sarah, près de Yits'hak et de Rivka, et près de Léa."),
+ ("N", "{yaakov} était très, très vieux. Et ce jour-là, entouré de toute sa {mishpaha}, il ferma les yeux, et sa longue vie se termina, tout doucement."),
+ ("HILLEL", "{eydel}… Je suis triste."),
+ ("EYDEL", "Moi aussi, {hillel}. Mais regarde : toute sa {mishpaha} est là, ensemble. Il avait tellement d'{ahava}. Et ses {brakhot} continuent, chaque vendredi soir, dans toutes les maisons."),
+ ("N", "Les douze {ahim} emmenèrent leur papa dans le pays d'{israel}, comme il l'avait demandé. Puis ils revinrent en Égypte. Et là, les grands frères eurent un peu peur."),
+ ("YEHOUDA", "{yossef}… Maintenant que Papa n'est plus là, tu ne vas pas te venger de ce qu'on t'a fait, quand tu étais petit ?"),
+ ("YOSSEF", "N'ayez pas peur. Vous vouliez me faire du mal, mais {hachem} a transformé tout ça en bien. Je m'occuperai de vous, et de vos enfants. Vous êtes mes {ahim}."),
+ ("N", "Et {yossef} leur fit un grand {hibouk}, et il leur parla avec beaucoup de douceur."),
+ ("~", ""),
+ ("N", "La {yona} se posa sur l'épaule d'Arié. Avant de partir, {yossef} s'accroupit devant les enfants."),
+ ("YOSSEF", "Vous savez, mes amis, ici s'arrête le premier livre de la Torah. Quand on le finit, à la synagogue, tout le monde se lève et dit : {hazak}, {hazak}, ve-nit'hazek ! Soyons forts, soyons forts, et rendons-nous forts les uns les autres."),
+ ("HILLEL", "{hazak} ! {hazak} !"),
+ ("YOSSEF", "{toda} pour tout, mes amis. {layla tov}."),
+ ("N", "La {yona} battit des ailes… et pfiou ! Les trois enfants se retrouvèrent dans leurs lits."),
+ ("ARIE", "Vendredi prochain, quand Papa mettra ses {yadayim} sur ma tête, je penserai à {efraim} et {menashe}."),
+ ("EYDEL", "Et moi à Sarah, Rivka, Ra'hel et Léa. On les connaît toutes, maintenant !"),
+ ("HILLEL", "Et moi je me souviens des mots : {nekhadim}, les petits-enfants. {yadayim}, les mains. {yamin}, la droite. {arie}, le lion, comme Arié ! Et {hazak}, fort !"),
+ ("N", "Et les trois enfants s'endormirent, avec sur la tête comme le souvenir de deux grandes mains très douces, pleines de {brakha}. {layla tov}, {eydel}. {layla tov}, Arié. {layla tov}, {hillel}. Fais de beaux rêves."),
+]
+
+def f(s):
+    return s.format(**W)
+
+SEGMENTS = [(sp, f(t)) for sp, t in S]
+AMBIENCE = []
