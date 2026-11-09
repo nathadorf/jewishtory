@@ -2,7 +2,7 @@
 # New words: nassi, zéhé, anavim, séar, yévarékhékha. Reused: mishkan, agalot, shor, kohanim, shalom, yona, toda, layla tov.
 # The nazir (no grapes, long hair), the priestly blessing, and the twelve princes who bring exactly the same gift on twelve different days. The sota is left out.
 
-TITLE = "Eydel, Arié et Hillel et les douze cadeaux pareils"
+TITLE = "Les douze cadeaux pareils"
 
 W = {
     "nassi": "[[נָשִׂיא|nassi|nassi]]",

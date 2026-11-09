@@ -2,7 +2,7 @@
 # New words: shor, 'hamor, guer, 'haguim, tsédek. Reused: har, anan, louhot, naase, shabbat, yona, toda, layla tov.
 # A few of the laws, chosen for children: return a lost animal, help a donkey under its load, love the stranger, rest on Shabbat, the three festivals.
 
-TITLE = "Eydel, Arié et Hillel et l'âne qui tombe"
+TITLE = "L'âne qui tombe"
 
 W = {
     "shor": "[[שׁוֹר|shor|chor]]",

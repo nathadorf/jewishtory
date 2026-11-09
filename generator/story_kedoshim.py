@@ -2,7 +2,7 @@
 # New words: kadosh, réa, péa, zaken, mikhshol. Reused: sli'ha, kohen gadol, sadé, lev, yona, toda, layla tov.
 # Yom Kippour in a few lines (the kohen gadol, the goat that carries the mistakes away), then the "kedoshim" laws in daily life: the corner of the field, the stumbling block, standing up for the elderly, love your neighbour.
 
-TITLE = "Eydel, Arié et Hillel et le coin du champ"
+TITLE = "Le coin du champ"
 
 W = {
     "kadosh": "[[קָדוֹשׁ|kadosh|kadoch]]",

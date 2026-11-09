@@ -2,7 +2,7 @@
 # New words: bé'èr, kad, 'héssed, 'houppa, mazal tov. Reused: gamal, mayim, ohel, dérekh, or'him, hinéni, yona, toda, layla tov.
 # Sarah's death is told in two gentle sentences; the story is Eliézer's search and Rivka's kindness at the well.
 
-TITLE = "Eydel, Arié et Hillel au puits de Rivka"
+TITLE = "Au puits de Rivka"
 
 W = {
     "beer": "[[בְּאֵר|bé'èr|béère]]",

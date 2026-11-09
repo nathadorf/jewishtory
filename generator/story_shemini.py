@@ -2,7 +2,7 @@
 # New words: shmini, kasher, dagim, snapir, kaskéssèt. Reused: mizbea'h, esh, kohen, mishkan, kavod, aharon, yona, toda, layla tov.
 # The eighth day and the fire from heaven, then the kosher animals as a game. The death of Nadav and Avihou is left out of the episode (mentioned in the parent sheet).
 
-TITLE = "Eydel, Arié et Hillel et les poissons à écailles"
+TITLE = "Les poissons à écailles"
 
 W = {
     "shmini": "[[שְׁמִינִי|shmini|chmini]]",

@@ -2,7 +2,7 @@
 # New words: kahal, 'houtim, mar'ot, mélakha, kavod. Reused: mishkan, shabbat, anan, menora, aron, hazak, yona, toda, layla tov.
 # Shabbat comes first, then everyone builds together; Miriam's mirror; the cloud fills the finished Mishkan; end of the book of Shemot.
 
-TITLE = "Eydel, Arié et Hillel et le nuage dans le Mishkan"
+TITLE = "Le nuage dans le Mishkan"
 
 W = {
     "kahal": "[[קָהָל|kahal|kaal]]",

@@ -2,7 +2,7 @@
 # New words: nékhadim, yadayim, yamin, arié, 'hazak. Reused: brakha, mishpa'ha, a'him, hibouk, ahava, yona, toda, layla tov.
 # Ephraïm and Menashé get the Friday-night blessing; Yaakov's death is told in one calm sentence, surrounded by his family.
 
-TITLE = "Eydel, Arié et Hillel et la bénédiction de Yaakov"
+TITLE = "La bénédiction de Yaakov"
 CAST = {"YAAKOV": "AVRAHAM"}
 
 W = {

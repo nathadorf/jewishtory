@@ -2,7 +2,7 @@
 # New words: matana, pa'had, shem, 'hibouk, Israël. Reused: tson, gamal, malakh, halom, ahava, brakha, yona, toda, layla tov.
 # The night struggle with the angel is told as a long wrestling match until dawn; Dina's story and Ra'hel's death are left out.
 
-TITLE = "Eydel, Arié et Hillel et le grand câlin des deux frères"
+TITLE = "Le grand câlin des deux frères"
 
 W = {
     "matana": "[[מַתָּנָה|matana|matana]]",

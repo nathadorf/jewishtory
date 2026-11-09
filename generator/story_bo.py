@@ -2,7 +2,7 @@
 # New words: arbé, 'hoshekh, or, matsa, Pessa'h. Reused: mate, lev, pharaon, mitsrayim, lehem, mishpa'ha, yona, toda, layla tov.
 # The tenth plague is only named as "la dernière plaie, la plus terrible, chez les Égyptiens"; the focus is the first Seder and leaving in a hurry.
 
-TITLE = "Eydel, Arié et Hillel et la nuit de Pessa'h"
+TITLE = "La nuit de Pessa'h"
 
 W = {
     "arbe": "[[אַרְבֶּה|arbé|arbé]]",

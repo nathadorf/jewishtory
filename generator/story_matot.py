@@ -3,7 +3,7 @@
 # Keeping one's word, the tribes of Réouven and Gad who promise to help their brothers first, and Moshé remembering all the stops of the journey.
 # The war against Midyan is left out.
 
-TITLE = "Eydel, Arié et Hillel et la promesse des frères"
+TITLE = "La promesse des frères"
 
 W = {
     "neder": "[[נֶדֶר|néder|nédèr]]",

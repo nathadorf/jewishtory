@@ -2,7 +2,7 @@
 # New words: or'him, lé'hem, tsé'hok, har, hinéni. Reused: ohel, mayim, dérekh, kokhavim, gamal, yona, shalom, toda, layla tov.
 # The Akeda is told gently: a big question of trust, the angel calls before anything happens, and the ram's horn becomes the shofar.
 
-TITLE = "Eydel, Arié et Hillel sous la tente d'Avraham"
+TITLE = "Sous la tente d'Avraham"
 
 W = {
     "orhim": "[[אוֹרְחִים|or'him|orrime]]",

@@ -3,7 +3,7 @@
 # Kora'h's jealousy, Moshé going himself to make peace, Kora'h's group "disappearing from the camp" in one non-graphic sentence,
 # and Aharon's staff blossoming with almonds overnight. Kora'h's sons, who chose peace, later write psalms.
 
-TITLE = "Eydel, Arié et Hillel et le bâton qui fleurit"
+TITLE = "Le bâton qui fleurit"
 
 W = {
     "mahloket": "[[מַחְלֹקֶת|ma'hloket|marlokète]]",

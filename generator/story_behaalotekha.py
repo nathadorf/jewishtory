@@ -2,7 +2,7 @@
 # New words: 'hatsotsrot, slav, tfila, réfoua, lé'hakot. Reused: menora, anan, man, lashon hara, miriam, yona, toda, layla tov.
 # Silver trumpets, the people tired of the manna, and Moshé's five-word prayer for Miriam while everyone waits for her.
 
-TITLE = "Eydel, Arié et Hillel et la prière la plus courte"
+TITLE = "La prière la plus courte"
 
 W = {
     "hatsotsrot": "[[חֲצוֹצְרוֹת|'hatsotsrot|ratsotsrot]]",

@@ -2,7 +2,7 @@
 # New words: soulam, éven, 'halom, tson, ahava. Reused: bé'èr, mayim, kokhavim, malakh, dérekh, yona, toda, layla tov.
 # Lavan's trick at the wedding is left out: Yaakov marries Ra'hel and her sister Léa, and the family grows.
 
-TITLE = "Eydel, Arié et Hillel et l'échelle de Yaakov"
+TITLE = "L'échelle de Yaakov"
 
 W = {
     "soulam": "[[סֻלָּם|soulam|soulame]]",

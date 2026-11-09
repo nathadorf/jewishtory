@@ -2,7 +2,7 @@
 # New words: ani, 'haï, agalot, mishpa'ha, dma'ot. Reused: a'him, guévia, mélekh, ra'av, hibouk, mitsrayim, yona, toda, layla tov.
 # Yehouda offers himself in Binyamin's place, Yossef reveals himself, Yaakov comes down to Egypt.
 
-TITLE = "Eydel, Arié et Hillel et le grand secret de Yossef"
+TITLE = "Le grand secret de Yossef"
 CAST = {"YAAKOV": "AVRAHAM"}
 
 W = {

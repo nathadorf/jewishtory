@@ -3,7 +3,7 @@
 # Five sisters ask for their father's share of the land and Hachem says they are right; Moshé lays his hands on Yéhoshoua.
 # The episode of Pin'has's zeal is left out (only his "alliance de paix" is named).
 
-TITLE = "Eydel, Arié et Hillel et les cinq sœurs"
+TITLE = "Les cinq sœurs"
 
 W = {
     "banot": "[[בָּנוֹת|banot|banot]]",

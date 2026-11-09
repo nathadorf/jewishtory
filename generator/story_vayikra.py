@@ -3,7 +3,7 @@
 # Offerings explained for children as gifts that bring you "close"; the small aleph of Vayikra and Moshé's humility;
 # the poor man's handful of flour that is as precious as an ox. No animal is shown being slaughtered.
 
-TITLE = "Eydel, Arié et Hillel et le cadeau du pauvre"
+TITLE = "Le cadeau du pauvre"
 
 W = {
     "korban": "[[קָרְבָּן|korban|korbane]]",
