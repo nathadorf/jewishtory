@@ -163,7 +163,30 @@ dialog#picker::backdrop{background:rgba(20,18,48,.55);backdrop-filter:blur(2px)}
 footer{text-align:center;font-size:.85rem;color:var(--muted);padding-top:12px;line-height:1.8}
 footer .mail{color:inherit;opacity:.75;font-size:.8rem;text-decoration:none}
 footer .mail:hover{opacity:1;text-decoration:underline}
-@media (prefers-reduced-motion:reduce){.cue,.play,.book summary::after{transition:none}}
+/* quiz */
+.quiz{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:16px}
+.quiz p{margin:0}
+.qz-dots{display:flex;gap:6px}
+.qz-dots span{flex:1;height:8px;border-radius:4px;background:var(--chip)}
+.qz-dots span.on{background:var(--accent)}
+.qz-dots span.miss{background:color-mix(in srgb,var(--accent) 40%,var(--chip))}
+.qz-q{font-family:var(--f-display);font-size:1.3rem;line-height:1.3;text-wrap:balance}
+.qz-opts{display:flex;flex-direction:column;gap:8px}
+.qz-opt{text-align:start;border:2px solid var(--line);background:var(--bg);padding:12px 16px;border-radius:14px;cursor:pointer;font-size:1.02rem;line-height:1.4;min-height:52px;transition:border-color .2s,background .2s}
+.qz-opt:hover:not(:disabled){border-color:var(--muted)}
+.qz-opt:disabled{cursor:default}
+.qz-opt.good{border-color:var(--v-ARIE);background:color-mix(in srgb,var(--v-ARIE) 14%,var(--surface));font-weight:600}
+.qz-opt.bad{border-color:var(--line);opacity:.5;text-decoration:line-through;text-decoration-thickness:1px}
+.qz-opt.wiggle{animation:wiggle .35s}
+@keyframes wiggle{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.qz-msg{min-height:1.6em;font-weight:600}
+.qz-msg.ok{color:var(--v-ARIE)}
+.qz-foot{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.qz-end{text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px;padding:8px 0}
+.qz-stars{font-size:2rem;letter-spacing:.15em;color:var(--accent)}
+.qz-stars .off{opacity:.25}
+@media (prefers-reduced-motion:reduce){.qz-opt.wiggle{animation:none}}
+@media (prefers-reduced-motion:reduce){.cue,.play,.book summary::after,.qz-opt{transition:none}}
 </style>
 </head>
 <body>
@@ -208,6 +231,7 @@ footer .mail:hover{opacity:1;text-decoration:underline}
   </div>
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" id="t-story" aria-selected="true" aria-controls="p-story">L'histoire</button>
+    <button class="tab" role="tab" id="t-quiz" aria-selected="false" aria-controls="p-quiz">Quiz</button>
     <button class="tab" role="tab" id="t-sheet" aria-selected="false" aria-controls="p-sheet">Fiche parent</button>
   </div>
 
@@ -215,6 +239,10 @@ footer .mail:hover{opacity:1;text-decoration:underline}
     <div class="cast" id="cast"></div>
     <div class="story" id="story"><p class="note">Chargement de l'histoire…</p></div>
     <div class="the-end" id="the-end" hidden></div>
+  </section>
+
+  <section id="p-quiz" role="tabpanel" aria-labelledby="t-quiz" hidden>
+    <article class="quiz" id="quiz" aria-live="polite"></article>
   </section>
 
   <section id="p-sheet" role="tabpanel" aria-labelledby="t-sheet" hidden>
@@ -234,6 +262,7 @@ footer .mail:hover{opacity:1;text-decoration:underline}
 
 <audio id="audio" preload="metadata"></audio>
 
+<script src="quiz.js"></script>
 <script>
 const NAMES = {N:"Conteuse",NOAH:"Noa'h",AVRAM:"Avram",SARAI:"Saraï",AVRAHAM:"Avraham",SARAH:"Sarah",MALAKH:"Le malakh",EYDEL:"Eydel",ARIE:"Arié",HILLEL:"Hillel",YITSHAK:"Yits'hak",RIVKA:"Rivka",ELIEZER:"Eliézer",YAAKOV:"Yaakov",ESSAV:"Essav",LAVAN:"Lavan",RAHEL:"Ra'hel",LEA:"Léa",YOSSEF:"Yossef",YEHOUDA:"Yéhouda",ECHANSON:"L'échanson",PHARAON:"Pharaon",MOSHE:"Moshé",AHARON:"Aharon",MIRIAM:"Myriam",YOKHEVED:"Yokhéved",BATYA:"Batya",TSIPORA:"Tsipora",YITRO:"Yitro",KALEV:"Kalev",YEHOSHOUA:"Yéhoshoua",MERAGUEL:"Un explorateur",KORAH:"Kora'h",BALAK:"Balak",BILAM:"Bil'am",ATON:"L'ânesse",MAHLA:"Ma'hla",NOA:"Noa",REOUVEN:"Réouven"};
 const GLOSS = {"tévah":"l'arche","mayim":"l'eau","yona":"la colombe","késhet":"l'arc-en-ciel","guéshem":"la pluie","shalom":"bonjour","layla tov":"bonne nuit","boker tov":"bonjour (le matin)","toda":"merci","toda rabbah":"merci beaucoup","yéladim":"les enfants","Noa'h":"Noé","ohel":"la tente","gamal":"le chameau","gmalim":"les chameaux","kokhavim":"les étoiles","dérekh":"le chemin","'hol":"le sable","Lekh lekha":"va, pars","Avram":"Abram","Saraï":"Saraï","or'him":"les invités","lé'hem":"le pain","tsé'hok":"le rire","har":"la montagne","hinéni":"me voici","malakh":"l'ange","ayil":"le bélier","shofar":"la corne de bélier","Avraham":"Abraham","Yits'hak":"Isaac","bé'èr":"le puits","kad":"la cruche","'héssed":"la bonté","'houppa":"le dais nuptial","mazal tov":"félicitations","té'omim":"les jumeaux","marak":"la soupe","adom":"rouge","sadé":"les champs","brakha":"la bénédiction","soulam":"l'échelle","éven":"la pierre","'halom":"le rêve","tson":"les moutons","ahava":"l'amour","matana":"le cadeau","pa'had":"la peur","shem":"le nom","'hibouk":"le câlin","Israël":"Israël","ktonet":"la tunique","tsva'im":"les couleurs","a'him":"les frères","bor":"le trou, le puits sec","kin'a":"la jalousie","mélekh":"le roi","parot":"les vaches","ra'av":"la famine","'hokhma":"la sagesse","guévia":"la coupe","ani":"moi, je","'haï":"vivant","agalot":"les chariots","mishpa'ha":"la famille","dma'ot":"les larmes","nékhadim":"les petits-enfants","yadayim":"les mains","yamin":"la droite","arié":"le lion","'hazak":"fort","lévénim":"les briques","yéor":"le fleuve","sné":"le buisson","esh":"le feu","na'alayim":"les chaussures","maté":"le bâton","tsfardéa":"la grenouille","dam":"le sang","barad":"la grêle","lev":"le cœur","arbé":"les sauterelles","'hoshekh":"l'obscurité","or":"la lumière","matsa":"le pain plat","Pessa'h":"Pâque","yam":"la mer","rou'ah":"le vent","shira":"le chant","tof":"le tambourin","man":"la manne","anan":"le nuage","kol":"la voix, le son","ésser":"dix","lou'hot":"les tables","na'assé vénishma":"nous ferons et nous comprendrons","shor":"le bœuf","'hamor":"l'âne","guer":"l'étranger","'haguim":"les fêtes","tsédek":"la justice","terouma":"le don, l'offrande","mishkan":"le sanctuaire","aron":"l'arche","krouvim":"les chérubins","ménora":"le chandelier","shémen":"l'huile","ner tamid":"la lumière perpétuelle","paamonim":"les clochettes","avanim":"les pierres","'hoshen":"le pectoral","savlanout":"la patience","zahav":"l'or","égel":"le veau","sli'ha":"pardon","panim":"le visage","kahal":"l'assemblée","'houtim":"les fils","mar'ot":"les miroirs","mélakha":"le travail","kavod":"la gloire, la présence","korban":"l'offrande","karov":"proche","méla'h":"le sel","solet":"la fleur de farine","anava":"l'humilité","mizbéa'h":"l'autel","tamid":"toujours","éfer":"la cendre","'hamets":"le pain levé","shiv'a":"sept","shmini":"le huitième","kasher":"permis, qui convient","dagim":"les poissons","snapir":"la nageoire","kaskéssèt":"les écailles","tinok":"le bébé","brit":"l'alliance","milim":"les mots","lashon hara":"la médisance","bayit":"la maison","kadosh":"saint, spécial","réa":"le prochain","péa":"le coin du champ","zaken":"la personne âgée","mikhshol":"l'obstacle","mo'adim":"les fêtes, les rendez-vous","omer":"la gerbe","lispor":"compter","soukka":"la cabane","loulav":"la branche de palmier","adama":"la terre","shmita":"l'année sabbatique","yovel":"le jubilé","dror":"la liberté","midbar":"le désert","dégel":"le drapeau","shvatim":"les tribus","ma'hané":"le camp","nassi":"le prince, le chef","zéhé":"identique","anavim":"les raisins","séar":"les cheveux","yévarékhékha":"qu'Il te bénisse","'hatsotsrot":"les trompettes","slav":"les cailles","tfila":"la prière","réfoua":"la guérison","lé'hakot":"attendre","méraglim":"les explorateurs","eshkol":"la grappe","'hagavim":"les sauterelles","omets":"le courage","tsitsit":"les franges","ma'hloket":"la dispute","péra'h":"la fleur","shaked":"l'amande","Téhilim":"les psaumes","séla":"le rocher","lédaber":"parler","tsamé":"avoir soif","shir":"le chant","ali":"monte !","aton":"l'ânesse","klala":"la malédiction","pé":"la bouche","ohalim":"les tentes","ma tovou":"qu'elles sont belles","banot":"les filles","a'hayot":"les sœurs","na'hala":"l'héritage","kén":"oui","smikha":"l'imposition des mains","Yaakov":"Jacob","Essav":"Ésaü","Rivka":"Rébecca","Ra'hel":"Rachel","Léa":"Léa","Lavan":"Laban","Yossef":"Joseph","Binyamin":"Benjamin","Yéhouda":"Juda","Eliézer":"Éliézer","Moshé":"Moïse","Aharon":"Aaron","Myriam":"Myriam","Pharaon":"Pharaon","Mitsraïm":"l'Égypte","Yéhoshoua":"Josué","Kora'h":"Coré","Bil'am":"Balaam","Pin'has":"Phinéas","Tsipora":"Séphora","Yitro":"Jéthro","Yokhéved":"Jokébed","Batya":"la fille de Pharaon","Kalev":"Caleb","Éfraïm":"Éphraïm","Ménashé":"Manassé","Sinaï":"le Sinaï","Chabbat":"le shabbat","Shavouot":"la Pentecôte juive","Souccot":"la fête des cabanes","Yom Kippour":"le jour du Grand Pardon","Roch Hachana":"le Nouvel An juif","kohen":"le prêtre","kohanim":"les prêtres","kohen gadol":"le grand prêtre","malakhim":"les anges","matanot":"les cadeaux","'halomot":"les rêves","matsot":"les pains azymes","tsfardé'im":"les grenouilles","korbanot":"les offrandes","brakhot":"les bénédictions","dégalim":"les drapeaux","nessi'im":"les princes","shkédim":"les amandes","pra'him":"les fleurs","matot":"les bâtons","kolot":"les voix, les sons","snapirim":"les nageoires","yonim":"les colombes","néder":"la promesse","Yarden":"le Jourdain","ir":"la ville","massa'ot":"les étapes du voyage","zikaron":"le souvenir","Réouven":"Ruben"};
@@ -314,7 +343,7 @@ const store = {
   get(k,d){ try{ const v=localStorage.getItem("jt:"+k); return v===null?d:JSON.parse(v); }catch(e){ return d; } },
   set(k,v){ try{ localStorage.setItem("jt:"+k, JSON.stringify(v)); }catch(e){} }
 };
-let POS = store.get("pos",{}), DONE = new Set(store.get("done",[]));
+let POS = store.get("pos",{}), DONE = new Set(store.get("done",[])), QBEST = store.get("quiz",{});
 
 let EP=null, EPI=-1, DATA=null, cues=[], dur=0, els=[], cur=-1, follow=true, phase=0, WEEK=-1, lastSave=0;
 
@@ -341,6 +370,7 @@ function badges(i){
   if(i===WEEK) b.push('<span class="pill">Cette semaine</span>');
   if(DONE.has(e.id)) b.push('<span class="pill soft">✓ Écoutée</span>');
   else if(POS[e.id]) b.push('<span class="pill soft">En cours</span>');
+  if(e.id in QBEST) b.push(`<span class="pill soft">Quiz ${QBEST[e.id]}/5</span>`);
   return b.join("");
 }
 function buildPicker(){
@@ -413,7 +443,7 @@ async function load(i, autoplay){
   document.title = `${EP.title} · Jewishtory`;
   $("title").textContent = EP.title; $("subtitle").textContent = EP.subtitle;
   navBtn($("prev"),i-1); navBtn($("next"),i+1);
-  showWeek(); renderSheet(EP);
+  showWeek(); renderSheet(EP); startQuiz();
   audio.pause(); audio.src = EP.dir + "story.mp3";
   cur=-1; phase=0; dur=0; setBar(0);
   $("who").textContent="Prêt pour l'histoire ?"; $("line").textContent="Appuie sur ▶";
@@ -488,8 +518,10 @@ audio.addEventListener("ended",()=>{
   DONE.add(EP.id); store.set("done",[...DONE]); delete POS[EP.id]; store.set("pos",POS);
   const n=EPI+1<EPISODES.length?EPISODES[EPI+1]:null;
   $("the-end").innerHTML=`<p style="margin:0;font-family:var(--f-display);font-size:1.3rem;color:var(--ink)">Layla tov ! Fin de l'histoire.</p>`+
-    (n?`<button class="cta" id="next-ep">Histoire suivante : ${n.parasha}</button>`:"");
+    (QUIZ[EP.id]?`<button class="cta" id="end-quiz">Faire le quiz</button>`:"")+
+    (n?`<button class="linkish" id="next-ep">Histoire suivante : ${n.parasha}</button>`:"");
   $("the-end").hidden=false;
+  if(QUIZ[EP.id]) $("end-quiz").onclick=()=>{ startQuiz(); tab("quiz"); $("t-quiz").scrollIntoView({block:"start",behavior:"smooth"}); };
   if(n) $("next-ep").onclick=()=>{ load(EPI+1,true); window.scrollTo({top:0,behavior:"smooth"}); };
 });
 audio.addEventListener("loadedmetadata",()=>{audio.playbackRate=$("slow").getAttribute("aria-pressed")==="true"?0.85:1;});
@@ -536,11 +568,75 @@ if("mediaSession" in navigator){
 }
 
 function tab(which){
-  const s = which==="sheet";
-  $("t-story").setAttribute("aria-selected",!s); $("t-sheet").setAttribute("aria-selected",s);
-  $("p-story").style.display = s ? "none" : "flex"; $("p-sheet").hidden = !s;
+  ["story","quiz","sheet"].forEach(k=>$("t-"+k).setAttribute("aria-selected",k===which));
+  $("p-story").style.display = which==="story" ? "flex" : "none";
+  $("p-quiz").hidden = which!=="quiz"; $("p-sheet").hidden = which!=="sheet";
 }
-$("t-story").onclick=()=>tab("story"); $("t-sheet").onclick=()=>tab("sheet");
+$("t-story").onclick=()=>tab("story"); $("t-quiz").onclick=()=>tab("quiz"); $("t-sheet").onclick=()=>tab("sheet");
+
+// ---------- quiz: 5 questions per story, one at a time; a wrong answer can be tried again ----------
+let QZ=null;
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function startQuiz(){
+  const qs=QUIZ[EP.id];
+  $("t-quiz").hidden=!qs;
+  if(!qs){ if($("t-quiz").getAttribute("aria-selected")==="true") tab("story"); return; }
+  QZ={qs, i:0, score:0, tries:0, marks:[]};
+  showQ();
+}
+function dots(){ return `<div class="qz-dots" aria-hidden="true">${QZ.qs.map((_,k)=>`<span class="${QZ.marks[k]==="ok"?"on":QZ.marks[k]?"miss":""}"></span>`).join("")}</div>`; }
+function showQ(){
+  const [q,good,...bad]=QZ.qs[QZ.i];
+  const opts=shuffle([good,...bad]);
+  $("quiz").innerHTML=`
+    <div><p class="eyebrow">Quiz · ${esc(EP.parasha)} · Question ${QZ.i+1}/${QZ.qs.length}</p></div>
+    ${dots()}
+    <p class="qz-q">${esc(q)}</p>
+    <div class="qz-opts">${opts.map(o=>`<button class="qz-opt" data-good="${o===good}">${esc(o)}</button>`).join("")}</div>
+    <div class="qz-foot"><p class="qz-msg" id="qz-msg"></p><button class="cta" id="qz-next" hidden>${QZ.i+1<QZ.qs.length?"Question suivante":"Voir le score"}</button></div>`;
+  QZ.tries=0;
+  $("quiz").querySelectorAll(".qz-opt").forEach(b=>b.onclick=()=>pick(b));
+  $("qz-next").onclick=()=>{ QZ.i++; QZ.i<QZ.qs.length?showQ():endQuiz(); };
+}
+function pick(b){
+  const msg=$("qz-msg");
+  if(b.dataset.good==="true"){
+    QZ.tries++;
+    const first=QZ.tries===1; if(first) QZ.score++;
+    QZ.marks[QZ.i]=first?"ok":"miss";
+    b.classList.add("good");
+    $("quiz").querySelectorAll(".qz-opt").forEach(x=>x.disabled=true);
+    msg.className="qz-msg ok";
+    msg.textContent = first ? ["Bravo !","Toda rabbah, c'est ça !","Super !","Kol hakavod !","Exactement !"][QZ.i%5] : "Oui, c'est ça !";
+    $("quiz").querySelector(".qz-dots").outerHTML=dots();
+    $("qz-next").hidden=false; $("qz-next").focus();
+  } else {
+    QZ.tries++;
+    b.classList.add("bad","wiggle"); b.disabled=true;
+    msg.className="qz-msg"; msg.textContent="Presque ! Essaie encore.";
+  }
+}
+function endQuiz(){
+  const s=QZ.score, n=QZ.qs.length;
+  QBEST[EP.id]=Math.max(s,QBEST[EP.id]||0); store.set("quiz",QBEST);
+  const stars=Array.from({length:n},(_,k)=>`<span class="${k<s?"":"off"}">★</span>`).join("");
+  const word = s===n ? "Parfait ! Tu as tout retenu." : s>=3 ? "Très bien ! Tu as bien écouté." : "C'est un bon début ! On réécoute l'histoire ?";
+  const nx = EPI+1<EPISODES.length ? EPISODES[EPI+1] : null;
+  $("quiz").innerHTML=`
+    <div class="qz-end">
+      <p class="eyebrow">Quiz · Paracha ${esc(EP.parasha)}</p>
+      <div class="qz-stars" role="img" aria-label="${s} étoiles sur ${n}">${stars}</div>
+      <h2>${s} sur ${n} du premier coup</h2>
+      <p>${word}</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+        <button class="cta" id="qz-again">Rejouer</button>
+        ${s<3?`<button class="small" id="qz-listen">Réécouter l'histoire</button>`:nx?`<button class="small" id="qz-next-ep">Histoire suivante : ${esc(nx.parasha)}</button>`:""}
+      </div>
+    </div>`;
+  $("qz-again").onclick=startQuiz;
+  if($("qz-listen")) $("qz-listen").onclick=()=>{ tab("story"); audio.currentTime=0; audio.play().catch(()=>{}); window.scrollTo({top:0,behavior:"smooth"}); };
+  if($("qz-next-ep")) $("qz-next-ep").onclick=()=>{ load(EPI+1,false); tab("story"); window.scrollTo({top:0,behavior:"smooth"}); };
+}
 window.addEventListener("hashchange",()=>{ const i=EPISODES.findIndex(e=>location.hash==="#"+e.id); if(i>=0 && i!==EPI) load(i,false); });
 
 // ---------- which story to open ----------
